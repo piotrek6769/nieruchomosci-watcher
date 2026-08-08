@@ -1,9 +1,12 @@
 # nieruchomosci-watcher
 
-Stan dla codziennej routine sprawdzajacej nowe oferty domow (Jablonna i okolice).
+Stan i strona dla codziennej routine sprawdzajacej nowe oferty domow (Jablonna i okolice).
 
 - `sources.json` — lista linkow wyszukiwania (juz z filtrami: lokalizacja, cena, metraz) na roznych portalach.
-- `seen_links.json` — pamiec agenta: dla kazdego zrodla lista linkow do ofert, ktore juz zostaly zauwazone. Aktualizowana automatycznie przez routine po kazdym uruchomieniu.
+- `offers.json` — pamiec agenta: dla kazdego zrodla lista ofert z detalami (adres, cena, metraz, data znalezienia). Aktualizowana automatycznie przez routine po kazdym uruchomieniu.
+- `index.html` — statyczna strona (GitHub Pages) generowana z `offers.json`, pokazuje wszystkie znane oferty, najnowsze na gorze, z oznaczeniem tych znalezionych podczas ostatniego uruchomienia.
 - `run_log.md` — log kazdego uruchomienia (data, co znaleziono, ewentualne bledy pobierania danego zrodla).
 
-Nie edytuj `seen_links.json` recznie, chyba ze chcesz zresetowac pamiec dla jakiegos zrodla (np. usunac wpis, zeby oferta znow zostala zgłoszona jako nowa).
+Podglad strony (po wlaczeniu GitHub Pages w Settings): `https://piotrek6769.github.io/nieruchomosci-watcher/`
+
+Nie edytuj `offers.json` recznie, chyba ze chcesz zresetowac pamiec dla jakiegos zrodla (np. usunac wpis, zeby oferta znow zostala zgloszona jako nowa).
