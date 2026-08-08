@@ -1,0 +1,38 @@
+[
+  {
+    "name": "otodom",
+    "url": "https://www.otodom.pl/pl/wyniki/sprzedaz/dom/mazowieckie/legionowski/jablonna?ownerTypeSingleSelect=ALL&distanceRadius=5&priceMin=40000&priceMax=1200000&areaMin=80&areaMax=250&by=DEFAULT&direction=DESC"
+  },
+  {
+    "name": "nieruchomosci-online",
+    "url": "https://www.nieruchomosci-online.pl/szukaj.html?3,dom,sprzedaz,,Jab%C5%82onna:21725,,,,-1200000,80"
+  },
+  {
+    "name": "olx",
+    "url": "https://www.olx.pl/nieruchomosci/domy/sprzedaz/jablonna_86091/?search%5Bdist%5D=2&search%5Bfilter_float_price:to%5D=1200000&search%5Bfilter_float_m:from%5D=60&search%5Bfilter_float_m:to%5D=250"
+  },
+  {
+    "name": "morizon",
+    "url": "https://www.morizon.pl/domy/legionowski/jablonna/?ps%5Bprice_to%5D=1200000"
+  },
+  {
+    "name": "domiporta",
+    "url": "https://www.domiporta.pl/dom/sprzedam/mazowieckie/jablonna?Distance=5"
+  },
+  {
+    "name": "adresowo",
+    "url": "https://adresowo.pl/f/domy/gmina-jablonna-2/p12-120"
+  },
+  {
+    "name": "gethome",
+    "url": "https://gethome.pl/domy/na-sprzedaz/legionowski/jablonna/?price__gte=1&price__lte=1200000"
+  },
+  {
+    "name": "rynekpierwotny",
+    "url": "https://rynekpierwotny.pl/s/nowe-mieszkania-i-domy-cena-do-1200000-zl/?distance=2&lat=52.37799219999999&lng=20.9168357&s=Jab%C5%82onna"
+  },
+  {
+    "name": "oferty-net",
+    "url": "https://www.oferty.net/domy/szukaj?ps%5Blocation%5D%5Btype%5D=1&ps%5Btype%5D=2&ps%5Btransaction%5D=1&ps%5Blocation%5D%5Btext%5D=Jab%C5%82onna+%28gm.%29+Jab%C5%82onna&ps%5Bprice_to%5D=1200000"
+  }
+]
