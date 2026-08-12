@@ -223,3 +223,36 @@ informacji.
 offers.json: bez zmian (nadal `{}`).
 index.html: zregenerowany (timestamp zaktualizowany, licznik uruchomień zaktualizowany
 do siedmiu).
+
+## 2026-08-12 (uruchomienie watchera, dostęp do sieci przywrócony)
+
+Wynik: SUKCES CZĘŚCIOWY — dostęp do sieci wychodzącej działa (pierwszy raz od 2026-08-09).
+To jest bootstrap: offers.json był całkowicie pusty (`{}`) dla wszystkich źródeł, więc
+zgodnie z regułą bootstrapu żadne znalezione ogłoszenie nie liczy się jako "nowe" i nie
+wysłano powiadomienia push, mimo że dodano 84 oferty do bazy.
+
+Status per źródło:
+- otodom: blocked — HTTP 403 Forbidden (strona blokuje WebFetch), 0 found, 0 new
+- nieruchomosci-online: ok, 7 found, 7 new (bootstrap, brak powiadomienia)
+- olx: ok (częściowo), 30 linków znalezionych na stronie wyników; 2 to oferty olx.pl
+  (pobrane, 2 new bootstrap), pozostałe 28 to przekierowania do ofert otodom.pl,
+  których strony szczegółowe zwracają HTTP 403 tak jak samo otodom.pl — pominięte,
+  nie dodane do offers.json (będą ponownie widoczne przy kolejnym uruchomieniu)
+- morizon: error — "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 36 found, 36 new (bootstrap, brak powiadomienia)
+- adresowo: ok, 39 found, 39 new (bootstrap, brak powiadomienia) — uwaga: wyszukiwarka
+  adresowo.pl dla "gmina-jablonna-2" zwraca dużo ofert spoza powiatu legionowskiego
+  (Warszawa, Marki, Ząbki, Kobyłka, Zielonka, Radzymin, Stare Babice, Nowy Dwór Maz.);
+  pobrano je zgodnie z zawartością strony wyników, bez własnego filtrowania
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert spełniających wybrane kryteria"), 0 new
+- rynekpierwotny: ok, 0 found ("Nie znaleźliśmy ofert spełniających wybrane kryteria"), 0 new
+- oferty-net: error — "Claude Code is unable to fetch from www.oferty.net", 0 found, 0 new
+
+Nowe ogłoszenia: 84 dodane do offers.json (bootstrap dla wszystkich 6 źródeł, które
+zwróciły dane), 0 zakwalifikowanych jako "genuinely new" — więc 0 wysłanych powiadomień
+push, zgodnie z regułą bootstrapu z instrukcji.
+Powiadomienie push: NIE wysłane (bootstrap).
+offers.json: rozbudowany z `{}` do 84 ofert w 6 źródłach (otodom, morizon i oferty-net
+nadal bez klucza — zostaną potraktowane jako bootstrap ponownie, gdy uda się je odczytać).
+index.html: zregenerowany w pełni z aktualnego offers.json (84 wierszy, bez oznaczeń
+"NOWA" bo to bootstrap).

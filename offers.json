@@ -1,1 +1,768 @@
-{}
+{
+  "nieruchomosci-online": [
+    {
+      "url": "https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/26538995.html",
+      "first_seen": "2026-08-12",
+      "adres": "1 Maja, Jabłonna, mazowieckie",
+      "cena": "1 110 000 zł",
+      "cena_za_m2": "10 277,78 zł/m²",
+      "dom_m2": "108",
+      "dzialka_m2": "549"
+    },
+    {
+      "url": "https://jablonna.nieruchomosci-online.pl/dom-wolnostojacy,z-parkingiem/26689054.html",
+      "first_seen": "2026-08-12",
+      "adres": "Jabłonna, legionowski, mazowieckie",
+      "cena": "990 000 zł",
+      "cena_za_m2": "7 050,78 zł/m²",
+      "dom_m2": "120,38",
+      "dzialka_m2": "336"
+    },
+    {
+      "url": "https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/26665031.html",
+      "first_seen": "2026-08-12",
+      "adres": "1 Maja, Jabłonna, mazowieckie",
+      "cena": "1 190 000 zł",
+      "cena_za_m2": "10 000 zł/m²",
+      "dom_m2": "119",
+      "dzialka_m2": "300"
+    },
+    {
+      "url": "https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/26665029.html",
+      "first_seen": "2026-08-12",
+      "adres": "1 Maja, Jabłonna, mazowieckie",
+      "cena": "1 190 000 zł",
+      "cena_za_m2": "10 000 zł/m²",
+      "dom_m2": "119",
+      "dzialka_m2": "347"
+    },
+    {
+      "url": "https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/26837163.html",
+      "first_seen": "2026-08-12",
+      "adres": "Piaskowa, Jabłonna, mazowieckie",
+      "cena": "1 000 000 zł",
+      "cena_za_m2": "8 196,72 zł/m²",
+      "dom_m2": "122",
+      "dzialka_m2": "230"
+    },
+    {
+      "url": "https://jablonna.nieruchomosci-online.pl/dom-wolnostojacy,do-remontu/26338532.html",
+      "first_seen": "2026-08-12",
+      "adres": "Szkolna, Jabłonna, mazowieckie",
+      "cena": "1 270 000 zł",
+      "cena_za_m2": "3 968,75 zł/m²",
+      "dom_m2": "320",
+      "dzialka_m2": "870"
+    },
+    {
+      "url": "https://jablonna.nieruchomosci-online.pl/dom-wolnostojacy,do-remontu/26391081.html",
+      "first_seen": "2026-08-12",
+      "adres": "Dereniowa, Jabłonna, mazowieckie",
+      "cena": "1 250 000 zł",
+      "cena_za_m2": "8 229,10 zł/m²",
+      "dom_m2": "151,90",
+      "dzialka_m2": "1 329"
+    }
+  ],
+  "olx": [
+    {
+      "url": "https://www.olx.pl/d/oferta/dom-z-duza-dzialka-w-centrum-lomianek-rog-ul-wiejskiej-i-rolniczej-CID3-ID1bDm83.html",
+      "first_seen": "2026-08-12",
+      "adres": "Łomianki, ul. Wiejskiej i Rolniczej",
+      "cena": "995 000 zł",
+      "cena_za_m2": "13 819,44 zł/m²",
+      "dom_m2": "72",
+      "dzialka_m2": "765"
+    },
+    {
+      "url": "https://www.olx.pl/d/oferta/sprzedam-dom-blizniak-120-m2-CID3-ID1bdlUT.html",
+      "first_seen": "2026-08-12",
+      "adres": "Jabłonna, mazowieckie",
+      "cena": "1 200 000 zł",
+      "cena_za_m2": "10 000 zł/m²",
+      "dom_m2": "120",
+      "dzialka_m2": "500"
+    }
+  ],
+  "domiporta": [
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-kielpin-poduchowny-kielpin-260m2/156190981",
+      "first_seen": "2026-08-12",
+      "adres": "Kiełpin Poduchowny, Kiełpin, mazowieckie",
+      "cena": "1 499 000 zł",
+      "cena_za_m2": "5 765,38 zł/m²",
+      "dom_m2": "260",
+      "dzialka_m2": "1 485"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-173m2/156589216",
+      "first_seen": "2026-08-12",
+      "adres": "Łomianki",
+      "cena": "1 199 000 zł",
+      "cena_za_m2": "6 930,64 zł/m²",
+      "dom_m2": "173",
+      "dzialka_m2": "180"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-jablonna-143m2/156573671",
+      "first_seen": "2026-08-12",
+      "adres": "Jabłonna",
+      "cena": "990 000 zł",
+      "cena_za_m2": "6 923,08 zł/m²",
+      "dom_m2": "143",
+      "dzialka_m2": "500"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-chotomow-chotomow-fiolkowa-175m2/156553494",
+      "first_seen": "2026-08-12",
+      "adres": "Chotomów, Fiołkowa",
+      "cena": "1 899 000 zł",
+      "cena_za_m2": "10 851,43 zł/m²",
+      "dom_m2": "175",
+      "dzialka_m2": "657"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-dabrowa-zachodnia-zachodnia-110m2/156382864",
+      "first_seen": "2026-08-12",
+      "adres": "Łomianki, Dąbrowa Zachodnia, Zachodnia",
+      "cena": "2 500 000 zł",
+      "cena_za_m2": "22 727,27 zł/m²",
+      "dom_m2": "110",
+      "dzialka_m2": "312"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-316m2/156552271",
+      "first_seen": "2026-08-12",
+      "adres": "Legionowo",
+      "cena": "2 875 000 zł",
+      "cena_za_m2": "9 103,86 zł/m²",
+      "dom_m2": "315,80",
+      "dzialka_m2": "1 684"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-jablonna-170m2/156339158",
+      "first_seen": "2026-08-12",
+      "adres": "Jabłonna",
+      "cena": "1 420 000 zł",
+      "cena_za_m2": "8 352,94 zł/m²",
+      "dom_m2": "170",
+      "dzialka_m2": "300"
+    },
+    {
+      "url": "https://www.domiporta.pl/nowe/ogloszenie/osiedle_sloneczna_27-29_legionowo_682935",
+      "first_seen": "2026-08-12",
+      "adres": "Legionowo, Słoneczna 27",
+      "cena": "2 000 000 zł",
+      "cena_za_m2": "999 zł/m²",
+      "dom_m2": "2001,62",
+      "dzialka_m2": "-"
+    },
+    {
+      "url": "https://www.domiporta.pl/nowe/ogloszenie/osiedle_sloneczna_27-29_legionowo_682936",
+      "first_seen": "2026-08-12",
+      "adres": "Legionowo, Słoneczna 27",
+      "cena": "2 000 000 zł",
+      "cena_za_m2": "999 zł/m²",
+      "dom_m2": "2001,62",
+      "dzialka_m2": "-"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-sobieskiego-379m2/155701823",
+      "first_seen": "2026-08-12",
+      "adres": "Legionowo, Sobieskiego",
+      "cena": "2 000 000 zł",
+      "cena_za_m2": "5 277,04 zł/m²",
+      "dom_m2": "379",
+      "dzialka_m2": "601"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-303m2/156586401",
+      "first_seen": "2026-08-12",
+      "adres": "Łomianki",
+      "cena": "2 890 000 zł",
+      "cena_za_m2": "9 537,95 zł/m²",
+      "dom_m2": "303",
+      "dzialka_m2": "653"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-dolne-luzycka-258m2/156485478",
+      "first_seen": "2026-08-12",
+      "adres": "Łomianki Dolne, Łużycka",
+      "cena": "1 700 000 zł",
+      "cena_za_m2": "6 599,12 zł/m²",
+      "dom_m2": "257,61",
+      "dzialka_m2": "500"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-brzezinskiego-135m2/156485476",
+      "first_seen": "2026-08-12",
+      "adres": "Łomianki, Brzezińskiego",
+      "cena": "899 999 zł",
+      "cena_za_m2": "6 669,62 zł/m²",
+      "dom_m2": "134,94",
+      "dzialka_m2": "290"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-jarzebinowa-125m2/156236979",
+      "first_seen": "2026-08-12",
+      "adres": "Łomianki, Jarzębinowa",
+      "cena": "950 000 zł",
+      "cena_za_m2": "7 591,50 zł/m²",
+      "dom_m2": "125,14",
+      "dzialka_m2": "350"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-dziekanow-lesny-188m2/156605770",
+      "first_seen": "2026-08-12",
+      "adres": "Dziekanów Leśny",
+      "cena": "1 248 900 zł",
+      "cena_za_m2": "6 643,09 zł/m²",
+      "dom_m2": "188",
+      "dzialka_m2": "961"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-szkolna-360m2/156529806",
+      "first_seen": "2026-08-12",
+      "adres": "Łomianki, Szkolna",
+      "cena": "1 550 000 zł",
+      "cena_za_m2": "4 305,56 zł/m²",
+      "dom_m2": "360",
+      "dzialka_m2": "1 111"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-kielpin-98m2/156427438",
+      "first_seen": "2026-08-12",
+      "adres": "Kiełpin",
+      "cena": "1 450 000 zł",
+      "cena_za_m2": "14 795,92 zł/m²",
+      "dom_m2": "98",
+      "dzialka_m2": "600"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-kielpin-poduchowny-brzegowa-155m2/156333438",
+      "first_seen": "2026-08-12",
+      "adres": "Kiełpin Poduchowny, Brzegowa",
+      "cena": "1 195 000 zł",
+      "cena_za_m2": "7 709,68 zł/m²",
+      "dom_m2": "155",
+      "dzialka_m2": "1 000"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-148m2/156503454",
+      "first_seen": "2026-08-12",
+      "adres": "Łomianki",
+      "cena": "1 299 000 zł",
+      "cena_za_m2": "8 777,03 zł/m²",
+      "dom_m2": "148",
+      "dzialka_m2": "280"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-172m2/156503453",
+      "first_seen": "2026-08-12",
+      "adres": "Łomianki",
+      "cena": "1 199 000 zł",
+      "cena_za_m2": "6 970,93 zł/m²",
+      "dom_m2": "172",
+      "dzialka_m2": "180"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-langiewicza-131m2/156580628",
+      "first_seen": "2026-08-12",
+      "adres": "Legionowo, Langiewicza",
+      "cena": "1 098 000 zł",
+      "cena_za_m2": "8 381,68 zł/m²",
+      "dom_m2": "131",
+      "dzialka_m2": "450"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-146m2/156443709",
+      "first_seen": "2026-08-12",
+      "adres": "Dziekanów Nowy (gmina Łomianki), mazowieckie",
+      "cena": "1 290 000 zł",
+      "cena_za_m2": "8 805,46 zł/m²",
+      "dom_m2": "146,50",
+      "dzialka_m2": "378"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-dabrowa-lomianki-dabrowa-503m2/156354393",
+      "first_seen": "2026-08-12",
+      "adres": "Łomianki, Dąbrowa, Łomianki Dąbrowa",
+      "cena": "2 450 000 zł",
+      "cena_za_m2": "4 870,78 zł/m²",
+      "dom_m2": "503",
+      "dzialka_m2": "1 550"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-310m2/156573614",
+      "first_seen": "2026-08-12",
+      "adres": "Łomianki, ul. Karola Szymanowskiego",
+      "cena": "2 490 000 zł",
+      "cena_za_m2": "8 032,26 zł/m²",
+      "dom_m2": "310",
+      "dzialka_m2": "1 211"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-kielpin-kielpin-220m2/156503846",
+      "first_seen": "2026-08-12",
+      "adres": "Kiełpin, Kiełpin",
+      "cena": "1 400 000 zł",
+      "cena_za_m2": "6 363,64 zł/m²",
+      "dom_m2": "220",
+      "dzialka_m2": "724"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-jozefow-zlota-115m2/156593317",
+      "first_seen": "2026-08-12",
+      "adres": "Józefów, Złota",
+      "cena": "1 199 000 zł",
+      "cena_za_m2": "10 408,89 zł/m²",
+      "dom_m2": "115,19",
+      "dzialka_m2": "375"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-chotomow-chotomow-140m2/156583594",
+      "first_seen": "2026-08-12",
+      "adres": "Chotomów",
+      "cena": "1 480 000 zł",
+      "cena_za_m2": "10 571,43 zł/m²",
+      "dom_m2": "140",
+      "dzialka_m2": "700"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-240m2/156570882",
+      "first_seen": "2026-08-12",
+      "adres": "Łomianki",
+      "cena": "2 649 000 zł",
+      "cena_za_m2": "11 037,50 zł/m²",
+      "dom_m2": "240",
+      "dzialka_m2": "1 211"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-jablonna-221m2/156543271",
+      "first_seen": "2026-08-12",
+      "adres": "Jabłonna",
+      "cena": "1 990 000 zł",
+      "cena_za_m2": "9 004,52 zł/m²",
+      "dom_m2": "221",
+      "dzialka_m2": "500"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lajski-155m2/156482834",
+      "first_seen": "2026-08-12",
+      "adres": "Łajski, ul. gen. Sikorskiego",
+      "cena": "1 750 000 zł",
+      "cena_za_m2": "11 290,32 zł/m²",
+      "dom_m2": "155",
+      "dzialka_m2": "1 100"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-193m2/156482833",
+      "first_seen": "2026-08-12",
+      "adres": "Wola Aleksandra, ul. Gajowa, Legionowo",
+      "cena": "1 748 000 zł",
+      "cena_za_m2": "9 042,94 zł/m²",
+      "dom_m2": "193,30",
+      "dzialka_m2": "1 000"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-brzezinskiego-135m2/156485477",
+      "first_seen": "2026-08-12",
+      "adres": "Łomianki, Brzezińskiego",
+      "cena": "949 000 zł",
+      "cena_za_m2": "7 032,76 zł/m²",
+      "dom_m2": "134,94",
+      "dzialka_m2": "318"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-koscielna-droga-135m2/156236982",
+      "first_seen": "2026-08-12",
+      "adres": "Łomianki, Kościelna Droga",
+      "cena": "1 050 000 zł",
+      "cena_za_m2": "7 781,24 zł/m²",
+      "dom_m2": "134,94",
+      "dzialka_m2": "506"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-legionowo-przystanek-549m2/156503313",
+      "first_seen": "2026-08-12",
+      "adres": "Legionowo, Legionowo Przystanek",
+      "cena": "3 800 000 zł",
+      "cena_za_m2": "6 916,64 zł/m²",
+      "dom_m2": "549,40",
+      "dzialka_m2": "1 498"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-nowy-bukowiec-baltycka-225m2/156484238",
+      "first_seen": "2026-08-12",
+      "adres": "Legionowo, Nowy Bukowiec, Bałtycka",
+      "cena": "2 290 000 zł",
+      "cena_za_m2": "10 177,78 zł/m²",
+      "dom_m2": "225",
+      "dzialka_m2": "674"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-jozefow-155m2/156438917",
+      "first_seen": "2026-08-12",
+      "adres": "Józefów",
+      "cena": "1 875 000 zł",
+      "cena_za_m2": "12 096,77 zł/m²",
+      "dom_m2": "155",
+      "dzialka_m2": "1 010"
+    }
+  ],
+  "adresowo": [
+    {
+      "url": "https://adresowo.pl/o/dom-jablonna-skierdy-ul-drozda-i6b3b5",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Drozda, Skierdy, gmina Jabłonna, powiat legionowski",
+      "cena": "990 000 zł",
+      "cena_za_m2": "6 940 zł/m²",
+      "dom_m2": "142,65",
+      "dzialka_m2": "500"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-jablonna-ul-wenecka-q0t6n5",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Wenecka, Jabłonna Zacisze",
+      "cena": "1 150 000 zł",
+      "cena_za_m2": "9 127 zł/m²",
+      "dom_m2": "126",
+      "dzialka_m2": "560"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-jablonna-ul-szkolna-n0c4d0",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Szkolna, Jabłonna",
+      "cena": "880 000 zł",
+      "cena_za_m2": "10 151 zł/m²",
+      "dom_m2": "86",
+      "dzialka_m2": "2,52 ha"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-jablonna-ul-piaskowa-q0a2e2",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Piaskowa 15A, Jabłonna",
+      "cena": "979 000 zł",
+      "cena_za_m2": "8 025 zł/m²",
+      "dom_m2": "122",
+      "dzialka_m2": "277"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-jablonna-boza-wola-248-m2-z2w0k5",
+      "first_seen": "2026-08-12",
+      "adres": "Boża Wola, gmina Jabłonna, powiat legionowski",
+      "cena": "900 000 zł",
+      "cena_za_m2": "3 619 zł/m²",
+      "dom_m2": "248,72",
+      "dzialka_m2": "1 200"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-jablonna-al-kardynala-stefana-wyszynskiego-w2r9f7",
+      "first_seen": "2026-08-12",
+      "adres": "al. Kardynała Stefana Wyszyńskiego, Jabłonna",
+      "cena": "999 999 zł",
+      "cena_za_m2": "7 519 zł/m²",
+      "dom_m2": "133",
+      "dzialka_m2": "120"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-radzymin-slupno-ul-jana-brzechwy-h5d8h0",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Jana Brzechwy, Słupno",
+      "cena": "930 000 zł",
+      "cena_za_m2": "10 333 zł/m²",
+      "dom_m2": "90",
+      "dzialka_m2": "454"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-serock-dosin-ul-arbuzowa-j8j4z4",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Arbuzowa, Dosin",
+      "cena": "1 139 000 zł",
+      "cena_za_m2": "10 318 zł/m²",
+      "dom_m2": "110,39",
+      "dzialka_m2": "536"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-nieporet-jozefow-ul-zlota-j5b8c1",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Złota, Józefów",
+      "cena": "1 199 000 zł",
+      "cena_za_m2": "10 409 zł/m²",
+      "dom_m2": "115",
+      "dzialka_m2": "375"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-zabki-ul-jana-sobieskiego-b7q9t1",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Jana Sobieskiego, Ząbki",
+      "cena": "1 099 000 zł",
+      "cena_za_m2": "10 507 zł/m²",
+      "dom_m2": "104,6",
+      "dzialka_m2": "976"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-kobylka-ul-ks-marcelego-weissa-t5n4t9",
+      "first_seen": "2026-08-12",
+      "adres": "ul. ks. Marcelego Weissa, Kobyłka",
+      "cena": "950 000 zł",
+      "cena_za_m2": "11 000 zł/m²",
+      "dom_m2": "86",
+      "dzialka_m2": "36"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-warszawa-72-m2-t9n5f8",
+      "first_seen": "2026-08-12",
+      "adres": "Warszawa Wawer",
+      "cena": "1 169 000 zł",
+      "cena_za_m2": "16 220 zł/m²",
+      "dom_m2": "72",
+      "dzialka_m2": "167"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-warszawa-72-m2-w3j9k6",
+      "first_seen": "2026-08-12",
+      "adres": "Warszawa Wawer",
+      "cena": "919 000 zł",
+      "cena_za_m2": "12 751 zł/m²",
+      "dom_m2": "72",
+      "dzialka_m2": "198"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-warszawa-ul-kobialka-r6p2e3",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Kobiałka, Warszawa Białołęka",
+      "cena": "1 066 000 zł",
+      "cena_za_m2": "6 271 zł/m²",
+      "dom_m2": "170",
+      "dzialka_m2": "50"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-wieliszew-113-m2-y1c5z4",
+      "first_seen": "2026-08-12",
+      "adres": "Wieliszew",
+      "cena": "1 100 000 zł",
+      "cena_za_m2": "9 735 zł/m²",
+      "dom_m2": "113",
+      "dzialka_m2": "400"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-wieliszew-poddebie-45-m2-y9g6b5",
+      "first_seen": "2026-08-12",
+      "adres": "Poddębie, gmina Wieliszew",
+      "cena": "590 000 zł",
+      "cena_za_m2": "12 854 zł/m²",
+      "dom_m2": "45,9",
+      "dzialka_m2": "602"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-zielonka-181-m2-m3q0h8",
+      "first_seen": "2026-08-12",
+      "adres": "Zielonka",
+      "cena": "1 199 000 zł",
+      "cena_za_m2": "6 596 zł/m²",
+      "dom_m2": "181,77",
+      "dzialka_m2": "444"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-serock-dosin-ul-borowkowa-y8u0r6",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Borówkowa, Dosin",
+      "cena": "729 000 zł",
+      "cena_za_m2": "5 283 zł/m²",
+      "dom_m2": "138",
+      "dzialka_m2": "696"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-nieporet-rembelszczyzna-118-m2-t7f0a0",
+      "first_seen": "2026-08-12",
+      "adres": "Rembelszczyzna",
+      "cena": "1 150 000 zł",
+      "cena_za_m2": "9 670 zł/m²",
+      "dom_m2": "118,92",
+      "dzialka_m2": "329"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-warszawa-ul-bronowska-n7z6v4",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Bronowska, Warszawa Wawer",
+      "cena": "780 000 zł",
+      "cena_za_m2": "13 000 zł/m²",
+      "dom_m2": "60",
+      "dzialka_m2": "455"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-warszawa-ul-ostrodzka-k1h8e3",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Ostródzka, Warszawa Białołęka",
+      "cena": "1 180 000 zł",
+      "cena_za_m2": "9 833 zł/m²",
+      "dom_m2": "120",
+      "dzialka_m2": "220"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-kobylka-ul-wesola-a6k5f2",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Wesoła, Kobyłka",
+      "cena": "1 199 000 zł",
+      "cena_za_m2": "11 990 zł/m²",
+      "dom_m2": "100",
+      "dzialka_m2": "257"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-zielonka-220-m2-n8f2s4",
+      "first_seen": "2026-08-12",
+      "adres": "Zielonka",
+      "cena": "850 000 zł",
+      "cena_za_m2": "3 864 zł/m²",
+      "dom_m2": "220",
+      "dzialka_m2": "430"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-warszawa-60-m2-p8x2b8",
+      "first_seen": "2026-08-12",
+      "adres": "Warszawa Białołęka",
+      "cena": "999 000 zł",
+      "cena_za_m2": "16 529 zł/m²",
+      "dom_m2": "60",
+      "dzialka_m2": "180"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-nowy-dwor-mazowiecki-200-m2-m0m4h6",
+      "first_seen": "2026-08-12",
+      "adres": "Nowy Dwór Mazowiecki",
+      "cena": "1 149 000 zł",
+      "cena_za_m2": "5 745 zł/m²",
+      "dom_m2": "200",
+      "dzialka_m2": "687"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-zielonka-ul-prymasa-stefana-wyszynskiego-f4q9v0",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Prymasa Stefana Wyszyńskiego, Zielonka",
+      "cena": "849 000 zł",
+      "cena_za_m2": "10 354 zł/m²",
+      "dom_m2": "82",
+      "dzialka_m2": "212"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-kobylka-ul-leszka-z1h1r6",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Leszka, Kobyłka",
+      "cena": "1 140 000 zł",
+      "cena_za_m2": "7 525 zł/m²",
+      "dom_m2": "151",
+      "dzialka_m2": "582"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-warszawa-50-m2-q2e4a1",
+      "first_seen": "2026-08-12",
+      "adres": "Warszawa Rembertów",
+      "cena": "790 000 zł",
+      "cena_za_m2": "15 800 zł/m²",
+      "dom_m2": "50",
+      "dzialka_m2": "400"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-radzymin-rondo-generala-jozefa-hallera-l7v5p5",
+      "first_seen": "2026-08-12",
+      "adres": "rondo Generała Józefa Hallera, Radzymin",
+      "cena": "900 000 zł",
+      "cena_za_m2": "11 250 zł/m²",
+      "dom_m2": "80",
+      "dzialka_m2": "380"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-stare-babice-borzecin-duzy-ul-trakt-krolewski-r2v3w0",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Trakt Królewski, Borzęcin Duży",
+      "cena": "1 050 000 zł",
+      "cena_za_m2": "8 203 zł/m²",
+      "dom_m2": "128",
+      "dzialka_m2": "300"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-serock-marynino-124-m2-g8v3v3",
+      "first_seen": "2026-08-12",
+      "adres": "Marynino",
+      "cena": "1 150 000 zł",
+      "cena_za_m2": "9 268 zł/m²",
+      "dom_m2": "124,08",
+      "dzialka_m2": "800"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-wieliszew-komornica-ul-wspolna-s8t0h8",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Wspólna, Komornica",
+      "cena": "510 000 zł",
+      "cena_za_m2": "6 623 zł/m²",
+      "dom_m2": "77",
+      "dzialka_m2": "869"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-legionowo-ul-wilenska-d1s2j2",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Wileńska, Legionowo Ludwisin",
+      "cena": "910 000 zł",
+      "cena_za_m2": "14 000 zł/m²",
+      "dom_m2": "65",
+      "dzialka_m2": "774"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-marki-ul-grunwaldzka-q3o9t2",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Grunwaldzka, Marki",
+      "cena": "1 190 000 zł",
+      "cena_za_m2": "7 628 zł/m²",
+      "dom_m2": "156",
+      "dzialka_m2": "495"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-marki-100-m2-c1f7y7",
+      "first_seen": "2026-08-12",
+      "adres": "Marki Czarna Struga",
+      "cena": "595 000 zł",
+      "cena_za_m2": "5 950 zł/m²",
+      "dom_m2": "100",
+      "dzialka_m2": "650"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-wieliszew-olszewnica-stara-117-m2-t9x8x0",
+      "first_seen": "2026-08-12",
+      "adres": "Olszewnica Stara",
+      "cena": "799 999 zł",
+      "cena_za_m2": "6 838 zł/m²",
+      "dom_m2": "117",
+      "dzialka_m2": "600"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-serock-wierzbica-120-m2-i0q1w4",
+      "first_seen": "2026-08-12",
+      "adres": "Wierzbica, gmina Serock, powiat legionowski",
+      "cena": "920 000 zł",
+      "cena_za_m2": "7 667 zł/m²",
+      "dom_m2": "120",
+      "dzialka_m2": "450"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-pomiechowek-ul-pogodna-w0t3g8",
+      "first_seen": "2026-08-12",
+      "adres": "ul. Pogodna, Pomiechówek",
+      "cena": "799 000 zł",
+      "cena_za_m2": "5 707 zł/m²",
+      "dom_m2": "140",
+      "dzialka_m2": "782"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-serock-153-m2-l6n5o4",
+      "first_seen": "2026-08-12",
+      "adres": "Serock",
+      "cena": "1 150 000 zł",
+      "cena_za_m2": "7 516 zł/m²",
+      "dom_m2": "153",
+      "dzialka_m2": "252"
+    }
+  ],
+  "gethome": [],
+  "rynekpierwotny": []
+}
