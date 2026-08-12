@@ -256,3 +256,32 @@ offers.json: rozbudowany z `{}` do 84 ofert w 6 źródłach (otodom, morizon i o
 nadal bez klucza — zostaną potraktowane jako bootstrap ponownie, gdy uda się je odczytać).
 index.html: zregenerowany w pełni z aktualnego offers.json (84 wierszy, bez oznaczeń
 "NOWA" bo to bootstrap).
+
+## 2026-08-12 14:41 UTC
+
+Wynik: SUKCES CZĘŚCIOWY — sieć dostępna, ale bez nowych ogłoszeń. Wszystkie źródła
+z istniejącym kluczem w offers.json zwróciły wyłącznie oferty już znane; źródła bez
+klucza (otodom, morizon, oferty-net) pozostały niedostępne z powodu blokad.
+
+Status per źródło:
+- otodom: blocked — HTTP 403 Forbidden na stronie wyników, 0 found, 0 new (nadal bez
+  klucza w offers.json, bootstrap przy pierwszym udanym odczycie)
+- nieruchomosci-online: ok, 7 found, 0 new — jedna oferta (ID 26338532) pojawiła się
+  pod innym sluggiem URL ("dom,na-sprzedaz" zamiast zapisanego "dom-wolnostojacy,do-remontu"),
+  ten sam numeryczny ID co już zapisana oferta -> potraktowana jako duplikat, nie dodana
+  ponownie
+- olx: ok (częściowo), strona wyników zawiera mieszankę linków olx.pl (2, oba już znane,
+  0 new) i przekierowań do ofert otodom.pl (28, pominięte jak w poprzednich uruchomieniach
+  — szczegóły otodom nadal blokowane HTTP 403)
+- morizon: error — "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 36 found, 0 new (wszystkie już znane)
+- adresowo: ok, 39 found, 0 new (wszystkie już znane)
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert spełniających wybrane kryteria"), 0 new
+- rynekpierwotny: ok, 0 found ("Nie znaleźliśmy ofert spełniających wybrane kryteria"), 0 new
+- oferty-net: error — "Claude Code is unable to fetch from www.oferty.net", 0 found, 0 new
+
+Nowe ogłoszenia: brak. Powiadomienie push: NIE wysłane (brak genuinely-new listingów).
+offers.json: bez zmian (nadal 84 oferty w 6 źródłach: nieruchomosci-online, olx,
+domiporta, adresowo, gethome, rynekpierwotny; otodom/morizon/oferty-net nadal bez klucza).
+index.html: zregenerowany w pełni z aktualnego offers.json (84 wierszy, bez znaczników
+"NOWA"), zaktualizowano tylko znacznik czasu.
