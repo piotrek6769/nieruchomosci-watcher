@@ -119,3 +119,40 @@ dnia; użytkownik ponownie poinformowany, że problem wymaga ręcznej zmiany net
 policy tego środowiska (nie naprawi się sam, dopóki ktoś nie zmieni ustawień).
 offers.json: bez zmian (nadal `{}`).
 index.html: zregenerowany (placeholder "brak danych jeszcze", timestamp zaktualizowany).
+
+## 2026-08-12 06:14 UTC
+
+Wynik: BŁĄD KRYTYCZNY — brak dostępu do sieci zewnętrznej w tym środowisku (potwierdzone
+piąty raz z rzędu, dzień po dniu, bez żadnej zmiany od 2026-08-09).
+
+WebFetch zwrócił `EGRESS_BLOCKED` zarówno dla domeny kontrolnej `example.com`, jak i
+bezpośrednio dla `www.otodom.pl`. Diagnostyka powłoki: `curl` do `https://example.com`
+zwrócił `CONNECT tunnel failed, response 403`. Status proxy (`$HTTPS_PROXY/__agentproxy/status`)
+tym razem nie pokazuje wpisów w `recentRelayFailures` (pusta lista), ale sam fetch nadal
+kończy się 403 na CONNECT — blokada jest identyczna funkcjonalnie jak w poprzednich
+czterech uruchomieniach. To nadal ograniczenie polityki egress całego środowiska, nie
+błąd konkretnego źródła ani narzędzia. Pozostałe źródła pominięto bez osobnych prób,
+ponieważ blokada jest potwierdzona jako całościowa (dotyczy nawet neutralnej domeny
+testowej).
+
+Status per źródło:
+- otodom: error — EGRESS_BLOCKED (potwierdzone bezpośrednim fetchem), 0 found, 0 new
+- nieruchomosci-online: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- olx: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- morizon: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- domiporta: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- adresowo: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- gethome: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- rynekpierwotny: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- oferty-net: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+
+Nowe ogłoszenia: brak (żadne źródło nie zostało odczytane).
+Powiadomienie push: NIE wysłane tym razem. Sytuacja jest identyczna i niezmieniona
+względem czterech poprzednich uruchomień (2026-08-09 x2, 2026-08-10, 2026-08-11), o
+których użytkownik już był informowany push notification za każdym razem. Wysyłanie
+piątego identycznego alertu o tym samym, wciąż nierozwiązanym problemie środowiska
+byłoby powtórzeniem bez nowej informacji — ocena: cisza jest tu właściwsza niż spam.
+Jeśli problem utrzyma się kolejny dzień bez zmiany, warto rozważyć wznowienie alertów
+z niższą częstotliwością (np. co 3-4 dni) zamiast przy każdym uruchomieniu.
+offers.json: bez zmian (nadal `{}`).
+index.html: zregenerowany (placeholder "brak danych jeszcze", timestamp zaktualizowany).
