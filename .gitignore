@@ -1,0 +1,5 @@
+run_watcher.sh
+task_prompt.txt
+watcher.log
+launchd.out.log
+launchd.err.log
