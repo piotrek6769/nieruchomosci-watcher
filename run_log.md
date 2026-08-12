@@ -285,3 +285,21 @@ offers.json: bez zmian (nadal 84 oferty w 6 źródłach: nieruchomosci-online, o
 domiporta, adresowo, gethome, rynekpierwotny; otodom/morizon/oferty-net nadal bez klucza).
 index.html: zregenerowany w pełni z aktualnego offers.json (84 wierszy, bez znaczników
 "NOWA"), zaktualizowano tylko znacznik czasu.
+
+## Reczna korekta (poza standardowym uruchomieniem watchera)
+
+Uzytkownik zglosil oferty powyzej budzetu (>1 200 000 zl) na stronie. Przyczyna:
+zapisany link do domiporta.pl (`?Distance=5`) nie zawiera filtra ceny po stronie
+portalu, wiec zwracal wszystkie domy w promieniu 5km niezaleznie od ceny (do
+3 800 000 zl). Dodatkowo 2 oferty z nieruchomosci-online nieznacznie przekraczaly
+limit mimo filtra w URL.
+
+Dzialania:
+- Usunieto 28 ofert powyzej 1 200 000 zl z offers.json (26 z domiporta, 2 z
+  nieruchomosci-online) - z 84 zostalo 56.
+- index.html zregenerowany z wyczyszczonych danych.
+- Dodano twardy limit ceny (HARD BUDGET CAP) do instrukcji watchera - od teraz
+  kazda oferta powyzej 1 200 000 zl jest odrzucana na etapie zapisu do offers.json,
+  niezaleznie od tego czy filtr danego portalu dziala poprawnie. Usuniete URL-e
+  ponownie pojawia sie przy nastepnym uruchomieniu jako "nowe", ale zostana wtedy
+  poprawnie odrzucone przez nowa regule.
