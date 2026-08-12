@@ -189,3 +189,37 @@ informacji.
 offers.json: bez zmian (nadal `{}`).
 index.html: zregenerowany (placeholder "brak danych jeszcze", timestamp zaktualizowany,
 licznik uruchomień zaktualizowany do sześciu).
+
+## 2026-08-12 12:29 UTC
+
+Wynik: BŁĄD KRYTYCZNY — brak dostępu do sieci zewnętrznej w tym środowisku (potwierdzone
+siódmy raz z rzędu, trzecie uruchomienie dzisiaj: 06:14, 11:51, teraz 12:29 UTC), bez
+żadnej zmiany od 2026-08-09.
+
+WebFetch zwrócił `EGRESS_BLOCKED` zarówno dla domeny kontrolnej `example.com`, jak i
+bezpośrednio dla `www.otodom.pl`. Status proxy (`$HTTPS_PROXY/__agentproxy/status`)
+pokazuje `enabled: true`, `selective: false`, `recentRelayFailures: []` — blokada jest
+nadal ograniczeniem polityki egress całego środowiska, nie błędem konkretnego źródła.
+Pozostałe 7 źródeł pominięto bez osobnych prób, ponieważ blokada jest potwierdzona jako
+całościowa (dotyczy nawet neutralnej domeny testowej).
+
+Status per źródło:
+- otodom: error — EGRESS_BLOCKED (potwierdzone bezpośrednim fetchem), 0 found, 0 new
+- nieruchomosci-online: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- olx: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- morizon: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- domiporta: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- adresowo: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- gethome: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- rynekpierwotny: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- oferty-net: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+
+Nowe ogłoszenia: brak (żadne źródło nie zostało odczytane).
+Powiadomienie push: NIE wysłane. Identyczna, niezmieniona sytuacja względem dwóch
+poprzednich uruchomień dzisiaj (06:14 i 11:51 UTC), o których decyzja o ciszy była już
+podjęta. Problem trwa nieprzerwanie od 2026-08-09 (7 uruchomień) i wymaga ręcznej zmiany
+network egress policy tego środowiska — kolejny identyczny alert nie niósłby nowej
+informacji.
+offers.json: bez zmian (nadal `{}`).
+index.html: zregenerowany (timestamp zaktualizowany, licznik uruchomień zaktualizowany
+do siedmiu).
