@@ -223,3 +223,36 @@ informacji.
 offers.json: bez zmian (nadal `{}`).
 index.html: zregenerowany (timestamp zaktualizowany, licznik uruchomień zaktualizowany
 do siedmiu).
+
+## 2026-08-12 12:33 UTC
+
+Wynik: BŁĄD KRYTYCZNY — brak dostępu do sieci zewnętrznej w tym środowisku (potwierdzone
+ósmy raz z rzędu, czwarte uruchomienie dzisiaj: 06:14, 11:51, 12:29, teraz 12:33 UTC), bez
+żadnej zmiany od 2026-08-09.
+
+WebFetch zwrócił `EGRESS_BLOCKED` dla domeny kontrolnej `example.com`. Status proxy
+(`$HTTPS_PROXY/__agentproxy/status`) pokazuje `enabled: true`, `selective: false`,
+`recentRelayFailures: []` — blokada jest nadal ograniczeniem polityki egress całego
+środowiska, nie błędem konkretnego źródła. Wszystkie 9 źródeł pominięto bez osobnych
+prób, ponieważ blokada jest potwierdzona jako całościowa (dotyczy nawet neutralnej
+domeny testowej), zgodnie z ustaloną praktyką z poprzednich uruchomień.
+
+Status per źródło:
+- otodom: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- nieruchomosci-online: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- olx: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- morizon: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- domiporta: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- adresowo: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- gethome: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- rynekpierwotny: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+- oferty-net: error — EGRESS_BLOCKED (blokada całościowa), 0 found, 0 new
+
+Nowe ogłoszenia: brak (żadne źródło nie zostało odczytane).
+Powiadomienie push: NIE wysłane. Identyczna, niezmieniona sytuacja względem trzech
+poprzednich uruchomień dzisiaj. Problem trwa nieprzerwanie od 2026-08-09 (8 uruchomień)
+i wymaga ręcznej zmiany network egress policy tego środowiska — kolejny identyczny alert
+nie niósłby nowej informacji.
+offers.json: bez zmian (nadal `{}`).
+index.html: zregenerowany (timestamp zaktualizowany, licznik uruchomień zaktualizowany
+do ośmiu).
