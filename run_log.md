@@ -303,3 +303,36 @@ Dzialania:
   niezaleznie od tego czy filtr danego portalu dziala poprawnie. Usuniete URL-e
   ponownie pojawia sie przy nastepnym uruchomieniu jako "nowe", ale zostana wtedy
   poprawnie odrzucone przez nowa regule.
+
+## 2026-08-15 13:06 CEST
+
+Wynik: SUKCES CZĘŚCIOWY — 4 źródła zablokowane, ale 5 aktywnych źródeł zwróciły dużo
+nowych ofert (nieruchomosci-online poszerzył promień wyszukiwania i objął sąsiednie
+miejscowości: Legionowo, Chotomów, Kiełpin, Łomianki Dolne, Kępa Kielpińska).
+
+Status per źródło:
+- otodom: blocked — HTTP 403 Forbidden na stronie wyników, 0 found, 0 new (nadal bez
+  klucza w offers.json)
+- nieruchomosci-online: ok, 41 found, 36 nowych URL-i (27 dodanych, 9 odrzuconych z
+  powodu limitu budżetu >1 200 000 zł)
+- olx: ok (częściowo), 6 linków olx.pl (2 znane + 4 nowe, wszystkie dodane), reszta
+  wyników to przekierowania do otodom.pl (ok. 62 linków, pominięte — otodom nadal
+  zablokowane)
+- morizon: error — "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 35 found, 27 nowych URL-i, wszystkie 27 odrzucone — przekroczyły limit
+  1 200 000 zł (potwierdza znany problem: link domiporty nie filtruje po cenie po
+  stronie portalu)
+- adresowo: ok, 39 found, 2 nowe (oba pod limitem, dodane)
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert spełniających wybrane kryteria"), 0 new
+- rynekpierwotny: ok, 0 found ("Nie znaleźliśmy ofert spełniających wybrane kryteria"), 0 new
+- oferty-net: error — "Claude Code is unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budżetu (>1 200 000 zł) per źródło:
+nieruchomosci-online: 9, domiporta: 27, olx: 0, adresowo: 0.
+
+Nowe ogłoszenia dodane do offers.json: 33 (27 nieruchomosci-online, 4 olx, 2 adresowo).
+Powiadomienie push: WYSŁANE (33 genuinely-new ogłoszenia, żadne źródło nie było
+bootstrapem tym razem).
+offers.json: rozbudowany z 56 do 89 ofert.
+index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-08-15 na górze z wyróżnieniem.
