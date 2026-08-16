@@ -336,3 +336,30 @@ bootstrapem tym razem).
 offers.json: rozbudowany z 56 do 89 ofert.
 index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-08-15 na górze z wyróżnieniem.
+
+## Watcher run 2026-08-16
+
+Lokalny czas: 2026-08-16 10:09 CEST
+
+Status per źródło:
+- otodom: blocked — HTTP 403 Forbidden na stronie wyników, 0 found, 0 new
+- nieruchomosci-online: ok, 6 found, 1 nowy URL, odrzucony — przekroczył limit
+  1 200 000 zł (1 250 000 zł)
+- olx: ok (częściowo), 2 linki olx.pl (oba już znane, 0 nowych), reszta wyników to
+  linki do otodom.pl (ok. 28 linków, pominięte — otodom nadal zablokowane)
+- morizon: error — "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 36 found, 27 nowych URL-i, wszystkie 27 odrzucone — przekroczyły limit
+  1 200 000 zł (ceny od 1 248 900 zł do 2 890 000 zł)
+- adresowo: ok, 39 found, 0 nowych (wszystkie już znane)
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert spełniających wybrane kryteria"), 0 new
+- rynekpierwotny: ok, 0 found ("Nie znaleźliśmy ofert spełniających wybrane kryteria"), 0 new
+- oferty-net: error — "Claude Code is unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budżetu (>1 200 000 zł) per źródło:
+nieruchomosci-online: 1, domiporta: 27.
+
+Nowe ogłoszenia dodane do offers.json: 0.
+Powiadomienie push: BRAK (żadna nowa oferta pod limitem budżetu).
+offers.json: bez zmian, 89 ofert.
+index.html: zregenerowany w pełni z aktualnego offers.json (bez zmian w treści poza
+znacznikiem czasu aktualizacji).
