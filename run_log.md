@@ -363,3 +363,35 @@ Powiadomienie push: BRAK (żadna nowa oferta pod limitem budżetu).
 offers.json: bez zmian, 89 ofert.
 index.html: zregenerowany w pełni z aktualnego offers.json (bez zmian w treści poza
 znacznikiem czasu aktualizacji).
+
+## Watcher run 2026-08-24
+
+Lokalny czas: 2026-08-24 (patrz znacznik czasu w commicie)
+
+Status per źródło:
+- otodom: blocked — HTTP 403 Forbidden na stronie wyników, 0 found, 0 new
+- nieruchomosci-online: ok, 5 found, 1 nowy URL, odrzucony — przekroczył limit
+  1 200 000 zł (1 250 000 zł, Dereniowa, Jabłonna)
+- olx: ok (częściowo), 0 linków olx.pl w wynikach tym razem, reszta (34 linki) to
+  otodom.pl — pominięte, otodom nadal zablokowane
+- morizon: error — "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 35 found, 27 nowych URL-i, wszystkie 27 odrzucone — przekroczyły limit
+  1 200 000 zł (ceny od 1 248 900 zł do 2 890 000 zł)
+- adresowo: ok, 39 found, 7 nowych URL-i; 1 odrzucony jako podejrzana literówka
+  ekstrakcji (slug "l7p5p5" wskazywał na zupełnie niepowiązaną ofertę działki w
+  powiecie wąbrzeskim — bardzo podobny do istniejącego "l7v5p5", pominięty jako
+  najpewniej błąd odczytu strony wyników, nie prawdziwe nowe ogłoszenie), 6 dodanych,
+  wszystkie pod limitem budżetu
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert spełniających wybrane kryteria"), 0 new
+- rynekpierwotny: ok, 0 found ("Nie znaleźliśmy ofert spełniających wybrane kryteria"), 0 new
+- oferty-net: error — "Claude Code is unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budżetu (>1 200 000 zł) per źródło:
+nieruchomosci-online: 1, domiporta: 27, adresowo: 0.
+
+Nowe ogłoszenia dodane do offers.json: 6 (wszystkie adresowo).
+Powiadomienie push: WYSŁANE (6 genuinie nowych ogłoszeń, adresowo nie było
+bootstrapem).
+offers.json: rozbudowany z 89 do 95 ofert.
+index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-08-24 na górze z wyróżnieniem.
