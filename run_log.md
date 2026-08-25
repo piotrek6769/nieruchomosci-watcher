@@ -395,3 +395,35 @@ bootstrapem).
 offers.json: rozbudowany z 89 do 95 ofert.
 index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-08-24 na górze z wyróżnieniem.
+
+## Watcher run 2026-08-25
+
+Lokalny czas: 2026-08-25 08:13 CEST
+
+Status per źródło:
+- otodom: blocked — HTTP 403 Forbidden na stronie wyników, 0 found, 0 new
+- nieruchomosci-online: ok, 41 found (szeroki promień, Legionowo/Chotomów/Kiełpin/
+  Łomianki Dolne/Kępa Kiełpińska/Stanisławów Drugi), 19 nowych URL-i, 5 odrzuconych —
+  przekroczyły limit 1 200 000 zł (1 235 000 – 1 345 000 zł), 14 dodanych
+- olx: ok (częściowo), 0 linków olx.pl w wynikach tym razem, reszta (69 linków) to
+  otodom.pl — pominięte, otodom nadal zablokowane
+- morizon: error — "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 35 found, 26 nowych URL-i, wszystkie 26 odrzucone — przekroczyły limit
+  1 200 000 zł (ceny od 1 248 900 zł do 2 890 000 zł)
+- adresowo: ok, 39 found, 0 nowych (wszystkie już znane); 1 URL wyglądał na nowy
+  ("dom-radzymin-rondo-generala-jozefa-hallera-l7p5") ale to kolejny przypadek
+  ucinania sluga przez ekstrakcję markdown znanego "l7v5p5" (patrz pamięć źródeł) —
+  pominięty jako artefakt, nie prawdziwe nowe ogłoszenie
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert spełniających wybrane kryteria"), 0 new
+- rynekpierwotny: ok, 0 found ("Nie znaleźliśmy ofert spełniających wybrane kryteria"), 0 new
+- oferty-net: error — "Claude Code is unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budżetu (>1 200 000 zł) per źródło:
+nieruchomosci-online: 5, domiporta: 26, adresowo: 0.
+
+Nowe ogłoszenia dodane do offers.json: 14 (wszystkie nieruchomosci-online).
+Powiadomienie push: WYSŁANE (14 genuinie nowych ogłoszeń, nieruchomosci-online nie
+było bootstrapem).
+offers.json: rozbudowany z 95 do 109 ofert.
+index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-08-25 na górze z wyróżnieniem.
