@@ -3,36 +3,33 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Domy na sprzedaz - Jablonna / powiat legionowski</title>
+<title>Watcher domow - Jablonna / powiat legionowski</title>
 <style>
-  :root {
-    color-scheme: light dark;
-  }
+  :root { color-scheme: light dark; }
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    max-width: 1100px;
-    margin: 0 auto;
+    margin: 0;
     padding: 1.5rem;
     line-height: 1.5;
+    max-width: 1100px;
+    margin-inline: auto;
   }
-  header {
-    margin-bottom: 1.5rem;
-  }
-  h1 {
-    margin-bottom: 0.25rem;
-  }
+  h1 { margin-bottom: 0.2rem; }
   .meta {
-    opacity: 0.75;
+    color: gray;
+    margin-bottom: 1.5rem;
     font-size: 0.95rem;
   }
   .date-heading {
-    margin-top: 2rem;
-    padding: 0.4rem 0.8rem;
-    border-left: 4px solid transparent;
+    margin-top: 2.2rem;
+    margin-bottom: 0.6rem;
+    padding: 0.4rem 0.7rem;
+    border-radius: 6px;
   }
-  .date-heading.newest {
-    border-left: 4px solid #e07a1f;
-    background: color-mix(in srgb, #e07a1f 12%, transparent);
+  .date-heading.fresh {
+    background: color-mix(in srgb, canvastext 8%, transparent);
+    border-left: 5px solid #2e8b57;
+    padding-left: 0.6rem;
   }
   .table-wrap {
     overflow-x: auto;
@@ -40,57 +37,153 @@
   table {
     border-collapse: collapse;
     width: 100%;
-    margin-top: 0.5rem;
-  }
-  th, td {
-    border: 1px solid color-mix(in srgb, currentColor 25%, transparent);
-    padding: 0.5rem 0.6rem;
-    text-align: left;
     font-size: 0.92rem;
   }
+  th, td {
+    border: 1px solid color-mix(in srgb, canvastext 25%, transparent);
+    padding: 0.4rem 0.6rem;
+    text-align: left;
+  }
   th {
-    background: color-mix(in srgb, currentColor 8%, transparent);
+    background: color-mix(in srgb, canvastext 6%, transparent);
   }
-  tr:hover td {
-    background: color-mix(in srgb, currentColor 6%, transparent);
+  tr:nth-child(even) {
+    background: color-mix(in srgb, canvastext 3%, transparent);
   }
-  a {
-    color: inherit;
-  }
+  a { color: inherit; }
   .empty {
-    font-size: 1.1rem;
-    opacity: 0.8;
-    margin-top: 2rem;
-  }
-  footer {
+    font-size: 1.2rem;
+    color: gray;
     margin-top: 3rem;
-    font-size: 0.85rem;
-    opacity: 0.6;
   }
 </style>
 </head>
 <body>
-<header>
-  <h1>Domy na sprzedaz - Jablonna / powiat legionowski</h1>
-  <p class="meta">Ostatnia aktualizacja: 2026-08-25 08:13 &middot; Lacznie ofert: 109</p>
-</header>
-<main>
-      <section>
-        <h2 class="date-heading newest">Oferty z dnia 25 sierpnia 2026 (14 ofert)</h2>
-        <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Adres</th>
-              <th>Cena</th>
-              <th>Cena/m2</th>
-              <th>Dom (m2)</th>
-              <th>Dzialka (m2)</th>
-              <th>Zrodlo</th>
-              <th>Link</th>
-            </tr>
-          </thead>
-          <tbody>
+  <h1>Watcher domow - Jablonna / powiat legionowski</h1>
+  <p class="meta">Ostatnia aktualizacja: 2026-08-30 08:35 &middot; Liczba ofert lacznie: 120</p>
+    <section class="date-section">
+      <h2 class="date-heading fresh">Oferty z dnia 30 sierpnia 2026 (11 ofert)</h2>
+      <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Adres</th><th>Cena</th><th>Cena/m2</th><th>Dom (m2)</th><th>Dzialka (m2)</th><th>Zrodlo</th><th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>ul. Flory, Warszawa Wesoła</td>
+          <td>1150000 zl</td>
+          <td>6765 zl/m2</td>
+          <td>170</td>
+          <td>244</td>
+          <td>adresowo</td>
+          <td><a href="https://adresowo.pl/o/dom-warszawa-ul-flory-u6h0f0" target="_blank" rel="noopener">link</a></td>
+        </tr>
+        <tr>
+          <td>Łosia Wólka, gmina Czosnów, powiat nowodworski</td>
+          <td>1199999 zl</td>
+          <td>6936 zl/m2</td>
+          <td>173</td>
+          <td>800</td>
+          <td>adresowo</td>
+          <td><a href="https://adresowo.pl/o/dom-czosnow-losia-wolka-173-m2-y1y8l2" target="_blank" rel="noopener">link</a></td>
+        </tr>
+        <tr>
+          <td>ul. Przytorowa, Pomiechówek, powiat nowodworski</td>
+          <td>775000 zl</td>
+          <td>10333 zl/m2</td>
+          <td>75</td>
+          <td>866</td>
+          <td>adresowo</td>
+          <td><a href="https://adresowo.pl/o/dom-pomiechowek-ul-przytorowa-t2f5w8" target="_blank" rel="noopener">link</a></td>
+        </tr>
+        <tr>
+          <td>ul. Akacjowa, Kaliszki, gmina Czosnów, powiat nowodworski</td>
+          <td>950000 zl</td>
+          <td>8261 zl/m2</td>
+          <td>115</td>
+          <td>1352</td>
+          <td>adresowo</td>
+          <td><a href="https://adresowo.pl/o/dom-czosnow-kaliszki-ul-akacjowa-z2o7q6" target="_blank" rel="noopener">link</a></td>
+        </tr>
+        <tr>
+          <td>Legionowo, Krakusa</td>
+          <td>790000 zl</td>
+          <td>9263.60 zl/m2</td>
+          <td>85.28</td>
+          <td>270</td>
+          <td>domiporta</td>
+          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-krakusa-85m2/156577002" target="_blank" rel="noopener">link</a></td>
+        </tr>
+        <tr>
+          <td>Legionowo, Wola Aleksandra, mazowieckie</td>
+          <td>1039000 zl</td>
+          <td>7696.30 zl/m2</td>
+          <td>135</td>
+          <td>440</td>
+          <td>nieruchomosci-online</td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26921251.html" target="_blank" rel="noopener">link</a></td>
+        </tr>
+        <tr>
+          <td>Księżycowa, Chotomów, Jabłonna, legionowski, mazowieckie</td>
+          <td>1070000 zl</td>
+          <td>4756 zl/m2</td>
+          <td>225</td>
+          <td>725</td>
+          <td>nieruchomosci-online</td>
+          <td><a href="https://chotomow.nieruchomosci-online.pl/dom-wolnostojacy,z-garazem/25078151.html" target="_blank" rel="noopener">link</a></td>
+        </tr>
+        <tr>
+          <td>Brzegowa, Łomianki Dolne, mazowieckie</td>
+          <td>780000 zl</td>
+          <td>7800 zl/m2</td>
+          <td>100</td>
+          <td>450</td>
+          <td>nieruchomosci-online</td>
+          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26729699.html" target="_blank" rel="noopener">link</a></td>
+        </tr>
+        <tr>
+          <td>Aleja Legionów, Legionowo, mazowieckie</td>
+          <td>899000 zl</td>
+          <td>7078.74 zl/m2</td>
+          <td>127</td>
+          <td>25</td>
+          <td>nieruchomosci-online</td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26921894.html" target="_blank" rel="noopener">link</a></td>
+        </tr>
+        <tr>
+          <td>Aleja Legionów, Legionowo, mazowieckie</td>
+          <td>899000 zl</td>
+          <td>7078.74 zl/m2</td>
+          <td>127</td>
+          <td>25</td>
+          <td>nieruchomosci-online</td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26921891.html" target="_blank" rel="noopener">link</a></td>
+        </tr>
+        <tr>
+          <td>Legionowo, legionowski, mazowieckie</td>
+          <td>975000 zl</td>
+          <td>11337.21 zl/m2</td>
+          <td>86</td>
+          <td>-</td>
+          <td>nieruchomosci-online</td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26196904.html" target="_blank" rel="noopener">link</a></td>
+        </tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+    <section class="date-section">
+      <h2 class="date-heading">Oferty z dnia 25 sierpnia 2026 (14 ofert)</h2>
+      <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Adres</th><th>Cena</th><th>Cena/m2</th><th>Dom (m2)</th><th>Dzialka (m2)</th><th>Zrodlo</th><th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
         <tr>
           <td>Łomianki Dolne, Łomianki, warszawski zachodni, mazowieckie</td>
           <td>1 049 000 zł</td>
@@ -217,26 +310,20 @@
           <td>nieruchomosci-online</td>
           <td><a href="https://stanislawow-drugi.nieruchomosci-online.pl/dom,na-sprzedaz/26768229.html" target="_blank" rel="noopener">link</a></td>
         </tr>
-          </tbody>
-        </table>
-        </div>
-      </section>
-      <section>
-        <h2 class="date-heading">Oferty z dnia 24 sierpnia 2026 (6 ofert)</h2>
-        <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Adres</th>
-              <th>Cena</th>
-              <th>Cena/m2</th>
-              <th>Dom (m2)</th>
-              <th>Dzialka (m2)</th>
-              <th>Zrodlo</th>
-              <th>Link</th>
-            </tr>
-          </thead>
-          <tbody>
+        </tbody>
+      </table>
+      </div>
+    </section>
+    <section class="date-section">
+      <h2 class="date-heading">Oferty z dnia 24 sierpnia 2026 (6 ofert)</h2>
+      <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Adres</th><th>Cena</th><th>Cena/m2</th><th>Dom (m2)</th><th>Dzialka (m2)</th><th>Zrodlo</th><th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
         <tr>
           <td>ul. gen. Józefa Zajączka, Marki, powiat wołomiński</td>
           <td>1050000 zl</td>
@@ -291,26 +378,20 @@
           <td>adresowo</td>
           <td><a href="https://adresowo.pl/o/dom-jablonna-ul-piaskowa-m1f0w6" target="_blank" rel="noopener">link</a></td>
         </tr>
-          </tbody>
-        </table>
-        </div>
-      </section>
-      <section>
-        <h2 class="date-heading">Oferty z dnia 15 sierpnia 2026 (33 ofert)</h2>
-        <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Adres</th>
-              <th>Cena</th>
-              <th>Cena/m2</th>
-              <th>Dom (m2)</th>
-              <th>Dzialka (m2)</th>
-              <th>Zrodlo</th>
-              <th>Link</th>
-            </tr>
-          </thead>
-          <tbody>
+        </tbody>
+      </table>
+      </div>
+    </section>
+    <section class="date-section">
+      <h2 class="date-heading">Oferty z dnia 15 sierpnia 2026 (33 ofert)</h2>
+      <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Adres</th><th>Cena</th><th>Cena/m2</th><th>Dom (m2)</th><th>Dzialka (m2)</th><th>Zrodlo</th><th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
         <tr>
           <td>ul. Jesionowa, Słupno Nowe, gmina Radzymin, powiat wołomiński</td>
           <td>1 100 000 zł</td>
@@ -608,26 +689,20 @@
           <td>olx</td>
           <td><a href="https://www.olx.pl/d/oferta/chotomow-dom-jednorodzinny-122-73-m-osiedle-rajska-CID3-IDKdfGp.html" target="_blank" rel="noopener">link</a></td>
         </tr>
-          </tbody>
-        </table>
-        </div>
-      </section>
-      <section>
-        <h2 class="date-heading">Oferty z dnia 12 sierpnia 2026 (56 ofert)</h2>
-        <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Adres</th>
-              <th>Cena</th>
-              <th>Cena/m2</th>
-              <th>Dom (m2)</th>
-              <th>Dzialka (m2)</th>
-              <th>Zrodlo</th>
-              <th>Link</th>
-            </tr>
-          </thead>
-          <tbody>
+        </tbody>
+      </table>
+      </div>
+    </section>
+    <section class="date-section">
+      <h2 class="date-heading">Oferty z dnia 12 sierpnia 2026 (56 ofert)</h2>
+      <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Adres</th><th>Cena</th><th>Cena/m2</th><th>Dom (m2)</th><th>Dzialka (m2)</th><th>Zrodlo</th><th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
         <tr>
           <td>ul. Trakt Królewski, Borzęcin Duży</td>
           <td>1 050 000 zł</td>
@@ -1132,13 +1207,9 @@
           <td>olx</td>
           <td><a href="https://www.olx.pl/d/oferta/dom-z-duza-dzialka-w-centrum-lomianek-rog-ul-wiejskiej-i-rolniczej-CID3-ID1bDm83.html" target="_blank" rel="noopener">link</a></td>
         </tr>
-          </tbody>
-        </table>
-        </div>
-      </section>
-</main>
-<footer>
-  Generowane automatycznie na podstawie zapisanych wyszukiwan.
-</footer>
+        </tbody>
+      </table>
+      </div>
+    </section>
 </body>
 </html>

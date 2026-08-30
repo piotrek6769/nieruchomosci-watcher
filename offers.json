@@ -413,6 +413,60 @@
       "cena_za_m2": "10 000 zł/m²",
       "dom_m2": "180",
       "dzialka_m2": "500"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26921251.html",
+      "first_seen": "2026-08-30",
+      "adres": "Legionowo, Wola Aleksandra, mazowieckie",
+      "cena": "1039000 zl",
+      "cena_za_m2": "7696.30 zl/m2",
+      "dom_m2": "135",
+      "dzialka_m2": "440"
+    },
+    {
+      "url": "https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26729699.html",
+      "first_seen": "2026-08-30",
+      "adres": "Brzegowa, Łomianki Dolne, mazowieckie",
+      "cena": "780000 zl",
+      "cena_za_m2": "7800 zl/m2",
+      "dom_m2": "100",
+      "dzialka_m2": "450"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26921894.html",
+      "first_seen": "2026-08-30",
+      "adres": "Aleja Legionów, Legionowo, mazowieckie",
+      "cena": "899000 zl",
+      "cena_za_m2": "7078.74 zl/m2",
+      "dom_m2": "127",
+      "dzialka_m2": "25"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26921891.html",
+      "first_seen": "2026-08-30",
+      "adres": "Aleja Legionów, Legionowo, mazowieckie",
+      "cena": "899000 zl",
+      "cena_za_m2": "7078.74 zl/m2",
+      "dom_m2": "127",
+      "dzialka_m2": "25"
+    },
+    {
+      "url": "https://chotomow.nieruchomosci-online.pl/dom-wolnostojacy,z-garazem/25078151.html",
+      "first_seen": "2026-08-30",
+      "adres": "Księżycowa, Chotomów, Jabłonna, legionowski, mazowieckie",
+      "cena": "1070000 zl",
+      "cena_za_m2": "4756 zl/m2",
+      "dom_m2": "225",
+      "dzialka_m2": "725"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26196904.html",
+      "first_seen": "2026-08-30",
+      "adres": "Legionowo, legionowski, mazowieckie",
+      "cena": "975000 zl",
+      "cena_za_m2": "11337.21 zl/m2",
+      "dom_m2": "86",
+      "dzialka_m2": "-"
     }
   ],
   "olx": [
@@ -561,6 +615,15 @@
       "cena_za_m2": "7 781,24 zł/m²",
       "dom_m2": "134,94",
       "dzialka_m2": "506"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-krakusa-85m2/156577002",
+      "first_seen": "2026-08-30",
+      "adres": "Legionowo, Krakusa",
+      "cena": "790000 zl",
+      "cena_za_m2": "9263.60 zl/m2",
+      "dom_m2": "85.28",
+      "dzialka_m2": "270"
     }
   ],
   "adresowo": [
@@ -986,6 +1049,42 @@
       "cena_za_m2": "4286 zl/m2",
       "dom_m2": "70",
       "dzialka_m2": "691"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-pomiechowek-ul-przytorowa-t2f5w8",
+      "first_seen": "2026-08-30",
+      "adres": "ul. Przytorowa, Pomiechówek, powiat nowodworski",
+      "cena": "775000 zl",
+      "cena_za_m2": "10333 zl/m2",
+      "dom_m2": "75",
+      "dzialka_m2": "866"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-czosnow-losia-wolka-173-m2-y1y8l2",
+      "first_seen": "2026-08-30",
+      "adres": "Łosia Wólka, gmina Czosnów, powiat nowodworski",
+      "cena": "1199999 zl",
+      "cena_za_m2": "6936 zl/m2",
+      "dom_m2": "173",
+      "dzialka_m2": "800"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-czosnow-kaliszki-ul-akacjowa-z2o7q6",
+      "first_seen": "2026-08-30",
+      "adres": "ul. Akacjowa, Kaliszki, gmina Czosnów, powiat nowodworski",
+      "cena": "950000 zl",
+      "cena_za_m2": "8261 zl/m2",
+      "dom_m2": "115",
+      "dzialka_m2": "1352"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-warszawa-ul-flory-u6h0f0",
+      "first_seen": "2026-08-30",
+      "adres": "ul. Flory, Warszawa Wesoła",
+      "cena": "1150000 zl",
+      "cena_za_m2": "6765 zl/m2",
+      "dom_m2": "170",
+      "dzialka_m2": "244"
     }
   ],
   "gethome": [],

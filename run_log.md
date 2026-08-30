@@ -427,3 +427,34 @@ było bootstrapem).
 offers.json: rozbudowany z 95 do 109 ofert.
 index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-08-25 na górze z wyróżnieniem.
+
+## Watcher run 2026-08-30
+
+Lokalny czas: 2026-08-30 08:35 CEST
+
+Status per źródło:
+- otodom: blocked — HTTP 403 Forbidden na stronie wyników, 0 found, 0 new
+- nieruchomosci-online: ok, 41 found (szeroki promień, Legionowo/Chotomów/Kiełpin/
+  Kępa Kiełpińska/Łomianki Dolne/Stanisławów Drugi), 14 nowych URL-i, 8 odrzuconych —
+  przekroczyły limit 1 200 000 zł (1 215 000 – 1 350 000 zł), 6 dodanych
+- olx: ok (częściowo), 0 linków olx.pl w wynikach tym razem, reszta (65 linków) to
+  otodom.pl — pominięte, otodom nadal zablokowane
+- morizon: error — "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 36 found, 27 nowych URL-i, 26 odrzuconych — przekroczyły limit
+  1 200 000 zł (ceny od 1 248 900 zł do 2 890 000 zł), 1 dodany (Legionowo, Krakusa,
+  790 000 zł)
+- adresowo: ok, 39 found, 4 nowe URL-e, wszystkie 4 dodane pod limitem budżetu
+  (Pomiechówek, Czosnów x2, Warszawa-Wesoła)
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert spełniających wybrane kryteria"), 0 new
+- rynekpierwotny: ok, 0 found ("Nie znaleźliśmy ofert spełniających wybrane kryteria"), 0 new
+- oferty-net: error — "Claude Code is unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budżetu (>1 200 000 zł) per źródło:
+nieruchomosci-online: 8, domiporta: 26.
+
+Nowe ogłoszenia dodane do offers.json: 11 (6 nieruchomosci-online, 4 adresowo, 1 domiporta).
+Powiadomienie push: WYSŁANE (11 genuinie nowych ogłoszeń, żadne źródło nie było
+bootstrapem).
+offers.json: rozbudowany z 109 do 120 ofert.
+index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-08-30 na górze z wyróżnieniem.
