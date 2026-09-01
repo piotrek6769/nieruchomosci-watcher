@@ -624,6 +624,15 @@
       "cena_za_m2": "9263.60 zl/m2",
       "dom_m2": "85.28",
       "dzialka_m2": "270"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-warszawa-bialoleka-debowa-125m2/156802468",
+      "first_seen": "2026-09-01",
+      "adres": "Warszawa, Białołęka, Dębowa",
+      "cena": "900000 zl",
+      "cena_za_m2": "7200 zl/m2",
+      "dom_m2": "125",
+      "dzialka_m2": "150"
     }
   ],
   "adresowo": [

@@ -3,67 +3,80 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Watcher domow - Jablonna / powiat legionowski</title>
+<title>Domy na sprzedaz - Jablonna / powiat legionowski</title>
 <style>
   :root { color-scheme: light dark; }
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    margin: 0;
+    max-width: 1100px;
+    margin: 0 auto;
     padding: 1.5rem;
     line-height: 1.5;
-    max-width: 1100px;
-    margin-inline: auto;
   }
   h1 { margin-bottom: 0.2rem; }
-  .meta {
-    color: gray;
-    margin-bottom: 1.5rem;
-    font-size: 0.95rem;
-  }
-  .date-heading {
-    margin-top: 2.2rem;
-    margin-bottom: 0.6rem;
+  .meta { opacity: 0.75; margin-bottom: 1.5rem; font-size: 0.95rem; }
+  section { margin-bottom: 2.5rem; }
+  h2.date-heading {
+    font-size: 1.2rem;
     padding: 0.4rem 0.7rem;
-    border-radius: 6px;
+    border-left: 4px solid transparent;
+    margin-bottom: 0.6rem;
   }
-  .date-heading.fresh {
-    background: color-mix(in srgb, canvastext 8%, transparent);
-    border-left: 5px solid #2e8b57;
-    padding-left: 0.6rem;
-  }
-  .table-wrap {
-    overflow-x: auto;
+  h2.date-heading.fresh {
+    border-left: 4px solid #2f9e44;
+    background: rgba(47, 158, 68, 0.08);
   }
   table {
-    border-collapse: collapse;
     width: 100%;
+    border-collapse: collapse;
     font-size: 0.92rem;
   }
   th, td {
-    border: 1px solid color-mix(in srgb, canvastext 25%, transparent);
-    padding: 0.4rem 0.6rem;
     text-align: left;
+    padding: 0.5rem 0.6rem;
+    border-bottom: 1px solid rgba(128,128,128,0.3);
   }
   th {
-    background: color-mix(in srgb, canvastext 6%, transparent);
+    opacity: 0.8;
+    font-weight: 600;
   }
-  tr:nth-child(even) {
-    background: color-mix(in srgb, canvastext 3%, transparent);
+  tr:hover td {
+    background: rgba(128,128,128,0.08);
   }
   a { color: inherit; }
   .empty {
-    font-size: 1.2rem;
-    color: gray;
-    margin-top: 3rem;
+    opacity: 0.7;
+    font-style: italic;
+    padding: 2rem 0;
   }
 </style>
 </head>
 <body>
-  <h1>Watcher domow - Jablonna / powiat legionowski</h1>
-  <p class="meta">Ostatnia aktualizacja: 2026-08-30 08:35 &middot; Liczba ofert lacznie: 120</p>
-    <section class="date-section">
-      <h2 class="date-heading fresh">Oferty z dnia 30 sierpnia 2026 (11 ofert)</h2>
-      <div class="table-wrap">
+  <h1>Domy na sprzedaz - Jablonna / powiat legionowski</h1>
+  <p class="meta">Ostatnia aktualizacja: 2026-09-01 08:48 &middot; Liczba ofert lacznie: 121</p>
+    <section>
+      <h2 class="date-heading fresh">Oferty z dnia 01.09.2026 (1 ofert)</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Adres</th><th>Cena</th><th>Cena/m2</th><th>Dom (m2)</th><th>Dzialka (m2)</th><th>Zrodlo</th><th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Warszawa, Białołęka, Dębowa</td>
+          <td>900000 zl</td>
+          <td>7200 zl/m2</td>
+          <td>125</td>
+          <td>150</td>
+          <td>domiporta</td>
+          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-warszawa-bialoleka-debowa-125m2/156802468" target="_blank" rel="noopener">link</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2 class="date-heading">Oferty z dnia 30.08.2026 (11 ofert)</h2>
       <table>
         <thead>
           <tr>
@@ -172,11 +185,9 @@
         </tr>
         </tbody>
       </table>
-      </div>
     </section>
-    <section class="date-section">
-      <h2 class="date-heading">Oferty z dnia 25 sierpnia 2026 (14 ofert)</h2>
-      <div class="table-wrap">
+    <section>
+      <h2 class="date-heading">Oferty z dnia 25.08.2026 (14 ofert)</h2>
       <table>
         <thead>
           <tr>
@@ -312,11 +323,9 @@
         </tr>
         </tbody>
       </table>
-      </div>
     </section>
-    <section class="date-section">
-      <h2 class="date-heading">Oferty z dnia 24 sierpnia 2026 (6 ofert)</h2>
-      <div class="table-wrap">
+    <section>
+      <h2 class="date-heading">Oferty z dnia 24.08.2026 (6 ofert)</h2>
       <table>
         <thead>
           <tr>
@@ -380,11 +389,9 @@
         </tr>
         </tbody>
       </table>
-      </div>
     </section>
-    <section class="date-section">
-      <h2 class="date-heading">Oferty z dnia 15 sierpnia 2026 (33 ofert)</h2>
-      <div class="table-wrap">
+    <section>
+      <h2 class="date-heading">Oferty z dnia 15.08.2026 (33 ofert)</h2>
       <table>
         <thead>
           <tr>
@@ -691,11 +698,9 @@
         </tr>
         </tbody>
       </table>
-      </div>
     </section>
-    <section class="date-section">
-      <h2 class="date-heading">Oferty z dnia 12 sierpnia 2026 (56 ofert)</h2>
-      <div class="table-wrap">
+    <section>
+      <h2 class="date-heading">Oferty z dnia 12.08.2026 (56 ofert)</h2>
       <table>
         <thead>
           <tr>
@@ -1209,7 +1214,6 @@
         </tr>
         </tbody>
       </table>
-      </div>
     </section>
 </body>
 </html>

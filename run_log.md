@@ -458,3 +458,29 @@ bootstrapem).
 offers.json: rozbudowany z 109 do 120 ofert.
 index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-08-30 na górze z wyróżnieniem.
+
+## 2026-09-01 08:48 CEST
+
+Status per źródło:
+- otodom: error — HTTP 403 Forbidden (nadal zablokowane), 0 found, 0 new
+- nieruchomosci-online: ok, 6 found, 2 nowe URL-e, oba odrzucone — przekroczyły limit
+  1 200 000 zł (Dereniowa Jabłonna 1 250 000 zł, Szkolna Jabłonna 1 270 000 zł), 0 dodanych
+- olx: ok, 31 found, wszystkie 31 to mirrory otodom.pl (zablokowane) — pominięte, 0 new
+- morizon: error — "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 35 found, 27 nowych URL-i, 26 odrzuconych — przekroczyły limit
+  1 200 000 zł (ceny od 1 248 900 zł do 2 890 000 zł, w tym dwie oferty "Osiedle Słoneczna
+  27-29" po 2 000 000 zł ze znanym błędem danych cena/m2), 1 dodany (Warszawa Białołęka,
+  Dębowa, 900 000 zł)
+- adresowo: ok, 7 found, 0 nowych URL-i (wszystkie już znane)
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert spełniających wybrane kryteria"), 0 new
+- rynekpierwotny: ok, 0 found ("Nie znaleźliśmy ofert w podanych przez Ciebie kryteriach"), 0 new
+- oferty-net: error — "Claude Code is unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budżetu (>1 200 000 zł) per źródło:
+nieruchomosci-online: 2, domiporta: 26.
+
+Nowe ogłoszenia dodane do offers.json: 1 (domiporta).
+Powiadomienie push: WYSŁANE (1 genuinie nowe ogłoszenie, żadne źródło nie było bootstrapem).
+offers.json: rozbudowany z 120 do 121 ofert.
+index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-09-01 na górze z wyróżnieniem.
