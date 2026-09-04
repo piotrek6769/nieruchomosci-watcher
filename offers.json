@@ -467,6 +467,51 @@
       "cena_za_m2": "11337.21 zl/m2",
       "dom_m2": "86",
       "dzialka_m2": "-"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom-wolnostojacy,z-parkingiem/26936299.html",
+      "first_seen": "2026-09-04",
+      "adres": "Warszawska, Legionowo, mazowieckie",
+      "cena": "850000 zl",
+      "cena_za_m2": "10000 zl/m2",
+      "dom_m2": "85",
+      "dzialka_m2": "568"
+    },
+    {
+      "url": "https://chotomow.nieruchomosci-online.pl/dom,na-sprzedaz/26940471.html",
+      "first_seen": "2026-09-04",
+      "adres": "Chotomów, ul. Bagienna, mazowieckie",
+      "cena": "1090000 zl",
+      "cena_za_m2": "10000 zl/m2",
+      "dom_m2": "180",
+      "dzialka_m2": "500"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26939094.html",
+      "first_seen": "2026-09-04",
+      "adres": "Arena, Legionowo, legionowski, mazowieckie",
+      "cena": "1098000 zl",
+      "cena_za_m2": "8382 zl/m2",
+      "dom_m2": "131",
+      "dzialka_m2": "450"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26936788.html",
+      "first_seen": "2026-09-04",
+      "adres": "Brzozowa, Legionowo, mazowieckie",
+      "cena": "890000 zl",
+      "cena_za_m2": "6514.42 zl/m2",
+      "dom_m2": "136.62",
+      "dzialka_m2": "140"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26699683.html",
+      "first_seen": "2026-09-04",
+      "adres": "Grudzie, Bukowiec, Legionowo, mazowieckie",
+      "cena": "839000 zl",
+      "cena_za_m2": "7521.29 zl/m2",
+      "dom_m2": "111.55",
+      "dzialka_m2": "320"
     }
   ],
   "olx": [
@@ -1094,8 +1139,27 @@
       "cena_za_m2": "6765 zl/m2",
       "dom_m2": "170",
       "dzialka_m2": "244"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-wieliszew-skrzeszew-ul-koscielna-q4t4m4",
+      "first_seen": "2026-09-04",
+      "adres": "ul. Kościelna, Skrzeszew, gmina Wieliszew, powiat legionowski",
+      "cena": "1199000 zl",
+      "cena_za_m2": "11755 zl/m2",
+      "dom_m2": "102",
+      "dzialka_m2": "700"
     }
   ],
   "gethome": [],
-  "rynekpierwotny": []
+  "rynekpierwotny": [
+    {
+      "url": "https://rynekpierwotny.pl/oferty/pk-development-sp-z-oo/zlota-jablonna-legionowski-jablonna-19374/",
+      "first_seen": "2026-09-04",
+      "adres": "ul. Złotej Renaty, Jabłonna, legionowski, mazowieckie",
+      "cena": "404718-1159930 zl (23 lokale, oferta nieaktywna)",
+      "cena_za_m2": "-",
+      "dom_m2": "32-110",
+      "dzialka_m2": "-"
+    }
+  ]
 }

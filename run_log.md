@@ -484,3 +484,35 @@ Powiadomienie push: WYSŁANE (1 genuinie nowe ogłoszenie, żadne źródło nie 
 offers.json: rozbudowany z 120 do 121 ofert.
 index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-09-01 na górze z wyróżnieniem.
+
+## 2026-09-04 10:38 CEST
+
+Status per źródło:
+- otodom: error — HTTP 403 Forbidden (nadal zablokowane), 0 found, 0 new
+- nieruchomosci-online: ok, 41 found, 12 nowych URL-i, 5 dodanych, 7 odrzuconych —
+  przekroczyły limit 1 200 000 zł (Kiełpin/Brzegowa 1 235 000 zł, Kępa Kiełpińska
+  1 345 000 zł, Dereniowa Jabłonna 1 250 000 zł, Kiełpin 1 225 000 zł, Kiełpin
+  Poduchowny 1 215 000 zł, Kochanowskiego Legionowo 1 299 000 zł, Kępa Kiełpińska
+  1 250 000 zł)
+- olx: ok, 29 found, wszystkie 29 to mirrory otodom.pl (zablokowane) — pominięte, 0 new
+- morizon: error — "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 3 found, 2 nowe URL-e, oba odrzucone — przekroczyły limit 1 200 000 zł
+  (Jabłonna 170m2 1 420 000 zł, Jabłonna 221m2 1 990 000 zł), 0 dodanych
+- adresowo: ok, 39 found, 1 nowy URL, dodany (Wieliszew, Skrzeszew, ul. Kościelna,
+  1 199 000 zł — tuż pod limitem)
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert w podanych przez Ciebie kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found, dodany (inwestycja PK Development, ul. Złotej Renaty
+  Jabłonna, 23 lokale 404 718–1 159 930 zł, oferta oznaczona jako nieaktywna — pod
+  limitem, dodana mimo statusu nieaktywnej dla kompletności rejestru)
+- oferty-net: error — "Claude Code is unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budżetu (>1 200 000 zł) per źródło:
+nieruchomosci-online: 7, domiporta: 2.
+
+Nowe ogłoszenia dodane do offers.json: 7 (5 nieruchomosci-online, 1 adresowo,
+1 rynekpierwotny).
+Powiadomienie push: WYSŁANE (7 genuinie nowych ogłoszeń, żadne źródło nie było
+bootstrapem).
+offers.json: rozbudowany z 121 do 128 ofert.
+index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-09-04 na górze z wyróżnieniem.
