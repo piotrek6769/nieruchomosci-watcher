@@ -1148,6 +1148,24 @@
       "cena_za_m2": "11755 zl/m2",
       "dom_m2": "102",
       "dzialka_m2": "700"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-nieporet-stanislawow-pierwszy-ul-konwaliowa-u0f7c7",
+      "first_seen": "2026-09-07",
+      "adres": "ul. Konwaliowa, Stanisławów Pierwszy, gmina Nieporęt, powiat legionowski",
+      "cena": "1130000 zl",
+      "cena_za_m2": "12418 zl/m2",
+      "dom_m2": "91",
+      "dzialka_m2": "406"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-warszawa-ul-panoramy-c1d7z0",
+      "first_seen": "2026-09-07",
+      "adres": "ul. Panoramy 28, Warszawa Wawer",
+      "cena": "690000 zl",
+      "cena_za_m2": "9857 zl/m2",
+      "dom_m2": "70",
+      "dzialka_m2": "489"
     }
   ],
   "gethome": [],

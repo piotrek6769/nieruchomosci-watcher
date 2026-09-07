@@ -516,3 +516,34 @@ bootstrapem).
 offers.json: rozbudowany z 121 do 128 ofert.
 index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-09-04 na górze z wyróżnieniem.
+
+## 2026-09-07 08:40 CEST
+
+Status per źródło:
+- otodom: error — HTTP 403 Forbidden (nadal zablokowane), 0 found, 0 new
+- nieruchomosci-online: ok, 41 found, 6 nowych URL-i, wszystkie 6 odrzucone —
+  przekroczyły limit 1 200 000 zł (Kiełpin/Brzegowa 1 235 000 zł, Jabłonna/Szkolna
+  1 270 000 zł, Jabłonna/Dereniowa 1 250 000 zł, Kępa Kiełpińska/Gajowa 1 345 000 zł,
+  Łomianki Dolne/Kościelna Droga 1 350 000 zł, Legionowo/Grudzie 1 250 000 zł),
+  0 dodanych
+- olx: ok, 69 found, wszystkie to mirrory otodom.pl (zablokowane) — pominięte, 0 new
+- morizon: error — "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 35 found, 26 nowych URL-i, wszystkie 26 odrzucone — przekroczyły
+  limit 1 200 000 zł (ceny od 1 248 500 zł do 2 890 000 zł, w tym ponownie dwie
+  oferty "Osiedle Słoneczna 27-29" po 2 000 000 zł / 999 zł/m2), 0 dodanych
+- adresowo: ok, 39 found, 2 nowe URL-e, oba pod limitem — dodane (Stanisławów
+  Pierwszy/Konwaliowa 1 130 000 zł; Warszawa Wawer/Panoramy 690 000 zł)
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert w podanych przez Ciebie kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development co poprzednio), 0 new
+- oferty-net: error — "Claude Code is unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budżetu (>1 200 000 zł) per źródło:
+nieruchomosci-online: 6, domiporta: 26.
+
+Nowe ogłoszenia dodane do offers.json: 2 (adresowo: Stanisławów Pierwszy/Konwaliowa,
+Warszawa Wawer/Panoramy).
+Powiadomienie push: WYSŁANE (2 genuinie nowe ogłoszenia, adresowo nie było
+bootstrapem).
+offers.json: rozbudowany z 128 do 130 ofert.
+index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-09-07 na górze z wyróżnieniem.
