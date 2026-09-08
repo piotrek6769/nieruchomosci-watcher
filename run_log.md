@@ -547,3 +547,37 @@ bootstrapem).
 offers.json: rozbudowany z 128 do 130 ofert.
 index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-09-07 na górze z wyróżnieniem.
+
+## 2026-09-08 09:00 CEST
+
+Status per źródło:
+- otodom: error — HTTP 403 Forbidden (nadal zablokowane), 0 found, 0 new
+- nieruchomosci-online: ok, 41 found, 9 nowych URL-i, 2 dodane (Legionowo
+  26950292 i 26949640, oba 799 000 zł / 118,43 m2 — najwyraźniej duplikat tej
+  samej nieruchomości pod dwoma ID), 7 odrzuconych — przekroczyły limit
+  1 200 000 zł (Kiełpin/Brzegowa 1 235 000 zł, Kępa Kiełpińska/umeblowany
+  1 345 000 zł, Jabłonna/Szkolna 1 270 000 zł, Jabłonna/Dereniowa 1 250 000 zł,
+  Kępa Kiełpińska/parking 1 250 000 zł, Kępa Kiełpińska/Gajowa 1 345 000 zł,
+  Kiełpin Poduchowny/Brzegowa 1 215 000 zł)
+- olx: ok, 69 found, wszystkie to mirrory otodom.pl (zablokowane) — pominięte, 0 new
+- morizon: error — "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 36 found, 27 nowych URL-i, wszystkie 27 odrzucone — przekroczyły
+  limit 1 200 000 zł (ceny od 1 350 000 zł do 2 890 000 zł, w tym ponownie dwie
+  oferty "Osiedle Słoneczna 27-29" po 2 000 000 zł / 999 zł/m2), 0 dodanych
+- adresowo: ok, 39 found, 5 nowych URL-i, wszystkie pod limitem — dodane
+  (Kiełpin/Łomianki 1 180 000 zł; Legionowo/Zbigniewa Herberta 899 000 zł;
+  Warszawa Wawer/Wodniaków 1 100 000 zł; Marki/Leopolda Lisa-Kuli 1 090 000 zł;
+  Kobyłka Zalasek/Radzymińska 1 050 000 zł)
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert w podanych przez Ciebie kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development co poprzednio), 0 new
+- oferty-net: error — "Claude Code is unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budżetu (>1 200 000 zł) per źródło:
+nieruchomosci-online: 7, domiporta: 27.
+
+Nowe ogłoszenia dodane do offers.json: 7 (2 nieruchomosci-online, 5 adresowo).
+Powiadomienie push: WYSŁANE (7 genuinie nowych ogłoszeń, żadne źródło nie było
+bootstrapem).
+offers.json: rozbudowany z 130 do 137 ofert.
+index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-09-08 na górze z wyróżnieniem.

@@ -3,33 +3,45 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Domy Jabłonna / powiat legionowski — watcher</title>
+<title>Domy na sprzedaz - Jablonna / powiat legionowski</title>
 <style>
-  :root { color-scheme: light dark; }
+  :root {
+    color-scheme: light dark;
+  }
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    margin: 0;
+    max-width: 1100px;
+    margin: 0 auto;
     padding: 1.5rem;
-    line-height: 1.5;
-    max-width: 1200px;
-    margin-inline: auto;
+    line-height: 1.4;
   }
-  header { margin-bottom: 1.5rem; }
-  h1 { margin-bottom: 0.25rem; }
-  .meta { opacity: 0.75; font-size: 0.95rem; }
-  section { margin-bottom: 2.5rem; }
-  h2.date-heading {
+  header {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #8888;
+    padding-bottom: 1rem;
+  }
+  h1 {
+    margin: 0 0 0.3rem 0;
+    font-size: 1.6rem;
+  }
+  .meta {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  .date-heading {
     font-size: 1.15rem;
-    padding: 0.4rem 0.75rem;
-    border-left: 4px solid transparent;
-    margin-bottom: 0.75rem;
+    margin: 2rem 0 0.6rem 0;
+    padding: 0.4rem 0.7rem;
+    border-left: 4px solid #8888;
   }
-  h2.date-heading.fresh {
-    border-left-color: #e8590c;
-    background: color-mix(in srgb, #e8590c 12%, transparent);
+  .date-heading.fresh {
+    border-left: 4px solid #2a9d5c;
+    background: #2a9d5c1a;
     font-weight: 700;
   }
-  .table-wrap { overflow-x: auto; }
+  .table-wrap {
+    overflow-x: auto;
+  }
   table {
     border-collapse: collapse;
     width: 100%;
@@ -37,39 +49,146 @@
   }
   th, td {
     text-align: left;
-    padding: 0.5rem 0.6rem;
-    border-bottom: 1px solid color-mix(in srgb, currentColor 15%, transparent);
+    padding: 0.45rem 0.6rem;
+    border-bottom: 1px solid #8884;
     white-space: nowrap;
   }
   th {
-    opacity: 0.7;
     font-weight: 600;
-    font-size: 0.85rem;
+    color: #888;
     text-transform: uppercase;
-    letter-spacing: 0.02em;
+    font-size: 0.75rem;
+    letter-spacing: 0.03em;
   }
-  tr:hover td { background: color-mix(in srgb, currentColor 6%, transparent); }
-  a { color: inherit; }
-  .empty { opacity: 0.7; font-style: italic; padding: 2rem 0; }
-  footer { margin-top: 3rem; opacity: 0.6; font-size: 0.85rem; }
+  tr:hover td {
+    background: #8881;
+  }
+  a {
+    color: #2a6ed9;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .empty {
+    color: #888;
+    font-size: 1.1rem;
+    padding: 2rem 0;
+  }
+  footer {
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #8888;
+    color: #888;
+    font-size: 0.85rem;
+  }
 </style>
 </head>
 <body>
-<header>
-  <h1>Domy na sprzedaż — Jabłonna / powiat legionowski</h1>
-  <p class="meta">Ostatnia aktualizacja: 2026-09-07 08:40 &middot; Łącznie ofert w bazie: 130</p>
-</header>
-<main>
-    <section>
-      <h2 class="date-heading fresh">Oferty z dnia 7 września 2026 (2 oferty)</h2>
+  <header>
+    <h1>Domy na sprzedaz - Jablonna / powiat legionowski</h1>
+    <div class="meta">Ostatnia aktualizacja: 2026-09-08 09:00 &middot; Lacznie ofert: 137</div>
+  </header>
+  <main>
+    <section class="date-section">
+      <h2 class="date-heading fresh">Oferty z dnia 8 września 2026 (7 ofert)</h2>
       <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Adres</th><th>Cena</th><th>Cena/m2</th><th>Dom (m2)</th><th>Działka (m2)</th><th>Źródło</th><th>Link</th>
-          </tr>
-        </thead>
-        <tbody>
+        <table>
+          <thead>
+            <tr>
+              <th>Adres</th>
+              <th>Cena</th>
+              <th>Cena/m2</th>
+              <th>Dom (m2)</th>
+              <th>Dzialka (m2)</th>
+              <th>Zrodlo</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td>ul. Radzymińska, Kobyłka Zalasek, powiat wołomiński</td>
+          <td>1050000 zl</td>
+          <td>10160 zl/m2</td>
+          <td>103.35</td>
+          <td>50</td>
+          <td>adresowo</td>
+          <td><a href="https://adresowo.pl/o/dom-kobylka-ul-radzyminska-u4x5r8" target="_blank" rel="noopener">link</a></td>
+        </tr>
+        <tr>
+          <td>ul. Leopolda Lisa-Kuli, Marki, powiat wołomiński</td>
+          <td>1090000 zl</td>
+          <td>8450 zl/m2</td>
+          <td>129</td>
+          <td>1000</td>
+          <td>adresowo</td>
+          <td><a href="https://adresowo.pl/o/dom-marki-ul-leopolda-lisa-kuli-v5s4d8" target="_blank" rel="noopener">link</a></td>
+        </tr>
+        <tr>
+          <td>ul. Wodniaków 9, Warszawa Wawer</td>
+          <td>1100000 zl</td>
+          <td>7483 zl/m2</td>
+          <td>147</td>
+          <td>1075</td>
+          <td>adresowo</td>
+          <td><a href="https://adresowo.pl/o/dom-warszawa-ul-wodniakow-f3e9d7" target="_blank" rel="noopener">link</a></td>
+        </tr>
+        <tr>
+          <td>Kiełpin, gmina Łomianki, powiat warszawski zachodni</td>
+          <td>1180000 zl</td>
+          <td>9988 zl/m2</td>
+          <td>118.14</td>
+          <td>277</td>
+          <td>adresowo</td>
+          <td><a href="https://adresowo.pl/o/dom-lomianki-kielpin-118-m2-z9s1n6" target="_blank" rel="noopener">link</a></td>
+        </tr>
+        <tr>
+          <td>ul. Zbigniewa Herberta, Legionowo, powiat legionowski</td>
+          <td>899000 zl</td>
+          <td>13831 zl/m2</td>
+          <td>65</td>
+          <td>90</td>
+          <td>adresowo</td>
+          <td><a href="https://adresowo.pl/o/dom-legionowo-ul-zbigniewa-herberta-y4k9n6" target="_blank" rel="noopener">link</a></td>
+        </tr>
+        <tr>
+          <td>Legionowo, legionowski, mazowieckie</td>
+          <td>799000 zl</td>
+          <td>6746.60 zl/m2</td>
+          <td>118.43</td>
+          <td>-</td>
+          <td>nieruchomosci-online</td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26950292.html" target="_blank" rel="noopener">link</a></td>
+        </tr>
+        <tr>
+          <td>Łajski, Legionowo, legionowski, mazowieckie</td>
+          <td>799000 zl</td>
+          <td>6746.60 zl/m2</td>
+          <td>118.43</td>
+          <td>-</td>
+          <td>nieruchomosci-online</td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26949640.html" target="_blank" rel="noopener">link</a></td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section class="date-section">
+      <h2 class="date-heading">Oferty z dnia 7 września 2026 (2 oferty)</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Adres</th>
+              <th>Cena</th>
+              <th>Cena/m2</th>
+              <th>Dom (m2)</th>
+              <th>Dzialka (m2)</th>
+              <th>Zrodlo</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
         <tr>
           <td>ul. Konwaliowa, Stanisławów Pierwszy, gmina Nieporęt, powiat legionowski</td>
           <td>1130000 zl</td>
@@ -77,7 +196,7 @@
           <td>91</td>
           <td>406</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-nieporet-stanislawow-pierwszy-ul-konwaliowa-u0f7c7" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-nieporet-stanislawow-pierwszy-ul-konwaliowa-u0f7c7" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Panoramy 28, Warszawa Wawer</td>
@@ -86,22 +205,28 @@
           <td>70</td>
           <td>489</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-warszawa-ul-panoramy-c1d7z0" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-warszawa-ul-panoramy-c1d7z0" target="_blank" rel="noopener">link</a></td>
         </tr>
-        </tbody>
-      </table>
+          </tbody>
+        </table>
       </div>
     </section>
-    <section>
+    <section class="date-section">
       <h2 class="date-heading">Oferty z dnia 4 września 2026 (7 ofert)</h2>
       <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Adres</th><th>Cena</th><th>Cena/m2</th><th>Dom (m2)</th><th>Działka (m2)</th><th>Źródło</th><th>Link</th>
-          </tr>
-        </thead>
-        <tbody>
+        <table>
+          <thead>
+            <tr>
+              <th>Adres</th>
+              <th>Cena</th>
+              <th>Cena/m2</th>
+              <th>Dom (m2)</th>
+              <th>Dzialka (m2)</th>
+              <th>Zrodlo</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
         <tr>
           <td>ul. Kościelna, Skrzeszew, gmina Wieliszew, powiat legionowski</td>
           <td>1199000 zl</td>
@@ -109,7 +234,7 @@
           <td>102</td>
           <td>700</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-wieliszew-skrzeszew-ul-koscielna-q4t4m4" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-wieliszew-skrzeszew-ul-koscielna-q4t4m4" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Chotomów, ul. Bagienna, mazowieckie</td>
@@ -118,7 +243,7 @@
           <td>180</td>
           <td>500</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://chotomow.nieruchomosci-online.pl/dom,na-sprzedaz/26940471.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://chotomow.nieruchomosci-online.pl/dom,na-sprzedaz/26940471.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Arena, Legionowo, legionowski, mazowieckie</td>
@@ -127,7 +252,7 @@
           <td>131</td>
           <td>450</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26939094.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26939094.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Grudzie, Bukowiec, Legionowo, mazowieckie</td>
@@ -136,7 +261,7 @@
           <td>111.55</td>
           <td>320</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26699683.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26699683.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Warszawska, Legionowo, mazowieckie</td>
@@ -145,7 +270,7 @@
           <td>85</td>
           <td>568</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom-wolnostojacy,z-parkingiem/26936299.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom-wolnostojacy,z-parkingiem/26936299.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Brzozowa, Legionowo, mazowieckie</td>
@@ -154,7 +279,7 @@
           <td>136.62</td>
           <td>140</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26936788.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26936788.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Złotej Renaty, Jabłonna, legionowski, mazowieckie</td>
@@ -163,22 +288,28 @@
           <td>32-110</td>
           <td>-</td>
           <td>rynekpierwotny</td>
-          <td><a href="https://rynekpierwotny.pl/oferty/pk-development-sp-z-oo/zlota-jablonna-legionowski-jablonna-19374/" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://rynekpierwotny.pl/oferty/pk-development-sp-z-oo/zlota-jablonna-legionowski-jablonna-19374/" target="_blank" rel="noopener">link</a></td>
         </tr>
-        </tbody>
-      </table>
+          </tbody>
+        </table>
       </div>
     </section>
-    <section>
+    <section class="date-section">
       <h2 class="date-heading">Oferty z dnia 1 września 2026 (1 oferta)</h2>
       <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Adres</th><th>Cena</th><th>Cena/m2</th><th>Dom (m2)</th><th>Działka (m2)</th><th>Źródło</th><th>Link</th>
-          </tr>
-        </thead>
-        <tbody>
+        <table>
+          <thead>
+            <tr>
+              <th>Adres</th>
+              <th>Cena</th>
+              <th>Cena/m2</th>
+              <th>Dom (m2)</th>
+              <th>Dzialka (m2)</th>
+              <th>Zrodlo</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
         <tr>
           <td>Warszawa, Białołęka, Dębowa</td>
           <td>900000 zl</td>
@@ -186,22 +317,28 @@
           <td>125</td>
           <td>150</td>
           <td>domiporta</td>
-          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-warszawa-bialoleka-debowa-125m2/156802468" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-warszawa-bialoleka-debowa-125m2/156802468" target="_blank" rel="noopener">link</a></td>
         </tr>
-        </tbody>
-      </table>
+          </tbody>
+        </table>
       </div>
     </section>
-    <section>
+    <section class="date-section">
       <h2 class="date-heading">Oferty z dnia 30 sierpnia 2026 (11 ofert)</h2>
       <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Adres</th><th>Cena</th><th>Cena/m2</th><th>Dom (m2)</th><th>Działka (m2)</th><th>Źródło</th><th>Link</th>
-          </tr>
-        </thead>
-        <tbody>
+        <table>
+          <thead>
+            <tr>
+              <th>Adres</th>
+              <th>Cena</th>
+              <th>Cena/m2</th>
+              <th>Dom (m2)</th>
+              <th>Dzialka (m2)</th>
+              <th>Zrodlo</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
         <tr>
           <td>ul. Flory, Warszawa Wesoła</td>
           <td>1150000 zl</td>
@@ -209,7 +346,7 @@
           <td>170</td>
           <td>244</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-warszawa-ul-flory-u6h0f0" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-warszawa-ul-flory-u6h0f0" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Łosia Wólka, gmina Czosnów, powiat nowodworski</td>
@@ -218,7 +355,7 @@
           <td>173</td>
           <td>800</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-czosnow-losia-wolka-173-m2-y1y8l2" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-czosnow-losia-wolka-173-m2-y1y8l2" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Przytorowa, Pomiechówek, powiat nowodworski</td>
@@ -227,7 +364,7 @@
           <td>75</td>
           <td>866</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-pomiechowek-ul-przytorowa-t2f5w8" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-pomiechowek-ul-przytorowa-t2f5w8" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Akacjowa, Kaliszki, gmina Czosnów, powiat nowodworski</td>
@@ -236,7 +373,7 @@
           <td>115</td>
           <td>1352</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-czosnow-kaliszki-ul-akacjowa-z2o7q6" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-czosnow-kaliszki-ul-akacjowa-z2o7q6" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Legionowo, Krakusa</td>
@@ -245,7 +382,7 @@
           <td>85.28</td>
           <td>270</td>
           <td>domiporta</td>
-          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-krakusa-85m2/156577002" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-krakusa-85m2/156577002" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Legionowo, Wola Aleksandra, mazowieckie</td>
@@ -254,7 +391,7 @@
           <td>135</td>
           <td>440</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26921251.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26921251.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Księżycowa, Chotomów, Jabłonna, legionowski, mazowieckie</td>
@@ -263,7 +400,7 @@
           <td>225</td>
           <td>725</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://chotomow.nieruchomosci-online.pl/dom-wolnostojacy,z-garazem/25078151.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://chotomow.nieruchomosci-online.pl/dom-wolnostojacy,z-garazem/25078151.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Brzegowa, Łomianki Dolne, mazowieckie</td>
@@ -272,7 +409,7 @@
           <td>100</td>
           <td>450</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26729699.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26729699.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Aleja Legionów, Legionowo, mazowieckie</td>
@@ -281,7 +418,7 @@
           <td>127</td>
           <td>25</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26921894.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26921894.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Aleja Legionów, Legionowo, mazowieckie</td>
@@ -290,7 +427,7 @@
           <td>127</td>
           <td>25</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26921891.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26921891.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Legionowo, legionowski, mazowieckie</td>
@@ -299,22 +436,28 @@
           <td>86</td>
           <td>-</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26196904.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26196904.html" target="_blank" rel="noopener">link</a></td>
         </tr>
-        </tbody>
-      </table>
+          </tbody>
+        </table>
       </div>
     </section>
-    <section>
+    <section class="date-section">
       <h2 class="date-heading">Oferty z dnia 25 sierpnia 2026 (14 ofert)</h2>
       <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Adres</th><th>Cena</th><th>Cena/m2</th><th>Dom (m2)</th><th>Działka (m2)</th><th>Źródło</th><th>Link</th>
-          </tr>
-        </thead>
-        <tbody>
+        <table>
+          <thead>
+            <tr>
+              <th>Adres</th>
+              <th>Cena</th>
+              <th>Cena/m2</th>
+              <th>Dom (m2)</th>
+              <th>Dzialka (m2)</th>
+              <th>Zrodlo</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
         <tr>
           <td>Łomianki Dolne, Łomianki, warszawski zachodni, mazowieckie</td>
           <td>1 049 000 zł</td>
@@ -322,7 +465,7 @@
           <td>157</td>
           <td>480</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26464970.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26464970.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Grudzie, Legionowo, mazowieckie</td>
@@ -331,7 +474,7 @@
           <td>148</td>
           <td>200</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26612946.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26612946.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Chotomów, ul. Bagienna, Jabłonna, legionowski, mazowieckie</td>
@@ -340,7 +483,7 @@
           <td>180</td>
           <td>500</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://chotomow.nieruchomosci-online.pl/dom,na-sprzedaz/26906091.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://chotomow.nieruchomosci-online.pl/dom,na-sprzedaz/26906091.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Chotomów, ul. Bagienna, Jabłonna, legionowski, mazowieckie</td>
@@ -349,7 +492,7 @@
           <td>180</td>
           <td>500</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://chotomow.nieruchomosci-online.pl/dom,na-sprzedaz/26906092.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://chotomow.nieruchomosci-online.pl/dom,na-sprzedaz/26906092.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Langiewicza, Legionowo, mazowieckie</td>
@@ -358,7 +501,7 @@
           <td>131</td>
           <td>450</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26843457.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26843457.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Elsnera 33c, Łomianki Dolne, Łomianki, warszawski zachodni, mazowieckie</td>
@@ -367,7 +510,7 @@
           <td>96,24</td>
           <td>375</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26825654.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26825654.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Grudzie, Legionowo, mazowieckie</td>
@@ -376,7 +519,7 @@
           <td>137,37</td>
           <td>392</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26735756.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26735756.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Chotomów, Jabłonna, legionowski, mazowieckie</td>
@@ -385,7 +528,7 @@
           <td>159,50</td>
           <td>1108</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://chotomow.nieruchomosci-online.pl/umeblowany,dom-wolnostojacy/26783236.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://chotomow.nieruchomosci-online.pl/umeblowany,dom-wolnostojacy/26783236.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Legionowo, legionowski, mazowieckie</td>
@@ -394,7 +537,7 @@
           <td>200</td>
           <td>487</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom-wolnostojacy,podpiwniczony/25047023.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom-wolnostojacy,podpiwniczony/25047023.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Brzegowa, Kępa Kiełpińska, Łomianki, warszawski zachodni, mazowieckie</td>
@@ -403,7 +546,7 @@
           <td>290</td>
           <td>2600</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://kepa-kielpinska.nieruchomosci-online.pl/dom-wolnostojacy,z-parkingiem/25696421.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://kepa-kielpinska.nieruchomosci-online.pl/dom-wolnostojacy,z-parkingiem/25696421.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Legionowo, legionowski, mazowieckie</td>
@@ -412,7 +555,7 @@
           <td>115</td>
           <td>495</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26499045.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26499045.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Kolejowa, Łajski, Legionowo, mazowieckie</td>
@@ -421,7 +564,7 @@
           <td>118,43</td>
           <td>130</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26687230.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26687230.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Kolejowa, Legionowo, legionowski, mazowieckie</td>
@@ -430,7 +573,7 @@
           <td>105,60</td>
           <td>25</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26531001.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26531001.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Gościnna, Stanisławów Drugi, Nieporęt, legionowski, mazowieckie</td>
@@ -439,22 +582,28 @@
           <td>125,93</td>
           <td>430</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://stanislawow-drugi.nieruchomosci-online.pl/dom,na-sprzedaz/26768229.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://stanislawow-drugi.nieruchomosci-online.pl/dom,na-sprzedaz/26768229.html" target="_blank" rel="noopener">link</a></td>
         </tr>
-        </tbody>
-      </table>
+          </tbody>
+        </table>
       </div>
     </section>
-    <section>
+    <section class="date-section">
       <h2 class="date-heading">Oferty z dnia 24 sierpnia 2026 (6 ofert)</h2>
       <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Adres</th><th>Cena</th><th>Cena/m2</th><th>Dom (m2)</th><th>Działka (m2)</th><th>Źródło</th><th>Link</th>
-          </tr>
-        </thead>
-        <tbody>
+        <table>
+          <thead>
+            <tr>
+              <th>Adres</th>
+              <th>Cena</th>
+              <th>Cena/m2</th>
+              <th>Dom (m2)</th>
+              <th>Dzialka (m2)</th>
+              <th>Zrodlo</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
         <tr>
           <td>ul. gen. Józefa Zajączka, Marki, powiat wołomiński</td>
           <td>1050000 zl</td>
@@ -462,7 +611,7 @@
           <td>120</td>
           <td>685</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-marki-ul-gen-jozefa-zajaczka-q5p4d6" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-marki-ul-gen-jozefa-zajaczka-q5p4d6" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Zegrzyńska, Dosin, gmina Serock, powiat legionowski</td>
@@ -471,7 +620,7 @@
           <td>70</td>
           <td>691</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-serock-dosin-ul-zegrzynska-f1u8e9" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-serock-dosin-ul-zegrzynska-f1u8e9" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Radzymin, powiat wołomiński</td>
@@ -480,7 +629,7 @@
           <td>84.30</td>
           <td>782</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-radzymin-84-m2-k6p6f2" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-radzymin-84-m2-k6p6f2" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Kobyłka, powiat wołomiński</td>
@@ -489,7 +638,7 @@
           <td>68</td>
           <td>180</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-kobylka-68-m2-j7a2s6" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-kobylka-68-m2-j7a2s6" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Rodzinna, Słupno, gmina Radzymin, powiat wołomiński</td>
@@ -498,7 +647,7 @@
           <td>117.2</td>
           <td>316</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-radzymin-slupno-ul-rodzinna-a4i3t2" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-radzymin-slupno-ul-rodzinna-a4i3t2" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Piaskowa, Jabłonna, powiat legionowski</td>
@@ -507,22 +656,28 @@
           <td>122</td>
           <td>277</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-jablonna-ul-piaskowa-m1f0w6" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-jablonna-ul-piaskowa-m1f0w6" target="_blank" rel="noopener">link</a></td>
         </tr>
-        </tbody>
-      </table>
+          </tbody>
+        </table>
       </div>
     </section>
-    <section>
+    <section class="date-section">
       <h2 class="date-heading">Oferty z dnia 15 sierpnia 2026 (33 ofert)</h2>
       <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Adres</th><th>Cena</th><th>Cena/m2</th><th>Dom (m2)</th><th>Działka (m2)</th><th>Źródło</th><th>Link</th>
-          </tr>
-        </thead>
-        <tbody>
+        <table>
+          <thead>
+            <tr>
+              <th>Adres</th>
+              <th>Cena</th>
+              <th>Cena/m2</th>
+              <th>Dom (m2)</th>
+              <th>Dzialka (m2)</th>
+              <th>Zrodlo</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
         <tr>
           <td>ul. Jesionowa, Słupno Nowe, gmina Radzymin, powiat wołomiński</td>
           <td>1 100 000 zł</td>
@@ -530,7 +685,7 @@
           <td>124</td>
           <td>441</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-radzymin-slupno-ul-jesionowa-x1k1z2" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-radzymin-slupno-ul-jesionowa-x1k1z2" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. gen. Józefa Hallera, Radzymin, powiat wołomiński</td>
@@ -539,7 +694,7 @@
           <td>80</td>
           <td>380</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-radzymin-ul-gen-jozefa-hallera-p6z9s8" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-radzymin-ul-gen-jozefa-hallera-p6z9s8" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Łomianki Dolne, Łomianki, warszawski zachodni, mazowieckie</td>
@@ -548,7 +703,7 @@
           <td>157</td>
           <td>480</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26461589.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26461589.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Łomianki Dolne, Łomianki, warszawski zachodni, mazowieckie</td>
@@ -557,7 +712,7 @@
           <td>157</td>
           <td>480</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26464969.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26464969.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Łomianki Dolne, Łomianki, warszawski zachodni, mazowieckie</td>
@@ -566,7 +721,7 @@
           <td>157</td>
           <td>480</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26464968.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26464968.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Mazowiecka, Legionowo, mazowieckie</td>
@@ -575,7 +730,7 @@
           <td>157,20</td>
           <td>40</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26778487.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26778487.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Chotomów, Jabłonna, legionowski, mazowieckie</td>
@@ -584,7 +739,7 @@
           <td>116,80</td>
           <td>500</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://chotomow.nieruchomosci-online.pl/dom,na-sprzedaz/26861682.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://chotomow.nieruchomosci-online.pl/dom,na-sprzedaz/26861682.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Grudzie, Legionowo, mazowieckie</td>
@@ -593,7 +748,7 @@
           <td>137,37</td>
           <td>382</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26735757.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26735757.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Łomianki Dolne, Łomianki, warszawski zachodni, mazowieckie</td>
@@ -602,7 +757,7 @@
           <td>142</td>
           <td>650</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom-wolnostojacy,z-balkonem/25883019.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom-wolnostojacy,z-balkonem/25883019.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Brzegowa, Łomianki Dolne, mazowieckie</td>
@@ -611,7 +766,7 @@
           <td>151</td>
           <td>1000</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26892467.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26892467.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Bałtycka, Legionowo, mazowieckie</td>
@@ -620,7 +775,7 @@
           <td>141,12</td>
           <td>295</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom-wolnostojacy,z-balkonem/26582868.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom-wolnostojacy,z-balkonem/26582868.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Grudzie, Legionowo, mazowieckie</td>
@@ -629,7 +784,7 @@
           <td>229,88</td>
           <td>307</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26735758.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26735758.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Narutowicza, Piaski, Legionowo, mazowieckie</td>
@@ -638,7 +793,7 @@
           <td>85,40</td>
           <td>21</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/25581092.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/25581092.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Brzegowa, Łomianki Dolne, mazowieckie</td>
@@ -647,7 +802,7 @@
           <td>100</td>
           <td>450</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26728805.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26728805.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Grudzie, Bukowiec, Legionowo, mazowieckie</td>
@@ -656,7 +811,7 @@
           <td>99,40</td>
           <td>320</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26688759.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26688759.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Krakusa, Legionowo, mazowieckie</td>
@@ -665,7 +820,7 @@
           <td>85,28</td>
           <td>270</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26837333.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26837333.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Legionowo, legionowski, mazowieckie</td>
@@ -674,7 +829,7 @@
           <td>83,92</td>
           <td>30</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26306164.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26306164.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Kolejowa, Łajski, Legionowo, mazowieckie</td>
@@ -683,7 +838,7 @@
           <td>118,43</td>
           <td>130</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26687145.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26687145.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Grudzie, Bukowiec, Legionowo, mazowieckie</td>
@@ -692,7 +847,7 @@
           <td>112,44</td>
           <td>320</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26688760.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26688760.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Kiełpin, Łomianki, warszawski zachodni, mazowieckie</td>
@@ -701,7 +856,7 @@
           <td>126</td>
           <td>470</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://kielpin.nieruchomosci-online.pl/dom,na-sprzedaz/26805715.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://kielpin.nieruchomosci-online.pl/dom,na-sprzedaz/26805715.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Kolejowa, Legionowo, mazowieckie</td>
@@ -710,7 +865,7 @@
           <td>109,78</td>
           <td>38</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26671553.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26671553.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Kolejowa, Legionowo, mazowieckie</td>
@@ -719,7 +874,7 @@
           <td>105,66</td>
           <td>30</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26453882.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26453882.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Parkowa 10, Przystanek, Legionowo, mazowieckie</td>
@@ -728,7 +883,7 @@
           <td>90,69</td>
           <td>147</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26615699.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26615699.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Parkowa 10, Przystanek, Legionowo, mazowieckie</td>
@@ -737,7 +892,7 @@
           <td>90,69</td>
           <td>186</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26615698.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26615698.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Parkowa 10, Przystanek, Legionowo, mazowieckie</td>
@@ -746,7 +901,7 @@
           <td>90,69</td>
           <td>185</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26615836.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26615836.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Parkowa, Przystanek, Legionowo, mazowieckie</td>
@@ -755,7 +910,7 @@
           <td>90,69</td>
           <td>186</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26615700.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26615700.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Legionowo, legionowski, mazowieckie</td>
@@ -764,7 +919,7 @@
           <td>85,56</td>
           <td>30</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26236996.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26236996.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Kościelna Droga, Łomianki Dolne, mazowieckie</td>
@@ -773,7 +928,7 @@
           <td>85,65</td>
           <td>332</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26601579.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26601579.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Krzyczkowskiego, Kiełpin, Łomianki, warszawski zachodni, mazowieckie</td>
@@ -782,7 +937,7 @@
           <td>210</td>
           <td>898</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://kielpin.nieruchomosci-online.pl/dom-wolnostojacy,do-remontu/26848701.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://kielpin.nieruchomosci-online.pl/dom-wolnostojacy,do-remontu/26848701.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Stanisławów Pierwszy, ul. Przyszłość, mazowieckie</td>
@@ -791,7 +946,7 @@
           <td>133</td>
           <td>420-450</td>
           <td>olx</td>
-          <td><a href="https://www.olx.pl/d/oferta/sprzedam-dom-blizniak-stanislawow-pierwszy-CID3-ID1aequt.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://www.olx.pl/d/oferta/sprzedam-dom-blizniak-stanislawow-pierwszy-CID3-ID1aequt.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Langiewicza 4, Legionowo, mazowieckie</td>
@@ -800,7 +955,7 @@
           <td>131</td>
           <td>238</td>
           <td>olx</td>
-          <td><a href="https://www.olx.pl/d/oferta/nowoczesny-dom-w-zielonym-centrum-legionowa-131-m-ul-langiewicza-4-CID3-ID1bv0E1.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://www.olx.pl/d/oferta/nowoczesny-dom-w-zielonym-centrum-legionowa-131-m-ul-langiewicza-4-CID3-ID1bv0E1.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Chotomów, ul. Tulipanowa, mazowieckie</td>
@@ -809,7 +964,7 @@
           <td>116,8</td>
           <td>500</td>
           <td>olx</td>
-          <td><a href="https://www.olx.pl/d/oferta/chotomow-dom-blizniaczy-116-8-m-osiedle-tulipanowa-promocja-CID3-ID12g9iE.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://www.olx.pl/d/oferta/chotomow-dom-blizniaczy-116-8-m-osiedle-tulipanowa-promocja-CID3-ID12g9iE.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Osiedle Rajska, ul. Rajska, Chotomów, mazowieckie</td>
@@ -818,22 +973,28 @@
           <td>122,73</td>
           <td>800</td>
           <td>olx</td>
-          <td><a href="https://www.olx.pl/d/oferta/chotomow-dom-jednorodzinny-122-73-m-osiedle-rajska-CID3-IDKdfGp.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://www.olx.pl/d/oferta/chotomow-dom-jednorodzinny-122-73-m-osiedle-rajska-CID3-IDKdfGp.html" target="_blank" rel="noopener">link</a></td>
         </tr>
-        </tbody>
-      </table>
+          </tbody>
+        </table>
       </div>
     </section>
-    <section>
+    <section class="date-section">
       <h2 class="date-heading">Oferty z dnia 12 sierpnia 2026 (56 ofert)</h2>
       <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Adres</th><th>Cena</th><th>Cena/m2</th><th>Dom (m2)</th><th>Działka (m2)</th><th>Źródło</th><th>Link</th>
-          </tr>
-        </thead>
-        <tbody>
+        <table>
+          <thead>
+            <tr>
+              <th>Adres</th>
+              <th>Cena</th>
+              <th>Cena/m2</th>
+              <th>Dom (m2)</th>
+              <th>Dzialka (m2)</th>
+              <th>Zrodlo</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
         <tr>
           <td>ul. Trakt Królewski, Borzęcin Duży</td>
           <td>1 050 000 zł</td>
@@ -841,7 +1002,7 @@
           <td>128</td>
           <td>300</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-stare-babice-borzecin-duzy-ul-trakt-krolewski-r2v3w0" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-stare-babice-borzecin-duzy-ul-trakt-krolewski-r2v3w0" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Kobiałka, Warszawa Białołęka</td>
@@ -850,7 +1011,7 @@
           <td>170</td>
           <td>50</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-warszawa-ul-kobialka-r6p2e3" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-warszawa-ul-kobialka-r6p2e3" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Jana Sobieskiego, Ząbki</td>
@@ -859,7 +1020,7 @@
           <td>104,6</td>
           <td>976</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-zabki-ul-jana-sobieskiego-b7q9t1" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-zabki-ul-jana-sobieskiego-b7q9t1" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Wieliszew</td>
@@ -868,7 +1029,7 @@
           <td>113</td>
           <td>400</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-wieliszew-113-m2-y1c5z4" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-wieliszew-113-m2-y1c5z4" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Arbuzowa, Dosin</td>
@@ -877,7 +1038,7 @@
           <td>110,39</td>
           <td>536</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-serock-dosin-ul-arbuzowa-j8j4z4" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-serock-dosin-ul-arbuzowa-j8j4z4" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Leszka, Kobyłka</td>
@@ -886,7 +1047,7 @@
           <td>151</td>
           <td>582</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-kobylka-ul-leszka-z1h1r6" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-kobylka-ul-leszka-z1h1r6" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Nowy Dwór Mazowiecki</td>
@@ -895,7 +1056,7 @@
           <td>200</td>
           <td>687</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-nowy-dwor-mazowiecki-200-m2-m0m4h6" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-nowy-dwor-mazowiecki-200-m2-m0m4h6" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Wenecka, Jabłonna Zacisze</td>
@@ -904,7 +1065,7 @@
           <td>126</td>
           <td>560</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-jablonna-ul-wenecka-q0t6n5" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-jablonna-ul-wenecka-q0t6n5" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Rembelszczyzna</td>
@@ -913,7 +1074,7 @@
           <td>118,92</td>
           <td>329</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-nieporet-rembelszczyzna-118-m2-t7f0a0" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-nieporet-rembelszczyzna-118-m2-t7f0a0" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Marynino</td>
@@ -922,7 +1083,7 @@
           <td>124,08</td>
           <td>800</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-serock-marynino-124-m2-g8v3v3" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-serock-marynino-124-m2-g8v3v3" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Serock</td>
@@ -931,7 +1092,7 @@
           <td>153</td>
           <td>252</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-serock-153-m2-l6n5o4" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-serock-153-m2-l6n5o4" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Warszawa Wawer</td>
@@ -940,7 +1101,7 @@
           <td>72</td>
           <td>167</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-warszawa-72-m2-t9n5f8" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-warszawa-72-m2-t9n5f8" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Ostródzka, Warszawa Białołęka</td>
@@ -949,7 +1110,7 @@
           <td>120</td>
           <td>220</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-warszawa-ul-ostrodzka-k1h8e3" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-warszawa-ul-ostrodzka-k1h8e3" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Grunwaldzka, Marki</td>
@@ -958,7 +1119,7 @@
           <td>156</td>
           <td>495</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-marki-ul-grunwaldzka-q3o9t2" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-marki-ul-grunwaldzka-q3o9t2" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Złota, Józefów</td>
@@ -967,7 +1128,7 @@
           <td>115</td>
           <td>375</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-nieporet-jozefow-ul-zlota-j5b8c1" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-nieporet-jozefow-ul-zlota-j5b8c1" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Zielonka</td>
@@ -976,7 +1137,7 @@
           <td>181,77</td>
           <td>444</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-zielonka-181-m2-m3q0h8" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-zielonka-181-m2-m3q0h8" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Wesoła, Kobyłka</td>
@@ -985,7 +1146,7 @@
           <td>100</td>
           <td>257</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-kobylka-ul-wesola-a6k5f2" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-kobylka-ul-wesola-a6k5f2" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Wspólna, Komornica</td>
@@ -994,7 +1155,7 @@
           <td>77</td>
           <td>869</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-wieliszew-komornica-ul-wspolna-s8t0h8" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-wieliszew-komornica-ul-wspolna-s8t0h8" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Poddębie, gmina Wieliszew</td>
@@ -1003,7 +1164,7 @@
           <td>45,9</td>
           <td>602</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-wieliszew-poddebie-45-m2-y9g6b5" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-wieliszew-poddebie-45-m2-y9g6b5" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Marki Czarna Struga</td>
@@ -1012,7 +1173,7 @@
           <td>100</td>
           <td>650</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-marki-100-m2-c1f7y7" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-marki-100-m2-c1f7y7" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Borówkowa, Dosin</td>
@@ -1021,7 +1182,7 @@
           <td>138</td>
           <td>696</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-serock-dosin-ul-borowkowa-y8u0r6" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-serock-dosin-ul-borowkowa-y8u0r6" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Bronowska, Warszawa Wawer</td>
@@ -1030,7 +1191,7 @@
           <td>60</td>
           <td>455</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-warszawa-ul-bronowska-n7z6v4" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-warszawa-ul-bronowska-n7z6v4" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Warszawa Rembertów</td>
@@ -1039,7 +1200,7 @@
           <td>50</td>
           <td>400</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-warszawa-50-m2-q2e4a1" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-warszawa-50-m2-q2e4a1" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Pogodna, Pomiechówek</td>
@@ -1048,7 +1209,7 @@
           <td>140</td>
           <td>782</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-pomiechowek-ul-pogodna-w0t3g8" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-pomiechowek-ul-pogodna-w0t3g8" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Olszewnica Stara</td>
@@ -1057,7 +1218,7 @@
           <td>117</td>
           <td>600</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-wieliszew-olszewnica-stara-117-m2-t9x8x0" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-wieliszew-olszewnica-stara-117-m2-t9x8x0" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Prymasa Stefana Wyszyńskiego, Zielonka</td>
@@ -1066,7 +1227,7 @@
           <td>82</td>
           <td>212</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-zielonka-ul-prymasa-stefana-wyszynskiego-f4q9v0" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-zielonka-ul-prymasa-stefana-wyszynskiego-f4q9v0" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Zielonka</td>
@@ -1075,7 +1236,7 @@
           <td>220</td>
           <td>430</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-zielonka-220-m2-n8f2s4" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-zielonka-220-m2-n8f2s4" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Szkolna, Jabłonna</td>
@@ -1084,7 +1245,7 @@
           <td>86</td>
           <td>2,52 ha</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-jablonna-ul-szkolna-n0c4d0" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-jablonna-ul-szkolna-n0c4d0" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Boża Wola, gmina Jabłonna, powiat legionowski</td>
@@ -1093,7 +1254,7 @@
           <td>248,72</td>
           <td>1 200</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-jablonna-boza-wola-248-m2-z2w0k5" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-jablonna-boza-wola-248-m2-z2w0k5" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>rondo Generała Józefa Hallera, Radzymin</td>
@@ -1102,7 +1263,7 @@
           <td>80</td>
           <td>380</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-radzymin-rondo-generala-jozefa-hallera-l7v5p5" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-radzymin-rondo-generala-jozefa-hallera-l7v5p5" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Wileńska, Legionowo Ludwisin</td>
@@ -1111,7 +1272,7 @@
           <td>65</td>
           <td>774</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-legionowo-ul-wilenska-d1s2j2" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-legionowo-ul-wilenska-d1s2j2" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Warszawa Wawer</td>
@@ -1120,7 +1281,7 @@
           <td>72</td>
           <td>198</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-warszawa-72-m2-w3j9k6" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-warszawa-72-m2-w3j9k6" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Wierzbica, gmina Serock, powiat legionowski</td>
@@ -1129,7 +1290,7 @@
           <td>120</td>
           <td>450</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-serock-wierzbica-120-m2-i0q1w4" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-serock-wierzbica-120-m2-i0q1w4" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Jana Brzechwy, Słupno</td>
@@ -1138,7 +1299,7 @@
           <td>90</td>
           <td>454</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-radzymin-slupno-ul-jana-brzechwy-h5d8h0" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-radzymin-slupno-ul-jana-brzechwy-h5d8h0" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. ks. Marcelego Weissa, Kobyłka</td>
@@ -1147,7 +1308,7 @@
           <td>86</td>
           <td>36</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-kobylka-ul-ks-marcelego-weissa-t5n4t9" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-kobylka-ul-ks-marcelego-weissa-t5n4t9" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Piaskowa 15A, Jabłonna</td>
@@ -1156,7 +1317,7 @@
           <td>122</td>
           <td>277</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-jablonna-ul-piaskowa-q0a2e2" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-jablonna-ul-piaskowa-q0a2e2" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>ul. Drozda, Skierdy, gmina Jabłonna, powiat legionowski</td>
@@ -1165,7 +1326,7 @@
           <td>142,65</td>
           <td>500</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-jablonna-skierdy-ul-drozda-i6b3b5" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-jablonna-skierdy-ul-drozda-i6b3b5" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Warszawa Białołęka</td>
@@ -1174,7 +1335,7 @@
           <td>60</td>
           <td>180</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-warszawa-60-m2-p8x2b8" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-warszawa-60-m2-p8x2b8" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>al. Kardynała Stefana Wyszyńskiego, Jabłonna</td>
@@ -1183,7 +1344,7 @@
           <td>133</td>
           <td>120</td>
           <td>adresowo</td>
-          <td><a href="https://adresowo.pl/o/dom-jablonna-al-kardynala-stefana-wyszynskiego-w2r9f7" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://adresowo.pl/o/dom-jablonna-al-kardynala-stefana-wyszynskiego-w2r9f7" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Łomianki, Kościelna Droga</td>
@@ -1192,7 +1353,7 @@
           <td>134,94</td>
           <td>506</td>
           <td>domiporta</td>
-          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-koscielna-droga-135m2/156236982" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-koscielna-droga-135m2/156236982" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Legionowo, Langiewicza</td>
@@ -1201,7 +1362,7 @@
           <td>131</td>
           <td>450</td>
           <td>domiporta</td>
-          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-langiewicza-131m2/156580628" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-langiewicza-131m2/156580628" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Kiełpin Poduchowny, Brzegowa</td>
@@ -1210,7 +1371,7 @@
           <td>155</td>
           <td>1 000</td>
           <td>domiporta</td>
-          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-kielpin-poduchowny-brzegowa-155m2/156333438" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-kielpin-poduchowny-brzegowa-155m2/156333438" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Łomianki</td>
@@ -1219,7 +1380,7 @@
           <td>173</td>
           <td>180</td>
           <td>domiporta</td>
-          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-173m2/156589216" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-173m2/156589216" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Łomianki</td>
@@ -1228,7 +1389,7 @@
           <td>172</td>
           <td>180</td>
           <td>domiporta</td>
-          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-172m2/156503453" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-172m2/156503453" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Józefów, Złota</td>
@@ -1237,7 +1398,7 @@
           <td>115,19</td>
           <td>375</td>
           <td>domiporta</td>
-          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-jozefow-zlota-115m2/156593317" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-jozefow-zlota-115m2/156593317" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Łomianki, Brzezińskiego</td>
@@ -1246,7 +1407,7 @@
           <td>134,94</td>
           <td>290</td>
           <td>domiporta</td>
-          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-brzezinskiego-135m2/156485476" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-brzezinskiego-135m2/156485476" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Łomianki, Brzezińskiego</td>
@@ -1255,7 +1416,7 @@
           <td>134,94</td>
           <td>318</td>
           <td>domiporta</td>
-          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-brzezinskiego-135m2/156485477" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-brzezinskiego-135m2/156485477" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Łomianki, Jarzębinowa</td>
@@ -1264,7 +1425,7 @@
           <td>125,14</td>
           <td>350</td>
           <td>domiporta</td>
-          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-jarzebinowa-125m2/156236979" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-jarzebinowa-125m2/156236979" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Jabłonna</td>
@@ -1273,7 +1434,7 @@
           <td>143</td>
           <td>500</td>
           <td>domiporta</td>
-          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-jablonna-143m2/156573671" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://www.domiporta.pl/nieruchomosci/sprzedam-dom-jablonna-143m2/156573671" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Piaskowa, Jabłonna, mazowieckie</td>
@@ -1282,7 +1443,7 @@
           <td>122</td>
           <td>230</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/26837163.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/26837163.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>1 Maja, Jabłonna, mazowieckie</td>
@@ -1291,7 +1452,7 @@
           <td>108</td>
           <td>549</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/26538995.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/26538995.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>1 Maja, Jabłonna, mazowieckie</td>
@@ -1300,7 +1461,7 @@
           <td>119</td>
           <td>300</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/26665031.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/26665031.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>1 Maja, Jabłonna, mazowieckie</td>
@@ -1309,7 +1470,7 @@
           <td>119</td>
           <td>347</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/26665029.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/26665029.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Jabłonna, legionowski, mazowieckie</td>
@@ -1318,7 +1479,7 @@
           <td>120,38</td>
           <td>336</td>
           <td>nieruchomosci-online</td>
-          <td><a href="https://jablonna.nieruchomosci-online.pl/dom-wolnostojacy,z-parkingiem/26689054.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://jablonna.nieruchomosci-online.pl/dom-wolnostojacy,z-parkingiem/26689054.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Jabłonna, mazowieckie</td>
@@ -1327,7 +1488,7 @@
           <td>120</td>
           <td>500</td>
           <td>olx</td>
-          <td><a href="https://www.olx.pl/d/oferta/sprzedam-dom-blizniak-120-m2-CID3-ID1bdlUT.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://www.olx.pl/d/oferta/sprzedam-dom-blizniak-120-m2-CID3-ID1bdlUT.html" target="_blank" rel="noopener">link</a></td>
         </tr>
         <tr>
           <td>Łomianki, ul. Wiejskiej i Rolniczej</td>
@@ -1336,15 +1497,15 @@
           <td>72</td>
           <td>765</td>
           <td>olx</td>
-          <td><a href="https://www.olx.pl/d/oferta/dom-z-duza-dzialka-w-centrum-lomianek-rog-ul-wiejskiej-i-rolniczej-CID3-ID1bDm83.html" target="_blank" rel="noopener">otwórz</a></td>
+          <td><a href="https://www.olx.pl/d/oferta/dom-z-duza-dzialka-w-centrum-lomianek-rog-ul-wiejskiej-i-rolniczej-CID3-ID1bDm83.html" target="_blank" rel="noopener">link</a></td>
         </tr>
-        </tbody>
-      </table>
+          </tbody>
+        </table>
       </div>
     </section>
-</main>
-<footer>
-  Watcher — dane pobierane automatycznie z serwisów ogłoszeniowych. Ceny i metraże mogą się zmienić na stronie źródłowej.
-</footer>
+  </main>
+  <footer>
+    Watcher automatyczny &middot; zrodla: otodom, nieruchomosci-online, olx, morizon, domiporta, adresowo, gethome, rynekpierwotny, oferty.net
+  </footer>
 </body>
 </html>

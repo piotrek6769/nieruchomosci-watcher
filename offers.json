@@ -512,6 +512,24 @@
       "cena_za_m2": "7521.29 zl/m2",
       "dom_m2": "111.55",
       "dzialka_m2": "320"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26950292.html",
+      "first_seen": "2026-09-08",
+      "adres": "Legionowo, legionowski, mazowieckie",
+      "cena": "799000 zl",
+      "cena_za_m2": "6746.60 zl/m2",
+      "dom_m2": "118.43",
+      "dzialka_m2": "-"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26949640.html",
+      "first_seen": "2026-09-08",
+      "adres": "Łajski, Legionowo, legionowski, mazowieckie",
+      "cena": "799000 zl",
+      "cena_za_m2": "6746.60 zl/m2",
+      "dom_m2": "118.43",
+      "dzialka_m2": "-"
     }
   ],
   "olx": [
@@ -1166,6 +1184,51 @@
       "cena_za_m2": "9857 zl/m2",
       "dom_m2": "70",
       "dzialka_m2": "489"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-lomianki-kielpin-118-m2-z9s1n6",
+      "first_seen": "2026-09-08",
+      "adres": "Kiełpin, gmina Łomianki, powiat warszawski zachodni",
+      "cena": "1180000 zl",
+      "cena_za_m2": "9988 zl/m2",
+      "dom_m2": "118.14",
+      "dzialka_m2": "277"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-legionowo-ul-zbigniewa-herberta-y4k9n6",
+      "first_seen": "2026-09-08",
+      "adres": "ul. Zbigniewa Herberta, Legionowo, powiat legionowski",
+      "cena": "899000 zl",
+      "cena_za_m2": "13831 zl/m2",
+      "dom_m2": "65",
+      "dzialka_m2": "90"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-warszawa-ul-wodniakow-f3e9d7",
+      "first_seen": "2026-09-08",
+      "adres": "ul. Wodniaków 9, Warszawa Wawer",
+      "cena": "1100000 zl",
+      "cena_za_m2": "7483 zl/m2",
+      "dom_m2": "147",
+      "dzialka_m2": "1075"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-marki-ul-leopolda-lisa-kuli-v5s4d8",
+      "first_seen": "2026-09-08",
+      "adres": "ul. Leopolda Lisa-Kuli, Marki, powiat wołomiński",
+      "cena": "1090000 zl",
+      "cena_za_m2": "8450 zl/m2",
+      "dom_m2": "129",
+      "dzialka_m2": "1000"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-kobylka-ul-radzyminska-u4x5r8",
+      "first_seen": "2026-09-08",
+      "adres": "ul. Radzymińska, Kobyłka Zalasek, powiat wołomiński",
+      "cena": "1050000 zl",
+      "cena_za_m2": "10160 zl/m2",
+      "dom_m2": "103.35",
+      "dzialka_m2": "50"
     }
   ],
   "gethome": [],
