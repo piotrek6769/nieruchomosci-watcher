@@ -581,3 +581,29 @@ bootstrapem).
 offers.json: rozbudowany z 130 do 137 ofert.
 index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-09-08 na górze z wyróżnieniem.
+
+## 2026-09-09 08:21 CEST
+
+Status per źródło:
+- otodom: error — HTTP 403 Forbidden (nadal zablokowane), 0 found, 0 new
+- nieruchomosci-online: ok, 6 found (wąski promień, tylko Jabłonna), 2 nowych URL-i,
+  oba odrzucone — przekroczyły limit 1 200 000 zł (Jabłonna/Szkolna 1 270 000 zł,
+  Jabłonna/Dereniowa 1 250 000 zł), 0 dodanych
+- olx: ok, 69 found, wszystkie to mirrory otodom.pl (zablokowane) — pominięte, 0 new
+- morizon: error — "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 36 found, 27 nowych URL-i, wszystkie 27 odrzucone — przekroczyły
+  limit 1 200 000 zł (ceny od 1 250 000 zł do 2 890 000 zł, w tym ponownie dwie
+  oferty "Osiedle Słoneczna 27-29" po 2 000 000 zł / 999 zł/m2), 0 dodanych
+- adresowo: ok, 39 found, 0 nowych URL-i (wszystkie już znane)
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert w podanych przez Ciebie kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development co poprzednio), 0 new
+- oferty-net: error — "Claude Code is unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budżetu (>1 200 000 zł) per źródło:
+nieruchomosci-online: 2, domiporta: 27.
+
+Nowe ogłoszenia dodane do offers.json: 0.
+Powiadomienie push: BRAK (żadna nowa oferta pod limitem budżetu).
+offers.json: bez zmian, 137 ofert.
+index.html: zregenerowany w pełni z aktualnego offers.json (bez zmian w treści poza
+znacznikiem czasu aktualizacji), sekcja 2026-09-08 nadal na górze z wyróżnieniem.
