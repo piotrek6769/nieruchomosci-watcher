@@ -530,6 +530,42 @@
       "cena_za_m2": "6746.60 zl/m2",
       "dom_m2": "118.43",
       "dzialka_m2": "-"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26956071.html",
+      "first_seen": "2026-09-14",
+      "adres": "Aleja Legionów, Legionowo, mazowieckie",
+      "cena": "899000 zl",
+      "cena_za_m2": "7078.74 zl/m2",
+      "dom_m2": "127",
+      "dzialka_m2": "25"
+    },
+    {
+      "url": "https://kielpin.nieruchomosci-online.pl/dom-wolnostojacy,do-remontu/26952383.html",
+      "first_seen": "2026-09-14",
+      "adres": "Krzyczkowskiego, Kiełpin, Łomianki, warszawski zachodni, mazowieckie",
+      "cena": "999000 zl",
+      "cena_za_m2": "4757.14 zl/m2",
+      "dom_m2": "210",
+      "dzialka_m2": "898"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26951527.html",
+      "first_seen": "2026-09-14",
+      "adres": "Legionowo, legionowski, mazowieckie",
+      "cena": "799000 zl",
+      "cena_za_m2": "6746.60 zl/m2",
+      "dom_m2": "118.43",
+      "dzialka_m2": "130"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26951506.html",
+      "first_seen": "2026-09-14",
+      "adres": "Legionowo, legionowski, mazowieckie",
+      "cena": "799000 zl",
+      "cena_za_m2": "6746.60 zl/m2",
+      "dom_m2": "118.43",
+      "dzialka_m2": "130"
     }
   ],
   "olx": [
@@ -1229,6 +1265,51 @@
       "cena_za_m2": "10160 zl/m2",
       "dom_m2": "103.35",
       "dzialka_m2": "50"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-warszawa-ul-poswietna-w8s6y6",
+      "first_seen": "2026-09-14",
+      "adres": "ul. Poświętna, Warszawa Rembertów",
+      "cena": "890000 zl",
+      "cena_za_m2": "12714 zl/m2",
+      "dom_m2": "70",
+      "dzialka_m2": "607"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-marki-ul-dluga-t1o1k2",
+      "first_seen": "2026-09-14",
+      "adres": "ul. Długa, Marki Struga, powiat wołomiński",
+      "cena": "925000 zl",
+      "cena_za_m2": "8150 zl/m2",
+      "dom_m2": "113.5",
+      "dzialka_m2": "225"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-wieliszew-topolina-ul-zabi-chor-d0f6j9",
+      "first_seen": "2026-09-14",
+      "adres": "ul. Żabi Chór, Topolina, gmina Wieliszew, powiat legionowski",
+      "cena": "750000 zl",
+      "cena_za_m2": "4310 zl/m2",
+      "dom_m2": "174",
+      "dzialka_m2": "2600"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-radzymin-stare-zalubice-60-m2-g9u7b8",
+      "first_seen": "2026-09-14",
+      "adres": "Stare Załubice, gmina Radzymin, powiat wołomiński",
+      "cena": "280000 zl",
+      "cena_za_m2": "4667 zl/m2",
+      "dom_m2": "60",
+      "dzialka_m2": "450"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-czosnow-cybulice-ul-borkowa-w1c1w6",
+      "first_seen": "2026-09-14",
+      "adres": "ul. Borkowa, Cybulice, gmina Czosnów, powiat nowodworski",
+      "cena": "599999 zl",
+      "cena_za_m2": "7500 zl/m2",
+      "dom_m2": "80",
+      "dzialka_m2": "1640"
     }
   ],
   "gethome": [],

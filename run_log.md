@@ -607,3 +607,39 @@ Powiadomienie push: BRAK (żadna nowa oferta pod limitem budżetu).
 offers.json: bez zmian, 137 ofert.
 index.html: zregenerowany w pełni z aktualnego offers.json (bez zmian w treści poza
 znacznikiem czasu aktualizacji), sekcja 2026-09-08 nadal na górze z wyróżnieniem.
+
+## 2026-09-14 (uruchomienie watchera)
+
+Status per źródło:
+- otodom: error — HTTP 403 Forbidden (nadal zablokowane), 0 found, 0 new
+- nieruchomosci-online: ok, 39 found, 12 nowych URL-i, 4 dodane (Aleja Legionów
+  Legionowo 899 000 zł; Kiełpin/Krzyczkowskiego 999 000 zł; Legionowo 26951527 i
+  26951506, oba 799 000 zł / 118,43 m2 — kolejny przypadek prawdopodobnego
+  duplikatu tej samej nieruchomości pod dwoma ID), 8 odrzuconych — przekroczyły
+  limit 1 200 000 zł (Legionowo/Projektowana 1 289 000 zł, Kiełpin Poduchowny/
+  Brzegowa 1 235 000 zł, Jabłonna/Dereniowa 1 250 000 zł, Łomianki Dolne/Kościelna
+  Droga 1 298 000 zł x2, Legionowo/Grudzie 1 250 000 zł, Kiełpin/Brzegowa
+  1 225 000 zł, Kępa Kiełpińska 1 345 000 zł)
+- olx: blocked — HTTP 403 Forbidden na stronie wyników (pierwszy raz zablokowana
+  cała strona wyników, nie tylko mirrory otodom), 0 found, 0 new
+- morizon: error — "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 36 found, 27 nowych URL-i, wszystkie 27 odrzucone — przekroczyły
+  limit 1 200 000 zł (ceny od 1 350 000 zł do 2 890 000 zł, w tym ponownie dwie
+  oferty "Osiedle Słoneczna 27-29" po 2 000 000 zł / 999 zł/m2), 0 dodanych
+- adresowo: ok, 39 found, 5 nowych URL-i, wszystkie pod limitem — dodane
+  (Warszawa Rembertów/Poświętna 890 000 zł; Marki Struga/Długa 925 000 zł;
+  Topolina/Żabi Chór 750 000 zł; Stare Załubice 280 000 zł; Cybulice/Borkowa
+  599 999 zł)
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert w podanych przez Ciebie kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development co poprzednio), 0 new
+- oferty-net: error — "Claude Code is unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budżetu (>1 200 000 zł) per źródło:
+nieruchomosci-online: 8, domiporta: 27.
+
+Nowe ogłoszenia dodane do offers.json: 9 (4 nieruchomosci-online, 5 adresowo).
+Powiadomienie push: WYSŁANE (9 genuinie nowych ogłoszeń, żadne źródło nie było
+bootstrapem).
+offers.json: rozbudowany z 137 do 146 ofert.
+index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-09-14 na górze z wyróżnieniem.
