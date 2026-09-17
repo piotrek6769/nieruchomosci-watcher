@@ -566,6 +566,33 @@
       "cena_za_m2": "6746.60 zl/m2",
       "dom_m2": "118.43",
       "dzialka_m2": "130"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom-wolnostojacy,z-garazem/26970273.html",
+      "first_seen": "2026-09-17",
+      "adres": "Warszawska, Legionowo, mazowieckie",
+      "cena": "670000 zl",
+      "cena_za_m2": "2576.92 zl/m2",
+      "dom_m2": "260",
+      "dzialka_m2": "525"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26970068.html",
+      "first_seen": "2026-09-17",
+      "adres": "Graniczna, Legionowo, mazowieckie",
+      "cena": "1199000 zl",
+      "cena_za_m2": "12457.14 zl/m2",
+      "dom_m2": "96.25",
+      "dzialka_m2": "110"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26967303.html",
+      "first_seen": "2026-09-17",
+      "adres": "Arena, Legionowo, legionowski, mazowieckie",
+      "cena": "999000 zl",
+      "cena_za_m2": "7625.95 zl/m2",
+      "dom_m2": "131",
+      "dzialka_m2": "450"
     }
   ],
   "olx": [

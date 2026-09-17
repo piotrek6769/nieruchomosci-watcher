@@ -643,3 +643,28 @@ bootstrapem).
 offers.json: rozbudowany z 137 do 146 ofert.
 index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-09-14 na górze z wyróżnieniem.
+
+## 2026-09-17 09:57 UTC
+
+Status per źródło:
+- otodom: blocked — HTTP 403 na stronie wyszukiwania, 0 found, 0 new
+- nieruchomosci-online: ok — 39 found (mid-range broad-radius), 8 new URLs, 3 pod cap dodane, 5 ponad cap odrzucone (1.289M, 1.235M, 1.27M, 1.298M x2 — dwa ostatnie to znów duplikat tej samej nieruchomości Kościelna Droga/Łomianki Dolne pod dwoma ID)
+- olx: blocked (effectively) — 65 linków znalezionych na stronie wyszukiwania, 100% to mirrory otodom.pl (0 natywnych olx.pl), więc niemożliwe do pobrania szczegółów — pominięte, 0 new
+- morizon: blocked — "unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok — 36 found, 27 new URLs, 0 pod cap dodane (wszystkie 27 ponad cap, 1.35M–2.89M; w tym ponownie "Osiedle Słoneczna 27-29" za 2.35M)
+- adresowo: ok — 38 found, 0 new (wszystkie już znane — kolejny "cichy dzień" jak 09-09)
+- gethome: ok — 0 found (brak ofert spełniających kryteria), 0 new
+- rynekpierwotny: ok — 1 found (ta sama inwestycja PK Development co poprzednio), 0 new
+- oferty-net: blocked — "unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu przekroczenia budżetu (>1.2M zł) per źródło:
+- nieruchomosci-online: 5
+- domiporta: 27
+
+Nowe ogłoszenia dodane i zgłoszone push: 3 (wszystkie nieruchomosci-online)
+1. Warszawska, Legionowo — 670000 zl — dom 260m2 / dzialka 525m2
+2. Graniczna, Legionowo — 1199000 zl — dom 96.25m2 / dzialka 110m2
+3. Arena, Legionowo — 999000 zl — dom 131m2 / dzialka 450m2
+
+offers.json: zaktualizowany (+3 wpisy, nieruchomosci-online: 63→66). Łącznie ofert: 149.
+index.html: zregenerowany (11 sekcji dat, najnowsza 17 września 2026 wyróżniona).
