@@ -593,6 +593,15 @@
       "cena_za_m2": "7625.95 zl/m2",
       "dom_m2": "131",
       "dzialka_m2": "450"
+    },
+    {
+      "url": "https://kielpin.nieruchomosci-online.pl/dom,na-sprzedaz/26975406.html",
+      "first_seen": "2026-09-18",
+      "adres": "Różana, Kiełpin, Łomianki, warszawski zachodni, mazowieckie",
+      "cena": "1099000 zl",
+      "cena_za_m2": "13571.25 zl/m2",
+      "dom_m2": "80.98",
+      "dzialka_m2": "400"
     }
   ],
   "olx": [
@@ -759,6 +768,15 @@
       "cena_za_m2": "7200 zl/m2",
       "dom_m2": "125",
       "dzialka_m2": "150"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-172m2/156823315",
+      "first_seen": "2026-09-18",
+      "adres": "Łomianki, mazowieckie",
+      "cena": "1199000 zl",
+      "cena_za_m2": "6970.93 zl/m2",
+      "dom_m2": "172",
+      "dzialka_m2": "180"
     }
   ],
   "adresowo": [

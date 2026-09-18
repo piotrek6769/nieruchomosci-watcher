@@ -668,3 +668,27 @@ Nowe ogłoszenia dodane i zgłoszone push: 3 (wszystkie nieruchomosci-online)
 
 offers.json: zaktualizowany (+3 wpisy, nieruchomosci-online: 63→66). Łącznie ofert: 149.
 index.html: zregenerowany (11 sekcji dat, najnowsza 17 września 2026 wyróżniona).
+
+## 2026-09-18 (lokalny czas uruchomienia)
+
+Status per źródło:
+- otodom: blocked — HTTP 403 na stronie wyszukiwania, 0 found, 0 new
+- nieruchomosci-online: ok — 40 found (mid-range broad-radius), 5 new URLs, 1 pod cap dodany, 4 ponad cap odrzucone (1.289M Projektowana Legionowo, 1.345M Kępa Kiełpińska, 1.235M Brzegowa Kiełpin Poduchowny, 1.25M Dereniowa Jabłonna)
+- olx: blocked (effectively) — 35 linków znalezionych na stronie wyszukiwania, 100% to mirrory otodom.pl (0 natywnych olx.pl), niemożliwe do pobrania szczegółów — pominięte, 0 new
+- morizon: blocked — "unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok — 36 found, 27 new URLs, 1 pod cap dodany, 26 ponad cap odrzucone (1.199M–2.89M, w tym ponownie "Osiedle Słoneczna 27-29" za 2.35M pod nowym ID 682936)
+- adresowo: ok — 39 found, 0 new (wszystkie już znane — kolejny "cichy dzień")
+- gethome: ok — 0 found (brak ofert spełniających kryteria), 0 new
+- rynekpierwotny: ok — 1 found (ta sama inwestycja PK Development co poprzednio), 0 new
+- oferty-net: blocked — "unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu przekroczenia budżetu (>1.2M zł) per źródło:
+- nieruchomosci-online: 4
+- domiporta: 26
+
+Nowe ogłoszenia dodane i zgłoszone push: 2
+1. Różana, Kiełpin, Łomianki (nieruchomosci-online) — 1099000 zl — dom 80.98m2 / dzialka 400m2
+2. Łomianki (domiporta) — 1199000 zl — dom 172m2 / dzialka 180m2
+
+offers.json: zaktualizowany (+2 wpisy: nieruchomosci-online 66→67, domiporta 12→13). Łącznie ofert: 151.
+index.html: zregenerowany (12 sekcji dat, najnowsza 18 września 2026 wyróżniona).
