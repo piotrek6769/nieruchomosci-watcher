@@ -602,6 +602,24 @@
       "cena_za_m2": "13571.25 zl/m2",
       "dom_m2": "80.98",
       "dzialka_m2": "400"
+    },
+    {
+      "url": "https://kielpin.nieruchomosci-online.pl/dom,na-sprzedaz/26979771.html",
+      "first_seen": "2026-09-21",
+      "adres": "Kiełpin, Łomianki, warszawski zachodni, mazowieckie",
+      "cena": "880000 zl",
+      "cena_za_m2": "6984.13 zl/m2",
+      "dom_m2": "126",
+      "dzialka_m2": "470"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom-wolnostojacy,nad-rzeka/26638133.html",
+      "first_seen": "2026-09-21",
+      "adres": "Warszawska, Legionowo, mazowieckie",
+      "cena": "1180000 zl",
+      "cena_za_m2": "6941.18 zl/m2",
+      "dom_m2": "170",
+      "dzialka_m2": "708"
     }
   ],
   "olx": [
@@ -772,6 +790,15 @@
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-172m2/156823315",
       "first_seen": "2026-09-18",
+      "adres": "Łomianki, mazowieckie",
+      "cena": "1199000 zl",
+      "cena_za_m2": "6970.93 zl/m2",
+      "dom_m2": "172",
+      "dzialka_m2": "180"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-172m2/156846384",
+      "first_seen": "2026-09-21",
       "adres": "Łomianki, mazowieckie",
       "cena": "1199000 zl",
       "cena_za_m2": "6970.93 zl/m2",
@@ -1355,6 +1382,24 @@
       "cena_za_m2": "7500 zl/m2",
       "dom_m2": "80",
       "dzialka_m2": "1640"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-pomiechowek-ul-mlodosci-s2e2g8",
+      "first_seen": "2026-09-21",
+      "adres": "ul. Młodości 5, Pomiechówek, powiat nowodworski",
+      "cena": "740000 zl",
+      "cena_za_m2": "6167 zl/m2",
+      "dom_m2": "120",
+      "dzialka_m2": "705"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-kobylka-105-m2-u9j0s5",
+      "first_seen": "2026-09-21",
+      "adres": "Kobyłka, powiat wołomiński",
+      "cena": "999000 zl",
+      "cena_za_m2": "9514 zl/m2",
+      "dom_m2": "105",
+      "dzialka_m2": "460"
     }
   ],
   "gethome": [],

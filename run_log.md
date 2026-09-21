@@ -692,3 +692,30 @@ Nowe ogłoszenia dodane i zgłoszone push: 2
 
 offers.json: zaktualizowany (+2 wpisy: nieruchomosci-online 66→67, domiporta 12→13). Łącznie ofert: 151.
 index.html: zregenerowany (12 sekcji dat, najnowsza 18 września 2026 wyróżniona).
+
+## 2026-09-21 (lokalny czas uruchomienia)
+
+Status per źródło:
+- otodom: blocked — HTTP 403 na stronie wyszukiwania, 0 found, 0 new
+- nieruchomosci-online: ok — 41 found (mid-range broad-radius), 10 new URLs, 2 pod cap dodane, 8 ponad cap odrzucone (1.289M Projektowana Legionowo, 1.298M Kościelna Droga Łomianki Dolne, 1.25M Dereniowa Jabłonna, 1.235M Brzegowa Kiełpin Poduchowny, 1.35M Kościelna Droga Łomianki Dolne, 1.25M Kępa Kiełpińska, 1.225M Brzegowa Kiełpin, 1.27M Szkolna Jabłonna)
+- olx: blocked (effectively) — 72 linki znalezione na stronie wyszukiwania, 100% to mirrory otodom.pl (0 natywnych olx.pl), niemożliwe do pobrania szczegółów — pominięte, 0 new
+- morizon: blocked — "unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok — 36 found, 26 new URLs, 1 pod cap dodany, 25 ponad cap odrzucone (1.199M–2.89M, w tym ponownie "Osiedle Słoneczna 27-29" za 2.35M pod ID 682936)
+- adresowo: ok — 39 found, 2 new URLs, 2 pod cap dodane (Pomiechówek/Młodości 740k, Kobyłka 999k)
+- gethome: ok — 0 found (brak ofert spełniających kryteria), 0 new
+- rynekpierwotny: ok — 1 found (ta sama inwestycja PK Development co poprzednio), 0 new
+- oferty-net: blocked — "unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu przekroczenia budżetu (>1.2M zł) per źródło:
+- nieruchomosci-online: 8
+- domiporta: 25
+
+Nowe ogłoszenia dodane i zgłoszone push: 5
+1. Kiełpin, Łomianki (nieruchomosci-online) — 880000 zl — dom 126m2 / dzialka 470m2
+2. Warszawska, Legionowo (nieruchomosci-online) — 1180000 zl — dom 170m2 / dzialka 708m2
+3. Łomianki (domiporta, nowe ID 156846384 — powtórka istniejącej oferty 156823315) — 1199000 zl — dom 172m2 / dzialka 180m2
+4. ul. Młodości 5, Pomiechówek (adresowo) — 740000 zl — dom 120m2 / dzialka 705m2
+5. Kobyłka (adresowo) — 999000 zl — dom 105m2 / dzialka 460m2
+
+offers.json: zaktualizowany (+5 wpisów: nieruchomosci-online 67→69, domiporta 13→14, adresowo 64→66). Łącznie ofert: 156.
+index.html: zregenerowany (13 sekcji dat, najnowsza 21 września 2026 wyróżniona).
