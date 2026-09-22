@@ -719,3 +719,28 @@ Nowe ogłoszenia dodane i zgłoszone push: 5
 
 offers.json: zaktualizowany (+5 wpisów: nieruchomosci-online 67→69, domiporta 13→14, adresowo 64→66). Łącznie ofert: 156.
 index.html: zregenerowany (13 sekcji dat, najnowsza 21 września 2026 wyróżniona).
+
+## 2026-09-22 (lokalny czas uruchomienia)
+
+Status per źródło:
+- otodom: blocked — HTTP 403 na stronie wyszukiwania, 0 found, 0 new
+- nieruchomosci-online: ok — pierwsza próba timeout (60s), retry udany — 5 found (wąski, ciasny promień jak 09-01/09-09), 1 new URL, 0 pod cap dodanych, 1 ponad cap odrzucony (1.25M, Dereniowa Jabłonna)
+- olx: blocked (effectively) — 72 linki znalezione na stronie wyszukiwania, 100% to mirrory otodom.pl (0 natywnych olx.pl), niemożliwe do pobrania szczegółów — pominięte, 0 new
+- morizon: blocked — "unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok — 35 found, 25 new URLs, 0 pod cap dodanych, 25 ponad cap odrzuconych (1.35M–2.89M, w tym ponownie "Osiedle Słoneczna 27-29" za 2.35M pod ID 682936)
+- adresowo: ok — 39 found, 3 new URLs, 3 pod cap dodane (Warszawa Rembertów 850k, Serock/Włoska 590k, Legionowo/Skorupki 849k)
+- gethome: ok — 0 found (brak ofert spełniających kryteria), 0 new
+- rynekpierwotny: ok — 1 found (ta sama inwestycja PK Development co poprzednio), 0 new
+- oferty-net: blocked — "unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu przekroczenia budżetu (>1.2M zł) per źródło:
+- nieruchomosci-online: 1
+- domiporta: 25
+
+Nowe ogłoszenia dodane i zgłoszone push: 3
+1. Rembertów, Warszawa (adresowo) — 850000 zl — dom 90m2 / dzialka 498m2
+2. ul. Włoska, Serock (adresowo) — 590000 zl — dom 50.2m2 / dzialka 1950m2
+3. ul. ks. Jana Ignacego Skorupki, Legionowo (adresowo) — 849000 zl — dom 110m2 / dzialka 888m2
+
+offers.json: zaktualizowany (+3 wpisy: adresowo 66→69). Łącznie ofert: 159.
+index.html: zregenerowany (14 sekcji dat, najnowsza 22 września 2026 wyróżniona).

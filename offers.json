@@ -1400,6 +1400,33 @@
       "cena_za_m2": "9514 zl/m2",
       "dom_m2": "105",
       "dzialka_m2": "460"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-warszawa-90-m2-f1i8t5",
+      "first_seen": "2026-09-22",
+      "adres": "Rembertów, Warszawa (Stary Rembertów)",
+      "cena": "850000 zl",
+      "cena_za_m2": "9444 zl/m2",
+      "dom_m2": "90",
+      "dzialka_m2": "498"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-serock-ul-wloska-f4e0e2",
+      "first_seen": "2026-09-22",
+      "adres": "ul. Wloska, Serock, powiat legionowski",
+      "cena": "590000 zl",
+      "cena_za_m2": "11753 zl/m2",
+      "dom_m2": "50.2",
+      "dzialka_m2": "1950"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-legionowo-ul-ks-jana-ignacego-skorupki-h1e5c6",
+      "first_seen": "2026-09-22",
+      "adres": "ul. ks. Jana Ignacego Skorupki, Legionowo, powiat legionowski",
+      "cena": "849000 zl",
+      "cena_za_m2": "7718 zl/m2",
+      "dom_m2": "110",
+      "dzialka_m2": "888"
     }
   ],
   "gethome": [],
