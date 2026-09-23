@@ -620,6 +620,24 @@
       "cena_za_m2": "6941.18 zl/m2",
       "dom_m2": "170",
       "dzialka_m2": "708"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26985143.html",
+      "first_seen": "2026-09-23",
+      "adres": "Skorupki, Legionowo, mazowieckie",
+      "cena": "849000 zl",
+      "cena_za_m2": "7718.18 zl/m2",
+      "dom_m2": "110",
+      "dzialka_m2": "888"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26985571.html",
+      "first_seen": "2026-09-23",
+      "adres": "Legionowo, legionowski, mazowieckie",
+      "cena": "1090000 zl",
+      "cena_za_m2": "7364.86 zl/m2",
+      "dom_m2": "148",
+      "dzialka_m2": "200"
     }
   ],
   "olx": [
@@ -676,6 +694,15 @@
       "cena_za_m2": "8 203,13 zł/m²",
       "dom_m2": "133",
       "dzialka_m2": "420-450"
+    },
+    {
+      "url": "https://www.olx.pl/d/oferta/nowe-domy-juz-gotowe-i-1-dom-wolnostojacy-lomianki-dabrowa-zobacz-bez-podatku-2-CID3-ID16fbu3.html",
+      "first_seen": "2026-09-23",
+      "adres": "Łomianki, mazowieckie",
+      "cena": "1095000 zl",
+      "cena_za_m2": "9358.97 zl/m2",
+      "dom_m2": "117",
+      "dzialka_m2": "250"
     }
   ],
   "domiporta": [
@@ -1427,6 +1454,33 @@
       "cena_za_m2": "7718 zl/m2",
       "dom_m2": "110",
       "dzialka_m2": "888"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-wieliszew-108-m2-y6n1t3",
+      "first_seen": "2026-09-23",
+      "adres": "Wieliszew, powiat legionowski",
+      "cena": "285000 zl",
+      "cena_za_m2": "2639 zl/m2",
+      "dom_m2": "108",
+      "dzialka_m2": "1000"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-radzymin-ul-weteranow-l0r6b0",
+      "first_seen": "2026-09-23",
+      "adres": "ul. Weteranów, Radzymin, powiat wołomiński",
+      "cena": "950000 zl",
+      "cena_za_m2": "8535 zl/m2",
+      "dom_m2": "111.3",
+      "dzialka_m2": "1541"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-pomiechowek-czarnowo-131-m2-x4c5u2",
+      "first_seen": "2026-09-23",
+      "adres": "Czarnowo, gmina Pomiechówek, powiat nowodworski",
+      "cena": "850000 zl",
+      "cena_za_m2": "6489 zl/m2",
+      "dom_m2": "131",
+      "dzialka_m2": "723"
     }
   ],
   "gethome": [],

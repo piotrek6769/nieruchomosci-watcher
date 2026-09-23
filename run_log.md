@@ -744,3 +744,31 @@ Nowe ogłoszenia dodane i zgłoszone push: 3
 
 offers.json: zaktualizowany (+3 wpisy: adresowo 66→69). Łącznie ofert: 159.
 index.html: zregenerowany (14 sekcji dat, najnowsza 22 września 2026 wyróżniona).
+
+## 2026-09-23 08:28 (lokalny czas uruchomienia)
+
+Status per źródło:
+- otodom: blocked — HTTP 403 na stronie wyszukiwania, 0 found, 0 new
+- nieruchomosci-online: ok — 39 found (ciasny promień), 5 new URLs, 2 pod cap dodane, 3 ponad cap odrzucone (1.289M Projektowana/Legionowo, 1.25M Kępa Kiełpińska, 1.27M Szkolna/Jabłonna)
+- olx: ok — strona wyszukiwania zadziałała, znaleziono linki głównie mirrory otodom.pl (zablokowane, pominięte) + 1 natywny link olx.pl/d/oferta — pod cap, dodany
+- morizon: blocked — "unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok — 35 found, 25 new URLs, 0 pod cap dodanych, 25 ponad cap odrzuconych (1.25M–2.89M, w tym ponownie "Osiedle Słoneczna 27-29" za 2.35M pod ID 682936)
+- adresowo: ok — 39 found, 3 new URLs, 3 pod cap dodane (Wieliszew 285k, Radzymin/Weteranów 950k, Pomiechówek/Czarnowo 850k)
+- gethome: ok — 0 found (brak ofert spełniających kryteria), 0 new
+- rynekpierwotny: ok — 1 found (ta sama inwestycja PK Development co poprzednio), 0 new
+- oferty-net: blocked — "unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu przekroczenia budżetu (>1.2M zł) per źródło:
+- nieruchomosci-online: 3
+- domiporta: 25
+
+Nowe ogłoszenia dodane i zgłoszone push: 6
+1. Skorupki, Legionowo (nieruchomosci-online) — 849000 zl — dom 110m2 / dzialka 888m2
+2. Legionowo, legionowski (nieruchomosci-online) — 1090000 zl — dom 148m2 / dzialka 200m2 (powtórka istniejącej oferty 26612946)
+3. Łomianki, Dąbrowa (olx) — 1095000 zl — dom 117m2 / dzialka 250m2
+4. Wieliszew (adresowo) — 285000 zl — dom 108m2 / dzialka 1000m2
+5. ul. Weteranów, Radzymin (adresowo) — 950000 zl — dom 111.3m2 / dzialka 1541m2
+6. Czarnowo, gmina Pomiechówek (adresowo) — 850000 zl — dom 131m2 / dzialka 723m2
+
+offers.json: zaktualizowany (+6 wpisów: nieruchomosci-online 69→71, olx 6→7, adresowo 69→72). Łącznie ofert: 165.
+index.html: zregenerowany (15 sekcji dat, najnowsza 23 września 2026 wyróżniona).
