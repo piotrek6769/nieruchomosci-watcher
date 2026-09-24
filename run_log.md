@@ -772,3 +772,25 @@ Nowe ogłoszenia dodane i zgłoszone push: 6
 
 offers.json: zaktualizowany (+6 wpisów: nieruchomosci-online 69→71, olx 6→7, adresowo 69→72). Łącznie ofert: 165.
 index.html: zregenerowany (15 sekcji dat, najnowsza 23 września 2026 wyróżniona).
+
+## 2026-09-24 10:29 (lokalny czas uruchomienia)
+
+Status per źródło:
+- otodom: blocked — HTTP 403 na stronie wyszukiwania, 0 found, 0 new
+- nieruchomosci-online: ok — 41 found (timeout na 1. próbie, sukces po retry), 7 new URLs, 0 pod cap dodanych, 7 ponad cap odrzuconych (1.225M–1.298M, ciasny klaster tuż nad limitem)
+- olx: error — timeout (60s) na obu próbach, pominięto na ten run
+- morizon: blocked — "unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok — 36 found, 25 new URLs, 0 pod cap dodanych, 25 ponad cap odrzuconych (1.3M–2.89M, w tym ponownie "Osiedle Słoneczna 27-29" za 2.35M pod ID 682936)
+- adresowo: ok — 39 found, 0 new URLs (wszystkie już znane)
+- gethome: ok — 0 found (brak ofert spełniających kryteria), 0 new
+- rynekpierwotny: ok — 1 found (ta sama inwestycja PK Development co poprzednio), 0 new
+- oferty-net: blocked — "unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu przekroczenia budżetu (>1.2M zł) per źródło:
+- nieruchomosci-online: 7
+- domiporta: 25
+
+Nowe ogłoszenia dodane i zgłoszone push: 0 (rzadki w pełni pusty run — wszystkie nowo znalezione URL-e ponad cap)
+
+offers.json: bez zmian (0 dodanych). Łącznie ofert: 165.
+index.html: zregenerowany (15 sekcji dat, znacznik czasu zaktualizowany, najnowsza 23 września 2026 nadal wyróżniona jako najświeższa).
