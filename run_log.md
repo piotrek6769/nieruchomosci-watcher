@@ -794,3 +794,28 @@ Nowe ogłoszenia dodane i zgłoszone push: 0 (rzadki w pełni pusty run — wszy
 
 offers.json: bez zmian (0 dodanych). Łącznie ofert: 165.
 index.html: zregenerowany (15 sekcji dat, znacznik czasu zaktualizowany, najnowsza 23 września 2026 nadal wyróżniona jako najświeższa).
+
+## 2026-09-28 08:38 (lokalny czas uruchomienia)
+
+Uwaga: offers.json zawierał 2 nieskomitowane wpisy sprzed tego runu (domiporta 156826475 Kiełpin/Różana i adresowo o6w6y8 Warszawa 72m2, oba first_seen 2026-09-25) — najwyraźniej z przerwanego/niedokończonego runu 09-25, którego nie było w historii commitów. Zachowano je i uwzględniono w porównaniu z nowymi URL-ami, dołączone do commita tego runu.
+
+Status per źródło:
+- otodom: blocked — HTTP 403 na stronie wyszukiwania, 0 found, 0 new
+- nieruchomosci-online: ok — 5 found, 1 new URL, 0 pod cap dodanych, 1 ponad cap odrzucony (1.25M)
+- olx: ok — 39 links, 38 otodom.pl mirrors (pominięte, zablokowane) + 1 olx.pl-native (już znany), 0 new
+- morizon: blocked — "unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok — 35 found, 24 new URLs, 1 pod cap dodany, 23 ponad cap odrzucone (1.299M–2.99M, w tym ponownie "Osiedle Słoneczna 27-29" za 2.35M pod ID 682936)
+- adresowo: ok — 39 found, 0 new URLs (wszystkie już znane; jeden wpis miał zniekształcony slug "konwaliowej" vs "konwaliowa" dla tego samego sufiksu u0f7c7 — potraktowano jako znany, nie nowy)
+- gethome: ok — 0 found (brak ofert spełniających kryteria), 0 new
+- rynekpierwotny: ok — 1 found (ta sama inwestycja PK Development co poprzednio), 0 new
+- oferty-net: blocked — "unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu przekroczenia budżetu (>1.2M zł) per źródło:
+- nieruchomosci-online: 1
+- domiporta: 23
+
+Nowe ogłoszenia dodane i zgłoszone push: 1
+1. Józefów, Orzechowa (domiporta) — 799000 zl — dom 113.9m2 / dzialka 170m2
+
+offers.json: zaktualizowany (+1 wpis tego runu, +2 wpisy z niedokończonego runu 09-25: domiporta 15→16, adresowo 72→73). Łącznie ofert: 168.
+index.html: zregenerowany (17 sekcji dat, najnowsza 28 września 2026 wyróżniona).

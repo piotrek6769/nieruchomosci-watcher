@@ -831,6 +831,24 @@
       "cena_za_m2": "6970.93 zl/m2",
       "dom_m2": "172",
       "dzialka_m2": "180"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-kielpin-rozana-81m2/156826475",
+      "first_seen": "2026-09-25",
+      "adres": "Kiełpin, Różana, mazowieckie",
+      "cena": "1 099 000 zł",
+      "cena_za_m2": "13 571,25 zł/m2",
+      "dom_m2": "80,98",
+      "dzialka_m2": "400"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-jozefow-orzechowa-114m2/156920086",
+      "first_seen": "2026-09-28",
+      "adres": "Józefów, Orzechowa, mazowieckie",
+      "cena": "799000 zl",
+      "cena_za_m2": "7014.93 zl/m2",
+      "dom_m2": "113.9",
+      "dzialka_m2": "170"
     }
   ],
   "adresowo": [
@@ -1481,6 +1499,15 @@
       "cena_za_m2": "6489 zl/m2",
       "dom_m2": "131",
       "dzialka_m2": "723"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-warszawa-72-m2-o6w6y8",
+      "first_seen": "2026-09-25",
+      "adres": "Warszawa Wawer",
+      "cena": "1 089 000 zł",
+      "cena_za_m2": "15 108 zł/m2",
+      "dom_m2": "72,08",
+      "dzialka_m2": "198"
     }
   ],
   "gethome": [],
