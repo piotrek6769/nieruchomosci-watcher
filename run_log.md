@@ -819,3 +819,35 @@ Nowe ogłoszenia dodane i zgłoszone push: 1
 
 offers.json: zaktualizowany (+1 wpis tego runu, +2 wpisy z niedokończonego runu 09-25: domiporta 15→16, adresowo 72→73). Łącznie ofert: 168.
 index.html: zregenerowany (17 sekcji dat, najnowsza 28 września 2026 wyróżniona).
+
+## 2026-09-29 09:37 (lokalny czas uruchomienia)
+
+Status per źródło:
+- otodom: blocked — HTTP 403 na stronie wyszukiwania, 0 found, 0 new
+- nieruchomosci-online: ok — 41 found, 6 new URLs, 1 pod cap dodany (Kolejowa, Legionowo, 899.9k), 5 ponad cap odrzuconych (1.235M–1.289M)
+- olx: ok — 39 links, 30 otodom.pl mirrors (pominięte) + 9 olx.pl-native, wszystkie 9 nowe i wszystkie 9 pod cap dodane — najlepszy haul olx.pl-native od dawna
+- morizon: blocked — "unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok — 36 found, 23 new URLs, 0 pod cap dodanych, 23 ponad cap odrzucone (1.299M–2.99M, w tym ponownie "Osiedle Słoneczna 27-29" za 2.35M pod ID 682936)
+- adresowo: ok — 39 found, 1 new URL, pod cap dodany (Borzęcin Duży/Ukośna, 1.15M)
+- gethome: ok — 0 found (brak ofert spełniających kryteria), 0 new
+- rynekpierwotny: ok — 1 found (ta sama inwestycja PK Development co poprzednio), 0 new
+- oferty-net: blocked — "unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu przekroczenia budżetu (>1.2M zł) per źródło:
+- nieruchomosci-online: 5
+- domiporta: 23
+
+Nowe ogłoszenia dodane i zgłoszone push: 10
+1. Kolejowa, Legionowo (nieruchomosci-online) — 899900 zl — dom 105.60m2 / dzialka 25m2
+2. ul. Parkowa, Legionowo (olx) — 830000 zl — dom 70m2 / dzialka 780m2
+3. Bukowiec, Legionowo (olx) — 880000 zl — dom 140m2 / dzialka 536m2
+4. ul. 1 Maja, Jabłonna (olx) — 1190000 zl — dom 119m2 / dzialka 410m2
+5. ul. Zbigniewa Herberta, Legionowo (olx) — 899000 zl — dom 65m2 / dzialka 90m2
+6. Równe, gmina Strachówka (olx) — 350000 zl — dom 70m2 / dzialka 900m2
+7. Warszawa, Białołęka - dom kontenerowy (olx) — 140000 zl — dom 72m2 / dzialka -
+8. Warszawa, Białołęka (olx) — 980000 zl — dom 120m2 / dzialka 200m2
+9. Izabelin-Dziekanówek (olx) — 749000 zl — dom 100m2 / dzialka 3600m2
+10. ul. Ukośna, Borzęcin Duży (adresowo) — 1150000 zl — dom 130.8m2 / dzialka 414m2
+
+offers.json: zaktualizowany (+10 wpisów: nieruchomosci-online 71→72, olx 7→15, adresowo 73→74). Łącznie ofert: 178.
+index.html: zregenerowany (18 sekcji dat, najnowsza 29 września 2026 wyróżniona).
