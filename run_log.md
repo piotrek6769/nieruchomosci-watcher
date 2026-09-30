@@ -851,3 +851,25 @@ Nowe ogłoszenia dodane i zgłoszone push: 10
 
 offers.json: zaktualizowany (+10 wpisów: nieruchomosci-online 71→72, olx 7→15, adresowo 73→74). Łącznie ofert: 178.
 index.html: zregenerowany (18 sekcji dat, najnowsza 29 września 2026 wyróżniona).
+
+## 2026-09-30 08:07 (lokalny czas uruchomienia)
+
+Status per źródło:
+- otodom: blocked — HTTP 403 na stronie wyszukiwania, 0 found, 0 new
+- nieruchomosci-online: ok — 41 found, 7 new URLs, 0 pod cap dodanych, 7 ponad cap odrzuconych (1.235M–1.289M) — w tym kolejny duplikat tej samej nieruchomości (Brzegowa, Kiełpin/Kiełpin Poduchowny, 1.235M/151m2) pod dwoma różnymi ID (26964356 i 25899131)
+- olx: ok — 71 links, wszystkie 71 to otodom.pl mirrors (pominięte, zablokowane), 0 olx.pl-native, 0 new
+- morizon: blocked — "unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok — 36 found, 23 new URLs, 0 pod cap dodanych, 23 ponad cap odrzucone (1.299M–2.99M, w tym ponownie "Osiedle Słoneczna 27-29" za 2.35M pod ID 682936)
+- adresowo: ok — 39 found, 0 new URLs (wszystkie już znane)
+- gethome: ok — 0 found (brak ofert spełniających kryteria), 0 new
+- rynekpierwotny: ok — 1 found (ta sama inwestycja PK Development co poprzednio), 0 new
+- oferty-net: blocked — "unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu przekroczenia budżetu (>1.2M zł) per źródło:
+- nieruchomosci-online: 7
+- domiporta: 23
+
+Nowe ogłoszenia dodane i zgłoszone push: 0 (brak nowych ofert pod cap — rzadki "cichy" run, podobnie jak 09-09 i 09-24)
+
+offers.json: bez zmian (0 nowych wpisów). Łącznie ofert: 178.
+index.html: zregenerowany (18 sekcji dat, najnowsza 29 września 2026 wyróżniona, sama aktualizacja znacznika czasu).
