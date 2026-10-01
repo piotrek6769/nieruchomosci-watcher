@@ -930,6 +930,15 @@
       "cena_za_m2": "7014.93 zl/m2",
       "dom_m2": "113.9",
       "dzialka_m2": "170"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-jozefow-zlota-115m2/156808798",
+      "first_seen": "2026-10-01",
+      "adres": "Józefów, Złota, mazowieckie",
+      "cena": "1070000 zl",
+      "cena_za_m2": "9289.00 zl/m2",
+      "dom_m2": "115.19",
+      "dzialka_m2": "375"
     }
   ],
   "adresowo": [
@@ -1598,6 +1607,24 @@
       "cena_za_m2": "8792 zl/m2",
       "dom_m2": "130.8",
       "dzialka_m2": "414"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-jablonna-chotomow-116-m2-g2m6i2",
+      "first_seen": "2026-10-01",
+      "adres": "Chotomów, gmina Jabłonna, powiat legionowski",
+      "cena": "1110000 zl",
+      "cena_za_m2": "9503 zl/m2",
+      "dom_m2": "116.8",
+      "dzialka_m2": "500"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-legionowo-ul-parkowa-c5p0z4",
+      "first_seen": "2026-10-01",
+      "adres": "ul. Parkowa, Legionowo, powiat legionowski",
+      "cena": "830000 zl",
+      "cena_za_m2": "11857 zl/m2",
+      "dom_m2": "70",
+      "dzialka_m2": "780"
     }
   ],
   "gethome": [],

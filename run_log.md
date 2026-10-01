@@ -873,3 +873,28 @@ Nowe ogłoszenia dodane i zgłoszone push: 0 (brak nowych ofert pod cap — rzad
 
 offers.json: bez zmian (0 nowych wpisów). Łącznie ofert: 178.
 index.html: zregenerowany (18 sekcji dat, najnowsza 29 września 2026 wyróżniona, sama aktualizacja znacznika czasu).
+
+## 2026-10-01 18:58 (lokalny czas uruchomienia)
+
+Status per źródło:
+- otodom: blocked — HTTP 403 na stronie wyszukiwania, 0 found, 0 new
+- nieruchomosci-online: ok — 5 found, 1 new URL, 0 pod cap dodanych, 1 ponad cap odrzucony (1.25M, Dereniowa, Jabłonna)
+- olx: ok — wszystkie znalezione linki to otodom.pl mirrors (pominięte, zablokowane), 0 olx.pl-native, 0 new
+- morizon: blocked — "unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok — 35 found, 25 new URLs, 1 pod cap dodany (Józefów, Złota, 1.07M), 24 ponad cap odrzucone (1.299M–2.99M, w tym ponownie "Osiedle Słoneczna 27-29" za 2.35M pod ID 682936)
+- adresowo: ok — 38 found, 2 new URLs, 2 pod cap dodane (Chotomów 1.11M, ul. Parkowa/Legionowo 830k)
+- gethome: ok — 0 found (brak ofert spełniających kryteria), 0 new
+- rynekpierwotny: ok — 1 found (ta sama inwestycja PK Development co poprzednio), 0 new
+- oferty-net: blocked — "unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu przekroczenia budżetu (>1.2M zł) per źródło:
+- nieruchomosci-online: 1
+- domiporta: 24
+
+Nowe ogłoszenia dodane i zgłoszone push: 3
+1. Józefów, Złota (domiporta) — 1070000 zl — dom 115.19m2 / dzialka 375m2
+2. Chotomów, gmina Jabłonna (adresowo) — 1110000 zl — dom 116.8m2 / dzialka 500m2
+3. ul. Parkowa, Legionowo (adresowo) — 830000 zl — dom 70m2 / dzialka 780m2
+
+offers.json: zaktualizowany (+3 wpisy: domiporta 16→17, adresowo 74→76). Łącznie ofert: 181.
+index.html: zregenerowany (19 sekcji dat, najnowsza 1 października 2026 wyróżniona).
