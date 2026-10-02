@@ -647,6 +647,15 @@
       "cena_za_m2": "8521.78 zl/m2",
       "dom_m2": "105.60",
       "dzialka_m2": "25"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27005950.html",
+      "first_seen": "2026-10-02",
+      "adres": "Legionowo, legionowski, mazowieckie",
+      "cena": "899000 zl",
+      "cena_za_m2": "7078.74 zl/m2",
+      "dom_m2": "127",
+      "dzialka_m2": "25"
     }
   ],
   "olx": [
@@ -939,6 +948,24 @@
       "cena_za_m2": "9289.00 zl/m2",
       "dom_m2": "115.19",
       "dzialka_m2": "375"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-skrzeszew-163m2/156941719",
+      "first_seen": "2026-10-02",
+      "adres": "Skrzeszew, mazowieckie",
+      "cena": "965000 zl",
+      "cena_za_m2": "5920.25 zl/m2",
+      "dom_m2": "163",
+      "dzialka_m2": "450"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-skrzeszew-modlinska-163m2/156941721",
+      "first_seen": "2026-10-02",
+      "adres": "Skrzeszew, Modlińska, mazowieckie",
+      "cena": "965000 zl",
+      "cena_za_m2": "5920.25 zl/m2",
+      "dom_m2": "163",
+      "dzialka_m2": "450"
     }
   ],
   "adresowo": [

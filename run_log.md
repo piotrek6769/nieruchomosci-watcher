@@ -898,3 +898,28 @@ Nowe ogłoszenia dodane i zgłoszone push: 3
 
 offers.json: zaktualizowany (+3 wpisy: domiporta 16→17, adresowo 74→76). Łącznie ofert: 181.
 index.html: zregenerowany (19 sekcji dat, najnowsza 1 października 2026 wyróżniona).
+
+## 2026-10-02 (lokalny czas uruchomienia)
+
+Status per źródło:
+- otodom: blocked — HTTP 403 na stronie wyszukiwania, 0 found, 0 new
+- nieruchomosci-online: ok — 41 found, 12 new URLs, 1 pod cap dodany (Legionowo, 899k/127m2, duplikat adresowy "Aleja Legionów" pod kolejnym nowym ID), 11 ponad cap odrzuconych (1.215M–1.35M, w tym duplikat-para Brzegowa/Kiełpin Poduchowny IDs 26964356+25899131 znana z 09-30, oba ponad cap)
+- olx: ok — strona wyszukiwania działała, 38 linków, 100% otodom.pl mirrors (0 olx.pl-native) — pominięte jako zablokowane, 0 new
+- morizon: blocked — "unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok — 36 found, 27 new URLs, 2 pod cap dodane (Skrzeszew/Modlińska, 965k/163m2, dwa różne ID dla tej samej nieruchomości), 25 ponad cap odrzuconych (1.225M–2.99M, w tym ponownie "Osiedle Słoneczna 27-29" za 2.35M pod ID 682936)
+- adresowo: ok — 39 found, 1 new URL znaleziony ale to kolejny slug-drift wariant znanego "dom-zielonka-220-m2-n8f2s4" (sufiks n8f2s4), nie liczony jako nowa oferta, 0 new
+- gethome: ok — 0 found (brak ofert spełniających kryteria), 0 new
+- rynekpierwotny: ok — 1 found (ta sama inwestycja PK Development co poprzednio), 0 new
+- oferty-net: blocked — "unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu przekroczenia budżetu (>1.2M zł) per źródło:
+- nieruchomosci-online: 11
+- domiporta: 25
+
+Nowe ogłoszenia dodane i zgłoszone push: 3
+1. Legionowo (nieruchomosci-online) — 899000 zl — dom 127m2 / dzialka 25m2
+2. Skrzeszew (domiporta) — 965000 zl — dom 163m2 / dzialka 450m2
+3. Skrzeszew, Modlińska (domiporta) — 965000 zl — dom 163m2 / dzialka 450m2
+
+offers.json: zaktualizowany (+3 wpisy: nieruchomosci-online 72→73, domiporta 17→19). Łącznie ofert: 184.
+index.html: zregenerowany (20 sekcji dat, najnowsza 2 października 2026 wyróżniona).
