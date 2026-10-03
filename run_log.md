@@ -923,3 +923,30 @@ Nowe ogłoszenia dodane i zgłoszone push: 3
 
 offers.json: zaktualizowany (+3 wpisy: nieruchomosci-online 72→73, domiporta 17→19). Łącznie ofert: 184.
 index.html: zregenerowany (20 sekcji dat, najnowsza 2 października 2026 wyróżniona).
+
+## 2026-10-03 12:34 (lokalny czas uruchomienia)
+
+Status per źródło:
+- otodom: blocked — HTTP 403 na stronie wyszukiwania, 0 found, 0 new
+- nieruchomosci-online: ok — 7 found, 3 new URLs, 0 pod cap, 3 ponad cap odrzucone (1.25M–1.27M)
+- olx: ok — pierwsza próba błąd API (DNS), ponowienie ok; 15 linków, wszystkie otodom.pl mirrors (0 olx.pl-native) — pominięte jako zablokowane, 0 new
+- morizon: blocked — "unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok — 36 found, 27 new URLs, 1 pod cap dodane (Łomianki/Brzezińskiego, 899999 zł, 101.70 m2), 26 ponad cap odrzucone (1.299M–2.99M, w tym ponownie "Osiedle Słoneczna 27-29" za 2.35M pod ID 682936)
+- adresowo: ok — 39 found (dwie nieudane próby: błąd API i uśpienie komputera, trzecia ok), 3 new URLs: 2 dodane (Pomiechówek x1e0i2, 999k; Kobyłka/Skrzetuskiego j6x4f6, 850k), 1 slug-drift (dom-zielonka-ul-wiejska-n8f2s4 vs znane n8f2s4) — nie liczony jako nowa oferta
+- gethome: ok — 0 found, 0 new
+- rynekpierwotny: ok — 1 found (ta sama PK Development "Złota Jabłonna", nieaktywna), 0 new
+- oferty-net: blocked — "unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu przekroczenia budżetu (>1.2M zł) per źródło:
+- nieruchomosci-online: 3
+- domiporta: 26
+
+Nowe ogłoszenia dodane: 3
+1. Pomiechówek (adresowo) — 999000 zl — dom 144m2 / dzialka 170m2
+2. Kobyłka, ul. Skrzetuskiego (adresowo) — 850000 zl — dom 67.23m2 / dzialka 200m2
+3. Łomianki, Brzezińskiego (domiporta) — 899999 zl — dom 101.70m2 / dzialka 290m2
+
+Push: wysłanie nieudane — PushNotification zwróciło "Remote Control inactive" (brak połączenia z telefonem), treść: 3 nowe oferty + link do strony.
+
+offers.json: zaktualizowany (+3 wpisy: domiporta 19→20, adresowo 76→78). Łącznie ofert: 187.
+index.html: zregenerowany (21 sekcji dat, najnowsza 3 października 2026 wyróżniona).

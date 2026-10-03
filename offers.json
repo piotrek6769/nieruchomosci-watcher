@@ -966,6 +966,15 @@
       "cena_za_m2": "5920.25 zl/m2",
       "dom_m2": "163",
       "dzialka_m2": "450"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-brzezinskiego-135m2/156928875",
+      "first_seen": "2026-10-03",
+      "adres": "Łomianki, Brzezińskiego",
+      "cena": "899999 zl",
+      "cena_za_m2": "6669.62 zl/m2",
+      "dom_m2": "101.70",
+      "dzialka_m2": "290"
     }
   ],
   "adresowo": [
@@ -1652,6 +1661,24 @@
       "cena_za_m2": "11857 zl/m2",
       "dom_m2": "70",
       "dzialka_m2": "780"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-pomiechowek-144-m2-x1e0i2",
+      "first_seen": "2026-10-03",
+      "adres": "Pomiechówek, powiat nowodworski",
+      "cena": "999000 zl",
+      "cena_za_m2": "6938 zl/m2",
+      "dom_m2": "144",
+      "dzialka_m2": "170"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-kobylka-ul-skrzetuskiego-j6x4f6",
+      "first_seen": "2026-10-03",
+      "adres": "ul. Skrzetuskiego 6A, Kobyłka, powiat wołomiński",
+      "cena": "850000 zl",
+      "cena_za_m2": "12643 zl/m2",
+      "dom_m2": "67.23",
+      "dzialka_m2": "200"
     }
   ],
   "gethome": [],
