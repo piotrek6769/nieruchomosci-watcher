@@ -950,3 +950,18 @@ Push: wysłanie nieudane — PushNotification zwróciło "Remote Control inactiv
 
 offers.json: zaktualizowany (+3 wpisy: domiporta 19→20, adresowo 76→78). Łącznie ofert: 187.
 index.html: zregenerowany (21 sekcji dat, najnowsza 3 października 2026 wyróżniona).
+
+## 2026-10-04 08:44 CEST
+
+- otodom: blocked (HTTP 403), skipped
+- nieruchomosci-online: ok, 41 found, 7 new, 0 under cap
+- olx: ok, 40 found (100% otodom.pl mirrors, 0 native), 0 new
+- morizon: blocked (unable to fetch), skipped
+- domiporta: ok, 36 found, 26 new, 0 under cap (skipped-over-cap count: 26)
+- adresowo: ok, 39 found, 2 new (1 was slug-drift variant of known dom-zielonka-220-m2-n8f2s4, not counted), 1 under cap -> added
+- gethome: ok, 0 found (no matching offers)
+- rynekpierwotny: ok, 1 found (already known PK Development listing), 0 new
+- oferty-net: blocked (unable to fetch), skipped
+
+Nowe oferty z powiadomieniem:
+- ul. Mieszka I, Kobyłka Zalasek, powiat wołomiński - 1 050 000 zł - dom 85m2 / dzialka 87m2 - https://adresowo.pl/o/dom-kobylka-ul-mieszka-i-b6g4q7

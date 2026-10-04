@@ -1679,6 +1679,15 @@
       "cena_za_m2": "12643 zl/m2",
       "dom_m2": "67.23",
       "dzialka_m2": "200"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-kobylka-ul-mieszka-i-b6g4q7",
+      "first_seen": "2026-10-04",
+      "adres": "ul. Mieszka I, Kobyłka Zalasek, powiat wołomiński",
+      "cena": "1 050 000 zł",
+      "cena_za_m2": "12 353 zł/m2",
+      "dom_m2": "85",
+      "dzialka_m2": "87"
     }
   ],
   "gethome": [],
