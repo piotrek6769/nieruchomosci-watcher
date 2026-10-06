@@ -965,3 +965,23 @@ index.html: zregenerowany (21 sekcji dat, najnowsza 3 października 2026 wyróż
 
 Nowe oferty z powiadomieniem:
 - ul. Mieszka I, Kobyłka Zalasek, powiat wołomiński - 1 050 000 zł - dom 85m2 / dzialka 87m2 - https://adresowo.pl/o/dom-kobylka-ul-mieszka-i-b6g4q7
+
+## 2026-10-06 10:36 CEST
+
+- otodom: blocked (HTTP 403), skipped
+- nieruchomosci-online: ok, 7 found, 3 new, 0 under cap (over-cap count: 3; 1.25M-1.27M)
+- olx: ok, search page loaded, all links were otodom.pl mirrors (blocked), 0 olx.pl-native, 0 new
+- morizon: blocked (unable to fetch), skipped
+- domiporta: ok, 36 found, 26 new, 0 under cap (over-cap count: 26; 1.25M-2.99M)
+- adresowo: ok, 39 found, 1 "new" URL = slug-drift of known dom-zielonka-220-m2-n8f2s4 (n8f2s4), not counted, 0 new
+- gethome: ok, 0 found, 0 new
+- rynekpierwotny: ok, 1 found (known inactive PK Development listing), 0 new
+- oferty-net: blocked (unable to fetch), skipped
+
+Liczba ofert odrzuconych z powodu przekroczenia budzetu (>1.2M zl) per zrodlo:
+- nieruchomosci-online: 3
+- domiporta: 26
+
+Nowe ogloszenia dodane: 0. Push: nie wysylano (brak nowych ofert).
+
+offers.json: bez zmian (188 ofert lacznie). index.html: zregenerowany (22 sekcje dat).
