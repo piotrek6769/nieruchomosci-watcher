@@ -975,6 +975,24 @@
       "cena_za_m2": "6669.62 zl/m2",
       "dom_m2": "101.70",
       "dzialka_m2": "290"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-brzezinskiego-135m2/156947552",
+      "first_seen": "2026-10-07",
+      "adres": "Łomianki, Brzezińskiego",
+      "cena": "899999 zl",
+      "cena_za_m2": "6669.62 zl/m2",
+      "dom_m2": "134.94",
+      "dzialka_m2": "290"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-brzezinskiego-135m2/156947551",
+      "first_seen": "2026-10-07",
+      "adres": "Łomianki, Brzezińskiego",
+      "cena": "949000 zl",
+      "cena_za_m2": "7032.76 zl/m2",
+      "dom_m2": "134.94",
+      "dzialka_m2": "318"
     }
   ],
   "adresowo": [

@@ -985,3 +985,26 @@ Liczba ofert odrzuconych z powodu przekroczenia budzetu (>1.2M zl) per zrodlo:
 Nowe ogloszenia dodane: 0. Push: nie wysylano (brak nowych ofert).
 
 offers.json: bez zmian (188 ofert lacznie). index.html: zregenerowany (22 sekcje dat).
+
+## 2026-10-07 (local run)
+
+- otodom: blocked (HTTP 403), skipped
+- nieruchomosci-online: ok, 6 found, 2 new, 0 under cap (over-cap count: 2; 1.26M-1.27M)
+- olx: ok, search page loaded, 69 links, 100% otodom.pl mirrors (0 native), 0 new
+- morizon: blocked (unable to fetch), skipped
+- domiporta: ok, 35 found, 28 new, 2 under cap -> added (over-cap count: 26; recurring "Osiedle Sloneczna 27-29" ID 682936 recurred again at 2.35M, still over cap)
+- adresowo: ok, 39 found, 1 "new" URL = slug-drift of known dom-zielonka-220-m2-n8f2s4 (now dom-zielonka-ul-wiejska-n8f2s4), not counted, 0 new
+- gethome: ok, 0 found, 0 new
+- rynekpierwotny: ok, 1 found (known inactive PK Development listing), 0 new
+- oferty-net: blocked (unable to fetch), skipped
+
+Liczba ofert odrzuconych z powodu przekroczenia budzetu (>1.2M zl) per zrodlo:
+- nieruchomosci-online: 2
+- domiporta: 26
+
+Nowe oferty z powiadomieniem (duplikat tej samej nieruchomosci pod 2 ID, znany wzorzec powtarzania ofert domiporta):
+- Łomianki, Brzezińskiego - 899999 zl - dom 134.94m2 / dzialka 290m2 - https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-brzezinskiego-135m2/156947552
+- Łomianki, Brzezińskiego - 949000 zl - dom 134.94m2 / dzialka 318m2 - https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-brzezinskiego-135m2/156947551
+
+offers.json: zaktualizowany (+2 wpisy: domiporta 20->22). Łącznie ofert: 190.
+index.html: zregenerowany (23 sekcje dat, najnowsza 7 pazdziernika 2026 wyróżniona).
