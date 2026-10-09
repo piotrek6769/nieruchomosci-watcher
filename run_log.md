@@ -1008,3 +1008,29 @@ Nowe oferty z powiadomieniem (duplikat tej samej nieruchomosci pod 2 ID, znany w
 
 offers.json: zaktualizowany (+2 wpisy: domiporta 20->22). Łącznie ofert: 190.
 index.html: zregenerowany (23 sekcje dat, najnowsza 7 pazdziernika 2026 wyróżniona).
+
+## 2026-10-09 10:54 CEST (local run)
+
+- otodom: blocked (HTTP 403), skipped
+- nieruchomosci-online: ok, 40 found, 11 new, 3 under cap -> added (over-cap count: 8; 1.225M-1.289M; includes known Kielpin Poduchowny/Brzegowa duplicate ID 26964356, pair partner 25899131, still over cap)
+- olx: ok, search page loaded, 100% otodom.pl mirrors (0 native), 0 new
+- morizon: blocked (unable to fetch), skipped
+- domiporta: ok, 35 found (first attempt failed with transient "computer went to sleep" error, succeeded on retry), 28 new, 0 under cap (over-cap count: 28; 1.299M-2.99M, driven by a batch of large Lomianki/Bialoleka houses 110-503m2; recurring "Osiedle Sloneczna 27-29" ID 682936 recurred again at 2.35M, still over cap)
+- adresowo: ok, 39 found, 2 genuinely new (both under cap, added); 1 other "new" slug was the familiar dom-zielonka-ul-wiejska-n8f2s4 drift of dom-zielonka-220-m2-n8f2s4, not counted
+- gethome: ok, 0 found ("Nie znalezlismy ofert..."), 0 new
+- rynekpierwotny: ok, 1 found (known inactive PK Development listing), 0 new
+- oferty-net: blocked (unable to fetch), skipped
+
+Liczba ofert odrzuconych z powodu przekroczenia budzetu (>1.2M zl) per zrodlo:
+- nieruchomosci-online: 8
+- domiporta: 28
+
+Nowe ogloszenia z powiadomieniem:
+- Jablonna, legionowski, mazowieckie - 1150000 zl - dom 138m2 / dzialka 372m2 - https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/27026930.html
+- Legionowo, legionowski, mazowieckie - 899000 zl - dom 127m2 / dzialka 25m2 - https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27026748.html (duplikat znanego wzorca "Aleja Legionow" 899k/127m2, kolejne ID)
+- Ludwisin, Legionowo, mazowieckie - 999000 zl - dom 140m2 / dzialka 500m2 - https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27020458.html
+- ul. Okolna, Chotomow, gmina Jablonna - 1100000 zl - dom 150m2 / dzialka 1200m2 - https://adresowo.pl/o/dom-jablonna-chotomow-ul-okolna-k3e4h5
+- Stasi Las, gmina Serock - 988000 zl - dom 254m2 / dzialka 863m2 - https://adresowo.pl/o/dom-serock-stasi-las-254-m2-t1r6d1
+
+offers.json: zaktualizowany (+5 wpisy: nieruchomosci-online 73->76, adresowo 79->81). Lacznie ofert: 195.
+index.html: zregenerowany (24 sekcje dat, najnowsza 9 pazdziernika 2026 wyrozniona).
