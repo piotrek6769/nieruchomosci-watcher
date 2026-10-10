@@ -1034,3 +1034,24 @@ Nowe ogloszenia z powiadomieniem:
 
 offers.json: zaktualizowany (+5 wpisy: nieruchomosci-online 73->76, adresowo 79->81). Lacznie ofert: 195.
 index.html: zregenerowany (24 sekcje dat, najnowsza 9 pazdziernika 2026 wyrozniona).
+
+## 2026-10-10 12:37 CEST (local run)
+
+- otodom: blocked (HTTP 403), skipped
+- nieruchomosci-online: ok, 41 found, 8 new, 0 under cap (over-cap count: 8; 1.225M-1.298M; includes known Kielpin Poduchowny/Brzegowa duplicate ID 26964356, pair partner 25899131, still over cap)
+- olx: ok, search page loaded, 100% otodom.pl mirrors (0 native), 0 new
+- morizon: blocked (unable to fetch), skipped
+- domiporta: ok, 36 found, 28 new, 0 under cap (over-cap count: 28; 1.3M-2.99M; driven by a batch of large Chotomow/Kielpin/Lomianki/Legionowo/Warszawa Bialoleka houses 110-503m2; includes triple-posted Mehoffera 133m2 under 3 IDs 156201384/156201390/156201399 at 3 different prices 1.57M-1.66M; recurring "Osiedle Sloneczna 27-29" ID 682936 recurred again at 2.35M, still over cap, still never added)
+- adresowo: ok, 38 found, 0 genuinely new (1 "new" slug was the familiar dom-zielonka-ul-wiejska-n8f2s4 drift of dom-zielonka-220-m2-n8f2s4, not counted)
+- gethome: ok, 0 found ("Nie znalezlismy ofert..."), 0 new
+- rynekpierwotny: ok, 1 found (known inactive PK Development listing, same URL as on file), 0 new
+- oferty-net: blocked (unable to fetch), skipped
+
+Liczba ofert odrzuconych z powodu przekroczenia budzetu (>1.2M zl) per zrodlo:
+- nieruchomosci-online: 8
+- domiporta: 28
+
+Nowe ogloszenia z powiadomieniem: brak (wszystkie nowo znalezione oferty przekroczyly budzet lub nie byly rzeczywiscie nowe).
+
+offers.json: bez zmian (0 nowych wpisow). Lacznie ofert: 195.
+index.html: zregenerowany (24 sekcje dat, najnowsza 9 pazdziernika 2026 wyrozniona, bez zmian w danych - tylko timestamp).
