@@ -1076,3 +1076,39 @@ Nowe ogloszenia z powiadomieniem: brak (wszystkie nowo znalezione oferty przekro
 
 offers.json: bez zmian (0 nowych wpisow). Lacznie ofert: 195.
 index.html: zregenerowany (24 sekcje dat, najnowsza 9 pazdziernika 2026 wyrozniona, bez zmian w danych - tylko timestamp).
+
+## 2026-10-12 08:40 CEST
+
+Status per zrodlo:
+- otodom: blocked - HTTP 403 Forbidden (nadal zablokowane), 0 found, 0 new
+- nieruchomosci-online: ok, 41 found, 8 nowych URL-i, wszystkie 8 odrzucone -
+  przekroczyly limit 1 200 000 zl (Legionowo/Projektowana 1 289 000 zl, Kielpin
+  Poduchowny/Brzegowa 1 235 000 zl [ID 26964356, kolejna odslona znanej pary
+  duplikatow z partnerem 25899131], Legionowo 1 259 000 zl, Jablonna 1 260 000 zl,
+  Kepa Kielpinska 1 250 000 zl, Chotomow/Jablonna 1 300 000 zl, Jablonna/Szkolna
+  1 270 000 zl, Lomianki Dolne/Koscielna Droga 1 350 000 zl), 0 dodanych
+- olx: ok, 80 linkow znalezionych, 73 to mirrory otodom.pl (zablokowane, pominiete),
+  7 olx.pl-native; z tych 7 jeden ("chotomow-dom-blizniaczy-...-ul-cisowa-14",
+  ID12g9iE) to slug-drift wariant juz znanego URL pod tym samym ID olx (znany jako
+  "...-tulipanowa-promocja-ID12g9iE") - potraktowany jako znany, nie nowy, zgodnie
+  z ustalonym wzorcem dryfu sluga; pozostale 6 juz znane. 0 new.
+- morizon: error - "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 36 found, 28 nowych URL-i, wszystkie 28 odrzucone - przekroczyly
+  limit 1 200 000 zl (ceny od 1 299 000 zl do 2 990 000 zl, w tym duzy pakiet
+  wiekszych/drozszych domow w Lomiankach/Chotomowie/Kielpinie Poduchownym/Warszawie
+  Bialolece oraz ponownie "Osiedle Sloneczna 27-29" za 2 350 000 zl pod ID 682936 -
+  nigdy jeszcze nie dodana), 0 dodanych
+- adresowo: ok, 39 found, 0 nowych (wszystkie juz znane)
+- gethome: ok, 0 found ("Nie znalezlismy ofert w podanych przez Ciebie kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development co poprzednio, nadal
+  nieaktywna), 0 new
+- oferty-net: error - "Claude Code is unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 200 000 zl) per zrodlo:
+nieruchomosci-online: 8, domiporta: 28.
+
+Nowe ogloszenia z powiadomieniem: brak (wszystkie nowo znalezione oferty przekroczyly
+budzet, a jedyny "nowy" URL z olx byl artefaktem dryfu sluga znanej oferty).
+
+offers.json: bez zmian (0 nowych wpisow). Lacznie ofert: 195.
+index.html: zregenerowany (bez zmian w danych - tylko timestamp).
