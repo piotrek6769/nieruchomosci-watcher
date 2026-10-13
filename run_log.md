@@ -1112,3 +1112,50 @@ budzet, a jedyny "nowy" URL z olx byl artefaktem dryfu sluga znanej oferty).
 
 offers.json: bez zmian (0 nowych wpisow). Lacznie ofert: 195.
 index.html: zregenerowany (bez zmian w danych - tylko timestamp).
+
+## 2026-10-13 08:04 CEST
+
+Status per zrodlo:
+- otodom: blocked - HTTP 403 Forbidden (nadal zablokowane), 0 found, 0 new
+- nieruchomosci-online: ok, 41 found, 7 nowych URL-i, 1 dodany (Legionowo, 965 000 zl,
+  163 m2 / 435 m2, ID 27037636), 6 odrzuconych - przekroczyly limit 1 200 000 zl
+  (Legionowo/Projektowana 1 289 000 zl, Legionowo 1 259 000 zl, Kielpin Poduchowny/
+  Brzegowa 1 235 000 zl [ID 26964356, kolejna odslona znanej pary duplikatow z
+  partnerem 25899131], Kepa Kielpinska 1 250 000 zl, Jablonna 1 260 000 zl,
+  Kielpin/Brzegowa 1 225 000 zl)
+- olx: ok, 79 linkow znalezionych (strona ucieta przez dlugosc), wiekszosc to mirrory
+  otodom.pl (zablokowane, pominiete), kilka olx.pl-native; 1 genuinie nowy i pod
+  limitem - "dom prefabrykowany zelbetowy 144 m" w Warszawie/Bialolece, 440 000 zl,
+  144 m2 / 1000 m2 (ID1cJPWg) - dodany
+- morizon: error - "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 36 found, 28 nowych URL-i, wszystkie 28 odrzucone - przekroczyly
+  limit 1 200 000 zl (ceny od 1 299 000 zl do 2 990 000 zl - najgorszy dotychczasowy
+  wynik, 0% pod limitem; duzy pakiet wiekszych/drozszych domow w Lomiankach/
+  Chotomowie/Kielpinie Poduchownym/Warszawie Bialolece/Legionowie/Jozefowie, w tym
+  potrojnie wystawiony dom Mehoffera 133 m2 pod 3 ID [156201384/156201390/156201399]
+  w 3 roznych cenach 1 570 000-1 660 000 zl, oraz ponownie "Osiedle Sloneczna 27-29"
+  za 2 350 000 zl pod ID 682936 - nigdy jeszcze nie dodana), 0 dodanych
+- adresowo: ok, 39 found, 2 nowe, oba pod limitem - dodane (Trzciany/ul. Bursztynowa,
+  gmina Jablonna, 815 000 zl, 112 m2 / 600 m2; Legionowo/ul. Topolowa, 1 150 000 zl,
+  167 m2 / 1492 m2)
+- gethome: ok, 0 found ("Nie znalezlismy ofert w podanych przez Ciebie kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development co poprzednio, nadal
+  nieaktywna), 0 new
+- oferty-net: error - "Claude Code is unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 200 000 zl) per zrodlo:
+nieruchomosci-online: 6, domiporta: 28.
+
+Nowe ogloszenia z powiadomieniem (4):
+- Legionowo, legionowski, mazowieckie - 965000 zl - dom 163m2 / dzialka 435m2 -
+  https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27037636.html
+- ul. Bursztynowa, Trzciany, gmina Jablonna, powiat legionowski - 815000 zl -
+  dom 112m2 / dzialka 600m2 -
+  https://adresowo.pl/o/dom-jablonna-trzciany-ul-bursztynowa-l3g0c5
+- ul. Topolowa, Legionowo, powiat legionowski - 1150000 zl - dom 167m2 /
+  dzialka 1492m2 - https://adresowo.pl/o/dom-legionowo-ul-topolowa-x1a8g8
+- Warszawa, Bialoleka, mazowieckie - 440000 zl - dom 144m2 / dzialka 1000m2 -
+  https://www.olx.pl/d/oferta/dom-prefabkrykowany-zelbetowy-144-m-440-000-zl-CID3-ID1cJPWg.html
+
+offers.json: 4 nowe wpisy. Lacznie ofert: 199.
+index.html: zregenerowany (25 sekcji dat, najnowsza 13 pazdziernika 2026 wyrozniona).
