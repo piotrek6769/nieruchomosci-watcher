@@ -1787,6 +1787,15 @@
       "cena_za_m2": "6886 zl/m2",
       "dom_m2": "167",
       "dzialka_m2": "1492"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-zabki-ul-zakopianska-g3c4h7",
+      "first_seen": "2026-10-14",
+      "adres": "ul. Zakopiańska, Ząbki Centrum, powiat wołomiński",
+      "cena": "920000 zl",
+      "cena_za_m2": "10217 zl/m2",
+      "dom_m2": "90.05",
+      "dzialka_m2": "464"
     }
   ],
   "gethome": [],

@@ -1159,3 +1159,39 @@ Nowe ogloszenia z powiadomieniem (4):
 
 offers.json: 4 nowe wpisy. Lacznie ofert: 199.
 index.html: zregenerowany (25 sekcji dat, najnowsza 13 pazdziernika 2026 wyrozniona).
+
+## 2026-10-14 11:18 CEST
+
+- otodom: error - HTTP 403 Forbidden, 0 found, 0 new
+- nieruchomosci-online: ok, 42 found (truncated list of 40 unique parsed), 9 new URLi,
+  wszystkie 9 odrzucone - jeden byl martwym linkiem (ID 26464969 pod subdomena
+  legionowo.*, strona 404 "oferta nie istnieje" - ten sam ID jest juz znany pod
+  subdomena lomianki-dolne.*, wiec to najwyrazniej blad ekstrakcji/duplikat
+  subdomeny, pominieto bez liczenia), pozostale 8 przekroczyly limit 1 200 000 zl
+  (1 225 000-1 289 000 zl, w tym kolejna odslona znanej pary duplikatow Kielpin
+  Poduchowny/Brzegowa ID 26964356, partner 25899131)
+- olx: ok, ~40-42 linkow znalezionych, 100% to mirrory otodom.pl (zablokowane,
+  pominiete), 0 linkow olx.pl-native w tym przebiegu
+- morizon: error - "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 36 found, 28 nowych URL-i, wszystkie 28 odrzucone - przekroczyly
+  limit 1 200 000 zl (ceny od 1 299 000 zl do 2 990 000 zl), w tym ponownie potrojnie
+  wystawiony dom Mehoffera 133 m2 pod 3 ID [156201384/156201390/156201399] w 3
+  roznych cenach (1 570 000-1 660 000 zl) oraz "Osiedle Sloneczna 27-29" za
+  2 350 000 zl pod ID 682936 (nigdy jeszcze nie dodana) - 0 dodanych
+- adresowo: ok, 39 found, 1 nowy URL, pod limitem - dodany (Zabki Centrum,
+  ul. Zakopianska, 920 000 zl, 90.05 m2 / 464 m2)
+- gethome: ok (po jednym retry po timeout), 0 found ("Nie znalezlismy ofert w
+  podanych przez Ciebie kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development co poprzednio,
+  nadal nieaktywna), 0 new
+- oferty-net: error - "Claude Code is unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 200 000 zl) per zrodlo:
+nieruchomosci-online: 8, domiporta: 28.
+
+Nowe ogloszenia z powiadomieniem (1):
+- ul. Zakopianska, Zabki Centrum, powiat wolominski - 920000 zl - dom 90.05m2 /
+  dzialka 464m2 - https://adresowo.pl/o/dom-zabki-ul-zakopianska-g3c4h7
+
+offers.json: 1 nowy wpis. Lacznie ofert: 200.
+index.html: zregenerowany (26 sekcji dat, najnowsza 14 pazdziernika 2026 wyrozniona).
