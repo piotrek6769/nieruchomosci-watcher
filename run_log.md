@@ -1195,3 +1195,59 @@ Nowe ogloszenia z powiadomieniem (1):
 
 offers.json: 1 nowy wpis. Lacznie ofert: 200.
 index.html: zregenerowany (26 sekcji dat, najnowsza 14 pazdziernika 2026 wyrozniona).
+
+## 2026-10-15 (uruchomienie watchera)
+
+Status per zrodlo:
+- otodom: blocked - HTTP 403 Forbidden (nadal zablokowane), 0 found, 0 new
+- nieruchomosci-online: ok, 39 found, 10 nowych URL-i, 2 dodane (Aleja Legionow
+  Legionowo 899 000 zl/127m2/25m2 ID 27042176 - kolejna odslona dlugotrwalego
+  duplikatu "Aleja Legionow" 899k/127m2; Legionowo 950 000 zl/85,56m2/30m2
+  ID 27044876), 8 odrzuconych - przekroczyly limit 1 200 000 zl (Jablonna x2
+  1 260 000 zl, Jablonna/Dereniowa 1 250 000 zl, Kepa Kielpinska 1 250 000 zl,
+  Kielpin Poduchowny/Brzegowa 1 215 000 zl i 1 235 000 zl - znany duplikat-para
+  ID 26892344/26964356, Legionowo/Projektowana 1 289 000 zl, Legionowo 1 259 000 zl)
+- olx: ok, ~80 linkow, 73 to mirrory otodom.pl (zablokowane); z 7 natywnych
+  olx.pl 1 "nowy" ale okazal sie slug-driftem znanego ID12g9iE (Chotomow/
+  Tulipanowa, inny opis slugu, ten sam ID olx) - pominiety jako duplikat,
+  0 genuinie nowych
+- morizon: error - "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 36 found, 28 nowych URL-i, 1 dodany (Legionowo 950 000 zl/
+  85,56m2/30m2 ID 156959218 - identyczna cena/metraz jak nowy wpis z
+  nieruchomosci-online dzisiaj, najwyrazniej ta sama nieruchomosc na dwoch
+  portalach), 27 odrzuconych - przekroczyly limit 1 200 000 zl (1 300 000 zl -
+  2 990 000 zl, duzy pakiet Lomianki/Dabrowa/Bialoleka-Mehoffera w tym znany
+  potrojny duplikat Mehoffera 133m2 pod ID 156201384/156201390/156201399 oraz
+  "Osiedle Sloneczna 27-29" ponownie przy ID 682936, 2 350 000 zl, nadal nigdy
+  nie dodane)
+- adresowo: ok, 39 found, 2 nowe URL-e, obie dodane pod limitem (ul. Kwiatowa,
+  Cybulice Male, gmina Czosnow 689 999 zl/162m2/1015m2; ul. Szkolna, Skrzeszew,
+  gmina Wieliszew 990 000 zl/120m2/798m2)
+- gethome: ok, 0 found ("Nie znalezlismy ofert w podanych przez Ciebie kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development co poprzednio,
+  nadal nieaktywna), 0 new
+- oferty-net: error - "Claude Code is unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 200 000 zl) per zrodlo:
+nieruchomosci-online: 8, domiporta: 27.
+
+Nowe ogloszenia dodane do offers.json: 5 (2 nieruchomosci-online, 1 domiporta,
+2 adresowo).
+Powiadomienie push: WYSLANE (5 genuinie nowych ogloszen, zadne zrodlo nie bylo
+bootstrapem); dostarczenie na telefon nie powiodlo sie (Remote Control
+nieaktywne) - oczekiwane/normalne.
+Lista powiadomionych nowych ogloszen:
+- Aleja Legionow, Legionowo - 899000 zl - dom 127m2 / dzialka 25m2 -
+  https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27042176.html
+- Legionowo - 950000 zl - dom 85.56m2 / dzialka 30m2 -
+  https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27044876.html
+- Legionowo - 950000 zl - dom 85.56m2 / dzialka 30m2 -
+  https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-86m2/156959218
+- ul. Kwiatowa, Cybulice Male, gmina Czosnow - 689999 zl - dom 162m2 /
+  dzialka 1015m2 - https://adresowo.pl/o/dom-czosnow-cybulice-male-ul-kwiatowa-w6n6y3
+- ul. Szkolna, Skrzeszew, gmina Wieliszew - 990000 zl - dom 120m2 /
+  dzialka 798m2 - https://adresowo.pl/o/dom-wieliszew-skrzeszew-ul-szkolna-a5t9v6
+
+offers.json: rozbudowany z 200 do 205 ofert.
+index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-10-15 na gorze z wyroznieniem.
