@@ -1251,3 +1251,54 @@ Lista powiadomionych nowych ogloszen:
 offers.json: rozbudowany z 200 do 205 ofert.
 index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-10-15 na gorze z wyroznieniem.
+
+## 2026-10-16 09:14 CEST (local run)
+
+Status per zrodlo:
+- otodom: error - HTTP 403 Forbidden, 0 found, 0 new (nadal pelna blokada)
+- nieruchomosci-online: ok, 39 found, 10 nowych URL-i, 1 dodany pod limitem
+  (Lomianki Dolne, Koscielna Droga 1 090 000 zl/98m2/175m2, ID 27047549),
+  9 odrzuconych - przekroczyly limit 1 200 000 zl (1 235 000 zl - 1 350 000 zl),
+  w tym znany duplikat Kielpin Poduchowny/Brzegowa (ID 26964356) ponownie nad
+  limitem
+- olx: ok, search dziala, 40 linkow, 100% mirrory otodom.pl (0 natywnych
+  olx.pl), 0 new - jak ostatnio
+- morizon: error - "Claude Code is unable to fetch from www.morizon.pl",
+  0 found, 0 new
+- domiporta: ok, 36 found, 28 nowych URL-i, 2 dodane pod limitem (Lomianki
+  Dolne, Koscielna Droga 1 090 000 zl/98m2/175m2 ID 156960540 - identyczna
+  cena/metraz jak nowy wpis nieruchomosci-online dzisiaj, najwyrazniej ta sama
+  nieruchomosc na dwoch portalach; Lajski, Lesna 920 000 zl/118,43m2/248m2 ID
+  156960467), 26 odrzuconych - przekroczyly limit (1 299 000 zl - 2 990 000 zl,
+  duzy pakiet Lomianki/Dabrowa/Chotomow/Bialoleka-Mehoffera/Jozefow/Kielpin
+  Poduchowny, w tym znany potrojny duplikat Mehoffera 133m2 pod ID
+  156201384/156201390/156201399 oraz "Osiedle Sloneczna 27-29" ponownie przy
+  ID 682936, 2 350 000 zl, nadal nigdy nie dodane)
+- adresowo: ok, 39 found, 1 nowy URL, dodany pod limitem (ul. Pultuska, Serock
+  1 190 000 zl/96,8m2/182m2)
+- gethome: ok (po jednym timeoucie, powtorzone), 0 found, 0 new
+- rynekpierwotny: ok (po jednym timeoucie, powtorzone), 1 found (ta sama
+  inwestycja PK Development, nadal nieaktywna), 0 new
+- oferty-net: error - "Claude Code is unable to fetch from www.oferty.net",
+  0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 200 000 zl) per zrodlo:
+nieruchomosci-online: 9, domiporta: 26.
+
+Nowe ogloszenia dodane do offers.json: 4 (1 nieruchomosci-online, 2 domiporta,
+1 adresowo).
+Powiadomienie push: WYSLANE (4 genuinie nowych ogloszen, zadne zrodlo nie bylo
+bootstrapem).
+Lista powiadomionych nowych ogloszen:
+- Koscielna Droga, Lomianki Dolne - 1090000 zl - dom 98m2 / dzialka 175m2 -
+  https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/27047549.html
+- Lomianki Dolne, Koscielna Droga - 1090000 zl - dom 98m2 / dzialka 175m2 -
+  https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-dolne-koscielna-droga-98m2/156960540
+- Lajski, Lesna - 920000 zl - dom 118.43m2 / dzialka 248m2 -
+  https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lajski-lesna-118m2/156960467
+- ul. Pultuska, Serock - 1190000 zl - dom 96.8m2 / dzialka 182m2 -
+  https://adresowo.pl/o/dom-serock-ul-pultuska-b5p5i4
+
+offers.json: rozbudowany z 205 do 209 ofert.
+index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg
+daty first_seen, sekcja 2026-10-16 na gorze z wyroznieniem.

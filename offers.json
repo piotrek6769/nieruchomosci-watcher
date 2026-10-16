@@ -710,6 +710,15 @@
       "cena_za_m2": "11103.32 zl/m2",
       "dom_m2": "85.56",
       "dzialka_m2": "30"
+    },
+    {
+      "url": "https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/27047549.html",
+      "first_seen": "2026-10-16",
+      "adres": "Kościelna Droga, Łomianki Dolne, Łomianki, warszawski zachodni, mazowieckie",
+      "cena": "1090000 zl",
+      "cena_za_m2": "11122.45 zl/m2",
+      "dom_m2": "98",
+      "dzialka_m2": "175"
     }
   ],
   "olx": [
@@ -1065,6 +1074,24 @@
       "cena_za_m2": "11103.32 zl/m2",
       "dom_m2": "85.56",
       "dzialka_m2": "30"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-dolne-koscielna-droga-98m2/156960540",
+      "first_seen": "2026-10-16",
+      "adres": "Łomianki Dolne, Kościelna Droga, mazowieckie",
+      "cena": "1090000 zl",
+      "cena_za_m2": "11122.45 zl/m2",
+      "dom_m2": "98",
+      "dzialka_m2": "175"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lajski-lesna-118m2/156960467",
+      "first_seen": "2026-10-16",
+      "adres": "Łajski, Leśna, mazowieckie",
+      "cena": "920000 zl",
+      "cena_za_m2": "7768.30 zl/m2",
+      "dom_m2": "118.43",
+      "dzialka_m2": "248"
     }
   ],
   "adresowo": [
@@ -1841,6 +1868,15 @@
       "cena_za_m2": "8250 zl/m2",
       "dom_m2": "120",
       "dzialka_m2": "798"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-serock-ul-pultuska-b5p5i4",
+      "first_seen": "2026-10-16",
+      "adres": "ul. Pułtuska, Serock, powiat legionowski",
+      "cena": "1190000 zl",
+      "cena_za_m2": "12293 zl/m2",
+      "dom_m2": "96.8",
+      "dzialka_m2": "182"
     }
   ],
   "gethome": [],
