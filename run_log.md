@@ -1302,3 +1302,68 @@ Lista powiadomionych nowych ogloszen:
 offers.json: rozbudowany z 205 do 209 ofert.
 index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg
 daty first_seen, sekcja 2026-10-16 na gorze z wyroznieniem.
+
+## 2026-10-18 (lokalny czas startu run-a)
+
+Status per zrodlo:
+- otodom: error - HTTP 403 Forbidden, 0 found, 0 new (jak zawsze)
+- nieruchomosci-online: ok (po jednym bledzie "computer went to sleep
+  mid-response", powtorzone), 41 found, 8 nowych URL-i, 0 dodanych - wszystkie
+  8 przekroczyly limit (1 235 000 - 1 349 000 zl), w tym znany duplikat
+  Kielpin Poduchowny/Brzegowa (ID 26964356 + partner 25899131, nadal nad
+  limitem) oraz para identycznych ogloszen Legionowo/Projektowana 1 259 000
+  zl/142m2/341m2 pod ID 27033791 i 26996662
+- olx: ok, 40 linkow, 100% mirrory otodom.pl (0 natywnych), 0 new mozliwych
+  do pobrania - wszystkie zablokowane jak zazwyczaj
+- morizon: error - "Claude Code is unable to fetch from www.morizon.pl",
+  0 found, 0 new
+- domiporta: ok (po dwoch bledach "computer went to sleep mid-response",
+  udane na trzeciej probie), 36 found, 29 nowych URL-i, 2 dodane pod limitem
+  (Legionowo, Mazowiecka 1 059 000 zl/157,2m2/40m2 ID 156545426 - identyczna
+  cena/metraz/adres jak znany wpis nieruchomosci-online z 08-15, ID 26778487,
+  najwyrazniej ta sama nieruchomosc na dwoch portalach; Legionowo, Kolejowa
+  885 000 zl/109,78m2/38m2 ID 156962222), 27 odrzuconych - przekroczyly limit
+  (1 299 000 zl - 2 990 000 zl, duzy pakiet Lomianki/Dabrowa/Kielpin
+  Poduchowny/Bialoleka-Mehoffera/Jozefow/Dziekanow Polski, w tym znany
+  potrojny duplikat Mehoffera 133m2 pod ID 156201384/156201390/156201399 oraz
+  "Osiedle Sloneczna 27-29" ponownie przy ID 682936, 2 350 000 zl, nadal
+  nigdy nie dodane)
+- adresowo: ok (po jednym bledzie "computer went to sleep mid-response",
+  powtorzone), 39 found, 5 nowych URL-i, wszystkie 5 dodane pod limitem
+  (Lomianki Dolne, Koscielna Droga 1 090 000 zl/87,9m2/175m2 - cena i dzialka
+  identyczne jak cross-post nieruchomosci-online/domiporta z 10-16, choc
+  dom_m2 inny, 98 vs 87,9 - mozliwy trzeci cross-post tej samej nieruchomosci
+  lub inny dom na tej samej ulicy; Rynia, ul. Glowna 590 000 zl; Skrzeszew,
+  ul. Slowackiego 350 000 zl; Wola Smolana 800 000 zl; Kobylka Jedrzejek,
+  ul. Jesionowa 999 000 zl)
+- gethome: ok, 0 found, 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development, nadal
+  nieaktywna), 0 new
+- oferty-net: error - "Claude Code is unable to fetch from www.oferty.net",
+  0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 200 000 zl) per zrodlo:
+nieruchomosci-online: 8, domiporta: 27.
+
+Nowe ogloszenia dodane do offers.json: 7 (2 domiporta, 5 adresowo).
+Powiadomienie push: WYSLANE (7 genuinie nowych ogloszen, zadne zrodlo nie
+bylo bootstrapem).
+Lista powiadomionych nowych ogloszen:
+- Legionowo, Mazowiecka - 1059000 zl - dom 157.2m2 / dzialka 40m2 -
+  https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-mazowiecka-157m2/156545426
+- Legionowo, Kolejowa - 885000 zl - dom 109.78m2 / dzialka 38m2 -
+  https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-kolejowa-110m2/156962222
+- ul. Koscielna Droga, Lomianki Dolne - 1090000 zl - dom 87.9m2 / dzialka 175m2 -
+  https://adresowo.pl/o/dom-lomianki-lomianki-dolne-ul-koscielna-droga-b0w3q4
+- ul. Glowna, Rynia - 590000 zl - dom 120m2 / dzialka 792m2 -
+  https://adresowo.pl/o/dom-nieporet-rynia-ul-glowna-n7z9c9
+- ul. Juliusza Slowackiego, Skrzeszew - 350000 zl - dom 48m2 / dzialka 1132m2 -
+  https://adresowo.pl/o/dom-wieliszew-skrzeszew-ul-juliusza-slowackiego-d4d8e8
+- Wola Smolana - 800000 zl - dom 130m2 / dzialka 1500m2 -
+  https://adresowo.pl/o/dom-serock-wola-smolana-130-m2-y1e3c7
+- ul. Jesionowa, Kobylka Jedrzejek - 999000 zl - dom 105m2 / dzialka 460m2 -
+  https://adresowo.pl/o/dom-kobylka-ul-jesionowa-u9j0s5
+
+offers.json: rozbudowany z 209 do 216 ofert.
+index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg
+daty first_seen, sekcja 2026-10-18 na gorze z wyroznieniem.
