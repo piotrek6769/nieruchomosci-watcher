@@ -1367,3 +1367,51 @@ Lista powiadomionych nowych ogloszen:
 offers.json: rozbudowany z 209 do 216 ofert.
 index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg
 daty first_seen, sekcja 2026-10-18 na gorze z wyroznieniem.
+
+## 2026-10-19
+
+- otodom: blocked - HTTP 403, 0 found, 0 new
+- nieruchomosci-online: ok, 41 found, 9 nowych URL-i, 1 dodany pod limitem
+  (Legionowo, ul. Jana Kochanowskiego, 1 190 000 zl/142m2/341m2, ID 26996662)
+  - pozostale 8 nad limitem (1 215 000-1 289 000 zl), w tym znany duplikat
+  Kielpin Poduchowny/Brzegowa (ID 26964356 + 25899131, 1 235 000 zl) oraz
+  para Legionowo/Projektowana (ID 27033791 @ 1 259 000 zl, ten sam
+  142m2/341m2 co dodany dzis 26996662, ale wyzsza cena - prawdopodobnie ta
+  sama nieruchomosc wystawiona dwa razy)
+- olx: ok, zwrocil liczne linki otodom.pl (zablokowane) ale 2 natywne
+  olx.pl, obie nowe i pod limitem - dodane: Legionowo, ul. Jana
+  Kochanowskiego 1 199 000 zl/142m2/341m2 (ID1cgem2 - ten sam adres/metraz
+  co nieruchomosci-online 26996662 powyzej, kolejny cross-source duplikat
+  tej samej nieruchomosci) oraz ul. Barwna, Serock 999 900 zl/106m2/90m2
+  (ID1cNPW5)
+- morizon: blocked - "unable to fetch", 0 found, 0 new
+- domiporta: ok, 36 found (strona 1 z kilku), 27 nowych URL-i, wszystkie 27
+  nad limitem (1 299 000-2 990 000 zl) - duza partia wiekszych/drozszych
+  domow w Lomiankach/Dabrowie/Kielpinie Poduchownym/Warszawie Bialolece
+  (110-503m2), w tym potrojnie wystawiony Mehoffera 133m2 ponownie pod 3
+  ID (156201384/156201390/156201399, 1 570 000-1 660 000 zl) oraz
+  powracajace "Osiedle Sloneczna 27-29" (ID 682936, 2 350 000 zl, nigdy
+  nie dodane)
+- adresowo: ok, 39 found, 0 nowych URL-i (wszystkie juz znane)
+- gethome: ok, 0 found, 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development, nadal
+  nieaktywna), 0 new
+- oferty-net: blocked - "unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 200 000 zl) per zrodlo:
+nieruchomosci-online: 8, domiporta: 27.
+
+Nowe ogloszenia dodane do offers.json: 3 (1 nieruchomosci-online + 2 olx).
+Powiadomienie push: WYSLANE (3 genuinie nowe ogloszenia, zadne zrodlo nie
+bylo bootstrapem).
+Lista powiadomionych nowych ogloszen:
+- Legionowo, ul. Jana Kochanowskiego - 1190000 zl - dom 142m2 / dzialka 341m2 -
+  https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26996662.html
+- Legionowo, ul. Jana Kochanowskiego - 1199000 zl - dom 142m2 / dzialka 341m2 -
+  https://www.olx.pl/d/oferta/sprzedam-bezposrednio-dom-w-legionowie-142m2-dzialka-341-CID3-ID1cgem2.html
+- ul. Barwna, Serock - 999900 zl - dom 106m2 / dzialka 90m2 -
+  https://www.olx.pl/d/oferta/sprzedam-segment-w-serocku-ul-barwna-CID3-ID1cNPW5.html
+
+offers.json: rozbudowany z 216 do 219 ofert.
+index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg
+daty first_seen, sekcja 2026-10-19 na gorze z wyroznieniem.

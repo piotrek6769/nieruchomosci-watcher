@@ -719,6 +719,15 @@
       "cena_za_m2": "11122.45 zl/m2",
       "dom_m2": "98",
       "dzialka_m2": "175"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26996662.html",
+      "first_seen": "2026-10-19",
+      "adres": "Legionowo, legionowski, mazowieckie",
+      "cena": "1190000 zl",
+      "cena_za_m2": "8443.66 zl/m2",
+      "dom_m2": "142",
+      "dzialka_m2": "341"
     }
   ],
   "olx": [
@@ -865,6 +874,24 @@
       "cena_za_m2": "3055.56 zl/m2",
       "dom_m2": "144",
       "dzialka_m2": "1000"
+    },
+    {
+      "url": "https://www.olx.pl/d/oferta/sprzedam-bezposrednio-dom-w-legionowie-142m2-dzialka-341-CID3-ID1cgem2.html",
+      "first_seen": "2026-10-19",
+      "adres": "Legionowo, ul. Jana Kochanowskiego, mazowieckie",
+      "cena": "1199000 zl",
+      "cena_za_m2": "8443.66 zl/m2",
+      "dom_m2": "142",
+      "dzialka_m2": "341"
+    },
+    {
+      "url": "https://www.olx.pl/d/oferta/sprzedam-segment-w-serocku-ul-barwna-CID3-ID1cNPW5.html",
+      "first_seen": "2026-10-19",
+      "adres": "ul. Barwna, Serock, powiat legionowski, mazowieckie",
+      "cena": "999900 zl",
+      "cena_za_m2": "9433.02 zl/m2",
+      "dom_m2": "106",
+      "dzialka_m2": "90"
     }
   ],
   "domiporta": [
