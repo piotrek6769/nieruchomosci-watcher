@@ -1415,3 +1415,54 @@ Lista powiadomionych nowych ogloszen:
 offers.json: rozbudowany z 216 do 219 ofert.
 index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg
 daty first_seen, sekcja 2026-10-19 na gorze z wyroznieniem.
+
+## 2026-10-20
+
+Status per zrodlo:
+- otodom: blocked - HTTP 403, 0 found, 0 new
+- nieruchomosci-online: ok, 41 found, 6 nowych URL-i, 1 pod limitem dodany -
+  Legionowo 1 199 000 zl/142m2/341m2 (ID 27033791) - ten sam adres/metraz co
+  istniejacy wpis 26996662 z 2026-10-19, prawdopodobnie ta sama
+  nieruchomosc ponownie wystawiona, teraz po zbieznej cenie (byla
+  1 259 000 zl 10-19, teraz 1 199 000 zl) - zapisana jako wlasny wiersz wg
+  reguly jeden-URL-jeden-wpis. Pozostale 5 nad limitem (1 235 000-1 289 000
+  zl), w tym znany duplikat Kielpin Poduchowny/Brzegowa (ID 26964356, nadal
+  nad limitem).
+- olx: ok, 9 linkow natywnych olx.pl (bez mirrorow otodom w tym zbiorze), 1
+  "nowy" URL ale to potwierdzony drift slugu tego samego ID12g9iE
+  (Chotomow/Tulipanowa, znany od 2026-08-15) - wylaczony jako nie-nowy, 0
+  genuinie nowych.
+- morizon: blocked - "unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 36 found, 27 nowych URL-i, wszystkie 27 nad limitem
+  (1 299 000-2 990 000 zl) - duza partia wiekszych/drozszych domow w
+  Lomiankach/Dabrowie/Kielpinie Poduchownym/Warszawie Bialolece-Mehoffera/
+  Jozefowie/Legionowie (110-503m2), w tym potrojnie wystawiony Mehoffera
+  133m2 ponownie pod 3 ID (156201384/156201390/156201399, 1 570 000-
+  1 660 000 zl) oraz powracajace "Osiedle Sloneczna 27-29" (ID 682936,
+  2 350 000 zl, nigdy nie dodane).
+- adresowo: ok, 39 found, 1 nowy URL, pod limitem, dodany - ul. Barwna,
+  Serock 999 900 zl/106m2/90m2 - ten sam adres i cena co istniejacy wpis
+  olx ID1cNPW5 z 2026-10-19 (sprzedam-segment-w-serocku-ul-barwna),
+  prawdopodobnie ta sama nieruchomosc cross-posted - zapisana jako wlasny
+  wiersz wg reguly jeden-URL-jeden-wpis.
+- gethome: ok, 0 found ("Nie znalezlismy ofert..."), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development, nadal
+  nieaktywna), 0 new
+- oferty-net: blocked - "unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 200 000 zl) per zrodlo:
+nieruchomosci-online: 5, domiporta: 27.
+
+Nowe ogloszenia dodane do offers.json: 2 (1 nieruchomosci-online + 1
+adresowo).
+Powiadomienie push: WYSLANE (2 genuinie nowe ogloszenia, zadne zrodlo nie
+bylo bootstrapem).
+Lista powiadomionych nowych ogloszen:
+- Legionowo - 1199000 zl - dom 142m2 / dzialka 341m2 -
+  https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27033791.html
+- ul. Barwna, Serock - 999900 zl - dom 106m2 / dzialka 90m2 -
+  https://adresowo.pl/o/dom-serock-ul-barwna-n4v1g8
+
+offers.json: rozbudowany z 219 do 221 ofert.
+index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg
+daty first_seen, sekcja 2026-10-20 na gorze z wyroznieniem.

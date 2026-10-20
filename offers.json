@@ -728,6 +728,15 @@
       "cena_za_m2": "8443.66 zl/m2",
       "dom_m2": "142",
       "dzialka_m2": "341"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27033791.html",
+      "first_seen": "2026-10-20",
+      "adres": "Legionowo, legionowski, mazowieckie",
+      "cena": "1 199 000 zł",
+      "cena_za_m2": "8 443,66 zł/m²",
+      "dom_m2": "142",
+      "dzialka_m2": "341"
     }
   ],
   "olx": [
@@ -1967,6 +1976,15 @@
       "cena_za_m2": "9514 zl/m2",
       "dom_m2": "105",
       "dzialka_m2": "460"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-serock-ul-barwna-n4v1g8",
+      "first_seen": "2026-10-20",
+      "adres": "ul. Barwna, Serock, powiat legionowski",
+      "cena": "999 900 zł",
+      "cena_za_m2": "9 433 zł/m²",
+      "dom_m2": "106",
+      "dzialka_m2": "90"
     }
   ],
   "gethome": [],
