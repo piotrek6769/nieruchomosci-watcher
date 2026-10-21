@@ -1466,3 +1466,43 @@ Lista powiadomionych nowych ogloszen:
 offers.json: rozbudowany z 219 do 221 ofert.
 index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg
 daty first_seen, sekcja 2026-10-20 na gorze z wyroznieniem.
+
+## 2026-10-21 (uruchomienie watchera)
+
+Status per źródło:
+- otodom: blocked — HTTP 403 Forbidden na stronie wyników, 0 found, 0 new
+- nieruchomosci-online: ok, 39 found, 6 nowych URL-i, wszystkie 6 odrzucone —
+  przekroczyły limit 1 200 000 zł (Chotomów/Życzliwa 1 300 000 zł; Jabłonna
+  1 260 000 zł; Kępa Kiełpińska 1 250 000 zł; Kiełpin Poduchowny/Brzegowa
+  1 235 000 zł — znany powtarzający się duplikat ID 26964356; Legionowo/
+  Projektowana 1 289 000 zł; Łomianki Dolne/Kościelna Droga 1 350 000 zł),
+  0 dodanych
+- olx: ok, 40 linków znalezionych, wszystkie to mirrory otodom.pl (0 natywnych
+  olx.pl) — pominięte, otodom nadal zablokowane, 0 new
+- morizon: error — "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 36 found, 28 nowych URL-i, 27 odrzuconych — przekroczyły limit
+  1 200 000 zł (ceny od 1 299 000 zł do 2 990 000 zł, w tym znany duży pakiet
+  Łomianki/Dąbrowa/Kiełpin Poduchowny/Warszawa Białołęka-Mehoffera — ponownie
+  potrójnie wystawiona Mehoffera 133m2 pod ID 156201384/156201390/156201399 —
+  oraz "Osiedle Słoneczna 27-29" ponownie przy 2 350 000 zł pod ID 682936,
+  wciąż nigdy nie dodana), 1 dodany — Rajszew/Mazowiecka 109,3 m2 dokładnie na
+  granicy limitu (1 200 000 zł, nie przekracza — dodany)
+- adresowo: ok, 39 found, 2 nowe URL-e, oba pod limitem — dodane (ul.
+  Modlińska, Skierdy/gmina Jabłonna, 1 100 000 zł; Izbica/gmina Serock,
+  350 000 zł)
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert w podanych przez Ciebie
+  kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development co
+  poprzednio), 0 new
+- oferty-net: error — "Claude Code is unable to fetch from www.oferty.net",
+  0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budżetu (>1 200 000 zł) per źródło:
+nieruchomosci-online: 6, domiporta: 27.
+
+Nowe ogłoszenia dodane do offers.json: 3 (2 adresowo, 1 domiporta).
+Powiadomienie push: WYSŁANE (3 genuinie nowe ogłoszenia, żadne źródło nie było
+bootstrapem).
+offers.json: rozbudowany z 221 do 224 ofert.
+index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-10-21 na górze z wyróżnieniem.

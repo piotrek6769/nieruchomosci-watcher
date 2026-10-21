@@ -1146,6 +1146,15 @@
       "cena_za_m2": "8061.58 zl/m2",
       "dom_m2": "109.78",
       "dzialka_m2": "38"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-rajszew-mazowiecka-109m2/156966253",
+      "first_seen": "2026-10-21",
+      "adres": "Rajszew, Mazowiecka, mazowieckie",
+      "cena": "1 200 000 zł",
+      "cena_za_m2": "10 978,96 zł/m2",
+      "dom_m2": "109,3",
+      "dzialka_m2": "1000"
     }
   ],
   "adresowo": [
@@ -1985,6 +1994,24 @@
       "cena_za_m2": "9 433 zł/m²",
       "dom_m2": "106",
       "dzialka_m2": "90"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-jablonna-skierdy-ul-modlinska-m7k2j5",
+      "first_seen": "2026-10-21",
+      "adres": "ul. Modlińska, Skierdy, gmina Jabłonna, powiat legionowski",
+      "cena": "1 100 000 zł",
+      "cena_za_m2": "9 338 zł/m²",
+      "dom_m2": "117,8",
+      "dzialka_m2": "1200"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-serock-izbica-70-m2-i9v5l2",
+      "first_seen": "2026-10-21",
+      "adres": "Izbica, gmina Serock, powiat legionowski, mazowieckie",
+      "cena": "350 000 zł",
+      "cena_za_m2": "5 000 zł/m²",
+      "dom_m2": "70",
+      "dzialka_m2": "1056"
     }
   ],
   "gethome": [],
