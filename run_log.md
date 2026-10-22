@@ -1506,3 +1506,55 @@ bootstrapem).
 offers.json: rozbudowany z 221 do 224 ofert.
 index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-10-21 na górze z wyróżnieniem.
+
+## 2026-10-22 (uruchomienie watchera)
+
+Status per źródło:
+- otodom: blocked — HTTP 403 Forbidden na stronie wyników, 0 found, 0 new
+- nieruchomosci-online: ok, 41 found, 12 nowych URL-i, 3 dodane pod limitem
+  (Legionowo 950 000 zł/85,56 m2/30 m2 ID 27061073 — ta sama cena/powierzchnia
+  co dziś również na domiporta, zob. niżej; Aleja Legionów 899 000 zł/127 m2/
+  25 m2 ID 27060645 — kolejna odsłona znanego, wielokrotnie powtarzającego się
+  łańcucha duplikatów tego adresu; Kolejowa 899 900 zł/105,66 m2/30 m2
+  ID 27060646 — też z dzisiejszym odpowiednikiem na domiporta), 9 odrzuconych
+  — przekroczyły limit 1 200 000 zł (Legionowo/Projektowana 1 289 000 zł;
+  znana powtarzająca się para duplikatów Kiełpin Poduchowny/Brzegowa ID
+  26964356 + 25899131 po 1 235 000 zł; Jabłonna/Dereniowa 1 250 000 zł;
+  Jabłonna 1 260 000 zł; Grudzie/Legionowo 1 250 000 zł; Łomianki Dolne/
+  Kościelna Droga 1 350 000 zł; Chotomów 1 300 000 zł; Jabłonna 1 349 000 zł)
+- olx: ok, 40 linków znalezionych, wszystkie to mirrory otodom.pl (0
+  natywnych olx.pl) — pominięte, otodom nadal zablokowane, 0 new
+- morizon: error — "Claude Code is unable to fetch from www.morizon.pl", 0
+  found, 0 new
+- domiporta: ok, 36 found, 28 nowych URL-i, 2 dodane pod limitem (Legionowo
+  950 000 zł/85,56 m2/30 m2 ID 156973232 — identyczna cena/powierzchnia jak
+  dzisiejsza oferta nieruchomosci-online ID 27061073, kolejny przypadek
+  cross-source duplikatu tego samego dnia; Legionowo/Kolejowa 899 900 zł/
+  105,66 m2/30 m2 ID 156973060 — identyczna cena/powierzchnia jak dzisiejsza
+  oferta nieruchomosci-online ID 27060646), 26 odrzuconych — przekroczyły
+  limit 1 200 000 zł (ceny od 1 300 000 zł do 2 990 000 zł, w tym znany duży
+  pakiet Łomianki/Dąbrowa/Kiełpin Poduchowny/Warszawa Białołęka-Mehoffera —
+  ponownie potrójnie wystawiona Mehoffera 133 m2 pod ID 156201384/156201390/
+  156201399 — oraz "Osiedle Słoneczna 27-29" ponownie przy 2 350 000 zł pod
+  ID 682936, wciąż nigdy nie dodana)
+- adresowo: ok, 39 found, 0 nowych URL-i (wszystkie 39 już znane)
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert w podanych przez Ciebie
+  kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development co
+  poprzednio), 0 new
+- oferty-net: error — "Unable to verify if domain www.oferty.net is safe to
+  fetch" (network restriction na WebFetch), 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budżetu (>1 200 000 zł) per źródło:
+nieruchomosci-online: 9, domiporta: 26.
+
+Nowe ogłoszenia dodane do offers.json: 5 (3 nieruchomosci-online + 2
+domiporta). Dwie z tych par to ten sam fizyczny dom wystawiony tego samego
+dnia na dwóch różnych portalach (Legionowo 950 000 zł/85,56 m2 i Legionowo/
+Kolejowa 899 900 zł/105,66 m2) — obie strony zachowane zgodnie z zasadą
+jeden wiersz na URL.
+Powiadomienie push: WYSŁANE (5 genuinie nowych ogłoszeń, żadne źródło nie było
+bootstrapem).
+offers.json: rozbudowany z 224 do 229 ofert.
+index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-10-22 na górze z wyróżnieniem.
