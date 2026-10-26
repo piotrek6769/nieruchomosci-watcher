@@ -1558,3 +1558,51 @@ bootstrapem).
 offers.json: rozbudowany z 224 do 229 ofert.
 index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-10-22 na górze z wyróżnieniem.
+
+## Run 2026-10-26
+
+- otodom: error — HTTP 403 Forbidden, 0 found, 0 new (nadal zablokowane)
+- nieruchomosci-online: ok, 39 found, 4 nowe URL-e, 1 dodana pod limitem
+  (Jabłonna, Aleja Kardynała Stefana Wyszyńskiego, 1 190 000 zł/155,70 m2/
+  234 m2, ID 27067814), 3 odrzucone — przekroczyły limit (Legionowo/
+  Projektowana 1 289 000 zł ID 26952822; Chotomów 1 300 000 zł ID 27007894;
+  znana para duplikatów Kiełpin Poduchowny/Brzegowa — ID 26820802 przy
+  1 225 000 zł)
+- olx: ok, ~79 linków, większość mirrory otodom.pl (0 natywnych wśród
+  znanych) ale 2 nowe natywne olx.pl linki, obie pod limitem i dodane
+  (Legionowo, ul. Wardeńskiego, 1 030 000 zł/135 m2/200 m2, ID1cR6jq; dom
+  drewniany nad jeziorem w Goreniu Dużym, 560 000 zł/90 m2/500 m2, ID1cXJx4
+  — adres daleko poza powiatem legionowskim, ale zgodnie z zasadą
+  broad-radius nie filtrujemy)
+- morizon: error — "Claude Code is unable to fetch from www.morizon.pl", 0
+  found, 0 new
+- domiporta: ok, 36 found, 25 nowych URL-i, 1 dodana pod limitem (Legionowo,
+  ul. Kolejowa, 899 900 zł/105,60 m2/25 m2, ID 156984905 — inny adres/ID niż
+  znana wcześniejsza oferta Legionowo/Kolejowa z 10-18), 24 odrzucone —
+  przekroczyły limit 1 200 000 zł (ceny od 1 299 000 zł do 2 990 000 zł, w
+  tym znany duży pakiet Łomianki/Dąbrowa/Kiełpin Poduchowny/Warszawa
+  Białołęka, ponownie potrójnie wystawiona Mehoffera 133 m2 pod ID
+  156201384/156201390/156201399, oraz "Osiedle Słoneczna 27-29" ponownie
+  przy 2 350 000 zł pod ID 682936, wciąż nigdy nie dodana)
+- adresowo: ok, 39 found, 4 nowe URL-e, wszystkie 4 pod limitem i dodane
+  (Marki, ul. Fabryczna, 1 061 000 zł/138 m2/298 m2; Słupno gmina Radzymin,
+  al. Jana Pawła II, 1 199 000 zł/110,05 m2/418 m2 — tuż przy granicy
+  limitu; Kobyłka, ul. Długa, 1 100 000 zł/93 m2/143 m2; Olszewnica Stara
+  gmina Wieliszew, ul. Warszawska, 575 000 zł/56 m2/803 m2)
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert w podanych przez Ciebie
+  kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development, nieaktywna),
+  0 new
+- oferty-net: error — "Claude Code is unable to fetch from www.oferty.net",
+  0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budżetu (>1 200 000 zł) per źródło:
+nieruchomosci-online: 3, domiporta: 24.
+
+Nowe ogłoszenia dodane do offers.json: 8 (1 nieruchomosci-online + 2 olx + 1
+domiporta + 4 adresowo).
+Powiadomienie push: WYSŁANE (8 genuinie nowych ogłoszeń, żadne źródło nie było
+bootstrapem).
+offers.json: rozbudowany z 229 do 237 ofert.
+index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-10-26 na górze z wyróżnieniem.

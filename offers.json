@@ -764,6 +764,15 @@
       "cena_za_m2": "8 516,94 zł/m²",
       "dom_m2": "105,66",
       "dzialka_m2": "30"
+    },
+    {
+      "url": "https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/27067814.html",
+      "first_seen": "2026-10-26",
+      "adres": "Aleja Kardynała Stefana Wyszyńskiego, Jabłonna, mazowieckie",
+      "cena": "1 190 000 zł",
+      "cena_za_m2": "7 642,90 zł/m²",
+      "dom_m2": "155,70",
+      "dzialka_m2": "234"
     }
   ],
   "olx": [
@@ -928,6 +937,24 @@
       "cena_za_m2": "9433.02 zl/m2",
       "dom_m2": "106",
       "dzialka_m2": "90"
+    },
+    {
+      "url": "https://www.olx.pl/d/oferta/segment-skrajny-ul-wardenckiego-legionowo-135m-CID3-ID1cR6jq.html",
+      "first_seen": "2026-10-26",
+      "adres": "ul. Wardeńskiego, Legionowo, mazowieckie",
+      "cena": "1 030 000 zł",
+      "cena_za_m2": "7 629,63 zł/m²",
+      "dom_m2": "135",
+      "dzialka_m2": "200"
+    },
+    {
+      "url": "https://www.olx.pl/d/oferta/dom-drewniany-caloroczny-nad-jeziorem-CID3-ID1cXJx4.html",
+      "first_seen": "2026-10-26",
+      "adres": "Goreń Duży (Jezioro Skrzyneckie), woj. mazowieckie",
+      "cena": "560 000 zł",
+      "cena_za_m2": "6 222,22 zł/m²",
+      "dom_m2": "90",
+      "dzialka_m2": "500"
     }
   ],
   "domiporta": [
@@ -1200,6 +1227,15 @@
       "cena_za_m2": "8 516,94 zł/m2",
       "dom_m2": "105,66",
       "dzialka_m2": "30"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-106m2/156984905",
+      "first_seen": "2026-10-26",
+      "adres": "Legionowo, ul. Kolejowa, mazowieckie",
+      "cena": "899 900 zł",
+      "cena_za_m2": "8 521,78 zł/m²",
+      "dom_m2": "105,60",
+      "dzialka_m2": "25"
     }
   ],
   "adresowo": [
@@ -2057,6 +2093,42 @@
       "cena_za_m2": "5 000 zł/m²",
       "dom_m2": "70",
       "dzialka_m2": "1056"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-marki-ul-fabryczna-i1l8d9",
+      "first_seen": "2026-10-26",
+      "adres": "ul. Fabryczna, Marki, powiat wołomiński",
+      "cena": "1 061 000 zł",
+      "cena_za_m2": "7 688 zł/m²",
+      "dom_m2": "138",
+      "dzialka_m2": "298"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-radzymin-slupno-al-jana-pawla-ii-j3i7x9",
+      "first_seen": "2026-10-26",
+      "adres": "al. Jana Pawła II 224, Słupno, gmina Radzymin, powiat wołomiński",
+      "cena": "1 199 000 zł",
+      "cena_za_m2": "10 895 zł/m²",
+      "dom_m2": "110,05",
+      "dzialka_m2": "418"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-kobylka-ul-dluga-y6y9a2",
+      "first_seen": "2026-10-26",
+      "adres": "ul. Długa, Kobyłka, powiat wołomiński",
+      "cena": "1 100 000 zł",
+      "cena_za_m2": "11 828 zł/m²",
+      "dom_m2": "93",
+      "dzialka_m2": "143"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-wieliszew-olszewnica-stara-ul-warszawska-k3l1i3",
+      "first_seen": "2026-10-26",
+      "adres": "ul. Warszawska, Olszewnica Stara, gmina Wieliszew, powiat legionowski",
+      "cena": "575 000 zł",
+      "cena_za_m2": "10 268 zł/m²",
+      "dom_m2": "56",
+      "dzialka_m2": "803"
     }
   ],
   "gethome": [],
