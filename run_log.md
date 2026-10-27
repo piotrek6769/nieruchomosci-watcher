@@ -1606,3 +1606,23 @@ bootstrapem).
 offers.json: rozbudowany z 229 do 237 ofert.
 index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-10-26 na górze z wyróżnieniem.
+
+## 2026-10-27 08:19 CET
+
+- otodom: BLOCKED (HTTP 403, as usual)
+- nieruchomosci-online: OK, found 40, 9 new, 3 under cap added, 6 over cap skipped
+- olx: OK (search page loaded), 40 links found, 100% otodom.pl mirrors (0 native) — 0 fetchable, 0 new
+- morizon: BLOCKED ("unable to fetch", as usual)
+- domiporta: BLOCKED this run (HTTP 503 Service Unavailable on 2 retries — transient site outage, not the usual block)
+- adresowo: OK, found 39, 1 new, 1 under cap added
+- gethome: OK, 0 listings found (no offers matching criteria)
+- rynekpierwotny: OK, unchanged (1 known inactive PK Development listing)
+- oferty-net: BLOCKED ("unable to fetch", as usual)
+
+Skipped for exceeding 1,200,000 PLN cap: nieruchomosci-online 6, adresowo 0.
+
+Nowe oferty zgloszone w notyfikacji (4):
+- Legionowo, legionowski (nol 27069989) - 950 000 zl - dom 85,56m2 / dzialka 30m2
+- Kolejowa, Legionowo (nol 27069987) - 899 900 zl - dom 105,60m2 / dzialka 25m2
+- Aleja Legionów, Legionowo (nol 27069992) - 899 000 zl - dom 127m2 / dzialka 25m2
+- Jachranka, gmina Serock (adresowo p4q8w3) - 1 099 000 zl - dom 200m2 / dzialka 1470m2
