@@ -1626,3 +1626,22 @@ Nowe oferty zgloszone w notyfikacji (4):
 - Kolejowa, Legionowo (nol 27069987) - 899 900 zl - dom 105,60m2 / dzialka 25m2
 - Aleja Legionów, Legionowo (nol 27069992) - 899 000 zl - dom 127m2 / dzialka 25m2
 - Jachranka, gmina Serock (adresowo p4q8w3) - 1 099 000 zl - dom 200m2 / dzialka 1470m2
+
+## 2026-10-28 10:46 CET
+
+- otodom: BLOCKED ("Unable to verify if domain www.otodom.pl is safe to fetch", as usual)
+- nieruchomosci-online: OK, found 40, 3 new, 0 under cap (all 3 over cap: 1.215M-1.289M)
+- olx: OK (search page loaded), 41 links found, 100% otodom.pl mirrors (0 native) — 0 fetchable, 0 new
+- morizon: BLOCKED ("unable to fetch", as usual)
+- domiporta: OK, found 36, 27 new, 0 under cap (all 27 over cap: 1.3M-2.99M, incl. recurring "Osiedle Słoneczna 27-29" at 2.35M, ID 682936, still never added)
+- adresowo: OK, found 39, 0 new (all already known)
+- gethome: OK, 0 listings found (no offers matching criteria)
+- rynekpierwotny: OK, unchanged (1 known inactive PK Development listing)
+- oferty-net: BLOCKED ("unable to fetch", as usual)
+
+Skipped for exceeding 1,200,000 PLN cap: nieruchomosci-online 3, domiporta 27.
+
+Nowe oferty zgloszone w notyfikacji: brak (0 nowych ponizej limitu).
+Powiadomienie push: NIE WYSLANE (0 genuinie nowych ofert).
+offers.json: bez zmian (241 ofert).
+index.html: timestamp zaktualizowany, bez zmian w sekcjach danych.
