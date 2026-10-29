@@ -1645,3 +1645,23 @@ Nowe oferty zgloszone w notyfikacji: brak (0 nowych ponizej limitu).
 Powiadomienie push: NIE WYSLANE (0 genuinie nowych ofert).
 offers.json: bez zmian (241 ofert).
 index.html: timestamp zaktualizowany, bez zmian w sekcjach danych.
+
+## 2026-10-29 08:30 CET
+
+- otodom: BLOCKED (HTTP 403, fully blocked as usual)
+- nieruchomosci-online: OK — found 40, 5 new, 2 under cap added (over-cap skipped: 3)
+- olx: OK (needed 1 retry after "computer went to sleep mid-response") — 79 links, 73 otodom.pl mirrors (blocked) + 6 olx.pl-native; both "new" native links (ID1cNPW5, ID12g9iE) were slug-drift of already-known IDs — 0 genuinely new
+- morizon: BLOCKED ("unable to fetch from www.morizon.pl")
+- domiporta: OK — found 36, 27 new, 2 under cap added (over-cap skipped: 25)
+- adresowo: OK — found 39, 0 new (all already known)
+- gethome: OK — 0 listings found (no matching offers on site)
+- rynekpierwotny: OK — 1 listing found (known inactive PK Development listing), 0 new
+- oferty-net: BLOCKED ("unable to fetch from www.oferty.net")
+
+Nowe oferty dodane (4):
+- Aleja Kardynała Stefana Wyszyńskiego, Jabłonna - 1199000 zl - dom 155.7m2 / dzialka 234m2 - https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/27079277.html
+- Gościnna, Stanisławów Drugi, Nieporęt - 1190000 zl - dom 125.93m2 / dzialka 430m2 - https://stanislawow-drugi.nieruchomosci-online.pl/dom,na-sprzedaz/27078768.html
+- Brzegowa, Kiełpin - 1195000 zl - dom 155m2 / dzialka 1000m2 - https://www.domiporta.pl/nieruchomosci/sprzedam-dom-kielpin-brzegowa-155m2/156985380
+- Różana, Kiełpin - 1049000 zl - dom 80.98m2 / dzialka 400m2 - https://www.domiporta.pl/nieruchomosci/sprzedam-dom-kielpin-rozana-81m2/156929397
+
+Push notification: wysłano (4 nowe oferty).

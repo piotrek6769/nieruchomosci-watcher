@@ -800,6 +800,24 @@
       "cena_za_m2": "7 078,74 zł/m²",
       "dom_m2": "127",
       "dzialka_m2": "25"
+    },
+    {
+      "url": "https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/27079277.html",
+      "first_seen": "2026-10-29",
+      "adres": "Aleja Kardynała Stefana Wyszyńskiego, Jabłonna",
+      "cena": "1199000 zl",
+      "cena_za_m2": "7700.71 zl/m2",
+      "dom_m2": "155.7",
+      "dzialka_m2": "234"
+    },
+    {
+      "url": "https://stanislawow-drugi.nieruchomosci-online.pl/dom,na-sprzedaz/27078768.html",
+      "first_seen": "2026-10-29",
+      "adres": "Gościnna, Stanisławów Drugi, Nieporęt",
+      "cena": "1190000 zl",
+      "cena_za_m2": "9449.69 zl/m2",
+      "dom_m2": "125.93",
+      "dzialka_m2": "430"
     }
   ],
   "olx": [
@@ -1263,6 +1281,24 @@
       "cena_za_m2": "8 521,78 zł/m²",
       "dom_m2": "105,60",
       "dzialka_m2": "25"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-kielpin-brzegowa-155m2/156985380",
+      "first_seen": "2026-10-29",
+      "adres": "Brzegowa, Kiełpin",
+      "cena": "1195000 zl",
+      "cena_za_m2": "7709.68 zl/m2",
+      "dom_m2": "155",
+      "dzialka_m2": "1000"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-kielpin-rozana-81m2/156929397",
+      "first_seen": "2026-10-29",
+      "adres": "Różana, Kiełpin",
+      "cena": "1049000 zl",
+      "cena_za_m2": "12953.82 zl/m2",
+      "dom_m2": "80.98",
+      "dzialka_m2": "400"
     }
   ],
   "adresowo": [
