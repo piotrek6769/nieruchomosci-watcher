@@ -818,6 +818,42 @@
       "cena_za_m2": "9449.69 zl/m2",
       "dom_m2": "125.93",
       "dzialka_m2": "430"
+    },
+    {
+      "url": "https://jablonna.nieruchomosci-online.pl/dom-wolnostojacy,nad-rzeka/27085247.html",
+      "first_seen": "2026-11-02",
+      "adres": "1 Maja, Jabłonna, mazowieckie",
+      "cena": "1 200 000 zł",
+      "cena_za_m2": "12 671,59 zł/m²",
+      "dom_m2": "94,70",
+      "dzialka_m2": "470"
+    },
+    {
+      "url": "https://jablonna.nieruchomosci-online.pl/dom-wolnostojacy,z-parkingiem/27085201.html",
+      "first_seen": "2026-11-02",
+      "adres": "1 Maja, Jabłonna, mazowieckie",
+      "cena": "1 150 000 zł",
+      "cena_za_m2": "11 805,77 zł/m²",
+      "dom_m2": "97,41",
+      "dzialka_m2": "380"
+    },
+    {
+      "url": "https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/27084730.html",
+      "first_seen": "2026-11-02",
+      "adres": "Jabłonna, legionowski, mazowieckie",
+      "cena": "1 150 000 zł",
+      "cena_za_m2": "11 805,77 zł/m²",
+      "dom_m2": "97,41",
+      "dzialka_m2": "326"
+    },
+    {
+      "url": "https://kielpin.nieruchomosci-online.pl/dom-wolnostojacy,podpiwniczony/27085340.html",
+      "first_seen": "2026-11-02",
+      "adres": "Krzyczkowskiego, Kiełpin, Łomianki, warszawski zachodni, mazowieckie",
+      "cena": "930 000 zł",
+      "cena_za_m2": "4 428,57 zł/m²",
+      "dom_m2": "210",
+      "dzialka_m2": "898"
     }
   ],
   "olx": [
@@ -1000,6 +1036,15 @@
       "cena_za_m2": "6 222,22 zł/m²",
       "dom_m2": "90",
       "dzialka_m2": "500"
+    },
+    {
+      "url": "https://www.olx.pl/d/oferta/blizniak-75m-garaz-w-bryle-dzialka-400m-taras-30m-blaszak-12m-CID3-ID1d3Bmz.html",
+      "first_seen": "2026-11-02",
+      "adres": "Warszawa, Białołęka, ul. Bukowska, mazowieckie",
+      "cena": "1 150 000 zł",
+      "cena_za_m2": "15 333,33 zł/m²",
+      "dom_m2": "75",
+      "dzialka_m2": "400"
     }
   ],
   "domiporta": [

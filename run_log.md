@@ -1665,3 +1665,44 @@ Nowe oferty dodane (4):
 - Różana, Kiełpin - 1049000 zl - dom 80.98m2 / dzialka 400m2 - https://www.domiporta.pl/nieruchomosci/sprzedam-dom-kielpin-rozana-81m2/156929397
 
 Push notification: wysłano (4 nowe oferty).
+
+## Watcher run 2026-11-02
+
+Lokalny czas: 2026-11-02 (patrz znacznik czasu w commicie)
+
+Status per źródło:
+- otodom: blocked — HTTP 403 Forbidden na stronie wyników, 0 found, 0 new
+- nieruchomosci-online: ok, 41 found (9 w głównych wynikach + 32 w bloku rekomendacji),
+  9 nowych URL-i, 4 dodane (Jabłonna/1 Maja 27085247 1 200 000 zł — dokładnie na granicy
+  limitu, zaliczone jako pod limitem; Jabłonna/1 Maja 27085201 1 150 000 zł; Jabłonna
+  27084730 1 150 000 zł; Kiełpin/Krzyczkowskiego 27085340 930 000 zł), 5 odrzuconych —
+  przekroczyły limit 1 200 000 zł (Łajski/Projektowana 1 289 000 zł, Kiełpin/Brzegowa
+  26820802 1 225 000 zł — kolejna odsłona znanego duplikatu Kiełpin Poduchowny/Brzegowa,
+  Jabłonna/Szkolna 26338532 1 270 000 zł, Jabłonna 26736135 1 270 000 zł, Legionowo/
+  Grudzie 26735760 1 250 000 zł)
+- olx: ok, 80 linków (40 w głównych wynikach + 40 w bloku szerszej odległości), tylko
+  7 olx.pl-native, z czego 1 genuinie nowy i pod limitem — dodany (Warszawa Białołęka/
+  Bukowska, "blizniak-75m", 1 150 000 zł); pozostałe 6 native to znane slug-drifty
+  (ID1cNPW5 zyskał sufiks "-kanalizacja", ID12g9iE niezmienione), reszta linków to
+  mirrory otodom.pl (zablokowane) — pominięte
+- morizon: error — "Claude Code is unable to fetch from www.morizon.pl", 0 found, 0 new
+- domiporta: ok, 36 found (23 odczytane dosłownie + 13 z podsumowania modelu), 25 nowych
+  URL-i, wszystkie 25 odrzucone — przekroczyły limit 1 200 000 zł (ceny od 1 299 000 zł
+  do 6 500 000 zł; w tym ponownie "Osiedle Słoneczna 27-29" 2 350 000 zł pod ID 682936,
+  oraz nowa duża oferta mieszana dom+lokal usługowy w Łomiankach za 6 500 000 zł/760m2),
+  0 dodanych
+- adresowo: ok, 39 found, 0 nowych URL-i (wszystkie już znane)
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert w podanych przez Ciebie kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development co poprzednio, nadal
+  oznaczona jako nieaktywna), 0 new
+- oferty-net: error — "Claude Code is unable to fetch from www.oferty.net", 0 found, 0 new
+
+Liczba ofert odrzuconych z powodu limitu budżetu (>1 200 000 zł) per źródło:
+nieruchomosci-online: 5, domiporta: 25.
+
+Nowe ogłoszenia dodane do offers.json: 5 (4 nieruchomosci-online, 1 olx).
+Powiadomienie push: WYSŁANE (5 genuinie nowych ogłoszeń, żadne źródło nie było
+bootstrapem).
+offers.json: rozbudowany z 245 do 250 ofert.
+index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-11-02 na górze z wyróżnieniem.
