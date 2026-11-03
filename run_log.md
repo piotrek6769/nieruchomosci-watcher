@@ -1706,3 +1706,48 @@ bootstrapem).
 offers.json: rozbudowany z 245 do 250 ofert.
 index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-11-02 na górze z wyróżnieniem.
+
+## Watcher run 2026-11-03
+
+Lokalny czas: 2026-11-03 08:29 CET
+
+Status per źródło:
+- otodom: blocked — HTTP 403 Forbidden na stronie wyników, 0 found, 0 new
+- nieruchomosci-online: ok, 33 found (9 w głównych wynikach + 24 w bloku rekomendacji),
+  7 nowych URL-i, 3 dodane pod limitem (Jabłonna 27089238 1 190 000 zł/119m²/347m²,
+  Jabłonna 27089240 1 190 000 zł/119m²/300m² — dwa bliźniacze lokale w tej samej
+  inwestycji; Legionowo/Kozietulskiego 27097085 1 150 000 zł/150m²/196m²), 4 odrzucone
+  — przekroczyły limit 1 200 000 zł (Łajski/Projektowana 26952822 1 289 000 zł,
+  Legionowo/Kozietulskiego 27097086 1 300 000 zł — druga, droższa część tego samego
+  bliźniaka co dodana 27097085, Kiełpin Poduchowny/Brzegowa 26892344 1 215 000 zł —
+  kolejna odsłona znanego długoletniego duplikatu, Jabłonna/Szkolna 26338532
+  1 270 000 zł)
+- olx: ok, 40 linków, tylko 1 olx.pl-native (Warszawa Białołęka/Bukowska, "blizniak-75m",
+  1 150 000 zł/75m²/400m²) — genuinie nowy i pod limitem, dodany; pozostałe 39 linków to
+  mirrory otodom.pl (zablokowane) — pominięte
+- morizon: blocked — "Claude Code is unable to fetch from www.morizon.pl"
+- domiporta: ok, 36 found (24 odczytane dosłownie + 12 z podsumowania modelu), 26 nowych
+  URL-i, wszystkie 26 odrzucone — przekroczyły limit 1 200 000 zł (ceny od 1 299 000 zł
+  do 6 500 000 zł; w tym ponownie "Osiedle Słoneczna 27-29" 2 350 000 zł pod ID 682936 i
+  ta sama duża oferta dom+lokal usługowy w Łomiankach za 6 500 000 zł/760m² znana z
+  2026-11-02), 0 dodanych
+- adresowo: ok, 39 found, 0 nowych URL-i (wszystkie już znane)
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert w podanych przez Ciebie kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development co poprzednio, nadal
+  oznaczona jako nieaktywna), 0 new
+- oferty-net: blocked — "Claude Code is unable to fetch from www.oferty.net"
+
+Liczba ofert odrzuconych z powodu limitu budżetu (>1 200 000 zł) per źródło:
+nieruchomosci-online: 4, domiporta: 26.
+
+Nowe ogłoszenia dodane do offers.json (4):
+- Jabłonna (27089238) - 1190000 zl - dom 119m2 / dzialka 347m2 - https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/27089238.html
+- Jabłonna (27089240) - 1190000 zl - dom 119m2 / dzialka 300m2 - https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/27089240.html
+- ul. Kozietulskiego, Legionowo - 1150000 zl - dom 150m2 / dzialka 196m2 - https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27097085.html
+- ul. Bukowska, Warszawa Białołęka - 1150000 zl - dom 75m2 / dzialka 400m2 - https://www.olx.pl/d/oferta/blizniak-75m-garaz-w-bryle-dzialka-400m-taras-30m-blaszak-12m-CID3-ID1d3Bmz.html
+
+Powiadomienie push: WYSŁANE (4 genuinie nowe ogłoszenia, żadne źródło nie było
+bootstrapem).
+offers.json: rozbudowany z 250 do 254 ofert.
+index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-11-03 na górze z wyróżnieniem.
