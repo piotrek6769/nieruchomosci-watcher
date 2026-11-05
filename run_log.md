@@ -1751,3 +1751,53 @@ bootstrapem).
 offers.json: rozbudowany z 250 do 254 ofert.
 index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-11-03 na górze z wyróżnieniem.
+
+## 2026-11-05 (lokalny czas uruchomienia)
+
+Status per źródło:
+- otodom: blocked — HTTP 403 Forbidden na stronie wyników, 0 found, 0 new
+- nieruchomosci-online: ok, 41 found (9 w głównych wynikach + 32 w bloku rekomendacji),
+  11 nowych URL-i, 5 dodanych pod limitem (Kiełpin 27106742 870 000 zł/120m²/470m²,
+  Legionowo 27106151 899 000 zł/127m²/25m² — kolejna odsłona znanego łańcucha duplikatów
+  "Aleja Legionów", Legionowo 27106153 950 000 zł/85,56m²/30m² — kolejna odsłona znanego
+  duplikatu, Legionowo 27106154 1 199 000 zł/142m²/341m² — kolejna odsłona znanego
+  duplikatu 142m²/341m², Legionowo/Kolejowa 27106155 899 900 zł/105,66m²/30m²), 6
+  odrzuconych — przekroczyły limit 1 200 000 zł (Chotomów 27007894 1 300 000 zł, Jabłonna
+  26736135 1 270 000 zł, Jabłonna 27106477 1 260 000 zł, Legionowo/Projektowana 26952822
+  1 289 000 zł, Legionowo/Kozietulskiego 27097086 1 350 000 zł — druższa druga część
+  bliźniaka, Łomianki Dolne/Kościelna Droga 26567300 1 350 000 zł)
+- olx: ok, 80 linków (40 w głównych wynikach + 40 w sekcji "większa odległość), tylko 2
+  olx.pl-native, ale oba to znane warianty slug-drift już znanych ID (ID12g9iE i
+  ID1cNPW5 z dopiskiem "-kanalizacja") — 0 genuinie nowych; pozostałe linki to mirrory
+  otodom.pl (zablokowane) — pominięte
+- morizon: blocked — "Claude Code is unable to fetch from www.morizon.pl"
+- domiporta: ok, 36 found (25 odczytane dosłownie + 11 z podsumowania modelu), 26 nowych
+  URL-i, wszystkie 26 odrzucone — przekroczyły limit 1 200 000 zł (ceny od 1 299 000 zł do
+  6 500 000 zł; w tym ponownie "Osiedle Słoneczna 27-29" 2 350 000 zł pod ID 682936 i ta
+  sama duża oferta dom+lokal usługowy w Łomiankach za 6 500 000 zł/760m² znana z
+  2026-11-02/03), 0 dodanych — wyjątkowo duża partia dużych/drogich domów w Łomiankach i
+  Łomiankach Dolnych (86-503m², głównie 1,3M-2,99M)
+- adresowo: ok, 39 found, 1 nowy URL, pod limitem i dodany (Nowy Dwór Mazowiecki/Kolejowa,
+  1 100 000 zł/270m²/760m² — poza powiatem legionowskim, typowe zasięg-szerszy-niż-filtr
+  zachowanie tego źródła)
+- gethome: ok, 0 found ("Nie znaleźliśmy ofert w podanych przez Ciebie kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development co poprzednio, nadal
+  oznaczona jako nieaktywna), 0 new
+- oferty-net: blocked — "Claude Code is unable to fetch from www.oferty.net"
+
+Liczba ofert odrzuconych z powodu limitu budżetu (>1 200 000 zł) per źródło:
+nieruchomosci-online: 6, domiporta: 26.
+
+Nowe ogłoszenia dodane do offers.json (6):
+- Kiełpin, Łomianki - 870000 zl - dom 120m2 / dzialka 470m2 - https://kielpin.nieruchomosci-online.pl/dom,na-sprzedaz/27106742.html
+- Legionowo - 899000 zl - dom 127m2 / dzialka 25m2 - https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27106151.html
+- Legionowo - 950000 zl - dom 85.56m2 / dzialka 30m2 - https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27106153.html
+- Legionowo - 1199000 zl - dom 142m2 / dzialka 341m2 - https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27106154.html
+- Kolejowa, Legionowo - 899900 zl - dom 105.66m2 / dzialka 30m2 - https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27106155.html
+- ul. Kolejowa, Nowy Dwór Mazowiecki - 1100000 zl - dom 270m2 / dzialka 760m2 - https://adresowo.pl/o/dom-nowy-dwor-mazowiecki-ul-kolejowa-w9g5m9
+
+Powiadomienie push: WYSŁANE (6 genuinie nowych ogłoszeń, żadne źródło nie było
+bootstrapem).
+offers.json: rozbudowany z 254 do 260 ofert.
+index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-11-05 na górze z wyróżnieniem.
