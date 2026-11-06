@@ -1801,3 +1801,38 @@ bootstrapem).
 offers.json: rozbudowany z 254 do 260 ofert.
 index.html: zregenerowany w pełni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-11-05 na górze z wyróżnieniem.
+
+## 2026-11-06 08:06 CET
+
+- otodom: blocked — HTTP 403 Forbidden
+- nieruchomosci-online: ok, 41 found (9 w glownych wynikach + 32 w widgecie "Domy, ktore
+  moga Cie zainteresowac"), 8 nowych URL-i, 1 pod limitem i dodany (Legionowo/Warszawska
+  26638133, 1 180 000 zl/170m2/708m2), 7 odrzuconych — przekroczyly limit 1 200 000 zl
+  (Chotomow 27007894 1 300 000 zl, Jablonna 27011392/27032975/27106477 po 1 260 000 zl,
+  Kielpin Poduchowny/Brzegowa 26820802 1 225 000 zl — znany powtarzajacy sie duplikat,
+  Legionowo/Projektowana 26952822 1 289 000 zl, Legionowo/Kozietulskiego 27097086
+  1 350 000 zl — druzsza polowa bliznia znanej 27097085)
+- olx: ok, 40 linkow, 39 to mirrory otodom.pl (zablokowane), 1 olx.pl-native
+  (blizniak-75m, Warszawa Bialoleka/Bukowska, ID1d3Bmz) ale juz znany z 2026-11-03 —
+  0 genuinie nowych
+- morizon: blocked — "Claude Code is unable to fetch from www.morizon.pl"
+- domiporta: ok, 36 found, 26 nowych URL-i, wszystkie 26 odrzucone — przekroczyly limit
+  1 200 000 zl (ceny od 1 299 000 zl do 6 500 000 zl; w tym ponownie "Osiedle Sloneczna
+  27-29" 2 350 000 zl pod ID 682936 i ta sama duza oferta dom+lokal uslugowy w Lomiankach
+  za 6 500 000 zl/760m2 znana od 2026-11-02/03), 0 dodanych — kolejna duza partia
+  drogich domow w Lomiankach/Lomiankach Dolnych (86-503m2, glownie 1,3M-2,99M)
+- adresowo: ok, 39 found, 0 nowych URL-i (wszystkie juz znane)
+- gethome: ok, 0 found ("Nie znalezlismy ofert w podanych przez Ciebie kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development, nadal nieaktywna), 0 new
+- oferty-net: blocked — "Claude Code is unable to fetch from www.oferty.net"
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 200 000 zl) per zrodlo:
+nieruchomosci-online: 7, domiporta: 26.
+
+Nowe ogloszenia dodane do offers.json (1):
+- Warszawska, Legionowo - 1180000 zl - dom 170m2 / dzialka 708m2 - https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26638133.html
+
+Powiadomienie push: WYSLANE (1 genuinie nowe ogloszenie, zrodlo nie bylo bootstrapem).
+offers.json: rozbudowany z 260 do 261 ofert.
+index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-11-06 na górze z wyróżnieniem.
