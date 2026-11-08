@@ -2345,6 +2345,24 @@
       "cena_za_m2": "4074 zl/m2",
       "dom_m2": "270",
       "dzialka_m2": "760"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-wieliszew-ul-zabia-m0b9q5",
+      "first_seen": "2026-11-08",
+      "adres": "ul. Żabia, Wieliszew, legionowski, mazowieckie",
+      "cena": "699 500 zł",
+      "cena_za_m2": "17 488 zł/m²",
+      "dom_m2": "40",
+      "dzialka_m2": "1550"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-serock-dosin-92-m2-u3b8h8",
+      "first_seen": "2026-11-08",
+      "adres": "Dosin, gmina Serock, legionowski, mazowieckie",
+      "cena": "1 199 000 zł",
+      "cena_za_m2": "13 013 zł/m²",
+      "dom_m2": "92,14",
+      "dzialka_m2": "533"
     }
   ],
   "gethome": [],

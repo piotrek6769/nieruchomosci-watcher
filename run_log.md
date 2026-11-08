@@ -1836,3 +1836,43 @@ Powiadomienie push: WYSLANE (1 genuinie nowe ogloszenie, zrodlo nie bylo bootstr
 offers.json: rozbudowany z 260 do 261 ofert.
 index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-11-06 na górze z wyróżnieniem.
+
+## 2026-11-08 (CET)
+
+- otodom: blocked — HTTP 403 Forbidden
+- nieruchomosci-online: ok, 40 found (9 w glownych wynikach + 31 w widgecie "Domy, ktore
+  moga Cie zainteresowac"), 7 nowych URL-i. 1 (Kielpin/26892344) okazal sie martwym
+  linkiem — strona 404 "Ups... chyba kto glodny zjadl te strone", mimo ze ten sam ID
+  jest znany pod subdomena kielpin.* jako para-duplikat z 25899131; pominiety jako artefakt
+  ekstrakcji, nie liczony do limitu. Pozostale 6 odrzucone — przekroczyly limit 1 200 000 zl
+  (Legionowo/Projektowana 26952822 1 289 000 zl, Jablonna 27106477 1 260 000 zl,
+  Kepa Kielpinska/surowy-otwarty 27037728 1 250 000 zl, Legionowo/Kozietulskiego 27097086
+  1 350 000 zl, Jablonna 27011392 1 260 000 zl, Kielpin/Brzegowa 25899131 1 235 000 zl —
+  znany powtarzajacy sie duplikat z 26964356/26892344), 0 dodanych
+- olx: ok, 79 linkow, 61 to mirrory otodom.pl (zablokowane), 18 olx.pl-native, ale oba
+  "nowe" linki (ID1cNPW5, ID12g9iE) to znany wczesniej slug-drift tych samych ID juz
+  obecnych w offers.json — 0 genuinie nowych
+- morizon: blocked — "Claude Code is unable to fetch from www.morizon.pl"
+- domiporta: ok, 36 found, 26 nowych URL-i, wszystkie 26 odrzucone — przekroczyly limit
+  1 200 000 zl (ceny od 1 299 000 zl do 6 500 000 zl; w tym ponownie "Osiedle Sloneczna
+  27-29" 2 350 000 zl pod ID 682936, oraz nowy bardzo duzy obiekt dom+lokal uslugowy w
+  Lomiankach za 6 500 000 zl/760m2 pod nowym ID 156989225), 0 dodanych — kolejna duza
+  partia drogich domow w Lomiankach/Lomiankach Dolnych/Dabrowie (86-503m2, glownie
+  1,3M-2,99M)
+- adresowo: ok, 39 found, 2 nowe URL-e, oba pod limitem i dodane (Wieliszew/ul. Zabia
+  699 500 zl/40m2/1550m2, Serock/Dosin 1 199 000 zl/92,14m2/533m2)
+- gethome: ok, 0 found ("Nie znalezlismy ofert w podanych przez Ciebie kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development, nadal nieaktywna), 0 new
+- oferty-net: blocked — "Unable to verify if domain www.oferty.net is safe to fetch"
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 200 000 zl) per zrodlo:
+nieruchomosci-online: 6, domiporta: 26.
+
+Nowe ogloszenia dodane do offers.json (2):
+- ul. Zabia, Wieliszew - 699500 zl - dom 40m2 / dzialka 1550m2 - https://adresowo.pl/o/dom-wieliszew-ul-zabia-m0b9q5
+- Dosin, gmina Serock - 1199000 zl - dom 92,14m2 / dzialka 533m2 - https://adresowo.pl/o/dom-serock-dosin-92-m2-u3b8h8
+
+Powiadomienie push: WYSLANE (2 genuinie nowe ogloszenia, zrodlo nie bylo bootstrapem).
+offers.json: rozbudowany z 261 do 263 ofert.
+index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-11-08 na górze z wyróżnieniem.
