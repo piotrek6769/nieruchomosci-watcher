@@ -935,6 +935,24 @@
       "cena_za_m2": "6941.18 zl",
       "dom_m2": "170",
       "dzialka_m2": "708"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27111521.html",
+      "first_seen": "2026-11-09",
+      "adres": "Kolejowa, Legionowo, mazowieckie",
+      "cena": "899900 zl",
+      "cena_za_m2": "8516,94 zl/m2",
+      "dom_m2": "105.66",
+      "dzialka_m2": "30"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27111520.html",
+      "first_seen": "2026-11-09",
+      "adres": "Legionowo, mazowieckie",
+      "cena": "899000 zl",
+      "cena_za_m2": "7078,74 zl/m2",
+      "dom_m2": "127",
+      "dzialka_m2": "25"
     }
   ],
   "olx": [
@@ -2363,6 +2381,15 @@
       "cena_za_m2": "13 013 zł/m²",
       "dom_m2": "92,14",
       "dzialka_m2": "533"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-radzymin-arciechow-ul-myszyniec-f3l2i7",
+      "first_seen": "2026-11-09",
+      "adres": "ul. Myszyniec, Arciechów, gmina Radzymin, powiat wołomiński",
+      "cena": "1199000 zl",
+      "cena_za_m2": "2998 zl/m2",
+      "dom_m2": "400",
+      "dzialka_m2": "2800"
     }
   ],
   "gethome": [],

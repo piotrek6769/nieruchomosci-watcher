@@ -1876,3 +1876,42 @@ Powiadomienie push: WYSLANE (2 genuinie nowe ogloszenia, zrodlo nie bylo bootstr
 offers.json: rozbudowany z 261 do 263 ofert.
 index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-11-08 na górze z wyróżnieniem.
+
+## 2026-11-09 (CET)
+
+- otodom: blocked — HTTP 403 Forbidden
+- nieruchomosci-online: ok, 41 found (9 w glownych wynikach + 32 w widgecie "Domy, ktore
+  moga Cie zainteresowac"), 6 nowych URL-i. 2 pod limitem i dodane (Kolejowa/Legionowo
+  27111521 899 900 zl/105,66m2/30m2, Legionowo 27111520 899 000 zl/127m2/25m2 — kolejne
+  ogniwo dlugotrwalego lancucha duplikatow 899k/127m2/25m2 znanego od tygodni). Pozostale
+  4 odrzucone — przekroczyly limit (Projektowana/Mlodych Legionowo 26952822 1 289 000 zl,
+  Jablonna 27106477 1 260 000 zl, Chotomow 27007894 1 300 000 zl, Kepa Kielpinska/Lomianki
+  27037728 1 250 000 zl)
+- olx: ok, 80 linkow (40 glowne + 40 w sekcji wiekszej odleglosci), tylko kilka
+  olx.pl-native, wszystkie to znany slug-drift tych samych ID juz obecnych w offers.json
+  (ID1d3Bmz, ID1bv0E1, ID1cR6jq, ID1cgem2, ID1cNPW5, ID1b7VKK, ID16wFPR, ID12g9iE) — 0
+  genuinie nowych
+- morizon: blocked — "Claude Code is unable to fetch from www.morizon.pl"
+- domiporta: ok, 36 found, 24 zweryfikowane nowe URL-e, wszystkie 24 odrzucone —
+  przekroczyly limit 1 200 000 zl (ceny od 1 299 000 zl do 2 990 000 zl, w tym duza
+  partia drogich domow w Lomiankach/Lomiankach Dolnych/Dabrowie, Chotomowie, Kielpinie,
+  Warszawie Bialolece i Legionowie, 110-503m2), 0 dodanych
+- adresowo: ok, 39 found, 1 nowy URL, pod limitem i dodany (ul. Myszyniec, Arciechow,
+  gmina Radzymin 1 199 000 zl/400m2/2800m2 — typowy przyklad szerokiego zasiegu
+  geograficznego tego zrodla)
+- gethome: ok, 0 found ("Nie znalezlismy ofert w podanych przez Ciebie kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development, nadal nieaktywna), 0 new
+- oferty-net: blocked — "Claude Code is unable to fetch from www.oferty.net"
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 200 000 zl) per zrodlo:
+nieruchomosci-online: 4, domiporta: 24.
+
+Nowe ogloszenia dodane do offers.json (3):
+- Kolejowa, Legionowo - 899900 zl - dom 105,66m2 / dzialka 30m2 - https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27111521.html
+- Legionowo - 899000 zl - dom 127m2 / dzialka 25m2 - https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27111520.html
+- ul. Myszyniec, Arciechow - 1199000 zl - dom 400m2 / dzialka 2800m2 - https://adresowo.pl/o/dom-radzymin-arciechow-ul-myszyniec-f3l2i7
+
+Powiadomienie push: WYSLANE (3 genuinie nowe ogloszenia, zrodlo nie bylo bootstrapem).
+offers.json: rozbudowany z 263 do 266 ofert.
+index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-11-09 na gorze z wyroznieniem.
