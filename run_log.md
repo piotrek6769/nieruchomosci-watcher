@@ -1915,3 +1915,33 @@ Powiadomienie push: WYSLANE (3 genuinie nowe ogloszenia, zrodlo nie bylo bootstr
 offers.json: rozbudowany z 263 do 266 ofert.
 index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-11-09 na gorze z wyroznieniem.
+
+## 2026-11-10 (CET)
+
+- otodom: blocked — HTTP 403 Forbidden
+- nieruchomosci-online: ok, 41 found (9 w glownych wynikach + 32 w widgecie "Domy, ktore
+  moga Cie zainteresowac"), 2 nowe URL-e, oba odrzucone — przekroczyly limit (Projektowana/
+  Mlodych, Legionowo 26952822 1 289 000 zl/184,79m2/400m2; Jablonna 27106477 1 260 000 zl/
+  120m2/335m2)
+- olx: ok, 40 linkow, tylko 1 olx.pl-native (ID1d3Bmz) i juz znany z 2026-11-03 — 0 nowych
+- morizon: blocked — "Claude Code is unable to fetch from www.morizon.pl"
+- domiporta: ok, 36 found, 25 zweryfikowanych nowych URL-i, wszystkie 25 odrzucone —
+  przekroczyly limit 1 200 000 zl (ceny od 1 299 000 zl do 6 500 000 zl, w tym duza partia
+  drogich domow w Lomiankach/Lomiankach Dolnych/Dabrowie, Chotomowie, Kielpinie Poduchownym,
+  Jozefowie, Warszawie Bialolece i Legionowie, w tym rekordowa oferta dom+lokal uslugowy
+  760m2/6 500 000 zl oraz znana "Osiedle Sloneczna 27-29" 2 350 000 zl), 0 dodanych
+- adresowo: ok, 39 found, 0 nowych URL-i (wszystkie juz znane)
+- gethome: ok, 0 found ("Nie znalezlismy ofert w podanych przez Ciebie kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development, nadal nieaktywna), 0 new
+- oferty-net: blocked — "Claude Code is unable to fetch from www.oferty.net"
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 200 000 zl) per zrodlo:
+nieruchomosci-online: 2, domiporta: 25.
+
+Nowe ogloszenia dodane do offers.json: brak (wszystkie zweryfikowane nowe URL-e przekroczyly limit cenowy).
+
+Powiadomienie push: NIE WYSLANE (0 genuinie nowych ofert pod limitem).
+offers.json: bez zmian w liczbie ofert (266).
+index.html: zregenerowany w pelni z aktualnego offers.json (tylko timestamp "Ostatnia
+aktualizacja" odswiezony), pogrupowany wg daty first_seen, sekcja 2026-11-09 nadal na
+gorze z wyroznieniem (brak nowych dat).
