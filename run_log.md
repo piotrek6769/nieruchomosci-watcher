@@ -1945,3 +1945,52 @@ offers.json: bez zmian w liczbie ofert (266).
 index.html: zregenerowany w pelni z aktualnego offers.json (tylko timestamp "Ostatnia
 aktualizacja" odswiezony), pogrupowany wg daty first_seen, sekcja 2026-11-09 nadal na
 gorze z wyroznieniem (brak nowych dat).
+
+## 2026-11-13 (CET)
+
+- otodom: ok (duza zmiana — strona wyszukiwania ORAZ strony ofert dzialaja po raz
+  pierwszy od dawna, poprzednio pelna blokada 403). Brak wpisu w offers.json dla tego
+  zrodla = BOOTSTRAP. Znaleziono 271 wynikow na liscie (odczytano okolo 70 unikalnych
+  URL-i z glownej strony wyszukiwania + z linkow-mirror widocznych na stronie olx).
+  Wszystkie 70 pobrane i dodane (wszystkie pod limitem 1 200 000 zl — filtr cenowy
+  otodom dziala poprawnie w przeciwienstwie do domiporty). Zgodnie z zasada bootstrapu:
+  0 powiadomien dla tych wpisow.
+- nieruchomosci-online: ok, 40 found (8 w glownych wynikach + 32 w widgecie
+  "Domy, ktore moga Cie zainteresowac"), 1 nowy URL (Kielpin Poduchowny/Brzegowa,
+  ID 25899131 — znany duplikat-partner), odrzucony — 1 235 000 zl przekracza limit.
+  0 dodanych.
+- olx: ok, 40 linkow, 39 to otodom.pl mirror-links (wszystkie identyczne z URL-ami
+  juz zlapanymi w bootstrapie otodom — pominiete pod "olx" zeby nie duplikowac
+  tego samego URL-a pod dwoma zrodlami), 1 olx.pl-native (ID1d3Bmz) juz znany z
+  2026-11-03. 0 nowych dla olx.
+- morizon: blocked — "Claude Code is unable to fetch from www.morizon.pl"
+- domiporta: ok, 35 found, 25 zweryfikowanych nowych URL-i, 24 odrzucone — przekroczyly
+  limit 1 200 000 zl (ceny od 1 250 000 zl do 6 500 000 zl, w tym znana "Osiedle
+  Sloneczna 27-29" 2 350 000 zl i znana oferta dom+lokal uslugowy 760m2/6 500 000 zl),
+  1 dodany pod limitem (Legionowo/Mazowiecka, 1 059 000 zl/157,2m2/40m2, ID 156545426 —
+  to dokladny duplikat ceny/powierzchni istniejacej oferty otodom ID4C0cQ dodanej w tym
+  samym biegu, zachowane obie zgodnie z zasada jeden-wiersz-na-URL).
+- adresowo: ok, 39 found, 2 nowe URL-e, oba pod limitem i dodane (ul. Wolna, Warszawa
+  Wawer, 1 180 000 zl/192m2/643m2; Stary Modlin, Nowy Dwor Mazowiecki, 997 000 zl/
+  250m2/760m2).
+- gethome: ok, 0 found ("Nie znalezlismy ofert w podanych przez Ciebie kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development, nadal nieaktywna), 0 new
+- oferty-net: blocked — "Claude Code is unable to fetch from www.oferty.net"
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 200 000 zl) per zrodlo:
+nieruchomosci-online: 1, domiporta: 24.
+
+Nowe ogloszenia dodane do offers.json spoza bootstrapu (3):
+- Legionowo, Mazowiecka - 1059000 zl - dom 157,2m2 / dzialka 40m2 - https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-mazowiecka-157m2/156545426
+- ul. Wolna, Warszawa Wawer - 1180000 zl - dom 192m2 / dzialka 643m2 - https://adresowo.pl/o/dom-warszawa-ul-wolna-m9l0k2
+- Stary Modlin, Nowy Dwor Mazowiecki - 997000 zl - dom 250m2 / dzialka 760m2 - https://adresowo.pl/o/dom-nowy-dwor-mazowiecki-250-m2-q5d1e0
+
+Dodatkowo bootstrap otodom: 70 ofert dodanych bez powiadomienia (pierwszy raz to
+zrodlo jest sledzone w offers.json).
+
+Powiadomienie push: WYSLANE (3 genuinie nowe ogloszenia spoza bootstrapu; bootstrap
+otodom nie generuje powiadomienia zgodnie z zasada).
+offers.json: rozbudowany z 266 do 339 ofert (70 bootstrap otodom + 3 nowe + 0 zmian w
+pozostalych zrodlach).
+index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-11-13 na gorze z wyroznieniem.
