@@ -1994,3 +1994,63 @@ offers.json: rozbudowany z 266 do 339 ofert (70 bootstrap otodom + 3 nowe + 0 zm
 pozostalych zrodlach).
 index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-11-13 na gorze z wyroznieniem.
+
+## 2026-11-14 (lokalny czas uruchomienia)
+
+- otodom: ok, 35 found (pierwsza strona wynikow z 274 lacznie — tylko strona 1
+  sprawdzona, bez paginacji), 14 nowych URL-i (programowo zweryfikowanych wobec
+  offers.json), wszystkie 14 pod limitem 1 200 000 zl i dodane. Jeden dodatkowy URL
+  z otodom.pl zlapany przez wyszukiwarke olx ("/pl/oferta/-ID4Bwj3") rowniez
+  genuinie nowy i dodany pod kluczem otodom (Wola Aleksandra, Nieporet, 1 139 000 zl)
+  — zgodnie z zasada z 2026-11-13, URL-e otodom.pl trafiaja pod "otodom", nie "olx".
+- nieruchomosci-online: ok, 40 found (8 w glownych wynikach + 32 w widgecie "Domy,
+  ktore moga Cie zainteresowac"), 8 nowych URL-i, wszystkie 8 odrzucone — przekroczyly
+  limit (1 225 000 – 1 350 000 zl), w tym znany duplikat-partner Kielpin
+  Poduchowny/Brzegowa (ID 25899131 i 26820802). 0 dodanych.
+- olx: ok, 40 linkow, 39 to otodom.pl mirror-links — 38 z nich identyczne z URL-ami
+  juz znanymi/zlapanymi pod "otodom" w tym biegu (pominiete pod "olx" zeby nie
+  duplikowac URL-a pod dwoma zrodlami), 1 ("-ID4Bwj3") genuinie nowy i dodany pod
+  "otodom" (patrz wyzej). 1 olx.pl-native (ID1d3Bmz) juz znany z 2026-11-03.
+  0 nowych dla "olx".
+- morizon: blocked — "Claude Code is unable to fetch from www.morizon.pl"
+- domiporta: ok, 36 found, 26 zweryfikowanych nowych URL-i (programowo), wszystkie 26
+  przekroczyly limit 1 200 000 zl (ceny od 1 250 000 zl do 6 500 000 zl, w tym znana
+  "Osiedle Sloneczna 27-29" 2 350 000 zl i znana oferta dom+lokal uslugowy
+  760m2/6 500 000 zl). Dwa URL-e z nieoficjalnej/niezweryfikowanej czesci raportu
+  wyszukiwania (156947552, 156947551 — Lomianki/Brzezinskiego, ceny 899 999 zl i
+  949 000 zl, pod limitem) okazaly sie juz byc w offers.json z wczesniejszych biegow —
+  pobrane ponownie przez pomylke (powtorka znanego bledu z 2026-11-08), ale NIE
+  dodane powtornie. 0 dodanych.
+- adresowo: ok, 39 found, 0 nowych URL-i (wszystkie juz znane).
+- gethome: ok, 0 found ("Nie znalezlismy ofert w podanych przez Ciebie kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development, nadal nieaktywna), 0 new
+- oferty-net: blocked — "Claude Code is unable to fetch from www.oferty.net"
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 200 000 zl) per zrodlo:
+nieruchomosci-online: 8, domiporta: 26.
+
+Nowe ogloszenia dodane do offers.json (14, wszystkie otodom):
+- Legionowo - 920000 zl - dom 118.43m2 / dzialka 470m2 - https://www.otodom.pl/pl/oferta/limitowana-oferta-ostatni-dostepny-lokal-z-ogrodkiem-ok-251m2-ID4CN9X
+- ul. Czerwienna, Krubin, Wieliszew - 975000 zl - dom 170m2 / dzialka 620m2 - https://www.otodom.pl/pl/oferta/solidnie-wykonany-dom-170-m-dzialka-620-m-ID4DO7b
+- Izabelin-Dziekanowek, Czosnow - 1129000 zl - dom 81.72m2 / dzialka 156.6m2 - https://www.otodom.pl/pl/oferta/kameralne-osiedle-kampino-park-z-prywatnym-lasem-ID4DBY8
+- Modlinska 16E, Skierdy, Jablonna - 1100000 zl - dom 117.8m2 / dzialka 1200m2 - https://www.otodom.pl/pl/oferta/skierdy-dom-117-80-m-dzialka-ok-1200-m-przy-lesie-ID4DCsM
+- ul. Marcelinska, Zeran, Bialoleka, Warszawa - 810000 zl - dom 156m2 / dzialka 679m2 - https://www.otodom.pl/pl/oferta/wolnostojacy-dom-w-bialolece-dom-156m3-bezposrednio-ID4CKu5
+- ul. Polna, Skrzeszew, Wieliszew - 880000 zl - dom 100.95m2 / dzialka 658m2 - https://www.otodom.pl/pl/oferta/energooszczedne-apartamenty-polna-ID4DMw0
+- Jablonna (Choszczowka) - 1110000 zl - dom 90m2 / dzialka 549m2 - https://www.otodom.pl/pl/oferta/komfortowy-dom-przy-lesie-choszczowka-ID4AB3p
+- Sw. Wojciecha, Jablonna - 999000 zl - dom 163.89m2 / dzialka 213m2 - https://www.otodom.pl/pl/oferta/segment-6pokoi-164m-jablonna-bez-pcc-i-prowi-ID4CyiU
+- ul. Koralowa, Trzciany, Jablonna - 850000 zl - dom 102.74m2 / dzialka 1313m2 - https://www.otodom.pl/pl/oferta/dom-pietrowy-w-trzcianach-ul-koralowa-bezposrednio-ID4Bk6q
+- Krubin, Wieliszew - 800000 zl - dom 99.45m2 / dzialka 750m2 - https://www.otodom.pl/pl/oferta/dom-wolnostojacy-krubin-bezposrednio-ID4BfFQ
+- ul. Mieczyslawa Mroza, Krubin, Wieliszew - 800000 zl - dom 99.45m2 / dzialka 750m2 - https://www.otodom.pl/pl/oferta/dom-wolnostojacy-krubin-bezposrednio-ID4BfGy
+- ul. Koralowa, Trzciany, Jablonna - 850000 zl - dom 105.9m2 / dzialka 550m2 - https://www.otodom.pl/pl/oferta/domy-w-trzcianach-ul-koralowa-bezposrednio-ID4BfHd
+- ul. Koralowa, Trzciany, Jablonna - 850000 zl - dom 105.9m2 / dzialka 550m2 - https://www.otodom.pl/pl/oferta/domy-w-trzcianach-ul-koralowa-bezposrednio-ID4BfI5
+- Wola Aleksandra, Nieporet - 1139000 zl - dom 135m2 / dzialka 440m2 - https://www.otodom.pl/pl/oferta/-ID4Bwj3
+
+Dodatkowa uwaga: jeden URL z otodom ("/hpr/pl/oferta/dom-4-pokoje-38-m2-winda-ID9P5llo",
+wyglada jak zduplikowana karta oferty ID4CN9X pod innym ID) zwrocil HTTP 410 Gone —
+pominiety bez dodania, bez liczenia do limitu i bez powiadomienia (martwy link).
+
+Powiadomienie push: WYSLANE (14 nowych ogloszen, wszystkie z otodom).
+offers.json: rozbudowany z 339 do 353 ofert (14 nowych, 0 zmian w pozostalych
+zrodlach).
+index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-11-14 na gorze z wyroznieniem.
