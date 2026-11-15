@@ -2054,3 +2054,56 @@ offers.json: rozbudowany z 339 do 353 ofert (14 nowych, 0 zmian w pozostalych
 zrodlach).
 index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-11-14 na gorze z wyroznieniem.
+
+## 2026-11-15 15:52 (lokalny czas uruchomienia)
+
+- otodom: ok, tylko strona 1 wynikow (273 lacznie, bez paginacji), 37 linkow
+  znalezionych, 13 nowych wobec offers.json — 12 dodanych pod limitem (799 000 -
+  1 199 000 zl, w tym dwa lokale 5a/5b w tym samym budynku w Lomiankach,
+  ID4AuDj/ID4AuE6, identyczny metraz/dzialka, rozne ceny — osobne wpisy, nowy
+  wariant znanego wzorca "wiele lokali w jednym budynku"). Jeden URL
+  ("/hpr/pl/oferta/dom-2-pokoje-78-m2-po-remoncie-ID9P5llr") zwrocil HTTP 410
+  Gone — martwy link, pominiety bez dodania/liczenia/powiadomienia (ten sam
+  wzorzec jak ID9P5llo z 11-14).
+- nieruchomosci-online: ok, 39 found (8 glownych + 31 widget), 8 nowych URL-i,
+  wszystkie 8 odrzucone — przekroczyly limit (1 215 000 – 1 350 000 zl), w tym
+  znany duplikat Kielpin Poduchowny/Brzegowa (ID 26964356) oraz jego partner pod
+  subdomena kielpin-poduchowny (ID 26892344). 0 dodanych.
+- olx: ok, 40 linkow, 39 to otodom.pl mirror-links — wszystkie juz znane pod
+  kluczem "otodom" (pominiete pod "olx" zeby nie duplikowac URL-a). 1
+  olx.pl-native (ID1d3Bmz) juz znany z poprzednich biegow. 0 nowych dla "olx".
+- morizon: blocked — "Claude Code is unable to fetch from www.morizon.pl"
+- domiporta: ok, 36 found, 26 zweryfikowanych nowych URL-i (programowo),
+  wszystkie 26 przekroczyly limit 1 200 000 zl (ceny 1 250 000 – 6 500 000 zl),
+  w tym znana "Osiedle Sloneczna 27-29" (ID 682936, 2 350 000 zl) i znana oferta
+  dom+lokal uslugowy 760m2/6 500 000 zl (ID 156989225). 0 dodanych.
+- adresowo: ok, 39 found, 0 nowych URL-i (1 slug-drift: "ul-papieza-jana-pawla-ii-j3i7x9"
+  vs znany "al-jana-pawla-ii-j3i7x9", ten sam kod sufiksu — nie liczony jako nowy).
+- gethome: ok, 0 found ("Nie znalezlismy ofert w podanych przez Ciebie
+  kryteriach"), 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development, nadal
+  nieaktywna), 0 new
+- oferty-net: blocked — "Claude Code is unable to fetch from www.oferty.net"
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 200 000 zl) per zrodlo:
+nieruchomosci-online: 8, domiporta: 26.
+
+Nowe ogloszenia dodane do offers.json (12, wszystkie otodom):
+- Legionowo - 1040000 zl - dom 141m2 / dzialka 800m2 - https://www.otodom.pl/pl/oferta/nowe-domy-parterowe-z-podwojnym-garazem-ID4zarI
+- Szamocin, Bialoleka, Warszawa - 889000 zl - dom 97.29m2 / dzialka 203m2 - https://www.otodom.pl/pl/oferta/gotowe-domy-odbierz-klucze-ID4C0bw
+- Czosnow - 849000 zl - dom 136m2 / dzialka 616m2 - https://www.otodom.pl/pl/oferta/komfortowy-dom-136m2-dzialka-617m2-garaz-klima-kominek-prawy-ID4Dp5w
+- Lomianki (lokal 5b) - 1165000 zl - dom 105.76m2 / dzialka 384m2 - https://www.otodom.pl/pl/oferta/dom-lomianki-lokal-mieszkalny-5b-105-76-m2-ogrodek-384-m2-ID4AuE6
+- Lomianki (lokal 5a) - 1155000 zl - dom 105.76m2 / dzialka 384m2 - https://www.otodom.pl/pl/oferta/dom-lomianki-lokal-mieszkalny-5a-105-76-m2-ogrodek-384-m2-ID4AuDj
+- ul. Lesna, Lajski, Wieliszew - 1150000 zl - dom 205m2 / dzialka 800m2 - https://www.otodom.pl/pl/oferta/lajski-piekny-dom-ID4yeUQ
+- Kielpin Poduchowny, Lomianki - 899000 zl - dom 124m2 / dzialka 232m2 - https://www.otodom.pl/pl/oferta/ostatni-wolny-lokal-ID4ql2J
+- Kielpin, Lomianki - 799000 zl - dom 84m2 / dzialka 489m2 - https://www.otodom.pl/pl/oferta/duze-dzialki-okolo-490m2-atrakcyjna-cena-ID4APzr
+- Warszawska, Debina, Czosnow - 837000 zl - dom 106m2 / dzialka 615m2 - https://www.otodom.pl/pl/oferta/gotowy-blizniak-4-pok-106-m2-dzialka-615-m2-ID4DYW1
+- Bialoleka Dworska, Warszawa - 1199000 zl - dom 124m2 / dzialka 121m2 - https://www.otodom.pl/pl/oferta/w-cenie-panele-fot-5-6kw-mag-energii-10kwh-ladowarke-wallbox-ID4DjIX
+- ul. gen. Lucjana Zeligowskiego, Chotomow, Jablonna - 930000 zl - dom 128.51m2 / dzialka 290m2 - https://www.otodom.pl/pl/oferta/atrakcyjne-domy-w-chotomowie-ID4zjSc
+- Skierdy, Jablonna - 850000 zl - dom 112.4m2 / dzialka 1464m2 - https://www.otodom.pl/pl/oferta/skierdy-w-poblizu-ul-modlinskiej-bezposrednio-ID4zQAx
+
+Powiadomienie push: WYSLANE (12 nowych ogloszen, wszystkie z otodom).
+offers.json: rozbudowany z 353 do 365 ofert (12 nowych, 0 zmian w pozostalych
+zrodlach).
+index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-11-15 na gorze z wyroznieniem.
