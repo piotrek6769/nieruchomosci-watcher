@@ -1153,6 +1153,15 @@
       "cena_za_m2": "15333.33 zl/m2",
       "dom_m2": "75",
       "dzialka_m2": "400"
+    },
+    {
+      "url": "https://www.olx.pl/d/oferta/dom-blizniak-w-zabudowie-szeregowej-CID3-ID1dhvYX.html",
+      "adres": "Legionowo, Mazowieckie",
+      "cena": "1100000 zl",
+      "cena_za_m2": "11000 zl/m2",
+      "dom_m2": "100",
+      "dzialka_m2": "50",
+      "first_seen": "2026-11-16"
     }
   ],
   "domiporta": [
@@ -2417,6 +2426,24 @@
       "cena_za_m2": "3988 zl/m2",
       "dom_m2": "250",
       "dzialka_m2": "760"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-legionowo-ul-mazowiecka-u3f9c8",
+      "adres": "ul. Mazowiecka, Legionowo, powiat legionowski",
+      "cena": "1 100 000 zł",
+      "cena_za_m2": "11 000 zł/m²",
+      "dom_m2": "100",
+      "dzialka_m2": "50",
+      "first_seen": "2026-11-16"
+    },
+    {
+      "url": "https://adresowo.pl/o/dom-warszawa-ul-tworcza-h2r9w9",
+      "adres": "ul. Twórcza, Warszawa Białołęka",
+      "cena": "1 130 000 zł",
+      "cena_za_m2": "18 696 zł/m²",
+      "dom_m2": "60,44",
+      "dzialka_m2": "174",
+      "first_seen": "2026-11-16"
     }
   ],
   "gethome": [],
@@ -3295,6 +3322,33 @@
       "cena_za_m2": "7562,28 zł/m²",
       "dom_m2": "112.4",
       "dzialka_m2": "1464"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/sprzedam-bezposrednio-dzialke-z-domem-legionowo-topolowa-ID4Dtpw",
+      "adres": "ul. Topolowa, Legionowo",
+      "cena": "1150000 zl",
+      "cena_za_m2": "6886,23 zl/m2",
+      "dom_m2": "167",
+      "dzialka_m2": "1492",
+      "first_seen": "2026-11-16"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/ostatni-segment-blizniaczy-ID4rEbc",
+      "adres": "ul. Przyszłość, Stanisławów Pierwszy, gmina Nieporęt",
+      "cena": "1097000 zl",
+      "cena_za_m2": "8784,43 zl/m2",
+      "dom_m2": "124.88",
+      "dzialka_m2": "337.5",
+      "first_seen": "2026-11-16"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/dom-z-garazem-126m2-poddasze-60m2-blisko-pkp-super-cena-ID4Dgg2",
+      "adres": "Białołęka Dworska, Warszawa Białołęka",
+      "cena": "1199000 zl",
+      "cena_za_m2": "9493,27 zl/m2",
+      "dom_m2": "126.3",
+      "dzialka_m2": "2000",
+      "first_seen": "2026-11-16"
     }
   ]
 }

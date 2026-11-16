@@ -2107,3 +2107,49 @@ offers.json: rozbudowany z 353 do 365 ofert (12 nowych, 0 zmian w pozostalych
 zrodlach).
 index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-11-15 na gorze z wyroznieniem.
+
+## 2026-11-16 09:26 CET
+
+Status per zrodlo:
+- otodom: ok, 37 found (page 1 z ~267), 4 nowe, 1 skip (410 Gone, znany ciag
+  ID9P5ll*, dom 4 pokoje 75m2 ogrod), 0 przekroczylo limit, 3 dodane.
+- nieruchomosci-online: ok, 40 found (8 main + 32 widget), 6 nowych, wszystkie
+  6 przekroczyly limit 1 200 000 zl (1 225 000 - 1 350 000 zl), w tym znany
+  duplikat Kielpin Poduchowny/Brzegowa (ID 26964356 + partner 26820802). 0
+  dodanych.
+- olx: ok, 39 unikalnych linkow, 38 to otodom.pl mirror-links — wszystkie juz
+  znane pod kluczem "otodom" (pominiete pod "olx"). 2 olx.pl-native (ID1d3Bmz
+  znany, ID1dhvYX nowy) — 1 nowy dodany.
+- morizon: blocked — "Claude Code is unable to fetch from www.morizon.pl"
+- domiporta: ok, 36 found, 25 nowych URL-i, wszystkie 25 przekroczyly limit
+  1 200 000 zl (1 250 000 - 2 990 000 zl), w tym znana "Osiedle Sloneczna
+  27-29" (ID 682936, 2 350 000 zl). 0 dodanych.
+- adresowo: ok, 39 found, 1 slug-drift ("ul-papieza-jana-pawla-ii-j3i7x9" vs
+  znany "al-jana-pawla-ii-j3i7x9" — nie liczony jako nowy), 2 genuinie nowe,
+  0 przekroczylo limit, 2 dodane.
+- gethome: ok, 0 found, 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development, nadal
+  nieaktywna), 0 new
+- oferty-net: blocked — "Claude Code is unable to fetch from www.oferty.net"
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 200 000 zl) per zrodlo:
+nieruchomosci-online: 6, domiporta: 25.
+
+Nowe ogloszenia dodane do offers.json (6):
+- ul. Topolowa, Legionowo - 1150000 zl - dom 167m2 / dzialka 1492m2 - https://www.otodom.pl/pl/oferta/sprzedam-bezposrednio-dzialke-z-domem-legionowo-topolowa-ID4Dtpw
+- ul. Przyszlosc, Stanislawow Pierwszy, gmina Nieporet - 1097000 zl - dom 124.88m2 / dzialka 337.5m2 - https://www.otodom.pl/pl/oferta/ostatni-segment-blizniaczy-ID4rEbc
+- Bialoleka Dworska, Warszawa Bialoleka - 1199000 zl - dom 126.3m2 / dzialka 2000m2 - https://www.otodom.pl/pl/oferta/dom-z-garazem-126m2-poddasze-60m2-blisko-pkp-super-cena-ID4Dgg2
+- Legionowo, Mazowieckie - 1100000 zl - dom 100m2 / dzialka 50m2 - https://www.olx.pl/d/oferta/dom-blizniak-w-zabudowie-szeregowej-CID3-ID1dhvYX.html
+- ul. Mazowiecka, Legionowo, powiat legionowski - 1 100 000 zl - dom 100m2 / dzialka 50m2 - https://adresowo.pl/o/dom-legionowo-ul-mazowiecka-u3f9c8
+- ul. Tworcza, Warszawa Bialoleka - 1 130 000 zl - dom 60,44m2 / dzialka 174m2 - https://adresowo.pl/o/dom-warszawa-ul-tworcza-h2r9w9
+
+Uwaga: olx (ID1dhvYX) i adresowo (u3f9c8) wygladaja na ten sam fizyczny dom
+cross-posted — identyczny adres (ul. Mazowiecka, Legionowo), cena (1 100 000 zl)
+i metraz (100m2/50m2) pod dwoma roznymi URL-ami. Oba wiersze zachowane zgodnie
+z zasada jeden-obiekt-na-URL, spojne z wczesniejszymi przypadkami cross-source
+duplikatow.
+
+Powiadomienie push: WYSLANE (6 nowych ogloszen: 3 otodom, 1 olx, 2 adresowo).
+offers.json: rozbudowany z 365 do 371 ofert (6 nowych).
+index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-11-16 na gorze z wyroznieniem.
