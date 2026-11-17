@@ -2153,3 +2153,46 @@ Powiadomienie push: WYSLANE (6 nowych ogloszen: 3 otodom, 1 olx, 2 adresowo).
 offers.json: rozbudowany z 365 do 371 ofert (6 nowych).
 index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-11-16 na gorze z wyroznieniem.
+
+## 2026-11-17 09:10 CET
+
+Status per zrodlo:
+- otodom: ok, 37 found (page 1 z ~262-267) + 1 dodatkowy link /hpr/pl/oferta/
+  (ID9P5llv, znany ciag dead-linkow) znaleziony przez olx-mirror, ktory okazal
+  sie 410 Gone — pominiety bez liczenia jako przekroczenie limitu. Pozostale
+  37 nowych, 0 przekroczylo limit 1 200 000 zl (4 trafily rowno w 1 200 000 zl
+  — graniczna wartosc liczona jako NIE przekraczajaca limitu, zgodnie z zasada
+  inclusive), 37 dodanych.
+- nieruchomosci-online: ok, 8 found (tylko glowna lista wynikow, bez widgetu
+  polecanych), 0 nowych (wszystkie 8 juz znane).
+- olx: ok, 80 unikalnych linkow, 72 to otodom.pl mirror-links — scalone z
+  haulem otodom (1 z nich byl genuinie nowy, policzony pod kluczem "otodom":
+  patrz wyzej). 8 olx.pl-native: 2 to znane slug-drift warianty istniejacych
+  ID (ID12g9iE, ID1aequt — ta sama koncowka ID, inny opisowy slug), 1 nowy
+  (ID1dh4Be) — dodany pod cap.
+- morizon: blocked — "Claude Code is unable to fetch from www.morizon.pl"
+- domiporta: ok, 36 found (strona 1 z ~140), 26 nowych URL-i, wszystkie 26
+  przekroczyly limit 1 200 000 zl (1 250 000 - 6 500 000 zl), w tym znana
+  "Osiedle Sloneczna 27-29" (ID 682936, 2 350 000 zl). 0 dodanych. Potwierdzony
+  ponownie bug domiporta: automatyczne podsumowanie strony prawie zawsze
+  zglasza dzialka_m2 jako "-", mimo ze surowa strona ma wartosc w sekcji
+  "Powierzchnia dzialki" — wartosci wziete z surowej strony, nie z
+  podsumowania.
+- adresowo: ok, 39 found, 1 genuinie nowy i pod cap (Slupno/gmina Radzymin,
+  ul. Papieza Jana Pawla II, 1 199 000 zl/110,05m2) — dodany.
+- gethome: ok, 0 found, 0 new
+- rynekpierwotny: ok, 1 found (ta sama inwestycja PK Development, nadal
+  nieaktywna), 0 new
+- oferty-net: blocked — "Claude Code is unable to fetch from www.oferty.net"
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 200 000 zl) per zrodlo:
+otodom: 0, domiporta: 26.
+
+Nowe ogloszenia dodane do offers.json (39): 37 otodom + 1 olx + 1 adresowo.
+Push wysle tylko skrocony komunikat (39 nowych to zbyt duzo na pelna liste w
+jednym powiadomieniu) — pelna lista w index.html.
+
+Powiadomienie push: WYSLANE (39 nowych ogloszen: 37 otodom, 1 olx, 1 adresowo).
+offers.json: rozbudowany z 371 do 410 ofert (39 nowych).
+index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg daty
+first_seen, sekcja 2026-11-17 na gorze z wyroznieniem.
