@@ -2196,3 +2196,75 @@ Powiadomienie push: WYSLANE (39 nowych ogloszen: 37 otodom, 1 olx, 1 adresowo).
 offers.json: rozbudowany z 371 do 410 ofert (39 nowych).
 index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg daty
 first_seen, sekcja 2026-11-17 na gorze z wyroznieniem.
+
+## 2026-11-18 08:15 CET
+
+Przed uruchomieniem znaleziono niezacommitowane zmiany z poprzedniej sesji
+(podniesienie limitu budzetu z 1 200 000 do 1 500 000 zl w sources.json,
+nowa mapa/filtr/statystyki: map.js, filter.js, stats.js, map_snippet.html,
+vendor/leaflet, geocode.py, check_inactive.py, README) - scommitowane
+osobno przed dzisiejszym przebiegiem (commit 5e24e30). Przy tej okazji
+offers.json zostal zdeduplikowany (408 unikalnych ofert z 410 wpisow -
+2 duplikaty URL w olx i domiporta usuniete, zachowany wpis z najwczesniejsza
+data first_seen, zgodnie z zasada jeden-URL-na-wpis).
+
+Status per zrodlo (nowy limit budzetu: 1 500 000 zl):
+- otodom: ok, 71 znalezionych linkow (po scaleniu wlasnej listy wynikow z
+  otodom.pl mirror-linkami z olx), 37 nowych, 1 dead link (410 Gone,
+  /hpr/pl/oferta/.../ID9P5llz, znany ciag dead-linkow). Z pozostalych 36:
+  **0 przekroczylo limit 1 500 000 zl** (2 trafily rowno w 1 500 000 zl -
+  graniczna wartosc liczona jako NIE przekraczajaca limitu). 36 dodanych.
+- nieruchomosci-online: ok, 40 znalezionych (glowna lista, bez widgetu),
+  14 nowych, 3 przekroczyly limit (1 550 000 - 1 650 000 zl). 11 dodanych,
+  w tym nareszcie dodany dlugo-sledzony duplikat ID 25899131
+  (Brzegowa/Kielpin Poduchowny) - wczesniej zawsze odrzucany pod starym
+  limitem 1 200 000 zl, teraz pod nowym limitem 1 500 000 zl przeszedl
+  (1 235 000 zl).
+- olx: ok, 39 unikalnych linkow, 37 to otodom.pl mirror-links (scalone z
+  haulem otodom), 2 olx.pl-native, oba juz znane. 0 nowych pod kluczem olx.
+- morizon: blocked - "Claude Code is unable to fetch from www.morizon.pl"
+- domiporta: ok, 36 znalezionych (strona 1), 27 nowych URL-i - z czego 1
+  (156929397, Kielpin/Rozana) okazal sie bledna duplikacja (byl juz w
+  offers.json pod identycznym URL-em, pominiety bez dodawania). Z
+  pozostalych 26: 18 przekroczylo nowy limit 1 500 000 zl (1 540 000 -
+  6 500 000 zl), w tym znana "Osiedle Sloneczna 27-29" (ID 682936,
+  2 350 000 zl, wciaz nigdy nie dodana). 8 dodanych (1 300 000 - 1 500 000
+  zl, w tym jeden trafil rowno w 1 500 000 zl graniczna wartosc).
+- adresowo: ok, 39 znalezionych, 28 nowych, **0 przekroczylo limit** -
+  wszystkie 28 dodane (630 000 - 1 479 000 zl). Najlepszy haul adresowo od
+  tygodni.
+- gethome: ok, 1 znaleziony, 1 nowy, pod limitem (1 255 000 zl) - dodany.
+- rynekpierwotny: ok, 1 znaleziony (ta sama inwestycja PK Development,
+  nadal nieaktywna), 0 nowych.
+- oferty-net: blocked - "Claude Code is unable to fetch from www.oferty.net"
+
+Zauwazone cross-source/wewnetrzne duplikaty (oba wiersze zachowane, zgodnie
+z zasada jeden-URL-na-wpis):
+- otodom ID4DPtM i ID4E1pV: identyczny adres/cena/metraz (ul. Mochtynska,
+  Kobialka, Bialoleka, 1 490 000 zl/171.67m2/1226m2) pod dwoma roznymi
+  URL-ami otodom.
+- otodom ID4Dlzq i domiporta 156943809: identyczny adres/cena/metraz
+  (Koscielna Droga 84A, Lomianki Dolne, 1 300 000 zl/134.94m2/506m2).
+- nieruchomosci-online 26750868 i otodom ID4BzLy: identyczny adres/cena/
+  metraz (Kielpin Poduchowny/Wisniowa, 1 499 000 zl/145m2/411m2).
+- adresowo "dom-jablonna-ul-bliska-d6i6f6" i otodom "-ID4DUVi": identyczny
+  adres/cena/metraz (ul. Bliska, Jablonna, 1 299 999 zl/130m2/500m2).
+
+Nietypowa wartosc: otodom "promocja-segment-2-mp-ID4DhQb" mial dzialka_m2
+podana jako "1" (nonsensowna wartosc dla domu 160m2) - zapisana jako "-"
+zgodnie z wczesniejszym precedensem dla podobnych przypadkow.
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 500 000 zl) per
+zrodlo: otodom: 0, nieruchomosci-online: 3, domiporta: 18, adresowo: 0.
+
+Nowe ogloszenia dodane do offers.json (84): 36 otodom + 11
+nieruchomosci-online + 8 domiporta + 28 adresowo + 1 gethome.
+
+Powiadomienie push: WYSLANE (84 nowych ogloszen - skrocony komunikat,
+pelna lista w index.html).
+offers.json: rozbudowany z 408 do 492 ofert (84 nowych).
+geocode.py: ok, dogeokodowano nowe adresy (cache 346 wpisow).
+check_inactive.py: checked 492: newly inactive 2, reactivated 0, unknown 2,
+inactive total 56.
+index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg
+daty first_seen (48 sekcji), sekcja 2026-11-18 na gorze z wyroznieniem.

@@ -1409,5 +1409,316 @@
   52.38978,
   20.905432,
   0
+ ],
+ "Brzegowa, Kiełpin, Łomianki, warszawski zachodni, mazowieckie": [
+  52.36376,
+  20.886031,
+  0
+ ],
+ "Brzegowa, Łomianki Dolne, warszawski zachodni, mazowieckie": [
+  52.352748,
+  20.905878,
+  0
+ ],
+ "Chabrowa, Kiełpin, Łomianki, warszawski zachodni, mazowieckie": [
+  52.365289,
+  20.892135,
+  0
+ ],
+ "Dziekanów Leśny": [
+  52.346973,
+  20.85435,
+  0
+ ],
+ "Izabelin-Dziekanówek": [
+  52.3525,
+  20.819444,
+  0
+ ],
+ "Jabłonna (Przy Marmurowej)": [
+  52.376676,
+  20.917794,
+  0
+ ],
+ "Jana Sebastiana Bacha, Łomianki Dolne, warszawski zachodni, mazowieckie": [
+  52.354487,
+  20.890362,
+  0
+ ],
+ "Józefów, Strużańska": [
+  52.389791,
+  20.986031,
+  0
+ ],
+ "Józefów, Złota": [
+  52.400538,
+  20.976279,
+  0
+ ],
+ "Kiełpin": [
+  52.355193,
+  20.866011,
+  0
+ ],
+ "Kiełpin (gm. Łomianki), brak ulicy": null,
+ "Kościelna Droga 84A, Łomianki Dolne, Łomianki, warszawski zachodni, mazowieckie": [
+  52.355861,
+  20.883079,
+  0
+ ],
+ "Krubin": [
+  52.44627,
+  20.81087,
+  0
+ ],
+ "Kąty Węgierskie, Nieporęt, legionowski, mazowieckie": [
+  52.391825,
+  21.016781,
+  0
+ ],
+ "Mazowiecka, Rajszew, Jabłonna, legionowski, mazowieckie": [
+  52.394355,
+  20.836019,
+  0
+ ],
+ "Modlińska 16E, Skierdy, Jabłonna, legionowski, mazowieckie": [
+  52.401877,
+  20.82164,
+  0
+ ],
+ "Mościska (brak ulicy)": [
+  52.067421,
+  20.615024,
+  0
+ ],
+ "Projektowana, Młodych, Legionowo, legionowski, mazowieckie": [
+  52.42182,
+  20.923738,
+  1
+ ],
+ "Rajszew, Jabłonna, legionowski, mazowieckie": [
+  52.394759,
+  20.838386,
+  0
+ ],
+ "Rajszew, Mazowiecka": [
+  52.394355,
+  20.836019,
+  0
+ ],
+ "Równa, Józefów, Nieporęt, legionowski, mazowieckie": [
+  52.397283,
+  20.980501,
+  0
+ ],
+ "Szamocin, Białołęka, Warszawa": [
+  52.342803,
+  21.021666,
+  0
+ ],
+ "Szkolna, Jabłonna, legionowski, mazowieckie": [
+  52.367744,
+  20.942027,
+  0
+ ],
+ "Wiśniowa, Kiełpin, Łomianki, warszawski zachodni, mazowieckie": [
+  52.357997,
+  20.869259,
+  0
+ ],
+ "ul. Armii \"Poznań\", Łomianki Dolne, Łomianki, warszawski zachodni, mazowieckie": [
+  52.351357,
+  20.903191,
+  1
+ ],
+ "ul. Armii Poznań, Łomianki Dolne": [
+  52.351357,
+  20.903191,
+  1
+ ],
+ "ul. Bliska, Jabłonna": [
+  52.39502,
+  20.896085,
+  0
+ ],
+ "ul. Bliska, Jabłonna, legionowski, mazowieckie": [
+  52.39502,
+  20.896085,
+  0
+ ],
+ "ul. Boczna, Michałów-Reginów": [
+  52.432296,
+  20.965926,
+  0
+ ],
+ "ul. Brzegowa, Łomianki Dolne": [
+  52.352748,
+  20.905878,
+  0
+ ],
+ "ul. Dereniowa, Jabłonna, legionowski, mazowieckie": [
+  52.364507,
+  20.939172,
+  0
+ ],
+ "ul. Dobra, Wólka Radzymińska": [
+  52.413256,
+  21.081583,
+  0
+ ],
+ "ul. Gościnna, Stanisławów Drugi": [
+  52.410346,
+  20.971115,
+  0
+ ],
+ "ul. Grunwaldzka 1, Legionowo, legionowski, mazowieckie": [
+  52.402647,
+  20.908822,
+  0
+ ],
+ "ul. Hetmańska, Legionowo, legionowski, mazowieckie": [
+  52.398178,
+  20.912252,
+  0
+ ],
+ "ul. Józefa Mehoffera, Nowodwory, Białołęka, Warszawa, mazowieckie": [
+  52.322819,
+  20.944548,
+  0
+ ],
+ "ul. Lawendowa, Kiełpin": [
+  52.366972,
+  20.89428,
+  0
+ ],
+ "ul. Mazowiecka, Rajszew": [
+  52.384069,
+  20.869423,
+  0
+ ],
+ "ul. Mazowiecka, Rajszew, Jabłonna, legionowski, mazowieckie": [
+  52.394355,
+  20.836019,
+  0
+ ],
+ "ul. Mochtyńska, Kobiałka, Białołęka, Warszawa, mazowieckie": [
+  52.351542,
+  21.038837,
+  0
+ ],
+ "ul. Modlińska, Wieliszew": [
+  52.44536,
+  20.98798,
+  0
+ ],
+ "ul. Niepodległości, Wieliszew": [
+  52.455987,
+  20.959959,
+  0
+ ],
+ "ul. Nowoczesna, Rembelszczyzna": [
+  52.377132,
+  21.022659,
+  0
+ ],
+ "ul. Paproci, Trzciany, Jabłonna, legionowski, mazowieckie": [
+  52.419706,
+  20.817832,
+  0
+ ],
+ "ul. Podgórna, Wieliszew": [
+  52.445474,
+  20.955454,
+  0
+ ],
+ "ul. Poziomkowa, Józefów, Nieporęt, legionowski, mazowieckie": [
+  52.389054,
+  21.002302,
+  0
+ ],
+ "ul. Przy Strumyku 2, Mościska": [
+  52.28461,
+  20.866609,
+  0
+ ],
+ "ul. Sierakowska, Łomianki": [
+  52.341209,
+  20.875942,
+  0
+ ],
+ "ul. Skrzetuskiego, Nieporęt": [
+  52.400774,
+  21.04124,
+  0
+ ],
+ "ul. Spokojna, Wieliszew": [
+  52.458515,
+  20.941057,
+  0
+ ],
+ "ul. Stanisława Staszica, Łomianki, warszawski zachodni, mazowieckie": [
+  52.341931,
+  20.873869,
+  0
+ ],
+ "ul. Strużańska, Jabłonna, legionowski, mazowieckie": [
+  52.398117,
+  20.958144,
+  0
+ ],
+ "ul. Strużańska, Józefów": [
+  52.386389,
+  20.997612,
+  0
+ ],
+ "ul. Strużańska, Józefów, Nieporęt, legionowski, mazowieckie": [
+  52.389791,
+  20.986031,
+  0
+ ],
+ "ul. Tadeusza Rejtana, Legionowo, legionowski, mazowieckie": [
+  52.388993,
+  20.918896,
+  0
+ ],
+ "ul. Wałowa, Jabłonna, legionowski, mazowieckie": [
+  52.384384,
+  20.895047,
+  0
+ ],
+ "ul. Złota, Wieliszew": [
+  52.449006,
+  20.958941,
+  0
+ ],
+ "ul. gen. Lucjana Żeligowskiego, Chotomów": [
+  52.409168,
+  20.874594,
+  0
+ ],
+ "ul. plut. Józefa Ciećwierza, Klaudyn": [
+  52.279857,
+  20.854418,
+  0
+ ],
+ "Łomianki (Dziekanów Nowy wg opisu)": [
+  52.335527,
+  20.895012,
+  0
+ ],
+ "Łomianki Dolne, ul. Zagłoby": [
+  52.193256,
+  20.864343,
+  1
+ ],
+ "Łomianki Dolne, warszawski zachodni, mazowieckie": [
+  52.351357,
+  20.903191,
+  0
+ ],
+ "Łomianki, ul. Kościelna Droga 84A (wg opisu)": [
+  52.355861,
+  20.883079,
+  0
  ]
 }
