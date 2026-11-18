@@ -71,8 +71,43 @@
 <body>
 <header>
   <h1>Nieruchomosci Watcher - domy, Jablonna / powiat legionowski</h1>
-  <div class="meta">Ostatnia aktualizacja: 2026-11-17 09:10 CET &middot; Liczba ofert ogolem: 410</div>
+  <div class="meta">Ostatnia aktualizacja: 2026-11-17 09:10 CET &middot; Liczba ofert ogolem: 408</div>
 </header>
+<!-- MAP START (copied verbatim from map_snippet.html) -->
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<style>
+  #offers-filter { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; align-items: center; font-size: 0.9rem; }
+  #offers-filter .of-group { display: flex; align-items: center; gap: 0.3rem; }
+  #offers-filter .of-label { font-weight: 600; margin-right: 0.2rem; }
+  #offers-filter input { width: 7.5em; padding: 0.3rem 0.4rem; font: inherit; border: 1px solid rgba(128,128,128,0.5); border-radius: 4px; background: transparent; color: inherit; }
+  #offers-filter button { padding: 0.3rem 0.7rem; font: inherit; border: 1px solid rgba(128,128,128,0.5); border-radius: 4px; background: rgba(128,128,128,0.12); color: inherit; cursor: pointer; }
+  #offers-filter .of-info { opacity: 0.75; }
+</style>
+<section id="offers-filter-section" style="margin-bottom:1rem">
+  <div id="offers-filter"></div>
+</section>
+<script src="filter.js"></script>
+<section id="offers-map-section" style="margin-bottom:1.5rem">
+  <div id="offers-map" style="height:480px;border-radius:8px;border:1px solid rgba(128,128,128,0.35)"></div>
+  <div id="offers-map-info" style="opacity:0.75;font-size:0.85rem;margin-top:0.4rem">Ladowanie mapy...</div>
+</section>
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="map.js"></script>
+<style>
+  #offers-stats-section h2 { font-size: 1.15rem; margin: 0 0 0.3rem 0; }
+  #offers-stats-section .st-note { opacity: 0.75; font-size: 0.85rem; margin: 0 0 0.6rem 0; }
+  #offers-stats .st-sub { opacity: 0.7; font-size: 0.82rem; }
+  #offers-stats .st-empty { opacity: 0.4; text-align: center; }
+  #offers-stats .st-total td { border-top: 2px solid rgba(128,128,128,0.6); }
+</style>
+<section id="offers-stats-section" style="margin-bottom:1.5rem">
+  <h2>Srednie ceny wg miesiaca i rejonu</h2>
+  <p class="st-note">Miesiac = data znalezienia oferty. Pogrubione: srednia cena za m2 domu; pod spodem srednia cena calkowita i liczba ofert.</p>
+  <div id="offers-stats">Liczenie statystyk...</div>
+</section>
+<script src="stats.js"></script>
+<!-- MAP END -->
+
 
     <section>
       <h2 class="date-heading fresh">Oferty z dnia 17 listopada 2026 (39 ofert)</h2>

@@ -43,7 +43,9 @@
       "cena": "1 000 000 zł",
       "cena_za_m2": "8 196,72 zł/m²",
       "dom_m2": "122",
-      "dzialka_m2": "230"
+      "dzialka_m2": "230",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26615699.html",
@@ -79,7 +81,9 @@
       "cena": "920 000 zł",
       "cena_za_m2": "10 144,45 zł/m²",
       "dom_m2": "90,69",
-      "dzialka_m2": "186"
+      "dzialka_m2": "186",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/25581092.html",
@@ -88,7 +92,9 @@
       "cena": "729 000 zł",
       "cena_za_m2": "8 536,30 zł/m²",
       "dom_m2": "85,40",
-      "dzialka_m2": "21"
+      "dzialka_m2": "21",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://chotomow.nieruchomosci-online.pl/dom,na-sprzedaz/26861682.html",
@@ -115,7 +121,9 @@
       "cena": "970 000 zł",
       "cena_za_m2": "11 325,16 zł/m²",
       "dom_m2": "85,65",
-      "dzialka_m2": "332"
+      "dzialka_m2": "332",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26892467.html",
@@ -178,7 +186,9 @@
       "cena": "780 000 zł",
       "cena_za_m2": "7 800 zł/m²",
       "dom_m2": "100",
-      "dzialka_m2": "450"
+      "dzialka_m2": "450",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "przekierowanie na liste"
     },
     {
       "url": "https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26464969.html",
@@ -268,7 +278,9 @@
       "cena": "870 000 zł",
       "cena_za_m2": "6 904,76 zł/m²",
       "dom_m2": "126",
-      "dzialka_m2": "470"
+      "dzialka_m2": "470",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26778487.html",
@@ -313,7 +325,9 @@
       "cena": "725 000 zł",
       "cena_za_m2": "6 304,35 zł/m²",
       "dom_m2": "115",
-      "dzialka_m2": "495"
+      "dzialka_m2": "495",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://chotomow.nieruchomosci-online.pl/umeblowany,dom-wolnostojacy/26783236.html",
@@ -349,7 +363,9 @@
       "cena": "1 090 000 zł",
       "cena_za_m2": "7 364,86 zł/m²",
       "dom_m2": "148",
-      "dzialka_m2": "200"
+      "dzialka_m2": "200",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://lomianki-dolne.nieruchomosci-online.pl/dom,na-sprzedaz/26464970.html",
@@ -385,7 +401,9 @@
       "cena": "990 000 zł",
       "cena_za_m2": "7 861,51 zł/m²",
       "dom_m2": "125,93",
-      "dzialka_m2": "430"
+      "dzialka_m2": "430",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "przekierowanie na liste"
     },
     {
       "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26735756.html",
@@ -403,7 +421,9 @@
       "cena": "1 090 000 zł",
       "cena_za_m2": "10 000 zł/m²",
       "dom_m2": "180",
-      "dzialka_m2": "500"
+      "dzialka_m2": "500",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://chotomow.nieruchomosci-online.pl/dom,na-sprzedaz/26906092.html",
@@ -412,7 +432,9 @@
       "cena": "1 090 000 zł",
       "cena_za_m2": "10 000 zł/m²",
       "dom_m2": "180",
-      "dzialka_m2": "500"
+      "dzialka_m2": "500",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26921251.html",
@@ -430,7 +452,9 @@
       "cena": "780000 zl",
       "cena_za_m2": "7800 zl/m2",
       "dom_m2": "100",
-      "dzialka_m2": "450"
+      "dzialka_m2": "450",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26921894.html",
@@ -475,7 +499,9 @@
       "cena": "850000 zl",
       "cena_za_m2": "10000 zl/m2",
       "dom_m2": "85",
-      "dzialka_m2": "568"
+      "dzialka_m2": "568",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://chotomow.nieruchomosci-online.pl/dom,na-sprzedaz/26940471.html",
@@ -484,7 +510,9 @@
       "cena": "1090000 zl",
       "cena_za_m2": "10000 zl/m2",
       "dom_m2": "180",
-      "dzialka_m2": "500"
+      "dzialka_m2": "500",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26939094.html",
@@ -493,7 +521,9 @@
       "cena": "1098000 zl",
       "cena_za_m2": "8382 zl/m2",
       "dom_m2": "131",
-      "dzialka_m2": "450"
+      "dzialka_m2": "450",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26936788.html",
@@ -502,7 +532,9 @@
       "cena": "890000 zl",
       "cena_za_m2": "6514.42 zl/m2",
       "dom_m2": "136.62",
-      "dzialka_m2": "140"
+      "dzialka_m2": "140",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26699683.html",
@@ -610,7 +642,9 @@
       "cena": "880000 zl",
       "cena_za_m2": "6984.13 zl/m2",
       "dom_m2": "126",
-      "dzialka_m2": "470"
+      "dzialka_m2": "470",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://legionowo.nieruchomosci-online.pl/dom-wolnostojacy,nad-rzeka/26638133.html",
@@ -691,7 +725,9 @@
       "cena": "965000 zl",
       "cena_za_m2": "5920.25 zl/m2",
       "dom_m2": "163",
-      "dzialka_m2": "435"
+      "dzialka_m2": "435",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27042176.html",
@@ -772,7 +808,9 @@
       "cena": "1 190 000 zł",
       "cena_za_m2": "7 642,90 zł/m²",
       "dom_m2": "155,70",
-      "dzialka_m2": "234"
+      "dzialka_m2": "234",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "przekierowanie na liste"
     },
     {
       "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27069989.html",
@@ -963,7 +1001,9 @@
       "cena": "995 000 zł",
       "cena_za_m2": "13 819,44 zł/m²",
       "dom_m2": "72",
-      "dzialka_m2": "765"
+      "dzialka_m2": "765",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "HTTP 404"
     },
     {
       "url": "https://www.olx.pl/d/oferta/sprzedam-dom-blizniak-120-m2-CID3-ID1bdlUT.html",
@@ -972,7 +1012,9 @@
       "cena": "1 200 000 zł",
       "cena_za_m2": "10 000 zł/m²",
       "dom_m2": "120",
-      "dzialka_m2": "500"
+      "dzialka_m2": "500",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.olx.pl/d/oferta/nowoczesny-dom-w-zielonym-centrum-legionowa-131-m-ul-langiewicza-4-CID3-ID1bv0E1.html",
@@ -981,7 +1023,9 @@
       "cena": "1 090 000 zł",
       "cena_za_m2": "8 320,61 zł/m²",
       "dom_m2": "131",
-      "dzialka_m2": "238"
+      "dzialka_m2": "238",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.olx.pl/d/oferta/chotomow-dom-jednorodzinny-122-73-m-osiedle-rajska-CID3-IDKdfGp.html",
@@ -990,7 +1034,9 @@
       "cena": "1 200 000 zł",
       "cena_za_m2": "9 777,56 zł/m²",
       "dom_m2": "122,73",
-      "dzialka_m2": "800"
+      "dzialka_m2": "800",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.olx.pl/d/oferta/chotomow-dom-blizniaczy-116-8-m-osiedle-tulipanowa-promocja-CID3-ID12g9iE.html",
@@ -1017,7 +1063,9 @@
       "cena": "1095000 zl",
       "cena_za_m2": "9358.97 zl/m2",
       "dom_m2": "117",
-      "dzialka_m2": "250"
+      "dzialka_m2": "250",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.olx.pl/d/oferta/dzialka-na-sprzedaz-i-dom-do-remontu-CID3-ID1cvWMG.html",
@@ -1026,7 +1074,9 @@
       "cena": "830000 zl",
       "cena_za_m2": "11857.14 zl/m2",
       "dom_m2": "70",
-      "dzialka_m2": "780"
+      "dzialka_m2": "780",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.olx.pl/d/oferta/polowa-blizniaka-do-remontu-CID3-ID1cshYJ.html",
@@ -1035,7 +1085,9 @@
       "cena": "880000 zl",
       "cena_za_m2": "6285.71 zl/m2",
       "dom_m2": "140",
-      "dzialka_m2": "536"
+      "dzialka_m2": "536",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.olx.pl/d/oferta/nowoczesny-blizniak-w-jablonnie-119-m2-CID3-ID1b7VKK.html",
@@ -1053,7 +1105,9 @@
       "cena": "899000 zl",
       "cena_za_m2": "13830.77 zl/m2",
       "dom_m2": "65",
-      "dzialka_m2": "90"
+      "dzialka_m2": "90",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.olx.pl/d/oferta/nowy-dom-70metow-CID3-ID1ckcfD.html",
@@ -1062,7 +1116,9 @@
       "cena": "350000 zl",
       "cena_za_m2": "5000 zl/m2",
       "dom_m2": "70",
-      "dzialka_m2": "900"
+      "dzialka_m2": "900",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.olx.pl/d/oferta/2000-zl-m2-wykonczonego-domu-dom-kontenerowy-72-m2-do-przestawienia-i-zlozenia-z-gotowym-projektem-powiekszenia-do-150-m2-CID3-ID1awwqQ.html",
@@ -1071,7 +1127,9 @@
       "cena": "140000 zl",
       "cena_za_m2": "1944.44 zl/m2",
       "dom_m2": "72",
-      "dzialka_m2": "-"
+      "dzialka_m2": "-",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.olx.pl/d/oferta/nowy-dom-bialoleka-5-pokoi-garaz-i-piekna-dzialka-CID3-ID16wFPR.html",
@@ -1089,7 +1147,9 @@
       "cena": "749000 zl",
       "cena_za_m2": "7490 zl/m2",
       "dom_m2": "100",
-      "dzialka_m2": "3600"
+      "dzialka_m2": "3600",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.olx.pl/d/oferta/dom-prefabkrykowany-zelbetowy-144-m-440-000-zl-CID3-ID1cJPWg.html",
@@ -1116,7 +1176,9 @@
       "cena": "999900 zl",
       "cena_za_m2": "9433.02 zl/m2",
       "dom_m2": "106",
-      "dzialka_m2": "90"
+      "dzialka_m2": "90",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "HTTP 404"
     },
     {
       "url": "https://www.olx.pl/d/oferta/segment-skrajny-ul-wardenckiego-legionowo-135m-CID3-ID1cR6jq.html",
@@ -1142,15 +1204,6 @@
       "adres": "Warszawa, Białołęka, ul. Bukowska, mazowieckie",
       "cena": "1 150 000 zł",
       "cena_za_m2": "15 333,33 zł/m²",
-      "dom_m2": "75",
-      "dzialka_m2": "400"
-    },
-    {
-      "url": "https://www.olx.pl/d/oferta/blizniak-75m-garaz-w-bryle-dzialka-400m-taras-30m-blaszak-12m-CID3-ID1d3Bmz.html",
-      "first_seen": "2026-11-03",
-      "adres": "ul. Bukowska, Warszawa Białołęka",
-      "cena": "1150000 zl",
-      "cena_za_m2": "15333.33 zl/m2",
       "dom_m2": "75",
       "dzialka_m2": "400"
     },
@@ -1181,7 +1234,9 @@
       "cena": "1 199 000 zł",
       "cena_za_m2": "6 930,64 zł/m²",
       "dom_m2": "173",
-      "dzialka_m2": "180"
+      "dzialka_m2": "180",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-jablonna-143m2/156573671",
@@ -1199,7 +1254,9 @@
       "cena": "899 999 zł",
       "cena_za_m2": "6 669,62 zł/m²",
       "dom_m2": "134,94",
-      "dzialka_m2": "290"
+      "dzialka_m2": "290",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-jarzebinowa-125m2/156236979",
@@ -1208,7 +1265,9 @@
       "cena": "950 000 zł",
       "cena_za_m2": "7 591,50 zł/m²",
       "dom_m2": "125,14",
-      "dzialka_m2": "350"
+      "dzialka_m2": "350",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-kielpin-poduchowny-brzegowa-155m2/156333438",
@@ -1217,7 +1276,9 @@
       "cena": "1 195 000 zł",
       "cena_za_m2": "7 709,68 zł/m²",
       "dom_m2": "155",
-      "dzialka_m2": "1 000"
+      "dzialka_m2": "1 000",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-172m2/156503453",
@@ -1226,7 +1287,9 @@
       "cena": "1 199 000 zł",
       "cena_za_m2": "6 970,93 zł/m²",
       "dom_m2": "172",
-      "dzialka_m2": "180"
+      "dzialka_m2": "180",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-langiewicza-131m2/156580628",
@@ -1244,7 +1307,9 @@
       "cena": "1 199 000 zł",
       "cena_za_m2": "10 408,89 zł/m²",
       "dom_m2": "115,19",
-      "dzialka_m2": "375"
+      "dzialka_m2": "375",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "HTTP 404"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-brzezinskiego-135m2/156485477",
@@ -1253,7 +1318,9 @@
       "cena": "949 000 zł",
       "cena_za_m2": "7 032,76 zł/m²",
       "dom_m2": "134,94",
-      "dzialka_m2": "318"
+      "dzialka_m2": "318",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-koscielna-droga-135m2/156236982",
@@ -1262,7 +1329,9 @@
       "cena": "1 050 000 zł",
       "cena_za_m2": "7 781,24 zł/m²",
       "dom_m2": "134,94",
-      "dzialka_m2": "506"
+      "dzialka_m2": "506",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-krakusa-85m2/156577002",
@@ -1280,7 +1349,9 @@
       "cena": "900000 zl",
       "cena_za_m2": "7200 zl/m2",
       "dom_m2": "125",
-      "dzialka_m2": "150"
+      "dzialka_m2": "150",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-172m2/156823315",
@@ -1307,7 +1378,9 @@
       "cena": "1 099 000 zł",
       "cena_za_m2": "13 571,25 zł/m2",
       "dom_m2": "80,98",
-      "dzialka_m2": "400"
+      "dzialka_m2": "400",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-jozefow-orzechowa-114m2/156920086",
@@ -1325,7 +1398,9 @@
       "cena": "1070000 zl",
       "cena_za_m2": "9289.00 zl/m2",
       "dom_m2": "115.19",
-      "dzialka_m2": "375"
+      "dzialka_m2": "375",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-skrzeszew-163m2/156941719",
@@ -1334,7 +1409,9 @@
       "cena": "965000 zl",
       "cena_za_m2": "5920.25 zl/m2",
       "dom_m2": "163",
-      "dzialka_m2": "450"
+      "dzialka_m2": "450",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-skrzeszew-modlinska-163m2/156941721",
@@ -1343,7 +1420,9 @@
       "cena": "965000 zl",
       "cena_za_m2": "5920.25 zl/m2",
       "dom_m2": "163",
-      "dzialka_m2": "450"
+      "dzialka_m2": "450",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-brzezinskiego-135m2/156928875",
@@ -1352,7 +1431,9 @@
       "cena": "899999 zl",
       "cena_za_m2": "6669.62 zl/m2",
       "dom_m2": "101.70",
-      "dzialka_m2": "290"
+      "dzialka_m2": "290",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-brzezinskiego-135m2/156947552",
@@ -1379,7 +1460,9 @@
       "cena": "950000 zl",
       "cena_za_m2": "11103.32 zl/m2",
       "dom_m2": "85.56",
-      "dzialka_m2": "30"
+      "dzialka_m2": "30",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-lomianki-dolne-koscielna-droga-98m2/156960540",
@@ -1415,7 +1498,9 @@
       "cena": "885000 zl",
       "cena_za_m2": "8061.58 zl/m2",
       "dom_m2": "109.78",
-      "dzialka_m2": "38"
+      "dzialka_m2": "38",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-rajszew-mazowiecka-109m2/156966253",
@@ -1433,7 +1518,9 @@
       "cena": "950 000 zł",
       "cena_za_m2": "11 103,32 zł/m2",
       "dom_m2": "85,56",
-      "dzialka_m2": "30"
+      "dzialka_m2": "30",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-106m2/156973060",
@@ -1442,7 +1529,9 @@
       "cena": "899 900 zł",
       "cena_za_m2": "8 516,94 zł/m2",
       "dom_m2": "105,66",
-      "dzialka_m2": "30"
+      "dzialka_m2": "30",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-106m2/156984905",
@@ -1451,7 +1540,9 @@
       "cena": "899 900 zł",
       "cena_za_m2": "8 521,78 zł/m²",
       "dom_m2": "105,60",
-      "dzialka_m2": "25"
+      "dzialka_m2": "25",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-kielpin-brzegowa-155m2/156985380",
@@ -1470,15 +1561,6 @@
       "cena_za_m2": "12953.82 zl/m2",
       "dom_m2": "80.98",
       "dzialka_m2": "400"
-    },
-    {
-      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-legionowo-mazowiecka-157m2/156545426",
-      "first_seen": "2026-11-13",
-      "adres": "Legionowo, Mazowiecka (brak numeru)",
-      "cena": "1059000 zl",
-      "cena_za_m2": "6736.64 zl/m2",
-      "dom_m2": "157.20",
-      "dzialka_m2": "40"
     }
   ],
   "adresowo": [
@@ -1561,7 +1643,9 @@
       "cena": "1 199 000 zł",
       "cena_za_m2": "10 409 zł/m²",
       "dom_m2": "115",
-      "dzialka_m2": "375"
+      "dzialka_m2": "375",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "przekierowanie na liste"
     },
     {
       "url": "https://adresowo.pl/o/dom-zabki-ul-jana-sobieskiego-b7q9t1",
@@ -2916,7 +3000,9 @@
       "cena": "799000 zl",
       "cena_za_m2": "7014.93 zl/m2",
       "dom_m2": "113.9",
-      "dzialka_m2": "200"
+      "dzialka_m2": "200",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.otodom.pl/pl/oferta/prestizowy-adres-centrum-legionowa-film-i-spacer-3d-ID4DHcp",
@@ -2961,7 +3047,9 @@
       "cena": "879000 zl",
       "cena_za_m2": "5860 zl/m2",
       "dom_m2": "150",
-      "dzialka_m2": "364"
+      "dzialka_m2": "364",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.otodom.pl/pl/oferta/ostatni-wolnostojacy-dom-na-sprzedaz-565-m-dzialki-0-prowizji-ID4t1G0",
@@ -3366,7 +3454,9 @@
       "cena_za_m2": "9493,27 zl/m2",
       "dom_m2": "126.3",
       "dzialka_m2": "2000",
-      "first_seen": "2026-11-16"
+      "first_seen": "2026-11-16",
+      "inactive_since": "2026-11-17",
+      "inactive_reason": "HTTP 404"
     },
     {
       "url": "https://www.otodom.pl/pl/oferta/4-pokoje-i-pkp-km-ic-i-lotnisko-i-klimatyzacja-ID4E0xA",
