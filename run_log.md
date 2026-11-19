@@ -2268,3 +2268,46 @@ check_inactive.py: checked 492: newly inactive 2, reactivated 0, unknown 2,
 inactive total 56.
 index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg
 daty first_seen (48 sekcji), sekcja 2026-11-18 na gorze z wyroznieniem.
+
+## Run 2026-11-19 18:27 CET
+
+Status per zrodlo:
+- otodom: ok, znaleziono 37, nowych 21 (1 nieudany: HTTP 410 Gone dla
+  ID9P5llD - trwale, pominiety), 20 dodanych (0 ponad limit budzetu).
+  Niespodzianka: otodom fetchowal sie bez problemu zarowno strona wynikow
+  jak i strony szczegolowe - wczesniej (wg pamieci) bylo to zrodlo trwale
+  zablokowane (HTTP 403). Warto sprawdzac co run, czy blokada nie wrocila.
+- nieruchomosci-online: ok, znaleziono 40 (15 w wynikach + 25 w bloku
+  polecanych), nowych 9, 1 ponad limit (Mireckiego/Legionowo, 1 550 000 zl),
+  8 dodanych.
+- olx: ok, znaleziono 41 linkow (39 mirror otodom.pl + 2 olx.pl-native),
+  1 nowy natywny link, pod limitem, dodany.
+- morizon: zablokowane - "unable to fetch from www.morizon.pl" (jak zawsze).
+- domiporta: ok, znaleziono 36, nowych 18, wszystkie 18 ponad limit budzetu
+  (1 540 000 - 6 500 000 zl, w tym powracajaca oferta "Osiedle Sloneczna
+  27-29" ID 682936 nadal 2 350 000 zl) - 0 dodanych.
+- adresowo: ok, znaleziono 39, 1 nowy (Stanislawow Drugi/ul. Goscinna,
+  inny kod sufiksu "v2w6o5" niz juz znany "y9s4n4" pod tym samym adresem -
+  potraktowany jako odrebne ogloszenie, nie drift slugu), pod limitem,
+  dodany.
+- gethome: ok, znaleziono 1 (juz znany).
+- rynekpierwotny: ok, znaleziono 1 (juz znany, nieaktywna inwestycja PK
+  Development).
+- oferty-net: zablokowane - "unable to fetch from www.oferty.net".
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 500 000 zl) per
+zrodlo: otodom: 0, nieruchomosci-online: 1, olx: 0, domiporta: 18,
+adresowo: 0.
+
+Nowe ogloszenia dodane do offers.json (30): 20 otodom + 8
+nieruchomosci-online + 1 olx + 1 adresowo.
+
+Powiadomienie push: WYSLANE (30 nowych ogloszen - skrocony komunikat,
+pelna lista w index.html).
+offers.json: rozbudowany z 492 do 522 ofert (30 nowych), brak duplikatow
+URL zweryfikowany.
+geocode.py: ok, dogeokodowano 13 nowych adresow (cache 359 wpisow).
+check_inactive.py: checked 522: newly inactive 5, reactivated 1, unknown 2,
+inactive total 60.
+index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg
+daty first_seen (49 sekcji), sekcja 2026-11-19 na gorze z wyroznieniem.
