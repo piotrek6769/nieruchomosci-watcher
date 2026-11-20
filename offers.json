@@ -4829,6 +4829,69 @@
       "cena_za_m2": "13532.66 zl/m2",
       "dom_m2": "95.99",
       "dzialka_m2": "142"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/dom-ktory-daje-komfort-domu-wolnostojacego-30min-od-centrum-warszawy-ID4DkHn",
+      "adres": "Szczęśliwa, Józefów, Nieporęt, legionowski, mazowieckie",
+      "cena": "1249000 zl",
+      "cena_za_m2": "9466.42 zl/m2",
+      "dom_m2": "131.94",
+      "dzialka_m2": "600",
+      "first_seen": "2026-11-20"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/domy-wolnostojace-z-dzialkami-od-1100-m-krubin-ID4DHI3",
+      "adres": "ul. Nowodworska, Krubin, Wieliszew, legionowski, mazowieckie",
+      "cena": "1325000 zl",
+      "cena_za_m2": "6790 zl/m2",
+      "dom_m2": "195.14",
+      "dzialka_m2": "1101",
+      "first_seen": "2026-11-20"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/energooszczedne-apartamenty-polna-ID4DUCs",
+      "adres": "ul. Polna, Skrzeszew, Wieliszew, legionowski, mazowieckie",
+      "cena": "790000 zl",
+      "cena_za_m2": "7825.66 zl/m2",
+      "dom_m2": "100.95",
+      "dzialka_m2": "177",
+      "first_seen": "2026-11-20"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/kameralna-inwestycja-na-bukowcu-4-pokoje-garaz-taras-i-ogrod-ID4BS9P",
+      "adres": "ul. Słoneczna, Legionowo, legionowski, mazowieckie",
+      "cena": "1418300 zl",
+      "cena_za_m2": "10000 zl/m2",
+      "dom_m2": "141.83",
+      "dzialka_m2": "200",
+      "first_seen": "2026-11-20"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/nowoczesny-dom-98-m-dzialka-550-m-kameralna-lokalizacja-ID4E3Ub",
+      "adres": "Nowy Dwór Mazowiecki, nowodworski, mazowieckie (dokładny adres nie podany)",
+      "cena": "690000 zl",
+      "cena_za_m2": "7040.82 zl/m2",
+      "dom_m2": "98",
+      "dzialka_m2": "550",
+      "first_seen": "2026-11-20"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/nowy-dwor-mazowiecki-dom-201-m-budynek-35-m-ID4E421",
+      "adres": "Nowy Dwór Mazowiecki, nowodworski, mazowieckie (dokładny adres nie podany)",
+      "cena": "999000 zl",
+      "cena_za_m2": "4233.05 zl/m2",
+      "dom_m2": "201",
+      "dzialka_m2": "760",
+      "first_seen": "2026-11-20"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/srebrny-blizniak-z-duzymi-przeszkleniami-kanalizacja-ID4E3Dw",
+      "adres": "Szamocin, Białołęka, Warszawa, mazowieckie (dokładny adres nie podany)",
+      "cena": "1350000 zl",
+      "cena_za_m2": "9642.86 zl/m2",
+      "dom_m2": "140",
+      "dzialka_m2": "375",
+      "first_seen": "2026-11-20"
     }
   ]
 }

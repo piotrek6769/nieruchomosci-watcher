@@ -2311,3 +2311,43 @@ check_inactive.py: checked 522: newly inactive 5, reactivated 1, unknown 2,
 inactive total 60.
 index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg
 daty first_seen (49 sekcji), sekcja 2026-11-19 na gorze z wyroznieniem.
+
+## Run 2026-11-20 09:01 CET
+
+Status per zrodlo:
+- otodom: ok, znaleziono 37, nowych 8 (1 nieudany: HTTP 410 Gone dla
+  oferty pod /hpr/ ID9P5llF - pominiety), 7 dodanych (0 ponad limit
+  budzetu). Niespodzianka: otodom fetchowal sie bez problemu zarowno
+  strona wynikow jak i strony szczegolowe - wczesniej (wg pamieci) bylo
+  to zrodlo trwale zablokowane (HTTP 403). Warto sprawdzac co run, czy
+  blokada nie wrocila.
+- nieruchomosci-online: ok, znaleziono 41, nowych 3, wszystkie 3 ponad
+  limit budzetu (Mireckiego/Legionowo 1 550 000 zl, Trzciany/gm.
+  Jablonna 1 599 900 zl, Kielpin/Lomianki 1 549 000 zl) - 0 dodanych.
+- olx: ok, znaleziono 40 linkow (39 mirror otodom.pl + 1 olx.pl-native),
+  natywny link juz znany (identyczny slug i ID), 0 nowych.
+- morizon: zablokowane - "unable to fetch from www.morizon.pl" (jak
+  zawsze).
+- domiporta: ok, znaleziono 36, nowych 18, wszystkie 18 ponad limit
+  budzetu (1 540 000 - 6 500 000 zl, w tym powracajaca oferta "Osiedle
+  Sloneczna 27-29" ID 682936 nadal 2 350 000 zl) - 0 dodanych.
+- adresowo: ok, znaleziono 39, 0 nowych (wszystkie juz znane).
+- gethome: ok, znaleziono 1 (juz znany).
+- rynekpierwotny: ok, znaleziono 1 (juz znany, nieaktywna inwestycja PK
+  Development).
+- oferty-net: zablokowane - "unable to fetch from www.oferty.net".
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 500 000 zl) per
+zrodlo: otodom: 0, nieruchomosci-online: 3, olx: 0, domiporta: 18,
+adresowo: 0.
+
+Nowe ogloszenia dodane do offers.json (7): 7 otodom.
+
+Powiadomienie push: WYSLANE (7 nowych ogloszen otodom).
+offers.json: rozbudowany z 522 do 529 ofert (7 nowych), brak duplikatow
+URL zweryfikowany.
+geocode.py: ok, dogeokodowano 5 nowych adresow (cache 364 wpisy).
+check_inactive.py: checked 529: newly inactive 0, reactivated 0, unknown 2,
+inactive total 60.
+index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg
+daty first_seen (50 sekcji), sekcja 2026-11-20 na gorze z wyroznieniem.
