@@ -1267,7 +1267,9 @@
       "cena": "1190000 zl",
       "cena_za_m2": "10000 zl/m2",
       "dom_m2": "119",
-      "dzialka_m2": "410"
+      "dzialka_m2": "410",
+      "inactive_since": "2026-11-21",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.olx.pl/d/oferta/nowoczesny-dom-segment-65-m-ogrod-90-m-legionowo-herberta-CID3-ID1ccrVz.html",
@@ -1819,6 +1821,15 @@
       "cena_za_m2": "6363.64 zl/m2",
       "dom_m2": "220.00",
       "dzialka_m2": "724"
+    },
+    {
+      "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-jozefow-struzanska-145m2/157018320",
+      "first_seen": "2026-11-21",
+      "adres": "Józefów, ul. Strużańska",
+      "cena": "1280000 zl",
+      "cena_za_m2": "8827.59 zl/m2",
+      "dom_m2": "145",
+      "dzialka_m2": "240"
     }
   ],
   "adresowo": [
@@ -4205,9 +4216,7 @@
       "cena": "1070000 zl",
       "cena_za_m2": "6976,59 zl/m2",
       "dom_m2": "153.37",
-      "dzialka_m2": "682",
-      "inactive_since": "2026-11-18",
-      "inactive_reason": "HTTP 410"
+      "dzialka_m2": "682"
     },
     {
       "url": "https://www.otodom.pl/pl/oferta/nowoczesny-dom-wolnostojacy-dwulokalowy-133-86m2-ID4y3Hs",
@@ -4639,7 +4648,9 @@
       "cena": "1350000 zl",
       "cena_za_m2": "7714.29 zl/m2",
       "dom_m2": "175",
-      "dzialka_m2": "171"
+      "dzialka_m2": "171",
+      "inactive_since": "2026-11-21",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.otodom.pl/pl/oferta/zlote-wierzby-segmenty-o-p-u-112-m2-dzialki-od-583-m2-ID4DRnp",
@@ -4892,6 +4903,177 @@
       "dom_m2": "140",
       "dzialka_m2": "375",
       "first_seen": "2026-11-20"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/segment-z-garazem-rekuperacja-15km-od-pkin-ID4Akaw",
+      "first_seen": "2026-11-21",
+      "adres": "ul. Czeremchowa, Dąbrówka Szlachecka, Białołęka, Warszawa, mazowieckie",
+      "cena": "1480000 zl",
+      "cena_za_m2": "10835 zl/m2",
+      "dom_m2": "136.59",
+      "dzialka_m2": "112"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/jablonna-kameralna-inwestycja-ID4BoCp",
+      "first_seen": "2026-11-21",
+      "adres": "Jabłonna, legionowski, mazowieckie",
+      "cena": "1255000 zl",
+      "cena_za_m2": "10425 zl/m2",
+      "dom_m2": "120.38",
+      "dzialka_m2": "335.7"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/przedsprzedaz-ogrodek-blisko-terenow-zielonych-bez-prowizji-ID4BoFS",
+      "first_seen": "2026-11-21",
+      "adres": "ul. Łąkowa, Legionowo, legionowski, mazowieckie",
+      "cena": "785000 zl",
+      "cena_za_m2": "7897 zl/m2",
+      "dom_m2": "99.4",
+      "dzialka_m2": "320"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/przedsprzedaz-ogrodek-30-83-m2-kanalizacja-bez-prowizji-ID4Btoh",
+      "first_seen": "2026-11-21",
+      "adres": "ul. Łąkowa, Legionowo, legionowski, mazowieckie",
+      "cena": "839000 zl",
+      "cena_za_m2": "7521 zl/m2",
+      "dom_m2": "111.55",
+      "dzialka_m2": "320"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/wyjatkowy-segment-narozny-przy-stadninie-koni-ogrod-175-m-ID4Dytt",
+      "first_seen": "2026-11-21",
+      "adres": "ul. Kościelna Droga, Łomianki Dolne, Łomianki, warszawski zachodni, mazowieckie",
+      "cena": "1090000 zl",
+      "cena_za_m2": "11122 zl/m2",
+      "dom_m2": "98",
+      "dzialka_m2": "175"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/nowoczesny-dom-jednorodzinny-w-dziekanowie-polskim-ul-odysei-ID4Dys4",
+      "first_seen": "2026-11-21",
+      "adres": "ul. Odysei, Dziekanów Polski, Łomianki, warszawski zachodni, mazowieckie",
+      "cena": "1500000 zl",
+      "cena_za_m2": "6521 zl/m2",
+      "dom_m2": "230",
+      "dzialka_m2": "600"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/nowoczesne-segmenty-przy-lesie-chotomow-ul-lesna-od-799-000-zl-ID4E5fp",
+      "first_seen": "2026-11-21",
+      "adres": "ul. Leśna, Chotomów, Jabłonna, legionowski, mazowieckie",
+      "cena": "799999 zl",
+      "cena_za_m2": "7407 zl/m2",
+      "dom_m2": "108",
+      "dzialka_m2": "250"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/prestizowe-domy-w-sercu-legionowa-ul-sloneczna-4-sypialnie-ID4E5dP",
+      "first_seen": "2026-11-21",
+      "adres": "ul. Słoneczna, Legionowo, legionowski, mazowieckie",
+      "cena": "1269000 zl",
+      "cena_za_m2": "8812 zl/m2",
+      "dom_m2": "144",
+      "dzialka_m2": "300"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/dom-dwulokalowy-kaluszyn-bez-pcc-ID4uQVs",
+      "first_seen": "2026-11-21",
+      "adres": "Kałuszyn, Wieliszew, legionowski, mazowieckie",
+      "cena": "985000 zl",
+      "cena_za_m2": "7566 zl/m2",
+      "dom_m2": "130.18",
+      "dzialka_m2": "500"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/nowy-dom-rajszew-5-pokoi-garaz-2-stanowiskowy-i-bezposrednio-ID4CGUp",
+      "first_seen": "2026-11-21",
+      "adres": "ul. Różana, Rajszew, Jabłonna, legionowski, mazowieckie",
+      "cena": "1260000 zl",
+      "cena_za_m2": "7200 zl/m2",
+      "dom_m2": "175",
+      "dzialka_m2": "530"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/zamieszkaj-obok-natury-140m2-z-duzym-garazem-przy-parku-natura-2000-ID4E4lJ",
+      "first_seen": "2026-11-21",
+      "adres": "Łomianki, warszawski zachodni, mazowieckie",
+      "cena": "1090000 zl",
+      "cena_za_m2": "7785.71 zl/m2",
+      "dom_m2": "140",
+      "dzialka_m2": "350"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/mini-segment-pow-116m-4-5-pokoi-ogrod-taras-ID4DhCj",
+      "first_seen": "2026-11-21",
+      "adres": "Płochocińska, Szamocin, Białołęka, Warszawa, mazowieckie",
+      "cena": "849000 zl",
+      "cena_za_m2": "7273.82 zl/m2",
+      "dom_m2": "116.72",
+      "dzialka_m2": "10"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/komfort-domu-w-kameralnym-otoczeniu-ID4DypA",
+      "first_seen": "2026-11-21",
+      "adres": "Leśna, Łajski, Wieliszew, legionowski, mazowieckie",
+      "cena": "920000 zl",
+      "cena_za_m2": "7768.30 zl/m2",
+      "dom_m2": "118.43",
+      "dzialka_m2": "248"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/osiedle-listopadowa-legionowo-ID4AYMf",
+      "first_seen": "2026-11-21",
+      "adres": "Listopadowa 18, Legionowo, legionowski, mazowieckie",
+      "cena": "1100000 zl",
+      "cena_za_m2": "12085.26 zl/m2",
+      "dom_m2": "91.02",
+      "dzialka_m2": "50"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/trzciany-przyjazne-osiedle-ID4Dbg7",
+      "first_seen": "2026-11-21",
+      "adres": "Trzciany, Jabłonna, legionowski, mazowieckie",
+      "cena": "799000 zl",
+      "cena_za_m2": "5901.03 zl/m2",
+      "dom_m2": "135.4",
+      "dzialka_m2": "450"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/blisko-rezerwatu-gotowy-na-wiosne-ID4E4zP",
+      "first_seen": "2026-11-21",
+      "adres": "Kiełpin, Łomianki, warszawski zachodni, mazowieckie",
+      "cena": "1195000 zl",
+      "cena_za_m2": "7709.68 zl/m2",
+      "dom_m2": "155",
+      "dzialka_m2": "1000"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/apartamenty-traugutta-od-100-do-130-m2-z-poddaszem-ID4DC12",
+      "first_seen": "2026-11-21",
+      "adres": "Jabłonna, legionowski, mazowieckie",
+      "cena": "995000 zl",
+      "cena_za_m2": "9607.96 zl/m2",
+      "dom_m2": "103.56",
+      "dzialka_m2": "78"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/dom-z-garazem-w-cichej-okolicy-jozefow-ul-zlota-1-2-ID4bFEH",
+      "first_seen": "2026-11-21",
+      "adres": "ul. Złota, Józefów, Nieporęt, legionowski, mazowieckie",
+      "cena": "899000 zl",
+      "cena_za_m2": "7804.50 zl/m2",
+      "dom_m2": "115.19",
+      "dzialka_m2": "390"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/dom-z-ogrodem-na-kameralnym-osiedlu-w-lomiankach-garaz-3-sypialnie-ID4DIFz",
+      "first_seen": "2026-11-21",
+      "adres": "ul. Stanisława Staszica, Łomianki, warszawski zachodni, mazowieckie",
+      "cena": "1400000 zl",
+      "cena_za_m2": "9929.08 zl/m2",
+      "dom_m2": "141",
+      "dzialka_m2": "198"
     }
   ]
 }

@@ -2351,3 +2351,79 @@ check_inactive.py: checked 529: newly inactive 0, reactivated 0, unknown 2,
 inactive total 60.
 index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg
 daty first_seen (50 sekcji), sekcja 2026-11-20 na gorze z wyroznieniem.
+
+## Run 2026-11-21 11:28 CET
+
+Wazne odkrycie tego przebiegu: linki-mirrory otodom.pl znajdowane na
+stronie wynikow olx (format "https://www.otodom.pl/oferta/...", bez
+segmentu "/pl/") zwracaly HTTP 404 przy bezposrednim fetchu, mimo ze ten
+sam listing pod poprawnym URL-em "https://www.otodom.pl/pl/oferta/..."
+byl zywy. Po poprawieniu prefiksu (wstawieniu "/pl/") wszystkie 29
+przetestowane URL-e odzyskaly HTTP 200. Dodatkowo az 25 z "nowych"
+kandydatow otodom okazalo sie po normalizacji identyczne z juz znanymi
+wpisami w offers.json (sam dedup-skrypt to wylapal i pominal) - czyli
+mirror-linki z olx czesto po prostu duplikuja juz znane oferty otodom pod
+inna forma URL-a. Warto to zapamietac na przyszlosc: zawsze normalizowac
+otodom.pl/oferta/... do otodom.pl/pl/oferta/... przed sprawdzaniem czy to
+nowy listing.
+
+Status per zrodlo:
+- otodom: ok (wlasna lista wynikow + mirror-linki z olx, po normalizacji
+  prefiksu "/pl/"), 66 kandydatow po scaleniu i deduplikacji w ramach
+  batcha, 47 nowych string-wise, z czego 25 po normalizacji URL-a okazalo
+  sie duplikatami juz znanych wpisow, 1 trwale martwy (HTTP 410,
+  /hpr/pl/oferta/.../ID9P5llJ, znany ciag dead-linkow pod /hpr/) - 21
+  wstepnie nowych. Po dodaniu wykryto jeszcze 2 przypadki slug-driftu pod
+  tym samym ID otodom co juz znany wpis (ID4DAoW: nowy slug
+  "...-olszewnica-chotomow-ID4DAoW" 1 020 000 zl to ten sam listing co
+  znany od 2026-11-17 "...-premium-...-olszewnica-stara-ID4DAoW" 1 070 000
+  zl, cena spadla; ID4CREw: nowy slug "skrajny-segment-..." 1 299 000 zl
+  to ten sam listing co znany od 2026-11-18 "rezerwacja-..." 1 299 000 zl)
+  - oba usuniete z powrotem jako nie-nowe, zgodnie z ustalonym
+  postepowaniem dla slug-driftu (ten sam ID serwisu, inny opisowy slug =
+  ten sam listing, nie liczy sie jako nowy). 19 faktycznie dodanych. 0
+  przekroczylo limit 1 500 000 zl (w tym 2 trafily rowno w 1 500 000 zl -
+  graniczna wartosc liczona jako NIE przekraczajaca limitu).
+- nieruchomosci-online: ok, znaleziono 15 (sama lista wynikow, waska -
+  bez bloku polecanych), 0 nowych (wszystkie juz znane).
+- olx: ok, znaleziono 40 linkow na stronie wynikow (39 mirror otodom.pl +
+  1 olx.pl-native), natywny link juz znany (identyczny URL), 0 nowych pod
+  kluczem olx - mirror-linki scalone z haulem otodom jak wyzej.
+- morizon: zablokowane - "unable to fetch from www.morizon.pl" (jak
+  zawsze).
+- domiporta: ok, znaleziono 36 (strona 1), 19 nowych URL-i, z czego 17
+  przekroczylo limit 1 500 000 zl (1 540 000 - 6 500 000 zl, w tym znana
+  "Osiedle Sloneczna 27-29" ID 682936 nadal 2 350 000 zl, wciaz nigdy nie
+  dodana) - 2 dodane (Legionowo/Langiewicza 999 000 zl/131m2/450m2 -
+  okazal sie juz znany przy normalizacji i pominiety az do koncowego
+  dedup-sprawdzenia; Jozefow/Struzanska 1 280 000 zl/145m2/240m2 -
+  faktycznie nowy, dodany).
+- adresowo: ok, znaleziono 39, 0 nowych (wszystkie juz znane).
+- gethome: ok, znaleziono 1 (juz znany, Jablonna kameralna inwestycja).
+- rynekpierwotny: zablokowane - HTTP 403 na pierwszej probie i na
+  powtorce (dotychczas to zrodlo zawsze sie fetchowalo, choc czesto z
+  pusta/1-wpisowa lista wynikow - pierwszy raz 403, warto sprawdzic
+  ponownie w kolejnym przebiegu).
+- oferty-net: zablokowane - "unable to fetch from www.oferty.net" (jak
+  zawsze).
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 500 000 zl) per
+zrodlo: otodom: 0, domiporta: 17.
+
+Nowe ogloszenia dodane do offers.json (20): 19 otodom + 1 domiporta.
+
+Powiadomienie push: WYSLANE (20 nowych ogloszen - skrocony komunikat z 2
+najtanszymi, pelna lista w index.html).
+offers.json: rozbudowany z 529 do 549 ofert (20 nowych), brak duplikatow
+URL zweryfikowany skryptem.
+geocode.py: ok, dogeokodowano 12 nowych adresow (cache 376 wpisow).
+check_inactive.py: pierwsza proba przekroczyla 600s limitu w tle i
+zostala zabita bez zapisania wynikow (zero postepu widoczne w logu -
+offers.json nie zostal zmieniony przez te probe); powtorzona z limitem
+1200s zakonczyla sie powodzeniem: checked 551: newly inactive 2
+(olx HTTP 410, otodom HTTP 410 "z-2025-r-wykonczony-energooszczedny-dom-
+tuz-przy-warszawie-ID4DDyg"), reactivated 1 (otodom
+"nowoczesny-dom-premium-z-duza-dzialka-i-rekuperacja-olszewnica-stara-
+ID4DAoW" wrocil do stanu aktywnego), unknown 2, inactive total 61.
+index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg
+daty first_seen (51 sekcji), sekcja 2026-11-21 na gorze z wyroznieniem.
