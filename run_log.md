@@ -2427,3 +2427,58 @@ tuz-przy-warszawie-ID4DDyg"), reactivated 1 (otodom
 ID4DAoW" wrocil do stanu aktywnego), unknown 2, inactive total 61.
 index.html: zregenerowany w pelni z aktualnego offers.json, pogrupowany wg
 daty first_seen (51 sekcji), sekcja 2026-11-21 na gorze z wyroznieniem.
+
+## Run 2026-11-22 12:30 CET
+
+Status per zrodlo:
+- otodom: ok, znaleziono 76 kandydatow (37 na wlasnej stronie wynikow +
+  39 mirror-linkow otodom.pl z olx), po normalizacji prefiksu "/pl/" i
+  deduplikacji 73 unikalnych, z czego 14 nowych string-wise. Po
+  sprawdzeniu sufiksu ID wzgledem wszystkich znanych otodom URL-i
+  wykryto 3 przypadki slug-driftu pod tym samym ID (ID4CVer, ID4CREw,
+  ID4E4lJ - kazdy to juz znany wpis pod innym opisowym slugiem) - usuniete
+  jako nie-nowe. 11 faktycznie nowych: 1 martwy (HTTP 410,
+  /hpr/pl/oferta/.../ID9P5llM, znany ciag dead-linkow pod /hpr/), 10
+  pobranych i dodanych, wszystkie pod limitem 1 500 000 zl (990 000 -
+  1 499 000 zl).
+- nieruchomosci-online: ok, znaleziono 41 (15 w glownej liscie wynikow +
+  26 w bloku "Domy, ktore moga Cie zainteresowac"), 4 nowe URL-e, **wszystkie
+  4 ponad limit** (1 550 000 - 1 650 000 zl) - 0 dodanych.
+- olx: ok, znaleziono 40 linkow na stronie wynikow (39 mirror otodom.pl +
+  1 olx.pl-native), natywny link juz znany (identyczny URL) - 0 nowych
+  pod kluczem olx, mirror-linki scalone z haulem otodom jak wyzej.
+- morizon: zablokowane - "unable to fetch from www.morizon.pl" (jak
+  zawsze).
+- domiporta: ok, znaleziono 36 (strona 1), 18 nowych URL-i, **wszystkie 18
+  ponad limit** 1 500 000 zl (1 540 000 - 6 500 000 zl, w tym znana
+  "Osiedle Sloneczna 27-29" ID 682936 nadal 2 350 000 zl, wciaz nigdy nie
+  dodana) - 0 dodanych. Potwierdzono ponownie, ze auto-podsumowanie
+  domiporty czesto blednie podaje "-" dla powierzchni dzialki, mimo ze
+  surowa strona ma pole "POWIERZCHNIA DZIALKI" - przy kazdym z 18
+  fetchy odczytano wartosc z surowego tekstu strony.
+- adresowo: ok, znaleziono 39, 0 nowych (wszystkie juz znane).
+- gethome: ok, znaleziono 1 (juz znany, Jablonna kameralna inwestycja).
+- rynekpierwotny: zablokowane - HTTP 403 na pierwszej probie (drugi raz
+  pod rzad po 2026-11-21, ponownie bez powtorki w tym przebiegu - warto
+  sprawdzic jeszcze raz w kolejnym, ale zaczyna wygladac na trwalszy
+  blok, nie jednorazowy przypadek).
+- oferty-net: zablokowane - "unable to fetch from www.oferty.net" (jak
+  zawsze).
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 500 000 zl) per
+zrodlo: otodom: 0, nieruchomosci-online: 4, domiporta: 18.
+
+Nowe ogloszenia dodane do offers.json (10): 10 otodom.
+
+Powiadomienie push: WYSLANE (10 nowych ogloszen - skrocony komunikat z
+2 najtanszymi, pelna lista w index.html).
+offers.json: rozbudowany z 549 do 559 ofert (10 nowych), brak duplikatow
+URL zweryfikowany skryptem (wh.py).
+geocode.py: ok, dogeokodowano 10 nowych adresow (1 z nich czasowy timeout
+SSL na pierwszej probie, udany na powtorce) - cache 382 wpisy.
+check_inactive.py: ok, checked 559: newly inactive 1 (otodom HTTP 404
+"nowoczesny-dom-98-m-dzialka-550-m-kameralna-lokalizacja-ID4E3Ub"),
+reactivated 0, unknown 2, inactive total 62.
+index.html: zregenerowany w pelni z aktualnego offers.json (teraz przez
+nowy skrypt generate_index.py), pogrupowany wg daty first_seen (52
+sekcje), sekcja 2026-11-22 na gorze z wyroznieniem.
