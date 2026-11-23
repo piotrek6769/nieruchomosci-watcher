@@ -2482,3 +2482,68 @@ reactivated 0, unknown 2, inactive total 62.
 index.html: zregenerowany w pelni z aktualnego offers.json (teraz przez
 nowy skrypt generate_index.py), pogrupowany wg daty first_seen (52
 sekcje), sekcja 2026-11-22 na gorze z wyroznieniem.
+
+## Run 2026-11-23 08:05 CET
+
+Status per zrodlo:
+- otodom: ok, znaleziono 76 kandydatow (37 na wlasnej stronie wynikow +
+  39 mirror-linkow otodom.pl z olx), po normalizacji prefiksu "/pl/" i
+  deduplikacji 73 unikalnych. Po sprawdzeniu sufiksu ID wzgledem
+  wszystkich znanych otodom URL-i wykryto 3 przypadki slug-driftu pod
+  tym samym ID (ID4CREw x2, ID4E4lJ, ID4CVer - juz znane wpisy pod
+  innymi opisowymi slugami) - usuniete jako nie-nowe. 5 faktycznie
+  nowych: 1 martwy (HTTP 410, /hpr/pl/oferta/.../ID9P5llO, znany ciag
+  dead-linkow pod /hpr/), 4 pobrane i dodane, wszystkie pod limitem
+  1 500 000 zl (699 000 - 1 379 000 zl).
+- nieruchomosci-online: ok, znaleziono 39 (15 w glownej liscie wynikow +
+  24 w bloku "Domy, ktore moga Cie zainteresowac"), 6 nowych URL-i, 2
+  dodane pod limitem (Legionowo/Hetmanska 1 379 000 zl/178m2/749m2 -
+  identyczna cena/metraz co nowy wpis otodom "dom-w-drugiej-linii-
+  zabudowy..." - prawdopodobnie ta sama fizyczna nieruchomosc
+  cross-posted, oba wiersze zachowane; Legionowo 1 200 000 zl/200m2/
+  487m2) - 4 ponad limitem (1 550 000 - 1 600 000 zl), w tym znany
+  Kielpin Poduchowny/Brzegowa duplikat (ID 26820802, 1 225 000 zl).
+- olx: ok, znaleziono 40 linkow na stronie wynikow (39 mirror otodom.pl +
+  1 olx.pl-native), natywny link juz znany (identyczny URL) - 0 nowych
+  pod kluczem olx, mirror-linki scalone z haulem otodom jak wyzej.
+- morizon: zablokowane - "unable to fetch from www.morizon.pl" (jak
+  zawsze).
+- domiporta: ok, znaleziono 36 (strona 1), 18 nowych URL-i, **wszystkie
+  18 ponad limit** 1 500 000 zl (1 540 000 - 6 500 000 zl, w tym znana
+  "Osiedle Sloneczna 27-29" ID 682936 nadal 2 350 000 zl, wciaz nigdy
+  nie dodana) - 0 dodanych. Potwierdzono ponownie, ze auto-podsumowanie
+  domiporty czesto blednie podaje "-" dla powierzchni dzialki; przy
+  wszystkich 18 fetchach odczytano wartosc z surowego tekstu strony.
+- adresowo: ok, znaleziono 39, 0 nowych (wszystkie juz znane).
+- gethome: ok, znaleziono 1 (juz znany, Jablonna kameralna inwestycja).
+- rynekpierwotny: zablokowane - HTTP 403 (trzeci raz pod rzad po
+  2026-11-21 i 2026-11-22, bez powtorki - coraz bardziej wyglada na
+  trwaly blok niz jednorazowy przypadek).
+- oferty-net: zablokowane - "unable to fetch from www.oferty.net" (jak
+  zawsze).
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 500 000 zl) per
+zrodlo: otodom: 0, nieruchomosci-online: 4, domiporta: 18.
+
+Nowe ogloszenia dodane do offers.json (6): 4 otodom + 2
+nieruchomosci-online.
+
+Powiadomienie push: WYSLANE (6 nowych ogloszen, pelna lista nizej).
+offers.json: rozbudowany z 559 do 565 ofert (6 nowych), brak duplikatow
+URL zweryfikowany skryptem (wh.py).
+geocode.py: ok, dogeokodowano 3 nowe adresy (cache 385 wpisow).
+check_inactive.py: ok, checked 565: newly inactive 1 (otodom HTTP 410
+"skrzeszew-blizniak-z-garazem-i-klimatyzacja-ID4DcyV"), reactivated 1
+(otodom "nowoczesny-dom-98-m-dzialka-550-m-kameralna-lokalizacja-
+ID4E3Ub" wrocil do stanu aktywnego), unknown 2, inactive total 62.
+index.html: zregenerowany w pelni z aktualnego offers.json (przez
+generate_index.py), pogrupowany wg daty first_seen (53 sekcje), sekcja
+2026-11-23 na gorze z wyroznieniem.
+
+Nowe ogloszenia (6):
+1. otodom - ul. Gościńcowa, Łomianki - 699 000 zl - dom 160m2 / dzialka 420m2
+2. otodom - Legionowo (ul. bez nazwy) - 1 379 000 zl - dom 178m2 / dzialka 749m2
+3. otodom - ul. Poetów, Nowodwory/Białołęka, Warszawa - 1 200 000 zl - dom 115m2 / dzialka 150m2
+4. otodom - ul. Gajowa, Legionowo - 880 000 zl - dom 140m2 / dzialka 380m2
+5. nieruchomosci-online - ul. Hetmańska, Legionowo - 1 379 000 zl - dom 178m2 / dzialka 749m2
+6. nieruchomosci-online - Legionowo (ul. bez nazwy) - 1 200 000 zl - dom 200m2 / dzialka 487m2
