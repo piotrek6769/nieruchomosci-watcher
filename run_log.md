@@ -2547,3 +2547,104 @@ Nowe ogloszenia (6):
 4. otodom - ul. Gajowa, Legionowo - 880 000 zl - dom 140m2 / dzialka 380m2
 5. nieruchomosci-online - ul. Hetmańska, Legionowo - 1 379 000 zl - dom 178m2 / dzialka 749m2
 6. nieruchomosci-online - Legionowo (ul. bez nazwy) - 1 200 000 zl - dom 200m2 / dzialka 487m2
+
+## Run 2026-11-24 08:50 CET
+
+Status per zrodlo:
+- otodom: ok, znaleziono 69 linkow po zlaczeniu wlasnej strony wynikow
+  (37, "1-36 ogloszen z 423") z mirror-linkami otodom.pl znalezionymi na
+  stronie wynikow olx (po normalizacji prefiksu "/pl/" i deduplikacji
+  identycznych URL-i obecnych w obu listach). Po sprawdzeniu sufiksu ID
+  wzgledem wszystkich znanych otodom URL-i: 16 faktycznie nowych, 1
+  martwy (HTTP 410, /hpr/pl/oferta/.../ID9P5llR - kolejny w znanym
+  ciagu dead-linkow pod /hpr/, teraz llo/llu/llv/llJ/llM/llR), 15
+  pobranych i dodanych, wszystkie pod limitem 1 500 000 zl (790 000 -
+  1 500 000 zl, jeden dokladnie na granicy limitu ID4D6fg - wliczony
+  jako pod limitem zgodnie z przyjeta zasada wlaczajaca).
+- nieruchomosci-online: ok, znaleziono 41 (15 w glownej liscie wynikow +
+  26 w bloku "Domy, ktore moga Cie zainteresowac"), 5 nowych URL-i, 3
+  dodane pod limitem (Chotomow 1 300 000 zl/170m2/493m2, Legionowo/
+  Kozietulskiego 1 350 000 zl/150m2/345m2, Lomianki Dolne/Wislana
+  1 499 000 zl/187m2/890m2) - 2 ponad limitem (Legionowo/Mireckiego
+  1 550 000 zl, Legionowo bez ulicy 1 599 900 zl).
+- olx: ok, strona wynikow zwrocila okolo 46 linkow (otodom.pl mirror +
+  olx.pl native, mirrory scalone z haulem otodom powyzej), z czego 6
+  linkow olx.pl-native, 1 juz znany (ID1diqQY, Lomianki Dolne) - 5
+  nowych, wszystkie pod limitem (1 095 000 - 1 265 000 zl). Uwaga:
+  4 z tych 5 (IDYeKaU, ID1a74TU, ID18DdG3, ID18mf1R) to prawdopodobnie
+  ten sam deweloper/osiedle w Jablonnie przy "ul. Marmurowej" z
+  identyczna cena 1 265 000 zl na kilku stronach, ale rozne metraze/
+  numery ofert - zachowane jako odrebne wiersze zgodnie z zasada
+  jeden-URL-jeden-wiersz.
+- morizon: zablokowane - "unable to fetch from www.morizon.pl" (jak
+  zawsze).
+- domiporta: ok, znaleziono 36 (strona 1), 18 nowych URL-i, **wszystkie
+  18 ponad limit** 1 500 000 zl (1 540 000 - 6 500 000 zl, w tym znana
+  "Osiedle Sloneczna 27-29" ID 682936 nadal 2 350 000 zl, wciaz nigdy
+  nie dodana) - 0 dodanych. Ponownie potwierdzono, ze auto-podsumowanie
+  domiporty czesto blednie podaje "-" dla powierzchni dzialki; przy
+  wszystkich 18 fetchach odczytano wartosc z surowego tekstu strony.
+- adresowo: ok, znaleziono 39, 4 nowe URL-e, wszystkie 4 dodane pod
+  limitem (1 190 000 - 1 490 000 zl). Uwaga: "ul. Stanislawa Staszica,
+  Lomianki" (1 249 000 zl/112m2/332m2) jest identyczny adres/cena/
+  metraz co nowy wpis otodom "narozny-segment-w-lomiankach-...-ID4E71Z"
+  - prawdopodobnie ta sama fizyczna nieruchomosc cross-posted na dwoch
+  serwisach, oba wiersze zachowane zgodnie z zasada jeden-URL-jeden-
+  wiersz.
+- gethome: ok, znaleziono 1 (juz znany, Jablonna 120m2 kameralna
+  inwestycja).
+- rynekpierwotny: zablokowane - HTTP 403 (czwarty raz pod rzad po
+  2026-11-21, 2026-11-22 i 2026-11-23 - blok wyglada na trwaly, warto
+  dalej probowac co run ale bez wiekszych oczekiwan).
+- oferty-net: zablokowane - "unable to fetch from www.oferty.net" (jak
+  zawsze).
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 500 000 zl) per
+zrodlo: otodom: 0, nieruchomosci-online: 2, domiporta: 18.
+
+Nowe ogloszenia dodane do offers.json (27): 15 otodom + 3
+nieruchomosci-online + 5 olx + 4 adresowo.
+
+Powiadomienie push: WYSLANE (27 nowych ogloszen, top 2 + link do pelnej
+listy w tresci powiadomienia; dostawa na telefon nieudana - Remote
+Control nieaktywne, zgodnie z oczekiwaniami).
+offers.json: rozbudowany z 565 do 592 ofert (27 nowych), brak
+duplikatow URL zweryfikowany skryptem (liczba unikalnych URL-i == 592).
+geocode.py: ok, dogeokodowano 10 nowych adresow (cache 395 wpisow).
+check_inactive.py: ok, checked 592: newly inactive 7 (2x
+nieruchomosci-online "ogloszenie archiwalne" Legionowo/nad rzeka
+26638133 pod dwoma URL-ami, 5x otodom HTTP 410), reactivated 1 (otodom
+"skrzeszew-blizniak-z-garazem-i-klimatyzacja-ID4DcyV" wrocil do stanu
+aktywnego), unknown 8, inactive total 68.
+index.html: zregenerowany w pelni z aktualnego offers.json (przez
+generate_index.py), pogrupowany wg daty first_seen (54 sekcje), sekcja
+2026-11-24 na gorze z wyroznieniem.
+
+Nowe ogloszenia (27):
+1. otodom - ul. Flisaków, Skrzeszew, Wieliszew - 1 200 000 zl - dom 150m2 / dzialka 650m2
+2. otodom - Kościelna, Skrzeszew, Wieliszew - 1 200 000 zl - dom 150m2 / dzialka 730m2
+3. otodom - Stanisławów Pierwszy, Nieporęt - 1 380 000 zl - dom 160m2 / dzialka 340m2
+4. otodom - Krakusa, Legionowo - 790 000 zl - dom 85.28m2 / dzialka 270m2
+5. otodom - Łomianki Dolne, Łomianki - 1 190 000 zl - dom 105m2 / dzialka 250m2
+6. otodom - Rajszew, Jabłonna - 1 250 000 zl - dom 141m2 / dzialka 1000m2
+7. otodom - Łomianki - 1 500 000 zl - dom 240m2 / dzialka 202m2
+8. otodom - ul. Weteranów, Henryków/Białołęka, Warszawa - 1 495 000 zl - dom 119.77m2 / dzialka 200m2
+9. otodom - ul. Leśna, Chotomów/Jabłonna - 1 370 000 zl - dom 121m2 / dzialka 270m2
+10. otodom - Łomianki - 1 338 000 zl - dom 123.64m2 / dzialka 580m2
+11. otodom - Kiełpin, Łomianki - 1 200 000 zl - dom 105.5m2 / dzialka 740m2
+12. otodom - ul. Stanisława Staszica, Łomianki - 1 249 000 zl - dom 112m2 / dzialka 332m2
+13. otodom - Łomianki - 890 000 zl - dom 107.22m2 / dzialka 250m2
+14. otodom - Izabelin-Dziekanówek, Czosnów - 1 090 000 zl - dom 93.4m2 / dzialka 285m2
+15. otodom - Kiełpin Poduchowny, Łomianki - 890 000 zl - dom 84m2 / dzialka 470m2
+16. nieruchomosci-online - Chotomów, Jabłonna - 1 300 000 zl - dom 170m2 / dzialka 493m2
+17. nieruchomosci-online - ul. Kozietulskiego, Legionowo - 1 350 000 zl - dom 150m2 / dzialka 345m2
+18. nieruchomosci-online - ul. Wiślana, Łomianki Dolne - 1 499 000 zl - dom 187m2 / dzialka 890m2
+19. olx - Jabłonna (ul. Marmurowej) - 1 265 000 zl - dom 90m2 / dzialka 335m2
+20. olx - Jabłonna (ul. Marmurowej) - 1 265 000 zl - dom 86.25m2 / dzialka 335m2
+21. olx - Jabłonna (ul. Marmurowej) - 1 265 000 zl - dom 140m2 / dzialka 335m2
+22. olx - Jabłonna (ul. Marmurowej) - 1 265 000 zl - dom 140m2 / dzialka 320m2
+23. olx - Łomianki - 1 095 000 zl - dom 117m2 / dzialka 200m2
+24. adresowo - Łomianki Dolne - 1 190 000 zl - dom 105m2 / dzialka 250m2
+25. adresowo - ul. Stanisława Staszica, Łomianki - 1 249 000 zl - dom 112m2 / dzialka 332m2
+26. adresowo - ul. Graniczna, Stanisławów Pierwszy/Nieporęt - 1 350 000 zl - dom 147.84m2 / dzialka 443m2
+27. adresowo - Izabelin C - 1 490 000 zl - dom 120m2 / dzialka 1070m2
