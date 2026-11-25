@@ -2648,3 +2648,79 @@ Nowe ogloszenia (27):
 25. adresowo - ul. Stanisława Staszica, Łomianki - 1 249 000 zl - dom 112m2 / dzialka 332m2
 26. adresowo - ul. Graniczna, Stanisławów Pierwszy/Nieporęt - 1 350 000 zl - dom 147.84m2 / dzialka 443m2
 27. adresowo - Izabelin C - 1 490 000 zl - dom 120m2 / dzialka 1070m2
+## Run 2026-11-25 09:24 CET
+
+Status per zrodlo:
+- otodom: ok, strona wynikow zwrocila 37 linkow ("1-36 ogloszen z 425" +
+  1 dodatkowy z podsumowania), 14 nowych URL-i, 1 martwy (HTTP 410, URL
+  pod prefiksem /hpr/pl/oferta/.../ID9P5llW - kolejny w znanym ciagu
+  dead-linkow pod /hpr/), 13 pobranych i dodanych, wszystkie pod
+  limitem 1 500 000 zl (899 000 - 1 480 000 zl).
+- nieruchomosci-online: ok, znaleziono 41 (15 w glownej liscie wynikow +
+  26 w bloku "Domy, ktore moga Cie zainteresowac"), 6 nowych URL-i, 3
+  dodane pod limitem (Aleja Legionow 899 000 zl/127m2, Legionowo
+  950 000 zl/85.56m2, Kielpin 1 400 000 zl/220m2/724m2) - 3 ponad
+  limitem (Mireckiego/Legionowo 1 550 000 zl, Legionowo/z-balkonem
+  1 630 000 zl, Brzegowa/Lomianki Dolne 1 649 000 zl).
+- olx: ok, strona wynikow zwrocila 44 unikalne linki (40 otodom.pl
+  mirror + 4 olx.pl-native), wszystkie 4 native juz znane - 0 nowych.
+  Mirrory otodom.pl nie byly dodatkowo sprawdzane (wlasna strona
+  wynikow otodom juz pokryla ten haul).
+- morizon: zablokowane - "unable to fetch from www.morizon.pl" (jak
+  zawsze).
+- domiporta: ok, znaleziono 36 (strona 1), 18 nowych URL-i, **wszystkie
+  18 ponad limit** 1 500 000 zl (1 540 000 - 6 500 000 zl, w tym znana
+  "Osiedle Sloneczna 27-29" ID 682936 nadal 2 350 000 zl, wciaz nigdy
+  nie dodana) - 0 dodanych. Najgorszy wynik pod-limitowy odnotowany do
+  tej pory (0/18), napedzany duzym pakietem drogich domow w Lomiankach/
+  Lomianki Dabrowa/Warszawa Bialoleka (106-760m2, 1.54M-6.5M).
+- adresowo: ok, znaleziono 39, 6 nowych URL-i, wszystkie 6 dodane pod
+  limitem (699 000 - 1 320 000 zl).
+- gethome: ok, znaleziono 1 (juz znany, Jablonna 120.38m2 kameralna
+  inwestycja).
+- rynekpierwotny: zablokowane - HTTP 403 (piaty raz pod rzad po
+  2026-11-21, 2026-11-22, 2026-11-23 i 2026-11-24 - blok wyglada na
+  trwaly, warto dalej probowac co run ale bez wiekszych oczekiwan).
+- oferty-net: zablokowane - "unable to fetch from www.oferty.net" (jak
+  zawsze).
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 500 000 zl) per
+zrodlo: otodom: 0, nieruchomosci-online: 3, domiporta: 18.
+
+Nowe ogloszenia dodane do offers.json (22): 13 otodom + 3
+nieruchomosci-online + 6 adresowo.
+
+Powiadomienie push: WYSLANE (22 nowych ogloszen, top 2 + link do pelnej
+listy w tresci powiadomienia).
+offers.json: rozbudowany z 592 do 614 ofert (22 nowych), brak
+duplikatow URL zweryfikowany skryptem (liczba unikalnych URL-i == 614).
+geocode.py: ok, dogeokodowano 10 nowych adresow (cache 405 wpisow).
+check_inactive.py: ok, checked 614: newly inactive 3 (1x olx HTTP 410,
+2x otodom HTTP 410), reactivated 0, unknown 3, inactive total 71.
+index.html: zregenerowany w pelni z aktualnego offers.json (przez
+generate_index.py), pogrupowany wg daty first_seen (55 sekcji), sekcja
+2026-11-25 na gorze z wyroznieniem.
+
+Nowe ogloszenia (22):
+1. otodom - Leśna, Michałów-Reginów, Wieliszew - 1 349 000 zl - dom 139.2m2 / dzialka 810m2
+2. otodom - Legionowo - 950 000 zl - dom 85.56m2 / dzialka 30m2
+3. otodom - al. Kardynała Stefana Wyszyńskiego, Jabłonna - 999 999 zl - dom 134.26m2 / dzialka 170m2
+4. otodom - Szamocin, Białołęka, Warszawa - 1 439 000 zl - dom 153.65m2 / dzialka 333m2
+5. otodom - Chotomów, Jabłonna - 1 250 000 zl - dom 130m2 / dzialka 800m2
+6. otodom - al. Kardynała Stefana Wyszyńskiego, Jabłonna - 1 199 000 zl - dom 155.79m2 / dzialka 234m2
+7. otodom - ul. Grunwaldzka, Legionowo - 1 228 000 zl - dom 133.11m2 / dzialka 100m2
+8. otodom - ul. Suwalna, Legionowo - 1 289 000 zl - dom 184.79m2 / dzialka 400m2
+9. otodom - Stanisławów Pierwszy, Nieporęt - 1 070 000 zl - dom 133.86m2 / dzialka 375m2
+10. otodom - Legionowo - 899 000 zl - dom 127m2 / dzialka 25m2
+11. otodom - Stanisławów Pierwszy, Nieporęt - 1 480 000 zl - dom 200m2 / dzialka 798m2
+12. otodom - ul. Kobiałka, Białołęka, Warszawa - 1 399 000 zl - dom 172m2 / dzialka 172m2
+13. otodom - Rolnicza, Dziekanów Nowy, Łomianki - 1 349 000 zl - dom 145m2 / dzialka 950m2
+14. nieruchomosci-online - Kiełpin, Łomianki - 1 400 000 zl - dom 220m2 / dzialka 724m2
+15. nieruchomosci-online - Aleja Legionów, Legionowo - 899 000 zl - dom 127m2 / dzialka 25m2
+16. nieruchomosci-online - Legionowo - 950 000 zl - dom 85.56m2 / dzialka 30m2
+17. adresowo - Legionowo - 1 195 000 zl - dom 182.08m2 / dzialka 200m2
+18. adresowo - Legionowo - 899 000 zl - dom 95m2 / dzialka 25m2
+19. adresowo - ul. Gościńcowa, Łomianki - 699 000 zl - dom 160m2 / dzialka 420m2
+20. adresowo - ul. Babinicza, Nieporęt - 850 000 zl - dom 165m2 / dzialka 199m2
+21. adresowo - Skubianka, gmina Serock - 720 000 zl - dom 95.01m2 / dzialka 260m2
+22. adresowo - ul. Pogodna, Wieliszew - 1 320 000 zl - dom 153.2m2 / dzialka 360m2
