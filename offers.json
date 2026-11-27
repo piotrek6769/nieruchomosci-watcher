@@ -208,7 +208,9 @@
       "cena": "877 000 zł",
       "cena_za_m2": "7 988,70 zł/m²",
       "dom_m2": "109,78",
-      "dzialka_m2": "38"
+      "dzialka_m2": "38",
+      "inactive_since": "2026-11-27",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/26306164.html",
@@ -866,7 +868,9 @@
       "cena": "1 200 000 zł",
       "cena_za_m2": "12 671,59 zł/m²",
       "dom_m2": "94,70",
-      "dzialka_m2": "470"
+      "dzialka_m2": "470",
+      "inactive_since": "2026-11-27",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://jablonna.nieruchomosci-online.pl/dom-wolnostojacy,z-parkingiem/27085201.html",
@@ -875,7 +879,9 @@
       "cena": "1 150 000 zł",
       "cena_za_m2": "11 805,77 zł/m²",
       "dom_m2": "97,41",
-      "dzialka_m2": "380"
+      "dzialka_m2": "380",
+      "inactive_since": "2026-11-27",
+      "inactive_reason": "ogloszenie archiwalne"
     },
     {
       "url": "https://jablonna.nieruchomosci-online.pl/dom,na-sprzedaz/27084730.html",
@@ -1238,6 +1244,51 @@
       "cena_za_m2": "11103.32 zl/m2",
       "dom_m2": "85.56",
       "dzialka_m2": "30"
+    },
+    {
+      "url": "https://jablonna.nieruchomosci-online.pl/dom-wolnostojacy,z-parkingiem/27154652.html",
+      "first_seen": "2026-11-27",
+      "adres": "Jabłonna, ul. 1 Maja, legionowski, mazowieckie",
+      "cena": "1050000 zl",
+      "cena_za_m2": "10779.18 zl/m2",
+      "dom_m2": "97.41",
+      "dzialka_m2": "380"
+    },
+    {
+      "url": "https://jablonna.nieruchomosci-online.pl/dom-wolnostojacy,nad-rzeka/27154653.html",
+      "first_seen": "2026-11-27",
+      "adres": "Jabłonna, ul. 1 Maja, legionowski, mazowieckie",
+      "cena": "1100000 zl",
+      "cena_za_m2": "11615.63 zl/m2",
+      "dom_m2": "94.70",
+      "dzialka_m2": "470"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27153494.html",
+      "first_seen": "2026-11-27",
+      "adres": "ul. Orzechowa, Legionowo, legionowski, mazowieckie",
+      "cena": "1249000 zl",
+      "cena_za_m2": "8006.41 zl/m2",
+      "dom_m2": "156",
+      "dzialka_m2": "250"
+    },
+    {
+      "url": "https://legionowo.nieruchomosci-online.pl/dom,na-sprzedaz/27151217.html",
+      "first_seen": "2026-11-27",
+      "adres": "ul. Kolejowa, Legionowo, legionowski, mazowieckie",
+      "cena": "859000 zl",
+      "cena_za_m2": "8229.55 zl/m2",
+      "dom_m2": "104.38",
+      "dzialka_m2": "38"
+    },
+    {
+      "url": "https://kielpin.nieruchomosci-online.pl/dom,na-sprzedaz/26820802.html",
+      "first_seen": "2026-11-27",
+      "adres": "ul. Brzegowa, Kiełpin, Łomianki, warszawski zachodni, mazowieckie",
+      "cena": "1225000 zl",
+      "cena_za_m2": "8112.58 zl/m2",
+      "dom_m2": "151",
+      "dzialka_m2": "1000"
     }
   ],
   "olx": [
@@ -1301,7 +1352,9 @@
       "cena": "1 050 000 zł",
       "cena_za_m2": "8 203,13 zł/m²",
       "dom_m2": "133",
-      "dzialka_m2": "420-450"
+      "dzialka_m2": "420-450",
+      "inactive_since": "2026-11-27",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.olx.pl/d/oferta/nowe-domy-juz-gotowe-i-1-dom-wolnostojacy-lomianki-dabrowa-zobacz-bez-podatku-2-CID3-ID16fbu3.html",
@@ -1700,7 +1753,9 @@
       "cena": "799000 zl",
       "cena_za_m2": "7014.93 zl/m2",
       "dom_m2": "113.9",
-      "dzialka_m2": "170"
+      "dzialka_m2": "170",
+      "inactive_since": "2026-11-27",
+      "inactive_reason": "nieaktualne"
     },
     {
       "url": "https://www.domiporta.pl/nieruchomosci/sprzedam-dom-jozefow-zlota-115m2/156808798",
@@ -3582,7 +3637,9 @@
       "cena": "950000 zl",
       "cena_za_m2": "7487.39 zl/m2",
       "dom_m2": "126.88",
-      "dzialka_m2": "700"
+      "dzialka_m2": "700",
+      "inactive_since": "2026-11-27",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.otodom.pl/pl/oferta/domy-z-garazem-kaluszyn-ul-lipowa-bez-posrednika-ID4B75A",
@@ -3591,7 +3648,9 @@
       "cena": "950000 zl",
       "cena_za_m2": "7487.39 zl/m2",
       "dom_m2": "126.88",
-      "dzialka_m2": "700"
+      "dzialka_m2": "700",
+      "inactive_since": "2026-11-27",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.otodom.pl/pl/oferta/nowoczesne-4-lokale-125-m-z-ogrodkiem-nowa-inwestycja-ID4zKDO",
@@ -3667,7 +3726,9 @@
       "cena": "1150000 zl",
       "cena_za_m2": "11805.77 zl/m2",
       "dom_m2": "97.41",
-      "dzialka_m2": "380"
+      "dzialka_m2": "380",
+      "inactive_since": "2026-11-27",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.otodom.pl/pl/oferta/400-m-od-wawy-5-pokoi-garaz-spizarnia-garderoba-ID4CJlh",
@@ -3685,7 +3746,9 @@
       "cena": "1200000 zl",
       "cena_za_m2": "12671.59 zl/m2",
       "dom_m2": "94.7",
-      "dzialka_m2": "470"
+      "dzialka_m2": "470",
+      "inactive_since": "2026-11-27",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.otodom.pl/pl/oferta/nowoczesne-stodoly-200-m-od-wawy-bez-prowizji-ID4DPgt",
@@ -4311,7 +4374,9 @@
       "cena": "1179000 zl",
       "cena_za_m2": "5295,07 zl/m2",
       "dom_m2": "222.66",
-      "dzialka_m2": "370"
+      "dzialka_m2": "370",
+      "inactive_since": "2026-11-27",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.otodom.pl/pl/oferta/kameralne-osiedle-kampino-park-z-prywatnym-lasem-ID4CHHY",
@@ -4392,7 +4457,9 @@
       "cena": "899000 zl",
       "cena_za_m2": "7062,61 zl/m2",
       "dom_m2": "127.29",
-      "dzialka_m2": "1473"
+      "dzialka_m2": "1473",
+      "inactive_since": "2026-11-27",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.otodom.pl/pl/oferta/nowa-inwestycja-granica-legionowa-pkp-piaski-1-5-km-ID4Cta3",
@@ -4619,7 +4686,9 @@
       "cena": "1500000 zl",
       "cena_za_m2": "12500 zl/m2",
       "dom_m2": "120",
-      "dzialka_m2": "250"
+      "dzialka_m2": "250",
+      "inactive_since": "2026-11-27",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.otodom.pl/pl/oferta/dom-z-ogrodem-i-garazem-chotomow-ID4Dkk1",
@@ -4756,7 +4825,9 @@
       "cena": "1280000 zl",
       "cena_za_m2": "8827.59 zl/m2",
       "dom_m2": "145",
-      "dzialka_m2": "240"
+      "dzialka_m2": "240",
+      "inactive_since": "2026-11-27",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.otodom.pl/pl/oferta/osiedle-premium-wyjatkowa-lokalizacja-przy-granicy-z-warszawa-ID4DasI",
@@ -5300,7 +5371,9 @@
       "cena": "1400000 zl",
       "cena_za_m2": "9929.08 zl/m2",
       "dom_m2": "141",
-      "dzialka_m2": "198"
+      "dzialka_m2": "198",
+      "inactive_since": "2026-11-27",
+      "inactive_reason": "HTTP 410"
     },
     {
       "url": "https://www.otodom.pl/pl/oferta/dom-na-sprzedaz-projekt-e-266a-stan-deweloperski-losia-wolka-ID4yOzl",
@@ -5679,6 +5752,123 @@
       "cena_za_m2": "9303.45 zl/m2",
       "dom_m2": "145",
       "dzialka_m2": "950"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/4-pokojowy-dom-85m2-ogrodek-bez-prowizji-ID4u9Qx",
+      "first_seen": "2026-11-27",
+      "adres": "ul. Wiklinowa, Henryków, Białołęka, Warszawa",
+      "cena": "1221347 zl",
+      "cena_za_m2": "14244.77 zl/m2",
+      "dom_m2": "85.74",
+      "dzialka_m2": "117.45"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/3-pokojowy-dom-85m2-ogrodek-bezposrednio-ID4u9RT",
+      "first_seen": "2026-11-27",
+      "adres": "ul. Wiklinowa, Henryków, Białołęka, Warszawa",
+      "cena": "1221347 zl",
+      "cena_za_m2": "14233.15 zl/m2",
+      "dom_m2": "85.81",
+      "dzialka_m2": "108.12"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/5-pokojowy-dom-85m2-ogrodek-bez-posrednikow-ID4u9Qr",
+      "first_seen": "2026-11-27",
+      "adres": "ul. Wiklinowa, Henryków, Białołęka, Warszawa",
+      "cena": "1221347 zl",
+      "cena_za_m2": "14226.52 zl/m2",
+      "dom_m2": "85.85",
+      "dzialka_m2": "108.75"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/5-pokojowy-dom-86m2-ogrodek-bez-prowizji-ID4u9RY",
+      "first_seen": "2026-11-27",
+      "adres": "ul. Wiklinowa, Henryków, Białołęka, Warszawa",
+      "cena": "1221347 zl",
+      "cena_za_m2": "14176.98 zl/m2",
+      "dom_m2": "86.15",
+      "dzialka_m2": "109.01"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/dom-135m2-na-rodzinnym-katolickim-osiedlu-wyjatkowe-miejsce-ID4Dgrb",
+      "first_seen": "2026-11-27",
+      "adres": "Przystań, Łomianki Dolne, Łomianki, warszawski zachodni, mazowieckie",
+      "cena": "1480000 zl",
+      "cena_za_m2": "10962.96 zl/m2",
+      "dom_m2": "135",
+      "dzialka_m2": "265"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/dom-w-czosnowie-150-m-6-pokoi-2-lazienki-ID4DcOw",
+      "first_seen": "2026-11-27",
+      "adres": "ul. Polna, Czosnów, nowodworski, mazowieckie",
+      "cena": "1250000 zl",
+      "cena_za_m2": "8333.33 zl/m2",
+      "dom_m2": "150",
+      "dzialka_m2": "1000"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/kaliszki-dom-wolnostojacy-na-zalesionej-dzialce-ID4Ea4g",
+      "first_seen": "2026-11-27",
+      "adres": "Kaliszki, Czosnów, nowodworski, mazowieckie",
+      "cena": "1499000 zl",
+      "cena_za_m2": "6517.39 zl/m2",
+      "dom_m2": "230",
+      "dzialka_m2": "2230"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/jablonna-blizniak-zakonczona-budowa-ID4E9Xu",
+      "first_seen": "2026-11-27",
+      "adres": "Jabłonna, legionowski, mazowieckie",
+      "cena": "1290000 zl",
+      "cena_za_m2": "10840.34 zl/m2",
+      "dom_m2": "119",
+      "dzialka_m2": "347"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/dom-95-m-dzialka-470-m-garaz-12-min-do-galerii-polnocnej-ID4E9VW",
+      "first_seen": "2026-11-27",
+      "adres": "Jabłonna, legionowski, mazowieckie",
+      "cena": "1100000 zl",
+      "cena_za_m2": "11615.63 zl/m2",
+      "dom_m2": "94.7",
+      "dzialka_m2": "470"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/dom-97m-dzialka-380m-garaz-na-2-auta-12-min-do-galerii-polnocnej-ID4E9VU",
+      "first_seen": "2026-11-27",
+      "adres": "Jabłonna, legionowski, mazowieckie",
+      "cena": "1050000 zl",
+      "cena_za_m2": "10779.18 zl/m2",
+      "dom_m2": "97.41",
+      "dzialka_m2": "380"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/dom-master-bedroom-garaz-klucze-4q2027-i-rabat-45-000-zl-ID4DRMP",
+      "first_seen": "2026-11-27",
+      "adres": "ul. Weteranów, Henryków, Białołęka, Warszawa, mazowieckie",
+      "cena": "1495000 zl",
+      "cena_za_m2": "12483.30 zl/m2",
+      "dom_m2": "119.76",
+      "dzialka_m2": "200"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/nowy-dom-152-m-na-granicy-z-kobialkami-duzy-ogrod-rezerwacja-ID4DrXt",
+      "first_seen": "2026-11-27",
+      "adres": "Promykowa 10/2, Stanisławów Pierwszy, Nieporęt, legionowski, mazowieckie",
+      "cena": "1398000 zl",
+      "cena_za_m2": "9197.37 zl/m2",
+      "dom_m2": "152",
+      "dzialka_m2": "500"
+    },
+    {
+      "url": "https://www.otodom.pl/pl/oferta/3-pokoje-brak-czynszu-ogrodek-pkp-7-min-ID4DkJa",
+      "first_seen": "2026-11-27",
+      "adres": "Legionowo, legionowski, mazowieckie",
+      "cena": "744000 zl",
+      "cena_za_m2": "12297.52 zl/m2",
+      "dom_m2": "60.5",
+      "dzialka_m2": "30"
     }
   ]
 }

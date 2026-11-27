@@ -2724,3 +2724,67 @@ Nowe ogloszenia (22):
 20. adresowo - ul. Babinicza, Nieporęt - 850 000 zl - dom 165m2 / dzialka 199m2
 21. adresowo - Skubianka, gmina Serock - 720 000 zl - dom 95.01m2 / dzialka 260m2
 22. adresowo - ul. Pogodna, Wieliszew - 1 320 000 zl - dom 153.2m2 / dzialka 360m2
+
+## 2026-11-27 08:17 CET
+
+- otodom: ok, znaleziono 36 (wlasna strona wynikow) + mirrory przez olx
+  (merged), 24 nowych URL-i (14 z wlasnej strony + 10 slug-drift/duplikaty
+  istniejacych ID pominiete), 13 dodanych pod limitem 1 500 000 zl
+  (744 000 - 1 499 000 zl), 1 martwy (`/hpr/pl/oferta/.../ID9P5lm0`, HTTP 410 -
+  kolejny z rodziny martwych linkow /hpr/).
+- nieruchomosci-online: ok, znaleziono 41, 9 nowych URL-i, 5 dodanych pod
+  limitem (859 000 - 1 249 000 zl), 4 ponad limit (1 549 000 - 1 650 000 zl) -
+  w tym znany duplikat Kielpin Poduchowny/Brzegowa (ID 26820802, 1 225 000 zl,
+  wreszcie dodany pod nowym limitem).
+- olx: ok, strona wynikow zwrocila 32 linki - 31 mirror-y otodom.pl (zliczone
+  do otodom) + 1 native juz znany (0 nowych natywnych).
+- morizon: zablokowane - "unable to fetch from www.morizon.pl" (jak zawsze).
+- domiporta: ok, znaleziono 36, 18 nowych URL-i, **wszystkie 18 ponad limit**
+  1 500 000 zl (1 540 000 - 6 500 000 zl, w tym znana "Osiedle Sloneczna 27-29"
+  ID 682936 ponownie 2 350 000 zl, wciaz nigdy nie dodana) - 0 dodanych.
+- adresowo: ok, znaleziono 39, 0 nowych URL-i (wszystkie juz znane).
+- gethome: ok, znaleziono 1 (juz znany).
+- rynekpierwotny: zablokowane - HTTP 403 (jak w ostatnich dniach, blok
+  wyglada trwaly).
+- oferty-net: zablokowane - "unable to fetch from www.oferty.net" (jak
+  zawsze); jeden z subagentow odnotowal, ze blad fetch zawieral niezwiazane
+  "instrukcje" dot. tworzenia dokumentu w tresci bledu - zignorowane jako
+  prawdopodobna proba prompt injection, nie wykonano nic z tego.
+
+Liczba ofert odrzuconych z powodu limitu budzetu (>1 500 000 zl) per
+zrodlo: nieruchomosci-online: 4, domiporta: 18.
+
+Nowe ogloszenia dodane do offers.json (18): 13 otodom + 5
+nieruchomosci-online.
+
+Powiadomienie push: WYSLANE (18 nowych ogloszen, top 2 + link do pelnej
+listy w tresci powiadomienia).
+offers.json: rozbudowany z 614 do 632 ofert (18 nowych), brak duplikatow
+URL zweryfikowany skryptem (liczba unikalnych URL-i == 632).
+geocode.py: ok, dogeokodowano 8 nowych adresow (cache 413 wpisow).
+check_inactive.py: ok, checked 632: newly inactive 14 (3x nieruchomosci-online
+ogloszenie archiwalne, 1x olx HTTP 410, 1x domiporta nieaktualne, 9x otodom
+HTTP 410), reactivated 0, unknown 3, inactive total 85.
+index.html: zregenerowany w pelni z aktualnego offers.json (przez
+generate_index.py), pogrupowany wg daty first_seen (56 sekcji), sekcja
+2026-11-27 na gorze z wyroznieniem.
+
+Nowe ogloszenia (18):
+1. otodom - ul. Wiklinowa, Henryków, Białołęka, Warszawa - 1 221 347 zl - dom 85.74m2 / dzialka 117.45m2
+2. otodom - ul. Wiklinowa, Henryków, Białołęka, Warszawa - 1 221 347 zl - dom 85.81m2 / dzialka 108.12m2
+3. otodom - ul. Wiklinowa, Henryków, Białołęka, Warszawa - 1 221 347 zl - dom 85.85m2 / dzialka 108.75m2
+4. otodom - ul. Wiklinowa, Henryków, Białołęka, Warszawa - 1 221 347 zl - dom 86.15m2 / dzialka 109.01m2
+5. otodom - Przystań, Łomianki Dolne, Łomianki - 1 480 000 zl - dom 135m2 / dzialka 265m2
+6. otodom - ul. Polna, Czosnów - 1 250 000 zl - dom 150m2 / dzialka 1000m2
+7. otodom - Kaliszki, Czosnów - 1 499 000 zl - dom 230m2 / dzialka 2230m2
+8. otodom - Jabłonna - 1 290 000 zl - dom 119m2 / dzialka 347m2
+9. otodom - Jabłonna - 1 100 000 zl - dom 94.7m2 / dzialka 470m2
+10. otodom - Jabłonna - 1 050 000 zl - dom 97.41m2 / dzialka 380m2
+11. otodom - ul. Weteranów, Henryków, Białołęka, Warszawa - 1 495 000 zl - dom 119.76m2 / dzialka 200m2
+12. otodom - Promykowa, Stanisławów Pierwszy, Nieporęt - 1 398 000 zl - dom 152m2 / dzialka 500m2
+13. otodom - Legionowo - 744 000 zl - dom 60.5m2 / dzialka 30m2
+14. nieruchomosci-online - Jabłonna, ul. 1 Maja - 1 050 000 zl - dom 97.41m2 / dzialka 380m2
+15. nieruchomosci-online - Jabłonna, ul. 1 Maja - 1 100 000 zl - dom 94.70m2 / dzialka 470m2
+16. nieruchomosci-online - ul. Orzechowa, Legionowo - 1 249 000 zl - dom 156m2 / dzialka 250m2
+17. nieruchomosci-online - ul. Kolejowa, Legionowo - 859 000 zl - dom 104.38m2 / dzialka 38m2
+18. nieruchomosci-online - ul. Brzegowa, Kiełpin, Łomianki - 1 225 000 zl - dom 151m2 / dzialka 1000m2
